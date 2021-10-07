@@ -54,6 +54,17 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
     - The re-integrate to the trunk
     - They are short-lived and removed after the merge
 
+## Quality
+
+Trunk-based development is the safest branching pattern. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement waste that increases batch size.
+
+- The minimum activities required for TBD are:
+  - All changes integrate into the trunk
+  - If branches from the trunk are used:
+    - They originate from the trunk
+    - The re-integrate to the trunk
+    - They are short-lived and removed after the merge
+
 ## Signatories
 
 | Name          | Contact                                    |
@@ -67,6 +78,7 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 | Tracy Bannon| https://www.linkedin.com/in/tracylbannon/     |
 | Patrick S. Kelso | https://www.linkedin.com/in/patrickkelso/ |
 | Ben Link | https://www.linkedin.com/in/benjamindlink/ |
+| Chris Gossett | https://www.linkedin.com/in/christopher-gossett-03b09347/ |
 
 ## Beyond the Minimums
 
