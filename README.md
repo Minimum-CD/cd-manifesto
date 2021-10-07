@@ -63,9 +63,11 @@ Resources for improving the delivery pipelines to move from "basic" to "elite"
 
 [Implementing Continuous Delivery](https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery)
 
-[Continuous Delivery Pipelines by Dave Farley](https://leanpub.com/cd-pipelines)
+[Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines) by Dave Farley
 
-[Engineering the Digital Transformation by Gary Gruver](https://garygruver.com/engineering-digital-transformation.php)
+[Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php) by Gary Gruver
+
+[Continuous Delivery](https://continuousdelivery.com/) by Dave Farley and Jez Humble
 
 ## Acknowledgements
 
