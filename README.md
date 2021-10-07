@@ -59,11 +59,12 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 | Name          | Contact                                    |
 |---------------|--------------------------------------------|
 | Bryan Finster | https://www.linkedin.com/in/bryan-finster/ |
+| Ferrix Hovi | https://www.linkedin.com/in/ferrix/ |
 | Joe Arrowood  | https://www.linkedin.com/in/joearrowood/   |
 | Jerreck McWilliams | https://www.linkedin.com/in/jerreck/ |
-| Patrick S. Kelso | https://www.linkedin.com/in/patrickkelso/ |
 | Istvan Bathazi| https://www.linkedin.com/in/ibathazi/      |
 | Tracy Bannon| https://www.linkedin.com/in/tracylbannon/     |
+| Patrick S. Kelso | https://www.linkedin.com/in/patrickkelso/ |
 
 ## Beyond the Minimums
 
