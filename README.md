@@ -16,7 +16,7 @@ The minimum activities required for CD are:
 
 - [Continuous integration](#continuous-integration)
 - One path to production
-- Always meets our definition of deployable 
+- Always meets your organisation's definition of deployable 
 - Immutable artifact. No human changes after commit.
 - All feature work stops when the pipeline is red 
 - Production-like test environment
