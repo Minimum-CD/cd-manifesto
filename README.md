@@ -1,4 +1,4 @@
-# The Continuous Delivery Manifesto
+# Continuous Delivery Manifesto
 
 > "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
      	
