@@ -4,9 +4,16 @@
      	
 -- Accelerate
 
-We believe that it requires a common language to move the conversation forward and to help each other improve the flow of delivery. While our contexts may be different, there are engineering practices that underpin everything we do. It is important that we agree on the definitions of these practices to help those starting the journey to understand the technical problems to solve that bring the expected organizational improvements.
+We believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our
+contexts may be different, there are universal practices. By defining them we can:
 
-The practices below should be considered the minimums, not "done". Continuous improvement of the speed, quality, and safety of the delivery pipeline is the expected outcome. 
+- Introduce new practitioners in a consistent way
+- Discuss engineering practices that comprise CD
+- Help each other improve current capabilities 
+
+Only by implementing core practices do we begin to see the benefits of continuous delivery.
+
+The practices below are the minimum, a starting point. Continuous improvement of the speed, quality, and safety of the delivery pipeline is the expected outcome.
 
 ## Continuous Delivery
 
