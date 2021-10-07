@@ -31,9 +31,9 @@ The minimum activities required for CI are:
 
 - [Trunk-based development](#trunk-based-development)
 - Work integrates to the trunk at a minimum daily
+- Work is tested before merge to trunk
 - All feature work stops when the build is red 
 - New work does not break delivered work
-- Work is tested before merging to trunk
 - Work is tested with other work automatically on commit
 
 ## Trunk-based Development
