@@ -1,6 +1,6 @@
 # Contributing
 
-You don't need to be a developer to make a significant impact on cd-manifesto documentation and examples-—just a [GitHub account](https://github.com/). 
+You don't need to be a developer to make a impact on cd-manifesto documentation and examples-—just a [GitHub account](https://github.com/). 
 
 To contribute to the cd-manifesto code repositories, see the [Contributing to cd-manifesto guidelines](https://github.com/bdfinst/cd-manifesto/blob/master/CONTRIBUTING.md).
 
