@@ -14,7 +14,7 @@ CD is the engineering discipline of delivering all changes in a standard way saf
 
 The minimum activities required for CD are:
 
-- Continuous integration
+- [Continuous integration](#continuous-integration)
 - One path to production
 - Always meets our definition of deployable 
 - Immutable artifact. No human changes after commit.
@@ -29,7 +29,7 @@ CI is the activity of very frequently integrating work to the trunk of version c
 
 The minimum activities required for CI are:
 
-- Trunk-based development
+- [Trunk-based development](#trunk-based-development)
 - Work integrates to the trunk at a minimum daily
 - Work is tested before commit
 - All feature work stops when the build is red 
