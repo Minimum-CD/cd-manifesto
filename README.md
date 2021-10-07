@@ -63,3 +63,8 @@ Resources for improving the delivery pipelines to move from "basic" to "elite"
 [Continuous Delivery Pipelines by Dave Farley](https://leanpub.com/cd-pipelines)
 
 [Engineering the Digital Transformation by Gary Gruver](https://garygruver.com/engineering-digital-transformation.php)
+
+## Acknowledgements
+
+This is the outcome of several meetings at the bar at the DevOps Enterprise Summit in October, 2021. It is our consensus
+of the bare minimum implementeation of CD.
