@@ -69,4 +69,4 @@ Resources for improving the delivery pipelines to move from "basic" to "elite"
 ## Acknowledgements
 
 This is the outcome of several meetings at the bar at the DevOps Enterprise Summit in October, 2021. It is our consensus
-of the bare minimum implementeation of CD.
+of the bare minimum implementation of CD.
