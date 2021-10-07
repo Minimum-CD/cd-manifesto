@@ -69,6 +69,8 @@ Resources for improving the delivery pipelines to move from "basic" to "elite"
 
 [Continuous Delivery](https://continuousdelivery.com/) by Dave Farley and Jez Humble
 
+[Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery) by Dave Farley
+
 ## Acknowledgements
 
 This is the outcome of several meetings at the bar at the DevOps Enterprise Summit in October, 2021. It is our consensus
