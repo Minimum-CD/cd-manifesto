@@ -1,4 +1,4 @@
-# The Continuous Delivery Manifesto
+# Continuous Delivery Manifesto
 
 > "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
      	
@@ -14,7 +14,7 @@ CD is the engineering discipline of delivering all changes in a standard way saf
 
 The minimum activities required for CD are:
 
-- Continuous integration
+- [Continuous integration](#continuous-integration)
 - One path to production
 - Always meets our definition of deployable 
 - Immutable artifact. No human changes after commit.
@@ -29,9 +29,9 @@ CI is the activity of very frequently integrating work to the trunk of version c
 
 The minimum activities required for CI are:
 
-- Trunk-based development
+- [Trunk-based development](#trunk-based-development)
 - Work integrates to the trunk at a minimum daily
-- Work is tested before commit
+- Work is tested before merge to trunk
 - All feature work stops when the build is red 
 - New work does not break delivered work
 - Work is tested with other work automatically on commit
@@ -41,11 +41,11 @@ The minimum activities required for CI are:
 Trunk-based development is the safest branching pattern. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement waste that increases batch size.
 
 - The minimum activities required for TBD are:
-- All changes integrate into the trunk
-- If branches from the trunk are used:
-- They originate from the trunk
-- The re-integrate to the trunk
-- They are short-lived and removed after the merge
+  - All changes integrate into the trunk
+  - If branches from the trunk are used:
+    - They originate from the trunk
+    - The re-integrate to the trunk
+    - They are short-lived and removed after the merge
 
 ## Signatories
 
@@ -53,6 +53,7 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 |---------------|--------------------------------------------|
 | Bryan Finster | https://www.linkedin.com/in/bryan-finster/ |
 | Jerreck McWilliams | https://www.linkedin.com/in/jerreck/ |
+| Patrick S. Kelso | https://www.linkedin.com/in/patrickkelso/ |
 
 ## Beyond the Minimums
 
@@ -63,3 +64,8 @@ Resources for improving the delivery pipelines to move from "basic" to "elite"
 [Continuous Delivery Pipelines by Dave Farley](https://leanpub.com/cd-pipelines)
 
 [Engineering the Digital Transformation by Gary Gruver](https://garygruver.com/engineering-digital-transformation.php)
+
+## Acknowledgements
+
+This is the outcome of several meetings at the bar at the DevOps Enterprise Summit in October, 2021. It is our consensus
+of the bare minimum implementeation of CD.
