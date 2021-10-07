@@ -84,6 +84,10 @@ Resources for improving the delivery pipelines to move from "basic" to "elite"
 
 [Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery) by Dave Farley
 
+[Dojo Consortium](https://dojoconsortium.org/)
+
+[Trunk-based Development](https://trunkbaseddevelopment.com/) by Paul Hammant
+
 ## Acknowledgements
 
 This is the outcome of several meetings at the bar at the DevOps Enterprise Summit in October, 2021. It is our consensus
