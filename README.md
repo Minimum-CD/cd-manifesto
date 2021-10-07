@@ -4,7 +4,7 @@
      	
 -- Accelerate
 
-We believe that it requires a common language to move the conversation forward and to help each other improve the flow of delivery. While our contexts may be different, there are engineering practices that underpin everything we do. It is important that we agree on the definitions of these practices to help those starting the journey to understand the technical problems to solve that bring the promised organizational improvements.
+We believe that it requires a common language to move the conversation forward and to help each other improve the flow of delivery. While our contexts may be different, there are engineering practices that underpin everything we do. It is important that we agree on the definitions of these practices to help those starting the journey to understand the technical problems to solve that bring the expected organizational improvements.
 
 The practices below should be considered the minimums, not "done". Continuous improvement of the speed, quality, and safety of the delivery pipeline is the expected outcome. 
 
