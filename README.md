@@ -63,7 +63,7 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 | Justin Abrahms     | <https://justin.abrah.ms/>                                  |
 | Joe Arrowood       | <https://www.linkedin.com/in/joearrowood/>                  |
 | Jerreck McWilliams | <https://www.linkedin.com/in/jerreck/>                      |
-| Istvan Bathazi     | <https://www.linkedin.com/in/ibathazi/>                     |
+| Istvan Bathazi     | <https://www.linkedin.com/in/istvan-bathazi/>               |
 | Sara Gramling      | <https://www.linkedin.com/in/saragramling/>                 |
 | Tracy Bannon       | <https://www.linkedin.com/in/tracylbannon/>                 |
 | Patrick S. Kelso   | <https://www.linkedin.com/in/patrickkelso/>                 |
@@ -72,11 +72,11 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 | Chris Gossett      | <https://www.linkedin.com/in/christopher-gossett-03b09347/> |
 | Joshua Barton      | <https://www.linkedin.com/in/bartonjoshua/>                 |
 | Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
-| Courtney Kissler   | https://www.linkedin.com/in/courtney-kissler-0930681/       |
+| Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
 
 ## Beyond the Minimums
 
-Resources for improving the delivery pipelines to move from "basic" to "elite"
+Resources for improving the delivery pipelines to move from "basic" to "elite".
 
 | Reference                                                                                                                                           | Type    | Source                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------|
