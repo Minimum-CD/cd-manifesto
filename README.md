@@ -76,7 +76,7 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 
 ## Beyond the Minimums
 
-Alphabetized resources for improving the delivery pipelines to move from "basic" to "elite".
+Resources for improving the delivery pipelines to move from "basic" to "elite".
 
 | Reference                                                                                                                                           | Type    | Source                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------|
