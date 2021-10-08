@@ -5,13 +5,13 @@
 -- Accelerate
 
 We believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our
-contexts may be different, there are universal practices. defining them we can:
+contexts may be different, there are universal practices. By defining them we can:
 
 - Introduce new practitioners in a consistent way
 - Discuss engineering practices that comprise CD
 - Help each other improve current capabilities
 
-Only implementing core practices do we begin to see the benefits of continuous delivery.
+Only by implementing core practices do we begin to see the benefits of continuous delivery.
 
 The practices below are the minimum, a starting point. Continuous improvement of the speed, quality, and safety of the delivery pipeline is the expected outcome.
 
