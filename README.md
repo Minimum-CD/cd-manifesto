@@ -56,8 +56,8 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 
 ## Signatories
 
-| Name               | Contact                                                   |
-|--------------------|-----------------------------------------------------------|
+| Name               | Contact                                                     |
+|--------------------|-------------------------------------------------------------|
 | Bryan Finster      | <https://www.linkedin.com/in/bryan-finster/>                |
 | Ferrix Hovi        | <https://www.linkedin.com/in/ferrix/>                       |
 | Joe Arrowood       | <https://www.linkedin.com/in/joearrowood/>                  |
@@ -76,19 +76,16 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 
 Resources for improving the delivery pipelines to move from "basic" to "elite"
 
-| Reference                                                                                               | Type    | Source                   |
-|---------------------------------------------------------------------------------------------------------|---------|--------------------------|
-| [Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines)                                       | book    | Dave Farley              |
-| [Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery)                     | video   | Dave Farley              |
-| [Continuous Delivery](https://continuousdelivery.com/)                                                  | book    | Dave Farley & Jez Humble |
-| [CD Playbooks](https://dojoconsortium.org/)                                                             | website | Dojo Consortium          |
-| [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php) | book    | Gary Gruver              |
-| [Implementing Continuous                                                                                |         |                          |
-  Delivery](<https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery>)
-  (website)
-  Nicole Forsgren, Jez Humble, & Gene Kim|
-|[Trunk-based Development](https://trunkbaseddevelopment.com/)|website|Paul Hammant|
-|[Trunk-Based Development And Branch Abstraction](https://leanpub.com/trunk-based-development)|book|Paul Hammant|
+| Reference                                                                                                                                           | Type    | Source                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------|
+| [Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines)                                                                                   | Book    | Dave Farley                             |
+| [Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery)                                                                 | Video   | Dave Farley                             |
+| [Continuous Delivery](https://continuousdelivery.com/)                                                                                              | Book    | Dave Farley & Jez Humble                |
+| [CD Playbooks](https://dojoconsortium.org/)                                                                                                         | Website | Dojo Consortium                         |
+| [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php)                                             | Book    | Gary Gruver                             |
+| [Implementing Continuous Delivery](<https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery>) | Website | Nicole Forsgren, Jez Humble, & Gene Kim |
+| [Trunk-based Development](https://trunkbaseddevelopment.com/)                                                                                       | Website | Paul Hammant                            |
+| [Trunk-Based Development And Branch Abstraction](https://leanpub.com/trunk-based-development)                                                       | Book    | Paul Hammant                            |
 
 ## Acknowledgements
 
