@@ -72,7 +72,7 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 | Chris Gossett      | <https://www.linkedin.com/in/christopher-gossett-03b09347/> |
 | Joshua Barton      | <https://www.linkedin.com/in/bartonjoshua/>                 |
 | Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
-| Courtney Kissler   | https://www.linkedin.com/in/courtney-kissler-0930681/       |
+| Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
 
 ## Beyond the Minimums
 
