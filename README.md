@@ -76,21 +76,16 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 
 Resources for improving the delivery pipelines to move from "basic" to "elite"
 
-[Implementing Continuous Delivery](https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery)
+- [Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines) by Dave Farley
+- [Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery) by Dave Farley
+- [Continuous Delivery](https://continuousdelivery.com/) by Dave Farley and Jez Humble
+- [Dojo Consortium](https://dojoconsortium.org/) playbooks
+- [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php) by Gary Gruver
+- [Implementing Continuous Delivery](https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery)
+- [Trunk-based Development](https://trunkbaseddevelopment.com/) by Paul Hammant
 
-[Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines) by Dave Farley
-
-[Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php) by Gary Gruver
-
-[Continuous Delivery](https://continuousdelivery.com/) by Dave Farley and Jez Humble
-
-[Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery) by Dave Farley
-
-[Dojo Consortium](https://dojoconsortium.org/)
-
-[Trunk-based Development](https://trunkbaseddevelopment.com/) by Paul Hammant
 
 ## Acknowledgements
 
-This is the outcome of several meetings at the bar at the DevOps Enterprise Summit in October, 2021. It is our consensus
+This is the outcome of several meetings at DevOps Enterprise Summit in October, 2021. It is our consensus
 of the bare minimum implementation of CD.
