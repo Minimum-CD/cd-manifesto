@@ -1,7 +1,7 @@
 # Minimum Viable Continuous Delivery
 
 > "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
-     	
+
 -- Accelerate
 
 We believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our
@@ -9,7 +9,7 @@ contexts may be different, there are universal practices. By defining them we ca
 
 - Introduce new practitioners in a consistent way
 - Discuss engineering practices that comprise CD
-- Help each other improve current capabilities 
+- Help each other improve current capabilities
 
 Only by implementing core practices do we begin to see the benefits of continuous delivery.
 
@@ -23,9 +23,9 @@ The minimum activities required for CD are:
 
 - [Continuous integration](#continuous-integration)
 - One path to production
-- [Always meets the organization's definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) 
+- [Always meets the organization's definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w)
 - Immutable artifact. No human changes after commit.
-- All feature work stops when the pipeline is red 
+- All feature work stops when the pipeline is red
 - Production-like test environment
 - Rollback on-demand
 - Configuration deploys with artifact
@@ -39,7 +39,7 @@ The minimum activities required for CI are:
 - [Trunk-based development](#trunk-based-development)
 - Work integrates to the trunk at a minimum daily
 - Work is tested before merge to trunk
-- All feature work stops when the build is red 
+- All feature work stops when the build is red
 - New work does not break delivered work
 - Work is tested with other work automatically on commit
 
@@ -56,36 +56,36 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 
 ## Signatories
 
-| Name          | Contact                                    |
-|---------------|--------------------------------------------|
-| Bryan Finster | https://www.linkedin.com/in/bryan-finster/ |
-| Ferrix Hovi | https://www.linkedin.com/in/ferrix/ |
-| Joe Arrowood  | https://www.linkedin.com/in/joearrowood/   |
-| Jerreck McWilliams | https://www.linkedin.com/in/jerreck/ |
-| Istvan Bathazi| https://www.linkedin.com/in/ibathazi/      |
-| Sara Gramling | https://www.linkedin.com/in/saragramling/ |
-| Tracy Bannon| https://www.linkedin.com/in/tracylbannon/     |
-| Patrick S. Kelso | https://www.linkedin.com/in/patrickkelso/ |
-| Ben Link | https://www.linkedin.com/in/benjamindlink/ |
-| Chris Kernaghan | https://www.linkedin.com/in/chriskernaghan/ |
-| Chris Gossett | https://www.linkedin.com/in/christopher-gossett-03b09347/ |
-| Joshua Barton | https://www.linkedin.com/in/bartonjoshua/ |
-| Marc Boudreau | https://www.linkedin.com/in/marc-boudreau |
+| Name               | Contact                                                     |
+|--------------------|-------------------------------------------------------------|
+| Bryan Finster      | <https://www.linkedin.com/in/bryan-finster/>                |
+| Ferrix Hovi        | <https://www.linkedin.com/in/ferrix/>                       |
+| Joe Arrowood       | <https://www.linkedin.com/in/joearrowood/>                  |
+| Jerreck McWilliams | <https://www.linkedin.com/in/jerreck/>                      |
+| Istvan Bathazi     | <https://www.linkedin.com/in/ibathazi/>                     |
+| Sara Gramling      | <https://www.linkedin.com/in/saragramling/>                 |
+| Tracy Bannon       | <https://www.linkedin.com/in/tracylbannon/>                 |
+| Patrick S. Kelso   | <https://www.linkedin.com/in/patrickkelso/>                 |
+| Ben Link           | <https://www.linkedin.com/in/benjamindlink/>                |
+| Chris Kernaghan    | <https://www.linkedin.com/in/chriskernaghan/>               |
+| Chris Gossett      | <https://www.linkedin.com/in/christopher-gossett-03b09347/> |
+| Joshua Barton      | <https://www.linkedin.com/in/bartonjoshua/>                 |
+| Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
 
 ## Beyond the Minimums
 
 Resources for improving the delivery pipelines to move from "basic" to "elite"
 
-- [Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines) by Dave Farley
-- [Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery) by Dave Farley
-- [Continuous Delivery](https://continuousdelivery.com/) by Dave Farley and Jez Humble
-- [CD Playbooks](https://dojoconsortium.org/) by the Dojo Consortium
-- [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php) by Gary Gruver
-- [Implementing Continuous
-  Delivery](https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery)
-  by Nicole Forsgren, Jez Humble, and Gene Kim
-- [Trunk-based Development](https://trunkbaseddevelopment.com/) by Paul Hammant
-
+| Reference                                                                                                                                           | Type    | Source                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------|
+| [Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines)                                                                                   | Book    | Dave Farley                             |
+| [Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery)                                                                 | Video   | Dave Farley                             |
+| [Continuous Delivery](https://continuousdelivery.com/)                                                                                              | Book    | Dave Farley & Jez Humble                |
+| [CD Playbooks](https://dojoconsortium.org/)                                                                                                         | Website | Dojo Consortium                         |
+| [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php)                                             | Book    | Gary Gruver                             |
+| [Implementing Continuous Delivery](<https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery>) | Website | Nicole Forsgren, Jez Humble, & Gene Kim |
+| [Trunk-based Development](https://trunkbaseddevelopment.com/)                                                                                       | Website | Paul Hammant                            |
+| [Trunk-Based Development And Branch Abstraction](https://leanpub.com/trunk-based-development)                                                       | Book    | Paul Hammant                            |
 
 ## Acknowledgements
 
