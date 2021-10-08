@@ -74,19 +74,19 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 
 ## Beyond the Minimums
 
-Resources for improving the delivery pipelines to move from "basic" to "elite"
-
-[Implementing Continuous Delivery](https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery)
-
-[Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines) by Dave Farley
-
-[Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php) by Gary Gruver
+Alphabetized resources for improving the delivery pipelines to move from "basic" to "elite".
 
 [Continuous Delivery](https://continuousdelivery.com/) by Dave Farley and Jez Humble
 
+[Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines) by Dave Farley
+
 [Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery) by Dave Farley
 
-[Dojo Consortium](https://dojoconsortium.org/)
+[Dojo Consortium](https://dojoconsortium.org/) by Bryan Finster and Drew Deal
+
+[Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php) by Gary Gruver
+
+[Implementing Continuous Delivery](https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery)
 
 [Trunk-based Development](https://trunkbaseddevelopment.com/) by Paul Hammant
 
