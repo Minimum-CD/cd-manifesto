@@ -1,4 +1,4 @@
-# Continuous Delivery Manifesto
+# Minimum Viable Continuous Delivery
 
 > "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
      	
