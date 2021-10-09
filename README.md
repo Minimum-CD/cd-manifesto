@@ -54,6 +54,10 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
     - The re-integrate to the trunk
     - They are short-lived and removed after the merge
 
+## [Beyond the Minimums](./references.md)
+
+## [Why did we build this?](./faq.md)
+
 ## Signatories
 
 | Name               | Contact                                                     |
@@ -73,7 +77,3 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 | Joshua Barton      | <https://www.linkedin.com/in/bartonjoshua/>                 |
 | Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
 | Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
-
-## [Beyond the Minimums](./references.md)
-
-## [Why did we build this?](./faq.md)
