@@ -4,7 +4,7 @@
 
 -- Accelerate
 
-We believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our
+We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our
 contexts may be different, there are universal practices. By defining them we can:
 
 - Introduce new practitioners in a consistent way
@@ -74,23 +74,6 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 | Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
 | Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
 
-## Beyond the Minimums
+## [Beyond the Minimums](./references.md)
 
-Resources for improving the delivery pipelines to move from "basic" to "elite".
-
-| Reference                                                                                                                                           | Type    | Source                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------|
-| [Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines)                                                                                   | Book    | Dave Farley                             |
-| [Continuous Delivery YouTube Channel](https://www.youtube.com/c/ContinuousDelivery)                                                                 | Video   | Dave Farley                             |
-| [Continuous Delivery](https://continuousdelivery.com/)                                                                                              | Book    | Dave Farley & Jez Humble                |
-| [CD Playbooks](https://dojoconsortium.org/)                                                                                                         | Website | Dojo Consortium                         |
-| [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php)                                             | Book    | Gary Gruver                             |
-| [Implementing Continuous Delivery](<https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery#implementing_continuous_delivery>) | Website | Nicole Forsgren, Jez Humble, & Gene Kim |
-| [Refactoring Databases: Evolutionary Database Design](<https://databaserefactoring.com/>)                                                           | Book    | Scott Ambler, Pramod Sadalage           |
-| [Trunk-based Development](https://trunkbaseddevelopment.com/)                                                                                       | Website | Paul Hammant                            |
-| [Trunk-Based Development And Branch Abstraction](https://leanpub.com/trunk-based-development)                                                       | Book    | Paul Hammant                            |
-
-## Acknowledgements
-
-This is the outcome of several meetings at DevOps Enterprise Summit in October, 2021. It is our consensus
-of the bare minimum implementation of CD.
+## [Why did we build this?](./faq.md)
