@@ -15,6 +15,8 @@ Only by implementing core practices do we begin to see the benefits of continuou
 
 The practices below are the minimum, a starting point. Continuous improvement of the speed, quality, and safety of the delivery pipeline is the expected outcome.
 
+---
+
 ## Continuous Delivery
 
 CD is the engineering discipline of delivering all changes in a standard way safely. It covers a broad spectrum of activities depending on what is being delivered. However, there are behaviors and abilities that must be met in every context to qualify as "continuous delivery"
@@ -54,9 +56,13 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
     - The re-integrate to the trunk
     - They are short-lived and removed after the merge
 
+---
+
 ## [Beyond the Minimums](./references.md)
 
 ## [Why did we build this?](./faq.md)
+
+---
 
 ## Signatories
 
