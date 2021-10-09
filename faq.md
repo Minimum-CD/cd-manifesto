@@ -31,7 +31,7 @@ conflicts with one of the current practices.
 
 Oh, gosh no! This is the barest of minimums.
 
-## How can I use this to improve?
+## How can we use this to improve?
 
 CD requires CI and CI requires Trunk-Based Development. Start at the bottom and work your way up. Ask yourself, "why
 can't we do this yet?" Solving that problem is the engine of org improvement. We have not seen a single instance where
