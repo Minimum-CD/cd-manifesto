@@ -69,6 +69,10 @@ These contain the basics, but also the knowledge needed to become an "Elite" CD 
 
 For more background on Minimum CD and answers to other common questions, please [read the FAQs](./faq.md).
 
+## Want to Contribute or become a signatory?
+
+Read our [contribution guidelines](./CONTRIBUTING.md).
+
 ## Signatories
 
 | Name               | Contact                                                     |

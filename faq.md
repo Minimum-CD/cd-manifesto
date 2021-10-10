@@ -25,7 +25,7 @@ We do not want to hold anyone hostage. Our goal is elevating the conversation by
 
 The maintainers operate by consensus. We have a specific goal that any practice must be essential in every context to
 make the list. If a practice isn't there, it either doesn't meet the absolute minimum standard in every context or it
-conflicts with one of the current practices.
+conflicts with one of the current practices. Creating a GitHub issue is the bet way to suggest an update to a practice.
 
 ## Is this everything We need for CD?
 
