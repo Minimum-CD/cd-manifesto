@@ -4,8 +4,7 @@
 
 -- Accelerate
 
-We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our
-contexts may be different, there are universal practices. By defining them we can:
+We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our contexts may be different, there are universal practices. By defining them we can:
 
 - Introduce new practitioners in a consistent way
 - Discuss engineering practices that comprise CD
@@ -58,13 +57,17 @@ waste that increases batch size.
     - The re-integrate to the trunk
     - They are short-lived and removed after the merge
 
----
+## Beyond the Minimums
 
-## [Beyond the Minimums](./references.md)
+Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices could be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys. 
 
-## [Why did we build this?](./faq.md)
+These contain the basics, but also the knowledge needed to become an "Elite" CD organization. They are specific to solving the problem of "why can't we go to production today?"
 
----
+[Read the list](./references.md).
+
+## Why did we build this?
+
+For more background on Minimum CD and answers to other common questions, please [read the FAQs](./faq.md).
 
 ## Signatories
 

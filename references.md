@@ -1,9 +1,5 @@
 # Recommended Resources
 
-The following are resources that focus on Continuous Delivery that we have found very useful in our own journeys. They
-contain the basics, but also the knowledge needed to become an "Elite" CD organization. These
-are specific to solving the problem if "why can't we go to production today?" 
-
 | Reference                                                                                                                                           | Type    | Source                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------|
 | [Continuous Delivery Pipelines](https://leanpub.com/cd-pipelines)                                                                                   | Book    | Dave Farley                             |
@@ -15,5 +11,5 @@ are specific to solving the problem if "why can't we go to production today?"
 | [Refactoring Databases: Evolutionary Database Design](<https://databaserefactoring.com/>)                                                           | Book    | Scott Ambler, Pramod Sadalage           |
 | [Trunk-based Development](https://trunkbaseddevelopment.com/)                                                                                       | Website | Paul Hammant                            |
 | [Trunk-Based Development And Branch Abstraction](https://leanpub.com/trunk-based-development)                                                       | Book    | Paul Hammant                            |
-| [Real Example of a Deployment Pipeline in the Fintech Industry](https://youtu.be/bHKHdp4H-8w)                                                       | Video    | Dave Farley                         |
-| [Continuous Delivery: Anatomy of the Deployment Pipeline](https://www.informit.com/articles/article.aspx?p=1621865)                                                       | Website    | Dave Farley                         |
+| [Real Example of a Deployment Pipeline in the Fintech Industry](https://youtu.be/bHKHdp4H-8w)                                                       | Video   | Dave Farley                             |
+| [Continuous Delivery: Anatomy of the Deployment Pipeline](https://www.informit.com/articles/article.aspx?p=1621865)                                 | Website | Dave Farley                             |
