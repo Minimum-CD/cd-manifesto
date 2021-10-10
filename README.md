@@ -86,3 +86,4 @@ waste that increases batch size.
 | Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
 | Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
 | Andrea Laforgia    | <https://www.linkedin.com/in/andrealaforgia/>               |
+| Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
