@@ -51,6 +51,7 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 
 - The minimum activities required for TBD are:
   - All changes integrate into the trunk
+  - Trunk has no rollback, it can only roll-forward
   - If branches from the trunk are used:
     - They originate from the trunk
     - The re-integrate to the trunk
