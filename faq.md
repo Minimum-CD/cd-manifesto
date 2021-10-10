@@ -9,7 +9,7 @@ In the 2017 book "Accelerate", the authors observe that:
 
 > "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
 
-This observation was based on their experience and also on the information they'd collected from years of State of DevOps survey results. We have also observed these outcomes ourselves, but only when we properly use a core set of practices. When these practices are not used and an organization misunderstands or tries to cut corners, then the improve outcomes do not materialize and they claim that CD is a fad or not a fit for their special case. Neither is true.
+This observation was based on their experience and also on the information they'd collected from years of State of DevOps survey results. We have also observed these outcomes ourselves, but only when we properly use a core set of practices. When these practices are not used and an organization misunderstands or tries to cut corners, then the improvement outcomes do not materialize and they claim that CD is a fad or not a fit for their special case. Neither is true.
 
 By establishing a baseline, we hope to provide a clear roadmap of core abilities that must be in place. If we ask ourselves, "why can't we do these things?" and then solve those problems, we should see the benefits that other organizations report.
 
