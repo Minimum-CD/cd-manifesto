@@ -90,3 +90,4 @@ For more background on Minimum CD and answers to other common questions, please 
 | Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
 | Andrea Laforgia    | <https://www.linkedin.com/in/andrealaforgia/>               |
 | Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
+| Aurel Estoup       | <https://www.linkedin.com/in/aurel-estoup/>                 |
