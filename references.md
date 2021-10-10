@@ -15,3 +15,8 @@ are specific to solving the problem if "why can't we go to production today?"
 | [Refactoring Databases: Evolutionary Database Design](<https://databaserefactoring.com/>)                                                           | Book    | Scott Ambler, Pramod Sadalage           |
 | [Trunk-based Development](https://trunkbaseddevelopment.com/)                                                                                       | Website | Paul Hammant                            |
 | [Trunk-Based Development And Branch Abstraction](https://leanpub.com/trunk-based-development)                                                       | Book    | Paul Hammant                            |
+| [Real Example of a Deployment Pipeline in the Fintech Industry](https://youtu.be/bHKHdp4H-8w)                                                       | Video    | Dave Farley                         |
+| [Continuous Delivery: Anatomy of the Deployment Pipeline](https://www.informit.com/articles/article.aspx?p=1621865)                                                       | Website    | Dave Farley                         |
+| [Devops Pipeline](https://www.atlassian.com/devops/devops-tools/devops-pipeline)                                                       | Website    | Tom Hall                          |
+
+
