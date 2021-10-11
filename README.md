@@ -95,3 +95,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Andrea Laforgia    | <https://www.linkedin.com/in/andrealaforgia/>               |
 | Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
 | Aurel Estoup       | <https://www.linkedin.com/in/aurel-estoup/>                 |
+| Emiliano Sutil     | <https://www.linkedin.com/in/emiliano-sutil-77a2091b/>      |
