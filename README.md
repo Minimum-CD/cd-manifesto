@@ -4,8 +4,7 @@
 
 -- Accelerate
 
-We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our
-contexts may be different, there are universal practices. By defining them we can:
+We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD)  is required to improve the flow of delivery. While our contexts may be different, there are universal practices. By defining them we can:
 
 - Introduce new practitioners in a consistent way
 - Discuss engineering practices that comprise CD
@@ -38,7 +37,7 @@ CI is the activity of very frequently integrating work to the trunk of version c
 
 The minimum activities required for CI are:
 
-- [Trunk-based development](#trunk-based-development)
+- [Trunk-based development](https://trunkbaseddevelopment.com/)
 - Work integrates to the trunk at a minimum daily
 - Work has automated testing before merge to trunk
 - Work is tested with other work automatically on merge
@@ -47,7 +46,9 @@ The minimum activities required for CI are:
 
 ## Trunk-based Development
 
-Trunk-based development is the safest branching pattern. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement waste that increases batch size.
+[Trunk-based development](https://trunkbaseddevelopment.com/) is the branching pattern required to meet the definition
+of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
+waste that increases batch size.
 
 - The minimum activities required for TBD are:
   - All changes integrate into the trunk
@@ -56,13 +57,17 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
     - They re-integrate to the trunk
     - They are short-lived and removed after the merge
 
----
+## Beyond the Minimums
 
-## [Beyond the Minimums](./references.md)
+Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices could be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys. 
 
-## [Why did we build this?](./faq.md)
+These contain the basics, but also the knowledge needed to become an "Elite" CD organization. They are specific to solving the problem of "why can't we go to production today?"
 
----
+[Read the list](./references.md).
+
+## Why did we build this?
+
+For more background on Minimum CD and answers to other common questions, please [read the FAQs](./faq.md).
 
 ## Signatories
 
@@ -84,3 +89,4 @@ Trunk-based development is the safest branching pattern. It prevents lost work, 
 | Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
 | Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
 | Andrea Laforgia    | <https://www.linkedin.com/in/andrealaforgia/>               |
+| Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
