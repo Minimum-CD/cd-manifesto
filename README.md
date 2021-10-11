@@ -96,3 +96,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
 | Aurel Estoup       | <https://www.linkedin.com/in/aurel-estoup/>                 |
 | Emiliano Sutil     | <https://www.linkedin.com/in/emiliano-sutil-77a2091b/>      |
+| Jason Walker       | <https://github.com/desktophero>      |
