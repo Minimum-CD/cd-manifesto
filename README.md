@@ -54,7 +54,7 @@ waste that increases batch size.
   - All changes integrate into the trunk
   - If branches from the trunk are used:
     - They originate from the trunk
-    - The re-integrate to the trunk
+    - They re-integrate to the trunk
     - They are short-lived and removed after the merge
 
 ## Beyond the Minimums
