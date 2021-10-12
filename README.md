@@ -23,7 +23,9 @@ CD is the engineering discipline of delivering all changes in a standard way saf
 The minimum activities required for CD are:
 
 - [Continuous integration](#continuous-integration)
-- The [application pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) is the only path to deploy to production
+- The [application
+  pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
+  is the only path to deploy to production and should be [definitive for deploy](./faq.md#why-should-the-pipeline-be-definitive-for-deploy)
 - [Always meets the organization's definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w)
 - Immutable artifact. No human changes after commit.
 - All feature work stops when the pipeline is red
@@ -59,7 +61,7 @@ waste that increases batch size.
 
 ## Beyond the Minimums
 
-Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices could be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys. 
+Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices should be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys. 
 
 These contain the basics, but also the knowledge needed to become an "Elite" CD organization. They are specific to solving the problem of "why can't we go to production today?"
 
@@ -77,6 +79,7 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 
 | Name               | Contact                                                     |
 |--------------------|-------------------------------------------------------------|
+| Dave Farley        | <https://www.linkedin.com/in/dave-farley-a67927>            |
 | Bryan Finster      | <https://www.linkedin.com/in/bryan-finster/>                |
 | Ferrix Hovi        | <https://www.linkedin.com/in/ferrix/>                       |
 | Justin Abrahms     | <https://justin.abrah.ms/>                                  |
@@ -85,6 +88,7 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Istvan Bathazi     | <https://www.linkedin.com/in/istvan-bathazi/>               |
 | Sara Gramling      | <https://www.linkedin.com/in/saragramling/>                 |
 | Tracy Bannon       | <https://www.linkedin.com/in/tracylbannon/>                 |
+| Dana Finster       | <https://www.linkedin.com/in/danafinster/>                  |
 | Patrick S. Kelso   | <https://www.linkedin.com/in/patrickkelso/>                 |
 | Ben Link           | <https://www.linkedin.com/in/benjamindlink/>                |
 | Chris Kernaghan    | <https://www.linkedin.com/in/chriskernaghan/>               |
@@ -96,4 +100,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
 | Aurel Estoup       | <https://www.linkedin.com/in/aurel-estoup/>                 |
 | Emiliano Sutil     | <https://www.linkedin.com/in/emiliano-sutil-77a2091b/>      |
-| Jason Walker       | <https://github.com/desktophero>      |
+| Jason Walker       | <https://github.com/desktophero>                            |
+| Thomas J. Sweet    | <https://www.linkedin.com/in/thomasjsweet/>                 |
