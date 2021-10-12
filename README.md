@@ -103,3 +103,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Jason Walker       | <https://github.com/desktophero>                            |
 | Thomas J. Sweet    | <https://www.linkedin.com/in/thomasjsweet/>                 |
 | Kelly Brownsberger | <https://www.linkedin.com/in/kellybrownsberger/>            |
+| Andrew Marshall    | <https://www.linkedin.com/in/ajmarshall2k/>                 |
