@@ -40,5 +40,5 @@ everything.
 
 ## Why should the pipeline be definitive for deploy?
 
-"If the pipeline says everything looks good, that should be enough - it forces the focus on what "releasable" means." -
+"If the pipeline says everything looks good, that should be enough - it forces the focus on what 'releasable' means." -
 Dave Farley
