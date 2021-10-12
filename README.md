@@ -54,10 +54,10 @@ waste that increases batch size.
 
 - The minimum activities required for TBD are:
   - All changes integrate into the trunk
+  - Size of changes are kept to a minimum
   - If branches from the trunk are used:
     - They originate from the trunk
     - They re-integrate to the trunk
-    - They are short-lived and removed after the merge
 
 ## Beyond the Minimums
 
