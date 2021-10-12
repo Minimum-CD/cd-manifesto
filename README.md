@@ -31,7 +31,7 @@ The minimum activities required for CD are:
 - All feature work stops when the pipeline is red
 - Production-like test environment
 - Rollback on-demand
-- Application configuration deploys with artifact - please [read the FAQs](./faq.md)
+- [Application configuration](./faq.md) deploys with artifact 
 
 ## Continuous Integration
 
