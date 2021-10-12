@@ -102,3 +102,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Emiliano Sutil     | <https://www.linkedin.com/in/emiliano-sutil-77a2091b/>      |
 | Jason Walker       | <https://github.com/desktophero>                            |
 | Thomas J. Sweet    | <https://www.linkedin.com/in/thomasjsweet/>                 |
+| Kelly Brownsberger | <https://www.linkedin.com/in/kellybrownsberger/>            |
