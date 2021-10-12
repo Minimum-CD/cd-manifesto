@@ -79,6 +79,7 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 
 | Name               | Contact                                                     |
 |--------------------|-------------------------------------------------------------|
+| Dave Farley        | <https://www.linkedin.com/in/dave-farley-a67927>            |
 | Bryan Finster      | <https://www.linkedin.com/in/bryan-finster/>                |
 | Ferrix Hovi        | <https://www.linkedin.com/in/ferrix/>                       |
 | Justin Abrahms     | <https://justin.abrah.ms/>                                  |
