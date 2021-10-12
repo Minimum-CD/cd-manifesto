@@ -88,6 +88,7 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Istvan Bathazi     | <https://www.linkedin.com/in/istvan-bathazi/>               |
 | Sara Gramling      | <https://www.linkedin.com/in/saragramling/>                 |
 | Tracy Bannon       | <https://www.linkedin.com/in/tracylbannon/>                 |
+| Dana Finster       | <https://www.linkedin.com/in/danafinster/>                  |
 | Patrick S. Kelso   | <https://www.linkedin.com/in/patrickkelso/>                 |
 | Ben Link           | <https://www.linkedin.com/in/benjamindlink/>                |
 | Chris Kernaghan    | <https://www.linkedin.com/in/chriskernaghan/>               |
