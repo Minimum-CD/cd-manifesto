@@ -44,4 +44,14 @@ Dave Farley
 
 ## What is Application Configuration?
 
-The term "Configuration" is overused and underdefined across the industry.  We embrace [The Twelve-Factor App config](https://12factor.net/config) definitions where "config" is environment specific (varies by deployment) and "application config" is internal to the app and does NOT vary by environment.
+The term "Configuration" is overused and underdefined across the industry.  We embrace [The Twelve-Factor App
+config](https://12factor.net/config) definitions where "config" is environment specific (varies by deployment) and
+"application config" is internal to the app and does NOT vary by environment.
+
+## What is an immutable artifact?
+
+Central to CD is that we are validating the delivered artifact with the pipeline. It is built once and deployed to all
+environments. A common anti-pattern is building an artifact for each environment. This is why trunk-based development is
+so important.
+
+[](#what-is-an-immutable-artifact)
