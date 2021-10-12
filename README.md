@@ -61,7 +61,7 @@ waste that increases batch size.
 
 ## Beyond the Minimums
 
-Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices could be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys. 
+Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices should be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys. 
 
 These contain the basics, but also the knowledge needed to become an "Elite" CD organization. They are specific to solving the problem of "why can't we go to production today?"
 
@@ -100,4 +100,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
 | Aurel Estoup       | <https://www.linkedin.com/in/aurel-estoup/>                 |
 | Emiliano Sutil     | <https://www.linkedin.com/in/emiliano-sutil-77a2091b/>      |
-| Jason Walker       | <https://github.com/desktophero>      |
+| Jason Walker       | <https://github.com/desktophero>                            |
+| Thomas J. Sweet    | <https://www.linkedin.com/in/thomasjsweet/>                 |
