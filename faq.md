@@ -35,4 +35,10 @@ Oh, gosh no! This is the barest of minimums.
 
 CD requires CI and CI requires Trunk-Based Development. Start at the bottom and work your way up. Ask yourself, "why
 can't we do this yet?" Solving that problem is the engine of org improvement. We have not seen a single instance where
-CD cannot apply. It just takes longer in some situations to solve the problems. It's worth it though. It improves everything.
+CD cannot apply. It just takes longer in some situations to solve the problems. It's worth it though. It improves
+everything.
+
+## Why should the pipeline be definitive for deploy?
+
+"If the pipeline says everything looks good, that should be enough - it forces the focus on what "releasable" means." -
+Dave Farley
