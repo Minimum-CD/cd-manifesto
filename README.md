@@ -105,3 +105,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Kelly Brownsberger | <https://www.linkedin.com/in/kellybrownsberger/>            |
 | Andrew Marshall    | <https://www.linkedin.com/in/ajmarshall2k/>                 |
 | Vilas Veeraraghavan| <https://www.linkedin.com/in/vilas-veeraraghavan/>                 |
+| Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
