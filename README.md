@@ -104,5 +104,6 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Thomas J. Sweet    | <https://www.linkedin.com/in/thomasjsweet/>                 |
 | Kelly Brownsberger | <https://www.linkedin.com/in/kellybrownsberger/>            |
 | Andrew Marshall    | <https://www.linkedin.com/in/ajmarshall2k/>                 |
-| Vilas Veeraraghavan| <https://www.linkedin.com/in/vilas-veeraraghavan/>                 |
+| Vilas Veeraraghavan| <https://www.linkedin.com/in/vilas-veeraraghavan/>          |
+| Javier Magana      | <https://www.linkedin.com/in/javier-a-magana-98108/>        |
 | Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
