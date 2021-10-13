@@ -108,3 +108,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Javier Magana      | <https://www.linkedin.com/in/javier-a-magana-98108/>        |
 | Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
 | James Simon         | <https://www.linkedin.com/in/jamesesimon/>                 |
+| Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
