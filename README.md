@@ -104,3 +104,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Thomas J. Sweet    | <https://www.linkedin.com/in/thomasjsweet/>                 |
 | Kelly Brownsberger | <https://www.linkedin.com/in/kellybrownsberger/>            |
 | Andrew Marshall    | <https://www.linkedin.com/in/ajmarshall2k/>                 |
+| Vilas Veeraraghavan| <https://www.linkedin.com/in/vilas-veeraraghavan/>                 |
