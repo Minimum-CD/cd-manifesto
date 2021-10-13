@@ -107,3 +107,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Vilas Veeraraghavan| <https://www.linkedin.com/in/vilas-veeraraghavan/>          |
 | Javier Magana      | <https://www.linkedin.com/in/javier-a-magana-98108/>        |
 | Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
+| James Simon         | <https://www.linkedin.com/in/jamesesimon/>                 |
