@@ -113,3 +113,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Christophe Chaudier | <https://www.linkedin.com/in/cchaudier/>                  |
 | Rosalind Radcliffe  | <https://www.linkedin.com/in/rosalind-radcliffe/>          | 
 | Austin Abro        | <https://www.linkedin.com/in/austinabro/>                   |
+| Ron Forrester       | <https://www.linkedin.com/in/ronforresterpdx/>             |
