@@ -110,3 +110,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | James Simon         | <https://www.linkedin.com/in/jamesesimon/>                 |
 | Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
 | Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
+| Christophe Chaudier | <https://www.linkedin.com/in/cchaudier/>                  |
