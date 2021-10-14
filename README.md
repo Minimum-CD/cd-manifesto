@@ -111,3 +111,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
 | Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
 | Christophe Chaudier | <https://www.linkedin.com/in/cchaudier/>                  |
+| Rosalind Radcliffe  | <https://www.linkedin.com/in/rosalind-radcliffe/>          | 
+
