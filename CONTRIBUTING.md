@@ -8,6 +8,10 @@ examples, just a [GitHub account](https://github.com/).
 To contribute documentation or code, please send us a pull request. 
 If you are new to pull requests, read GitHub's [Creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) guide.
 
+## Community Slack Workspace
+
+[Join the community's Slack workspace](https://join.slack.com/t/minimumcd/shared_invite/zt-x0sq2cvm-Nzu~LuBzg~71_XzHgqiJPQ) to share your voice, experience, and insights as we work to improve outcomes by bringing continuous delivery practices to everyone.
+
 ## Working Agreement
 
 Anyone on the core team can review and accept a signature request. Signatories are encouraged to include a preferred form of contact to answer questions, but it is not required.
