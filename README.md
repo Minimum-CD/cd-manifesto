@@ -114,3 +114,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Rosalind Radcliffe  | <https://www.linkedin.com/in/rosalind-radcliffe/>          | 
 | Austin Abro        | <https://www.linkedin.com/in/austinabro/>                   |
 | Ron Forrester       | <https://www.linkedin.com/in/ronforresterpdx/>             |
+| David Hawes-Johnson| <https://www.linkedin.com/in/davidhawesjohnson/>            |
