@@ -106,4 +106,11 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Andrew Marshall    | <https://www.linkedin.com/in/ajmarshall2k/>                 |
 | Vilas Veeraraghavan| <https://www.linkedin.com/in/vilas-veeraraghavan/>          |
 | Javier Lopez       | <https://www.linkedin.com/in/javierlopezfernandez/>         |
+| Javier Magana      | <https://www.linkedin.com/in/javier-a-magana-98108/>        |
+| Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
+| James Simon         | <https://www.linkedin.com/in/jamesesimon/>                 |
+| Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
+| Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
+| Christophe Chaudier | <https://www.linkedin.com/in/cchaudier/>                  |
+| Rosalind Radcliffe  | <https://www.linkedin.com/in/rosalind-radcliffe/>          | 
 
