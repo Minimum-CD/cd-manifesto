@@ -109,3 +109,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
 | James Simon         | <https://www.linkedin.com/in/jamesesimon/>                 |
 | Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
+| Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
