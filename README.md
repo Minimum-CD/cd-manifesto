@@ -112,4 +112,6 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
 | Christophe Chaudier | <https://www.linkedin.com/in/cchaudier/>                  |
 | Rosalind Radcliffe  | <https://www.linkedin.com/in/rosalind-radcliffe/>          | 
+| Ron Forrester       | <https://www.linkedin.com/in/ronforresterpdx/>             |
+
 
