@@ -6,7 +6,7 @@ examples, just a [GitHub account](https://github.com/).
 ## Changes to the practices
 
 Suggestions to modify the core practices should be created using [GitHub issues](https://github.com/Minimum-CD/cd-manifesto/issues/new/choose). The core team will meet at a regular
-cadence and review the suggestions and debate if the are required for the minimum standard for CD. We will either add
+cadence and review the suggestions and debate if they are required for the minimum standard for CD. We will either add
 them at that point, delcine to add them, or request clarification from the issue's author.
 
 ## Changes to supporting information
@@ -14,6 +14,8 @@ them at that point, delcine to add them, or request clarification from the issue
 To request a change to supporting information should be creating by raising a [GitHub
 issue](https://github.com/Minimum-CD/cd-manifesto/issues/new/choose). The core team will review ASAP, request
 clarification as needed, and make the change as required.
+
+Suggested changes may be re-phrased for clarity, but we will verify intent with the requestor in the PR.
 
 ## Adding your signature
 
