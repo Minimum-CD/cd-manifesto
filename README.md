@@ -116,3 +116,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Austin Abro        | <https://www.linkedin.com/in/austinabro/>                   |
 | Ron Forrester       | <https://www.linkedin.com/in/ronforresterpdx/>             |
 | David Hawes-Johnson| <https://www.linkedin.com/in/davidhawesjohnson/>            |
+| Shawn Button       | https://www.linkedin.com/in/shawnbutton/                    |
