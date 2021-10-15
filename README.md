@@ -111,9 +111,11 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | James Simon         | <https://www.linkedin.com/in/jamesesimon/>                 |
 | Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
 | Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
-| Christophe Chaudier | <https://www.linkedin.com/in/cchaudier/>                  |
+| Christophe Chaudier | <https://www.linkedin.com/in/cchaudier/>                   |
 | Rosalind Radcliffe  | <https://www.linkedin.com/in/rosalind-radcliffe/>          | 
 | Austin Abro        | <https://www.linkedin.com/in/austinabro/>                   |
 | Ron Forrester       | <https://www.linkedin.com/in/ronforresterpdx/>             |
 | David Hawes-Johnson| <https://www.linkedin.com/in/davidhawesjohnson/>            |
 | Paul Moore         | <https://www.linkedin.com/in/pdmoore2/>                     |
+| Shawn Button            | <https://www.linkedin.com/in/shawnbutton/>             |
+
