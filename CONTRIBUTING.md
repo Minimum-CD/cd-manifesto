@@ -1,36 +1,28 @@
 # Contributing
 
-You don't need to be a developer to make a impact on the industry by contributing to the CD Manifesto documentation and
-examples, just a [GitHub account](https://github.com/).
+You don't need to be a developer to make a impact on the industry by contributing to the CD Manifesto documentation and examples, just a [GitHub account](https://github.com/).
 
 ## Changes to the practices
 
-Suggestions to modify the core practices should be created using [GitHub issues](https://github.com/Minimum-CD/cd-manifesto/issues/new/choose). The core team will meet at a regular
-cadence and review the suggestions and debate if they are required for the minimum standard for CD. We will either add
-them at that point, delcine to add them, or request clarification from the issue's author.
+Suggestions to modify the core practices should be created using [GitHub issues](https://github.com/Minimum-CD/cd-manifesto/issues/new/choose). The core team will meet at a regular cadence and review the suggestions and debate if they are required for the minimum standard for CD. We will either add them at that point, decline to add them, or request clarification from the issue's author.
 
 ## Changes to supporting information
 
-To request a change to supporting information should be creating by raising a [GitHub
-issue](https://github.com/Minimum-CD/cd-manifesto/issues/new/choose). The core team will review ASAP, request
-clarification as needed, and make the change as required.
+To request a change to supporting information should be creating by raising a [GitHub issue](https://github.com/Minimum-CD/cd-manifesto/issues/new/choose). The core team will review ASAP, request clarification as needed, and make the change as required.
 
 Suggested changes may be re-phrased for clarity, but we will verify intent with the requestor in the PR.
 
 ## Adding your signature
 
-If you agree that this is MinimumCD, please create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to add your signature. We are determined to be good
-custodians of the core principles and promise that any changes to the practices will receive much scrutiny.
+If you agree that this is MinimumCD, please create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to add your signature. We are determined to be good custodians of the core principles and promise that any changes to the practices will receive much scrutiny.
 
 ## Removing your signature
 
-If we fail to uphold the ideals we've stated and you wish to remove your signature, please raise a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we
-will remove you without delay. 
+If we fail to uphold the ideals we've stated and you wish to remove your signature, please raise a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we will remove you without delay. 
 
 ## Community Discussions
 
-For transparency, we will have discussions and answer questions using [GitHub
-Discussions](https://github.com/Minimum-CD/cd-manifesto/discussions). Please reach out!
+For transparency, we will have discussions and answer questions using [GitHub Discussions](https://github.com/Minimum-CD/cd-manifesto/discussions). Please reach out!
 
 ## Working Agreement
 
