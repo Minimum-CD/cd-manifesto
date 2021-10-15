@@ -3,20 +3,38 @@
 You don't need to be a developer to make a impact on the industry by contributing to the CD Manifesto documentation and
 examples, just a [GitHub account](https://github.com/).
 
-## Pull requests
+## Changes to the practices
 
-To contribute documentation or code, please send us a pull request. 
-If you are new to pull requests, read GitHub's [Creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) guide.
+Suggestions to modify the core practices should be created using [GitHub issues](https://github.com/Minimum-CD/cd-manifesto/issues/new/choose). The core team will meet at a regular
+cadence and review the suggestions and debate if the are required for the minimum standard for CD. We will either add
+them at that point, delcine to add them, or request clarification from the issue's author.
 
-## Community Slack Workspace
+## Changes to supporting information
 
-[Join the community's Slack workspace](https://join.slack.com/t/minimumcd/shared_invite/zt-x0sq2cvm-Nzu~LuBzg~71_XzHgqiJPQ) to share your voice, experience, and insights as we work to improve outcomes by bringing continuous delivery practices to everyone.
+To request a change to supporting information should be creating by raising a [GitHub
+issue](https://github.com/Minimum-CD/cd-manifesto/issues/new/choose). The core team will review ASAP, request
+clarification as needed, and make the change as required.
+
+## Adding your signature
+
+If you agree that this is MinimumCD, please create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to add your signature. We are determined to be good
+custodians of the core principles and promise that any changes to the practices will receive much scrutiny.
+
+## Removing your signature
+
+If we fail to uphold the ideals we've stated and you wish to remove your signature, please raise a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we
+will remove you without delay. 
+
+## Community Discussions
+
+For transparency, we will have discussions and answer questions using [GitHub
+Discussions](https://github.com/Minimum-CD/cd-manifesto/discussions). Please reach out!
 
 ## Working Agreement
 
 Anyone on the core team can review and accept a signature request. Signatories are encouraged to include a preferred form of contact to answer questions, but it is not required.
 
-The core team will gladly accept PRs for updates to the MVP practices if it agrees with the goals of the project. If you would like to suggest updates, the threshold for a practice being required is:
+For a practice to be considered part of MinimumCD:
 
 1. It is deemed "fundamental" and works in all contexts
 2. The goal of the practice is to amplify feedback, reduce batch size, or reduce toil
