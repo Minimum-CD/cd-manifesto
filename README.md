@@ -120,4 +120,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Paul Moore         | <https://www.linkedin.com/in/pdmoore2/>                     |
 | Shawn Button            | <https://www.linkedin.com/in/shawnbutton/>             |
 | Jesse Lin          | <https://www.linkedin.com/in/jesse-lin/>                    |
+| Markus Mikkolainen | <https://www.linkedin.com/in/itmmti/>                       |
 
