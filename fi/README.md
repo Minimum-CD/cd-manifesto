@@ -66,7 +66,7 @@ Näistä lähteistä löytyy sekä perusasiat että tiedot, joilla voi tulla "el
 
 [Lue lista](../references.md).
 
-## Why did we build this?
+## Miksi teimme tämän?
 
 Lisää taustatietoa Minimi-CD:stä ja vastauksia yleisimpiin kysymyksiin löytyy [usein kysytyistä kysymyksistä](../faq.md).
 
