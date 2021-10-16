@@ -2,7 +2,7 @@
 
 In case you want to translate this manifest, follow these guidelines:
 
-0. Translating the full text of the manifest itself is the minimum viable translation. The FAQ is subject to change more frequently and is optional to translate as long as the links then point to the English version. The list resources is not going to be maintained in several languages.
+0. Translating the full text of the manifest itself is the minimum viable translation. The FAQ is subject to change more frequently and is optional to translate as long as the links then point to the English version. The list of resources is not going to be maintained in several languages.
 1. Use common language easily understood by a student of software engineering or a stakeholder working with engineers.
 2. If the terms have been translated to the target language before, prefer them over mixing with English and the target language.
 3. Replace the bottom of the front page starting from the Signatories with the translated version of this page starting from under the horizontal rule.
