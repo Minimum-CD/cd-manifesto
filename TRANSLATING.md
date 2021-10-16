@@ -23,4 +23,4 @@ The signatories have signed the [original English version](/#signatories) and th
 
 This translation is a community effort in order to help pass this information beyond language barriers. The signatories themselves cannot confirm the correctness of the translation.
 
-The document version: _commitish_, _ISO date_
+Translated from document version: _commitish_, _ISO date_
