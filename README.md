@@ -121,4 +121,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Shawn Button            | <https://www.linkedin.com/in/shawnbutton/>             |
 | Jesse Lin          | <https://www.linkedin.com/in/jesse-lin/>                    |
 | Markus Mikkolainen | <https://www.linkedin.com/in/itmmti/>                       |
+| Alessandro Fardin  | <https://www.linkedin.com/in/alessandro-fardin-61028b28/>   |
 
