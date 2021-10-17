@@ -123,4 +123,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Markus Mikkolainen | <https://www.linkedin.com/in/itmmti/>                       |
 | Alessandro Fardin  | <https://www.linkedin.com/in/alessandro-fardin-61028b28/>   |
 | James Moverley     | <https://www.linkedin.com/in/jmoverley/>                    |
+| Michael Kingery    | <https://www.linkedin.com/in/kingerymike/>                  |
 
