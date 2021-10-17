@@ -109,19 +109,19 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Javier Lopez       | <https://www.linkedin.com/in/javierlopezfernandez/>         |
 | Javier Magana      | <https://www.linkedin.com/in/javier-a-magana-98108/>        |
 | Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
-| James Simon         | <https://www.linkedin.com/in/jamesesimon/>                 |
+| James Simon        | <https://www.linkedin.com/in/jamesesimon/>                  |
 | Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
 | Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
-| Christophe Chaudier | <https://www.linkedin.com/in/cchaudier/>                   |
-| Rosalind Radcliffe  | <https://www.linkedin.com/in/rosalind-radcliffe/>          | 
+| Christophe Chaudier| <https://www.linkedin.com/in/cchaudier/>                    |
+| Rosalind Radcliffe | <https://www.linkedin.com/in/rosalind-radcliffe/>           | 
 | Austin Abro        | <https://www.linkedin.com/in/austinabro/>                   |
-| Ron Forrester       | <https://www.linkedin.com/in/ronforresterpdx/>             |
+| Ron Forrester      | <https://www.linkedin.com/in/ronforresterpdx/>              |
 | David Hawes-Johnson| <https://www.linkedin.com/in/davidhawesjohnson/>            |
 | Paul Moore         | <https://www.linkedin.com/in/pdmoore2/>                     |
-| Shawn Button            | <https://www.linkedin.com/in/shawnbutton/>             |
+| Shawn Button       | <https://www.linkedin.com/in/shawnbutton/>                  |
 | Jesse Lin          | <https://www.linkedin.com/in/jesse-lin/>                    |
 | Markus Mikkolainen | <https://www.linkedin.com/in/itmmti/>                       |
 | Alessandro Fardin  | <https://www.linkedin.com/in/alessandro-fardin-61028b28/>   |
 | James Moverley     | <https://www.linkedin.com/in/jmoverley/>                    |
 | Michael Kingery    | <https://www.linkedin.com/in/kingerymike/>                  |
-
+| Isaac Perez Moncho | <https://www.linkedin.com/in/isaac-perez-moncho-84922b6/>   |
