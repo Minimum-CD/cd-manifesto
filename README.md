@@ -126,4 +126,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Michael Kingery    | <https://www.linkedin.com/in/kingerymike/>                  |
 | Isaac Perez Moncho | <https://www.linkedin.com/in/isaac-perez-moncho-84922b6/>   |
 | Igor Gassmann      | <https://igassmann.me/>                                     |
+| Wayne Gaskill      | <https://www.linkedin.com/in/waynegaskill/>                 |
 | Chris Gallivan     | <https://www.linkedin.com/in/christopher-gallivan-16a2b02/> |
