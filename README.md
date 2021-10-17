@@ -122,4 +122,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Jesse Lin          | <https://www.linkedin.com/in/jesse-lin/>                    |
 | Markus Mikkolainen | <https://www.linkedin.com/in/itmmti/>                       |
 | Alessandro Fardin  | <https://www.linkedin.com/in/alessandro-fardin-61028b28/>   |
+| James Moverley     | <https://www.linkedin.com/in/jmoverley/>                    |
 
