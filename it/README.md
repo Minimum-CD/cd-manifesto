@@ -60,7 +60,7 @@ Le attività minime richieste dalla CI sono:
 
 ## Oltre il minimo
 
-La CD minima non è il primo passo nel modello di maturità, tuttavia è il minimo indispensibile sul quale costruire tutte le pratiche appropriate al proprio contesto. Per aiutarvi ad andare oltre ala CD minima, manteniamo di seguito una lista di risorse relative alla Continuous Delivery che abbiamo trovato molto utili nel nostro percorso.
+La CD minima non è il primo passo nel modello di maturità, tuttavia è il minimo indispensibile sul quale costruire tutte le pratiche appropriate al proprio contesto. Per aiutarvi ad andare oltre alla CD minima, manteniamo di seguito una lista di risorse relative alla Continuous Delivery che abbiamo trovato molto utili nel nostro percorso.
 
 Queste risorse contengono sia conoscenze di base, sia conoscenze necessarie a farvi diventare organizzazioni CD d'Elite.
 Sono specifici nel risolvere il problema "Cosa ci impedisce di andare in produzione oggi?"
@@ -73,7 +73,7 @@ Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rim
 
 ## Per contribuire o diventare firmatari
 
-Vedere [linne guida per contribuire](./CONTRIBUTING.md).
+Vedere [linee guida per contribuire](./CONTRIBUTING.md).
 
 ## Firmatari
 
