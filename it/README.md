@@ -49,7 +49,7 @@ Le attività minime richieste dalla CI sono:
 
 ## Trunk-based Development
 
-[Trunk-based development](https://trunkbaseddevelopment.com/) è il modello di branching necessario a soddisfare la definizione della CI. La CI previene dal lavoro perso, il rischio di corruione che deriva dall'integrazione derivante dalla risoluzione dei conflitti, e che riduce lo spreco di movimento che aumenta la dimensione dei lotti di lavorazione.
+[Trunk-based development](https://trunkbaseddevelopment.com/) è il modello di branching necessario a soddisfare la definizione della CI. La CI previene dal lavoro perso, il rischio di corruione che deriva dall'integrazione e dalla risoluzione dei conflitti, e che riduce lo spreco di movimento che aumenta la dimensione dei lotti di lavorazione.
 
 - Le attività minime richieste dalla CI sono:
   - Tutte le modifiche devono essere integrate nel trunk
