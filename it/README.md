@@ -27,7 +27,7 @@ Il set minimo di attività richieste per la CD sono:
   pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
   è l'unico percorso per il rilascio in produzione.
 - E' La pipeline che decide lo stato di rilasciabilità delle modifiche SW, e il suo verdetto è [definitivo](./faq.md#why-should-the-pipeline-be-definitive-for-deploy)
-- Artefatti creati dalla pileline ottemperano sempre alla definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w)
+- Gli artefatti creati dalla pileline ottemperano sempre alla definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w)
 - [Immutable artifact](./faq#what-is-an-immutable-artifact). nessuna modifica manuale dopo i commit.
 - In caso di fallimento della pipeline, il lavoro in corso deve essere fermato la priorità di tutti deve essere quella di far tornare il software in uno stato stabile
 - Utilizzare ambienti di test il più possibile simili al campo
@@ -43,38 +43,37 @@ Le attività minime richieste dalla CI sono:
 - [Trunk-based development](https://trunkbaseddevelopment.com/)
 - Il lavoro viene integrato nel trunk almeno una volta al giorno
 - Il lavoro ha una suite di test quando viene eseguito il merge nel trunk
-- la suite di test verifica sempre il SW che contiene ed integra il contributo di tutto il team
+- La suite di test verifica sempre il SW che contiene ed integra il contributo di tutto il team
 - Il lavoro viene fermto se la pipeline fallisce.
 - Il nuovo lavoro non deve causare malfunzionamenti al software rilasciato.
 
 ## Trunk-based Development
 
-[Trunk-based development](https://trunkbaseddevelopment.com/) is the branching pattern required to meet the definition
-of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
-waste that increases batch size.
+[Trunk-based development](https://trunkbaseddevelopment.com/) è il modello di branching necessario a soddisfare la definizione della CI. La CI previene dal lavoro perso, il rischio di corruione che deriva dall'integrazione derivante dalla risoluzione dei conflitti, e che riduce lo spreco di movimento che aumenta la dimensione dei lotti di lavorazione.
 
-- The minimum activities required for TBD are:
-  - All changes integrate into the trunk
-  - If branches from the trunk are used:
-    - They originate from the trunk
-    - They re-integrate to the trunk
-    - They are short-lived and removed after the merge
+- Le attività minime richieste dalla CI sono:
+  - Tutte le modifiche devono essere integrate nel trunk
+  - Se si utilizzano i branch:
+    - Devono essere originati dal trunk
+    - Devono essere reintegrati nel trunk
+    - Devono essere di breve durata e rimossi dopo l'integrazione
 
-## Beyond the Minimums
+## Oltre il minimo
 
-Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices should be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys. 
+La CD minima non è il primo passo nel modello di maturità, tuttavia è il minimo indispensibile sul quale costruire tutte le pratiche appropriate al proprio contesto. Per aiutarvi ad andare oltre ala CD minima, manteniamo di seguito una lista di risorse relative alla Continuous Delivery che abbiamo trovato molto utili nel nostro percorso.
 
-These contain the basics, but also the knowledge needed to become an "Elite" CD organization. They are specific to solving the problem of "why can't we go to production today?"
+Queste risorse contengono sia conoscenze di base, sia conoscenze necessarie a farvi diventare organizzazioni CD d'Elite.
+Sono specifici nel risolvere il problema "Cosa ci impedisce di andare in produzione oggi?"
 
-[Read the list](./references.md).
+[Vedi la lista](./references.md).
 
-## Why did we build this?
+## Perche abbiamo costruito questa lista?
 
-For more background on Minimum CD and answers to other common questions, please [read the FAQs](./faq.md).
+Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](./faq.md).
 
-## Want to Contribute or become a signatory?
+## Per contribuire o diventare firmatari
 
-Read our [contribution guidelines](./CONTRIBUTING.md).
+Vedere [linne guida per contribuire](./CONTRIBUTING.md).
 
 ## Firmatari
 
