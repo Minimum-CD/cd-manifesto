@@ -128,3 +128,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Igor Gassmann      | <https://igassmann.me/>                                     |
 | Wayne Gaskill      | <https://www.linkedin.com/in/waynegaskill/>                 |
 | Chris Gallivan     | <https://www.linkedin.com/in/christopher-gallivan-16a2b02/> |
+| Alexander Birk     | <https://www.linkedin.com/in/alexander-birk-050625215/>     |
