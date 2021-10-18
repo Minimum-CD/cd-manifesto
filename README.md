@@ -131,3 +131,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Alexander Birk     | <https://www.linkedin.com/in/alexander-birk-050625215/>     |
 | Kaine Bent         | <https://www.linkedin.com/in/ka1ne/>                        |
 | Andrew Ochsner     | <https://www.linkedin.com/in/aochsner/>                     |
+| Stephen Magill     | <https://www.linkedin.com/in/stephen-magill-2070a096/>      |
