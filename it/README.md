@@ -12,15 +12,15 @@ Noi, [i firmatari](#Firmatari), crediamo che la definizione di un'implemtazione 
 
 Soltanto partendo da questo set minimo di pratiche essenziali potremmo iniziare a vedere i vantaggi della Continuous Delivery.
 
-Le pratiche sotto elencate sono lo scheletro minimo, un punto di partenza. Il continuo miglioramento della velocità, qualità e sicurezza della delivery pipeline sono i risultati attesi.
+Le pratiche sotto elencate sono lo scheletro fondante, il punto di partenza per poter ottenere i risultati attesi: il continuo miglioramento della velocità, qualità e sicurezza della delivery pipeline.
 
 ---
 
 ## Continuous Delivery
 
-La CD è la disciplina ingegneristica di rilasciare tutte le modifiche SW in una modalità standardizzata e sicura. La CD copre un ampio spettro di attività che dipende da cosa deve essere rilasciato. Tuttavia ci sono comportamenti ed abilità che devono essere rispettati in qualsivoglia contesto, per potersi definire "Continuous Delivery"
+La CD è la disciplina ingegneristica che consente di rilasciare nuove funzionalità e modifiche SW in una modalità standardizzata e sicura. La CD copre un ampio spettro di attività che dipende da cosa deve essere rilasciato. Tuttavia ci sono comportamenti ed abilità che devono essere rispettati in qualsivoglia contesto, per potersi definire "Continuous Delivery"
 
-Il set minimo si attività richieste per la CD sono:
+Il set minimo di attività richieste per la CD sono:
 
 - [Continuous integration](#continuous-integration)
 - The [application
