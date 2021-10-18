@@ -28,11 +28,11 @@ Il set minimo di attività richieste per la CD sono:
   è l'unico percorso per il rilascio in produzione.
 - E' La pipeline che decide lo stato di rilasciabilità delle modifiche SW, e il suo verdetto è [definitivo](./faq.md#why-should-the-pipeline-be-definitive-for-deploy)
 - Gli artefatti creati dalla pileline ottemperano sempre alla definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w)
-- [Immutable artifact](./faq#what-is-an-immutable-artifact). nessuna modifica manuale dopo i commit.
+- [Immutable artifact](../faq#what-is-an-immutable-artifact). nessuna modifica manuale dopo i commit.
 - In caso di fallimento della pipeline, il lavoro in corso deve essere fermato la priorità di tutti deve essere quella di far tornare il software in uno stato stabile
 - Utilizzare ambienti di test il più possibile simili al campo
 - Deve sempre essere possibile un eventuale roll back
-- [La configurazione](./faq.md#what-is-application-configuration) deve essere rialsciata assieme agli artefatti.
+- [La configurazione](../faq.md#what-is-application-configuration) deve essere rialsciata assieme agli artefatti.
 
 ## Continuous Integration
 
@@ -65,15 +65,15 @@ La CD minima non è il primo passo nel modello di maturità, tuttavia è il mini
 Queste risorse contengono sia conoscenze di base, sia conoscenze necessarie a farvi diventare organizzazioni CD d'Elite.
 Sono specifici nel risolvere il problema "Cosa ci impedisce di andare in produzione oggi?"
 
-[Vedi la lista](./references.md).
+[Vedi la lista](../references.md).
 
 ## Perche abbiamo costruito questa lista?
 
-Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](./faq.md).
+Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](../faq.md).
 
 ## Per contribuire o diventare firmatari
 
-Vedere [linee guida per contribuire](./CONTRIBUTING.md).
+Vedere [linee guida per contribuire](../CONTRIBUTING.md).
 
 ## Firmatari
 
