@@ -23,7 +23,7 @@ La CD è la disciplina ingegneristica che consente di rilasciare nuove funzional
 Il set minimo di attività richieste per la CD sono:
 
 - [Continuous integration](#continuous-integration)
-- The [application
+- La [application
   pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
   è l'unico percorso per il rilascio in produzione.
 - E' La pipeline che decide lo stato di rilasciabilità delle modifiche SW, e il suo verdetto è [definitivo](./faq.md#why-should-the-pipeline-be-definitive-for-deploy)
