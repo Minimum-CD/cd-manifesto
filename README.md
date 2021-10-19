@@ -27,7 +27,7 @@ The minimum activities required for CD are:
   pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
   is the only path to deploy to production.
 - The pipeline decides the releasability of changes, its verdict is [definitive](./faq.md#why-should-the-pipeline-be-definitive-for-deploy)
-- Artifacts created by the pipeline always meet the organization's [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w)
+- Artifacts created by the pipeline always meet the organization's [definition of deployable](./faq.md#what-do-we-mean-by-definition-of-deployable)
 - [Immutable artifact](./faq#what-is-an-immutable-artifact). No human changes after commit.
 - All feature work stops when the pipeline is red
 - Production-like test environment
@@ -71,6 +71,10 @@ These contain the basics, but also the knowledge needed to become an "Elite" CD 
 ## Why did we build this?
 
 For more background on Minimum CD and answers to other common questions, please [read the FAQs](./faq.md).
+
+## Translations
+
+- [Finnish](./fi/README.md)
 
 ## Want to Contribute or become a signatory?
 
