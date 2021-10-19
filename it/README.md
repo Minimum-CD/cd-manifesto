@@ -75,51 +75,10 @@ Vedere [linee guida per contribuire](../CONTRIBUTING.md).
 
 ## Firmatari
 
-| Name               | Contact                                                     |
-|--------------------|-------------------------------------------------------------|
-| Dave Farley        | <https://www.linkedin.com/in/dave-farley-a67927>            |
-| Bryan Finster      | <https://www.linkedin.com/in/bryan-finster/>                |
-| Ferrix Hovi        | <https://www.linkedin.com/in/ferrix/>                       |
-| Justin Abrahms     | <https://justin.abrah.ms/>                                  |
-| Joe Arrowood       | <https://www.linkedin.com/in/joearrowood/>                  |
-| Jerreck McWilliams | <https://www.linkedin.com/in/jerreck/>                      |
-| Istvan Bathazi     | <https://www.linkedin.com/in/istvan-bathazi/>               |
-| Sara Gramling      | <https://www.linkedin.com/in/saragramling/>                 |
-| Tracy Bannon       | <https://www.linkedin.com/in/tracylbannon/>                 |
-| Dana Finster       | <https://www.linkedin.com/in/danafinster/>                  |
-| Patrick S. Kelso   | <https://www.linkedin.com/in/patrickkelso/>                 |
-| Ben Link           | <https://www.linkedin.com/in/benjamindlink/>                |
-| Chris Kernaghan    | <https://www.linkedin.com/in/chriskernaghan/>               |
-| Chris Gossett      | <https://www.linkedin.com/in/christopher-gossett-03b09347/> |
-| Joshua Barton      | <https://www.linkedin.com/in/bartonjoshua/>                 |
-| Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
-| Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
-| Andrea Laforgia    | <https://www.linkedin.com/in/andrealaforgia/>               |
-| Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
-| Aurel Estoup       | <https://www.linkedin.com/in/aurel-estoup/>                 |
-| Emiliano Sutil     | <https://www.linkedin.com/in/emiliano-sutil-77a2091b/>      |
-| Jason Walker       | <https://github.com/desktophero>                            |
-| Thomas J. Sweet    | <https://www.linkedin.com/in/thomasjsweet/>                 |
-| Kelly Brownsberger | <https://www.linkedin.com/in/kellybrownsberger/>            |
-| Andrew Marshall    | <https://www.linkedin.com/in/ajmarshall2k/>                 |
-| Vilas Veeraraghavan| <https://www.linkedin.com/in/vilas-veeraraghavan/>          |
-| Javier Lopez       | <https://www.linkedin.com/in/javierlopezfernandez/>         |
-| Javier Magana      | <https://www.linkedin.com/in/javier-a-magana-98108/>        |
-| Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
-| James Simon        | <https://www.linkedin.com/in/jamesesimon/>                  |
-| Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
-| Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
-| Christophe Chaudier| <https://www.linkedin.com/in/cchaudier/>                    |
-| Rosalind Radcliffe | <https://www.linkedin.com/in/rosalind-radcliffe/>           | 
-| Austin Abro        | <https://www.linkedin.com/in/austinabro/>                   |
-| Ron Forrester      | <https://www.linkedin.com/in/ronforresterpdx/>              |
-| David Hawes-Johnson| <https://www.linkedin.com/in/davidhawesjohnson/>            |
-| Paul Moore         | <https://www.linkedin.com/in/pdmoore2/>                     |
-| Shawn Button       | <https://www.linkedin.com/in/shawnbutton/>                  |
-| Jesse Lin          | <https://www.linkedin.com/in/jesse-lin/>                    |
-| Markus Mikkolainen | <https://www.linkedin.com/in/itmmti/>                       |
-| Alessandro Fardin  | <https://www.linkedin.com/in/alessandro-fardin-61028b28/>   |
-| James Moverley     | <https://www.linkedin.com/in/jmoverley/>                    |
-| Michael Kingery    | <https://www.linkedin.com/in/kingerymike/>                  |
-| Isaac Perez Moncho | <https://www.linkedin.com/in/isaac-perez-moncho-84922b6/>   |
-| Igor Gassmann      | <https://igassmann.me/>                                     |
+I firmatari hanno firmato la [versione originale in inglese](../README.md#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
+
+## Traduzione
+
+Questa traduzione è uno sforzo della comunità atto ad aiutare i concetti della CD attraverso la bariera della lingua. I firmatari, loro stessi, non possono confermare la correttezza della traduzione.
+
+Tradotto dalla versione: 4de610d, 2021-10-19
