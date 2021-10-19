@@ -136,3 +136,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Kaine Bent         | <https://www.linkedin.com/in/ka1ne/>                        |
 | Andrew Ochsner     | <https://www.linkedin.com/in/aochsner/>                     |
 | Stephen Magill     | <https://www.linkedin.com/in/stephen-magill-2070a096/>      |
+| Jordan Schwartz    | <https://www.linkedin.com/in/jordanaschwartz/>              |
