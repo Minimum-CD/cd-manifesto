@@ -56,4 +56,4 @@ so important.
 
 ## What do we mean by definition of deployable?
 
-For every organization there should be non-negotiables in place for delivery. These may included security, compliance, stability, responsiveness, etc. The pipeline should be that final word for this. See Dave Farley's video [Real Example of a Deployment Pipeline in the Fintech Industry]([Real Example of a Deployment Pipeline in the Fintech Industry](https://www.youtube.com/watch?v=bHKHdp4H-8w))
+For every organization there should be non-negotiables in place for delivery. These may included security, compliance, stability, responsiveness, etc. The pipeline should be that final word for this. See Dave Farley's video [Real Example of a Deployment Pipeline in the Fintech Industry](https://www.youtube.com/watch?v=bHKHdp4H-8w))
