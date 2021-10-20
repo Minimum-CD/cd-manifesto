@@ -61,7 +61,7 @@ Il [Trunk-based Development](https://trunkbaseddevelopment.com/) è il modello d
 La CD minima non è il primo passo in un modello di maturità, tuttavia è il minimo indispensabile su cui dovrebbero essere costruite molte altre pratiche, come richiesto dal proprio contesto. Per facilitare il vostro percorso oltre la CD minima, manteniamo di seguito una lista di risorse relative alla Continuous Delivery che abbiamo trovato molto utili nel nostro percorso.
 
 Queste risorse contengono sia conoscenze di base, sia conoscenze necessarie a farvi diventare un'organizzazione CD "d'élite".
-Sono specifiche per risolvere il problema "Cosa ci impedisce di andare in produzione oggi?"
+Sono risposte specifiche alla domanda "Cosa ci impedisce di andare in produzione oggi?"
 
 [Vedi la lista](../references.md).
 
