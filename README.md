@@ -137,3 +137,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Andrew Ochsner     | <https://www.linkedin.com/in/aochsner/>                     |
 | Stephen Magill     | <https://www.linkedin.com/in/stephen-magill-2070a096/>      |
 | Jordan Schwartz    | <https://www.linkedin.com/in/jordanaschwartz/>              |
+| Markus Arikan    | <https://www.linkedin.com/in/marikan/>              |
