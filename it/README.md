@@ -79,6 +79,6 @@ I firmatari hanno firmato la [versione originale in inglese](../README.md#signat
 
 ## Traduzione
 
-Questa traduzione è uno sforzo della comunità atto ad aiutare i concetti della CD attraverso la bariera della lingua. I firmatari, loro stessi, non possono confermare la correttezza della traduzione.
+Questa traduzione è uno sforzo della comunità per facilitare la diffusione dei concetti legati alla CD oltre la barriera linguistica. I firmatari non possono confermare la correttezza della traduzione.
 
 Tradotto dalla versione: 4de610d, 2021-10-19
