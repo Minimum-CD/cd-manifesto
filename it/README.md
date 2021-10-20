@@ -4,7 +4,7 @@
 
 -- Accelerate `(Unofficial translation)`
 
-Noi, [i firmatari](#Firmatari), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i nostri contesti possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
+Noi, [i firmatari](#Firmatari), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
 
 - Introdurre alla Continuous Delivery nuovi praticanti in modo coerente
 - Discutere le pratiche ingegneristiche che costituiscono CD
