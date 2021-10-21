@@ -139,3 +139,6 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Stephen Magill     | <https://www.linkedin.com/in/stephen-magill-2070a096/>      |
 | Jordan Schwartz    | <https://www.linkedin.com/in/jordanaschwartz/>              |
 | Jean-François Lépine| <https://www.linkedin.com/in/jean-fran%C3%A7ois-l%C3%A9pine-6a122726/> |
+| Markus Arikan      | <https://www.linkedin.com/in/marikan/>                      |
+| Jeff Dunn          | <https://www.linkedin.com/in/jeffadunn/>                    |
+| Bob Winter         | <https://www.linkedin.com/in/bob-winter>                    |
