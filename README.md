@@ -140,3 +140,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Markus Arikan      | <https://www.linkedin.com/in/marikan/>                      |
 | Jeff Dunn          | <https://www.linkedin.com/in/jeffadunn/>                    |
 | Bob Winter         | <https://www.linkedin.com/in/bob-winter>                    |
+| Azlam Abdulsalam   | <https://www.linkedin.com/in/azlam.                         |
