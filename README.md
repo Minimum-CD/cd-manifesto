@@ -143,3 +143,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Azlam Abdulsalam   | <https://www.linkedin.com/in/azlam>                         |
 | Jos Hendriks       | <https://www.linkedin.com/in/jos-hendriks/>                 |
 | Nathan Nicholson   | <https://www.linkedin.com/in/nathan-r-nicholson>            |
+| William H. Kirk    | <https://www.linkedin.com/in/whk/>                          |
