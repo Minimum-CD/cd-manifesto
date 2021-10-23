@@ -1,0 +1,34 @@
+{{ $name := replace (.Get 0) "*" "" }}
+{{ $required := strings.HasSuffix (.Get 0) "*" }}
+{{ $option := .Get 1 }}
+{{ $multiple := cond (eq "multi" $option) true false }}
+
+<div class="form-group">
+<select 
+	name="{{$name}}" 
+	required="{{cond $required `true` `false`}}" 
+	{{cond $multiple `multiple` ``}}
+	class="form-control">
+{{ if not $multiple  }}
+<option value="" selected>Choose....</option>
+{{end}}
+
+{{ range $index, $content := split (chomp .Inner) "*" }}
+{{if ne $index 0}}
+
+	{{ $id := printf "%s-%d" $name $index }}
+	{{ $value := printf "option-%d" $index }}
+
+	{{ $values := split (replaceRE `\s*(\([^\)]+\))*\s*(.*)` "$1#$2" (chomp $content)) "#" }}
+	{{ $text := (index $values 1) }}
+	{{ if ne "" (index $values 0)}}
+		{{ $value = strings.TrimSuffix ")" (strings.TrimPrefix "(" (index $values 0)) }}
+	{{end}}
+
+<option value="{{$value}}">{{$text}}</option>
+
+{{end}}
+{{ end }}
+</select>
+</div>
+

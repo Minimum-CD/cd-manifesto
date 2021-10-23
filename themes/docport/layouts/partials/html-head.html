@@ -1,0 +1,39 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="{{ now.Format "2006-01-02T15:04:05 MST" }}">
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+
+{{ with .Site.Params.author }}
+<meta name="author" content="{{ . }}">
+{{ end }}
+
+<title>{{ .Title }} :: {{ .Site.Title }}</title>
+
+<link rel="shortcut icon" href='{{"images/favicon.png" | relURL}}' type="image/x-icon" />
+
+<!-- vendor css/js -->
+{{- partial "html-head-vendor.html" . }}
+
+<!-- docport css/js -->
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/layout.scss" | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "css/style.main.scss" . | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/menu.scss" | resources.ExecuteAsTemplate "css/style.menu.scss" . | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/shortcodes/notice.scss" | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/shortcodes/tabs.scss" | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/shortcodes/panel.scss" | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/shortcodes/columns.scss" | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/shortcodes/children.scss" | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/shortcodes/attachments.scss" | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/shortcodes/alert.scss" | toCSS).Permalink }}'>
+<link rel="stylesheet" type="text/css" href='{{"/css/docport.css" | relURL}}'>
+
+<script src='{{"js/docport.js" | relURL}}'></script>
+<script type="text/javascript">
+      var baseurl = "{{.Site.BaseURL}}";
+</script>
+
+
+{{ template "_internal/google_analytics.html" . }}
+
+
+{{- partial "head.html" . }}

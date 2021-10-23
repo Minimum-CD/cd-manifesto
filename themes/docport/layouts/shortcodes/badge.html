@@ -1,0 +1,1 @@
+<span {{ with .Get "href" }} onclick="location.href='{{.}}'"{{end}} {{ if .Get "ref" }} onclick="location.href='{{relref . (.Get "ref") }}'"{{end}} class="badge badge-{{ if .IsNamedParams }}{{with .Get `theme`}}{{.}}{{else}}primary{{end}}{{else}}{{with .Get 0}}{{.}}{{else}}primary{{end}}{{end}}">{{.Inner | markdownify}}</span>

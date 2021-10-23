@@ -1,0 +1,146 @@
+$color_primary : #007bff ;
+$color_secondary : #6c757d ;
+$color_success : #28a745 ;
+$color_danger : #dc3545 ;
+$color_warning : #ffc107 ;
+$color_info : #17a2b8 ;
+$color_light : #f8f9fa ;
+$color_dark : #343a40 ;
+$color_white : #fff ;
+$color_transparent : transparent ;
+
+
+div.notices {
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+
+	> :not(label) {
+		background: white;
+		margin-top: 0px!important;
+	    margin-bottom: 0px!important;
+	    box-sizing: border-box;
+	    box-shadow: inset 4px 0 0 black;
+	    background-color: lighten(black,90%);
+		font-size: smaller;
+		&:not(ul) {
+			/*box-shadow: inset 4px 0 0 black;*/
+			/*border-radius: .2rem;*/
+		    padding: .5rem 1rem .5rem 1rem;
+		}
+	}
+
+	ul {}
+	> label{
+		font-size: 0.5em;
+		position: absolute;
+		margin-left: 0em;
+		margin-top: -1.8em;
+		font-weight: bold;
+		font-variant: small-caps;
+		letter-spacing: 0.6em;
+	}
+
+	&.note{
+		p {
+			box-shadow: inset 4px 0 0 $color_primary;
+			background: transparentize($color_primary, 0.95);
+			color: darken($color_primary,20%) !important; 
+		}
+		label{color: $color_primary;}	
+	}
+	&.primary {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_primary;
+			background: transparentize($color_primary, 0.95);
+			color: darken($color_primary,20%) !important; 
+		}
+		label{color: $color_primary;}
+	}
+
+	&.secondary {
+		p {
+			box-shadow: inset 4px 0 0 $color_secondary;
+			background: transparentize($color_secondary, 0.95);
+			color: darken($color_secondary,20%) !important; 
+		}
+		label{color: $color_secondary;}
+	}
+
+	&.success, &.tip {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_success;
+			background: transparentize($color_success, 0.95);
+			color: darken($color_success,20%) !important; 
+		}
+		label{color: $color_success;}
+	}
+
+	&.danger {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_danger;
+			background: transparentize($color_danger, 0.95);
+			color: darken($color_danger,20%) !important; 
+		}
+		label{color: $color_danger;}
+	}
+
+	&.warning {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_warning;
+			background: transparentize($color_warning, 0.95);
+			color: darken($color_warning,20%) !important; 
+		}
+		label{color: $color_warning;}
+	}
+
+	&.info {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_info;
+			background: transparentize($color_info, 0.95);
+			color: darken($color_info,20%) !important; 
+		}
+		label{color: $color_info;}
+	}
+
+	&.light {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_light;
+			background: transparentize($color_light, 0.95);
+			color: darken($color_light,20%) !important; 
+		}
+		label{color: $color_light;}
+	}
+	&.dark {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_dark;
+			background: transparentize($color_dark, 0.95);
+			color: darken($color_dark,20%) !important; 
+		}
+		label{color: $color_dark;}
+	}
+	&.white {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_white;
+			background: transparentize($color_white, 0.95);
+			color: whiteen($color_white,20%) !important; 
+		}
+		label{color: $color_white;}
+	}
+	&.transparent {
+		> *:not(label) {
+			box-shadow: inset 4px 0 0 $color_transparent;
+			background: transparentize($color_transparent, 0.95);
+			color: transparenten($color_transparent,20%) !important; 
+		}
+		label{color: $color_transparent;}
+	}
+}
+
+
+
+
+
+
+
+
+	

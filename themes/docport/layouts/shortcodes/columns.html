@@ -1,0 +1,9 @@
+<!-- https://github.com/alex-shpak/hugo-book/blob/master/layouts/shortcodes/columns.html -->
+
+<div class="columns">
+  {{ range split .Inner "<--->" }}
+  <div class="column">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
+</div>

@@ -1,0 +1,29 @@
+{{ $name := replace (.Get 0) "*" "" }}
+{{ $required := strings.HasSuffix (.Get 0) "*" }}
+
+{{ range $index, $content := split (strings.Trim .Inner "\n") "*" }}
+	{{if ne $content ""}}
+
+	{{ $id := printf "%s-%d" $name $index }}
+	{{ $value := printf "checked" }}
+
+	{{ $values := split (replaceRE `\s*(\([^\)]+\))*\s*(.*)` "$1#$2" (strings.Trim $content "\n")) "#" }}
+	{{ $text := (index $values 1) }}
+	
+	{{ if ne "" (index $values 0)}}
+		{{ $value = strings.Trim (index $values 0) "()" }}
+	{{end}}
+
+<div class="custom-control custom-checkbox">
+  <input type="checkbox" 
+  name="{{$name}}"
+  id="{{ $id }}"
+  value="{{$value}}"
+  class="custom-control-input">
+  <label class="custom-control-label" for="{{$id}}">{{ chomp $text }}</label>
+</div>
+
+	{{end}}
+{{ end }}
+
+

@@ -1,0 +1,86 @@
+{{- $currentNode := . }}
+
+{{- if eq .Site.Params.ordersectionsby "title"}}
+  {{- range .Site.Home.Sections.ByTitle}}
+  {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode   "level" 0}}
+  {{- end}}
+{{- else}}
+  {{- range .Site.Home.Sections.ByWeight}}
+    {{- if not (hasPrefix .Section "_") -}}
+      {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "level" 0}}
+    {{end}}
+  {{- end}}
+{{- end}}
+
+<!-- templates -->
+{{- define "section-tree-nav" }}
+{{- $currentNode := .currentnode }}
+{{- $level := .level }}
+{{- $maxlevel := 99 }}
+{{if lt $level $maxlevel }}
+ {{- with .sect}}
+  {{- if and .IsSection (or (not .Params.hidden) $.showhidden)}}
+    {{- $numberOfPages := (len (where (where .Sections "Params.subpage" "ne" true) "Params.hidden" "ne" true )) }}
+    {{- safeHTML .Params.head}}
+    <li data-nav-id="{{.Permalink}}" class="dd-item
+        {{- if .IsAncestor $currentNode}} parent{{end}}
+        {{- if eq .CurrentSection $currentNode.CurrentSection}} active{{end}}
+        {{- if .Params.alwaysopen}} alwaysopen{{end -}}
+        {{- if ne $numberOfPages 0 }} haschildren{{end}}
+        item_level_$level
+        ">
+
+      {{$menuTitle := .Title}}
+      {{if eq $menuTitle ""}}{{$menuTitle = .CurrentSection}}{{end}}
+      
+      {{if gt $level 0 }}
+          <a href="{{ .RelPermalink}}">{{safeHTML .Params.Pre}}{{$menuTitle}}{{safeHTML .Params.Post}}</a>
+      {{end}}    
+      {{- if and (ne $numberOfPages 0) (lt (add $level 1) $maxlevel) }}
+        {{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}
+          <i class="fas fa-chevron-down ddexp"></i>
+        {{- else -}}
+          <i class="fas fa-chevron-right ddexp"></i>
+        {{- end}}
+      {{- end}}
+        
+      {{if eq $level 0 }}
+          <a href="{{ .RelPermalink}}">{{safeHTML .Params.Pre}}{{$menuTitle}}{{safeHTML .Params.Post}}</a>
+      {{end}}    
+      
+      {{- if ne $numberOfPages 0 }}
+        <ul>
+          {{- .Scratch.Set "pages" .Pages }}
+          {{- if .Sections}}
+            {{- .Scratch.Set "pages" (.Pages | union .Sections) }}
+          {{- end}}
+          {{- $pages := (.Scratch.Get "pages") }}
+
+        {{- if eq .Site.Params.ordersectionsby "title"}}
+          {{- range $pages.ByTitle }}
+            {{- if and .Params.hidden (not $.showhidden) }}
+            {{- else}}
+              {{ if eq .Kind "section"}}
+                {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "level" (add $level 1)}}
+              {{- end}}
+            {{- end}}
+          {{- end}}
+        {{- else}}
+          {{- range $pages.ByWeight }}
+            {{- if and .Params.hidden (not $.showhidden) }}
+            {{- else}}
+              {{ if and (eq .Kind "section") (not .Params.subpage ) }}
+
+
+                {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "level" (add $level 1)}}
+              {{- end}}
+            {{- end}}
+          {{- end}}
+        {{- end}}
+        </ul>
+      {{- end}}
+    </li>
+   {{- end}}
+  {{- end}}
+ {{- end}}
+{{- end}}

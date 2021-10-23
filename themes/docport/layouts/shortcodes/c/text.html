@@ -1,0 +1,19 @@
+{{ $name := replace (.Get 0) "*" "" }}
+{{ $required := strings.HasSuffix (.Get 0) "*" }}
+{{ $option := .Get 1 }}
+{{ $multiple := cond (eq "multi" $option) true false }}
+
+{{ if $multiple }}
+<textarea 
+	name="{{ $name }}" 
+	required="{{cond $required `true` `false`}}" 
+	placeholder='{{ trim .Inner "\n"}}'
+	name="paragraph" 
+	class="form-control" rows="3"></textarea>
+{{ else }}
+<input 
+	name="{{ $name }}" 
+	required="{{cond $required `true` `false`}}" 
+	placeholder='{{ trim .Inner "\n" }}' 
+	type="text" class="form-control form-control-lg">
+{{ end }}

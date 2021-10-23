@@ -1,0 +1,8 @@
+{{ $name := replace (.Get 0) "*" "" }}
+{{ $required := strings.HasSuffix (.Get 0) "*" }}
+{{ $id := $name}}
+
+<div class="custom-control custom-switch">
+  <input type="checkbox" name="{{$name}}" id="{{$id}}" class="custom-control-input" value="on">
+  <label class="custom-control-label" for="{{$id}}">{{ chomp .Inner }}</label>
+</div>

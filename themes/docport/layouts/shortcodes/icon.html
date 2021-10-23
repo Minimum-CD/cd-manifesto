@@ -1,0 +1,5 @@
+{{- if .IsNamedParams -}}
+<i class="{{default "fas" (.Get "style")}} {{.Get "name"}}" {{with .Get "size"}}style="font-size:{{.}}"{{end}}></i>
+{{- else -}}
+<i class="fa{{with (.Get 1)}}{{.}}{{else}}s{{end}} {{.Get 0}}"></i>
+{{- end -}}

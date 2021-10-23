@@ -1,0 +1,67 @@
+$color_primary : #007bff ;
+$color_secondary : #6c757d ;
+$color_success : #28a745 ;
+$color_danger : #dc3545 ;
+$color_warning : #ffc107 ;
+$color_info : #17a2b8 ;
+$color_light : #f8f9fa ;
+$color_dark : #343a40 ;
+$color_white : #fff ;
+$color_transparent : transparent ;
+
+div.alert{
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	
+	a{color:inherit!important;}
+
+	&.primary{
+    	color: white;
+       	background-color: $color_primary;
+    	border-color: $color_primary;   
+  	}
+	&.info{
+		color: white;
+		background-color: $color_info;
+		border-color: $color_info;		
+	}
+	&.success{
+		color: white;
+		background-color: $color_success;
+		border-color: $color_success;		
+	}
+	&.warning{
+		color: black;
+		background-color: $color_warning;
+		border-color: $color_warning;		
+	}
+	&.danger{
+		color: white;
+		background-color: $color_danger;
+		border-color: $color_danger;		
+	}
+	&.danger{
+		color: white;
+		background-color: $color_danger;
+		border-color: $color_danger;		
+	}
+	&.secondary{
+		color: white;
+		background-color: $color_secondary;
+		border-color: $color_secondary;		
+	}
+	&.light{
+		color: black;
+		background-color: $color_light;
+		border-color: $color_light;		
+	}
+	&.dark{
+		color: white;
+		background-color: $color_dark;
+		border-color: $color_dark;		
+	}
+	
+	
+}

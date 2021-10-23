@@ -1,0 +1,48 @@
+button.btn {
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff; }
+  button.btn a {
+    color: inherit !important; }
+  button.btn.primary {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff; }
+  button.btn.info {
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8; }
+  button.btn.success {
+    color: white;
+    background-color: #28a745;
+    border-color: #28a745; }
+  button.btn.warning {
+    color: black;
+    background-color: #ffc107;
+    border-color: #ffc107; }
+  button.btn.danger {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545; }
+  button.btn.danger {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545; }
+  button.btn.secondary {
+    color: white;
+    background-color: #6c757d;
+    border-color: #6c757d; }
+  button.btn.light {
+    color: black;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa; }
+  button.btn.dark {
+    color: white;
+    background-color: #343a40;
+    border-color: #343a40; }

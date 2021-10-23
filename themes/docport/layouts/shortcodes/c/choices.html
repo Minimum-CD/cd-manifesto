@@ -1,0 +1,31 @@
+{{ $name := replace (.Get 0) "*" "" }}
+{{ $required := strings.HasSuffix (.Get 0) "*" }}
+{{ $option := .Get 1 }}
+{{ $multiple := cond (eq "multi" $option) true false }}
+
+
+{{ range $index, $content := split (chomp .Inner) "*" }}
+{{if ne $index 0}}
+
+
+{{ $id := printf "%s-%d" $name $index }}
+{{ $value := printf "option-%d" $index }}
+
+{{ $values := split (replaceRE `\s*(\([^\)]+\))*\s*(.*)` "$1#$2" (chomp $content)) "#" }}
+{{ $text := (index $values 1) }}
+{{ if ne "" (index $values 0)}}
+	{{ $value = strings.TrimSuffix ")" (strings.TrimPrefix "(" (index $values 0)) }}
+{{end}}
+
+<div class="custom-control custom-{{cond $multiple `checkbox` `radio`}}">
+  <input type="{{cond $multiple `checkbox` `radio`}}" 
+  name="{{$name}}"
+  id="{{ $id }}"
+  value="{{$value}}"
+  {{- cond $multiple `multiple` `` | safeHTMLAttr }}
+  class="custom-control-input">
+  <label class="custom-control-label" for="{{ $id }}">{{$text | markdownify}}</label>
+</div>
+
+{{end}}
+{{ end }}

@@ -1,0 +1,21 @@
+{{if .Params.skwad}}
+	<span></span>
+
+	{{if ne nil .Params.skwad.mode }}
+	<div class="checklist-footer">
+		<button type="submit" class="btn btn-primary">{{T "checklist-post-answers"}}</button>
+		<p>&nbsp;</p>
+	</div>
+	{{end}}
+
+	</form>
+	{{if eq true .Params.skwad.clientside}}
+	{{if .Params.skwad.url }}
+	<div class="checklist-footer">
+		<button type="button" 
+		onclick="skwad.saveDocumentAsFile(skwad.form.getAttribute('ref'));"
+		class="btn btn-success"><i class="fas fa-download"></i>&nbsp;{{T "checklist-download-answers"}}</button>
+	</div>
+	{{end}}
+	{{end}}
+{{end}}

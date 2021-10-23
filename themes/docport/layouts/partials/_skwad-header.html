@@ -1,0 +1,181 @@
+{{if .Params.skwad}}
+	{{ $formID := .File.UniqueID }}
+	<link rel="stylesheet" href='{{ (resources.Get "sass/checklist.scss" | resources.ExecuteAsTemplate "css/checklist.main.scss" . | toCSS).Permalink }}'>
+
+	{{if .Params.skwad.url }}
+	<script src="{{.Params.skwad.url }}x/skwad.js"></script>
+	<script type="text/javascript">
+		skwad_api_url = "/";
+		skawd_form_id = "";
+
+		$(document).ready(function () {
+			skwad.InitWithConfig({
+				formID: "{{$formID}}", // default is the first form
+				{{if eq "api" .Params.skwad.mode }}
+				{{with .Params.skwad.url}}url: "{{.}}",{{end}}
+				{{with .Params.skwad.spaceName}}spaceName: "{{.}}", {{end}} // default null, use form attribute action when not set
+				{{end}}
+				// networkIndicatorID: "skwad_spinner", // loader HTLML DOM ID
+				// documentKey: "forms/test", // when set, skwad.UseDocument('forms/flksdjml')
+				// documentKeyInParam: "_k", // when set, skwad.UseDocumentWithURLParam('_k')
+				// onSaveError: skwad.redirectTo("error.html"), // Trigger this func on Error
+				// onSaveSuccess: skwad.redirectTo("confirm.html"), // Trigger this func on Success
+				onUseDocumentError: function (err) {
+					console.log("Document not found ! error is : " + err.message);
+				},
+				//beforeFormSubmit:function(e,s){alert("before",e,s);e.preventDefault();return false},
+				//formChangeHooks: [YourFunc],
+			});
+
+			function YourFunc(progress, form) {
+				// Remove all from ul
+				// console.debug(progress)
+				$("#TableOfContents > ul li").remove();
+				let inputs;
+				for (const section in progress) {
+					inputs = progress[section].inputs;
+					const pct = Math.round(
+							(progress[section].status.valued /
+									progress[section].status.count) *
+							100
+					);
+					const li = $("<li/>").attr("progres", pct).appendTo($("#TableOfContents > ul"));
+					// if (!isNaN(pct)) {
+					// 	const chk = $(
+					// 			'<input type="checkbox" disabled="" readonly="">'
+					// 	).appendTo(li);
+					// 	if (pct === 100) {
+					// 		chk.prop("checked", true);
+					// 		li.addClass('cl-done');
+					// 	} else if (pct > 0) {
+					// 		chk.prop("indeterminate", true);
+					// 		li.addClass('cl-doing');
+					// 	} else {
+					// 		chk.prop("checked", false);
+					// 		li.addClass('cl-ready');
+					// 	}
+					// }
+
+
+
+					if (!isNaN(pct)) {
+						const chk = $(
+								'<i class="fas">'
+						).appendTo(li);
+						if (pct === 100) {
+							chk.addClass('fa-check-circle');
+						} else if (pct > 0) {
+							chk.addClass('fa-dot-circle');
+						} else {
+							chk.prop("checked", false);
+							chk.addClass('fa-circle-notch');
+						}
+					}
+
+				// <i class="fas fa-check-circle"></i>
+				// 			<i class="fas fa-dot-circle"></i>
+				// 			<i class="fas fa-exclamation-circle"></i>
+				// 			<i class="fas fa-circle-notch"></i>
+
+
+					$("<a/>")
+							.attr("id", "toc-" + progress[section].id)
+							.attr("href", "#" + progress[section].ref)
+							.text(progress[section].title)
+							.appendTo(li);
+				}
+			}
+			skwad.HookOnFormChange(YourFunc);
+
+			(function scrollSpy() {
+				var OFFSET = 10;
+				var timer;
+				var headingsCache;
+
+				var findHeadings = function findHeadings() {
+					// return headingsCache || document.querySelectorAll('.TableOfContents li > a');
+					return  document.querySelectorAll('.TableOfContents li > a');
+				};
+
+				var onScroll = function onScroll() {
+					if (timer) {
+						// throttle
+						return;
+					}
+
+					timer = setTimeout(function() {
+						timer = null;
+						var activeNavFound = false;
+						var headings = findHeadings(); // toc nav anchors
+
+						/**
+						 * On every call, try to find header right after  <-- next header
+						 * the one whose content is on the current screen <-- highlight this
+						 */
+
+						for (var i = 0; i < headings.length; i++) {
+							// headings[i] is current element
+							// if an element is already active, then current element is not active
+							// if no element is already active, then current element is active
+							var currNavActive = !activeNavFound;
+							/**
+							 * Enter the following check up only when an active nav header is not yet found
+							 * Then, check the bounding rectangle of the next header
+							 * The headers that are scrolled passed will have negative bounding rect top
+							 * So the first one with positive bounding rect top will be the nearest next header
+							 */
+
+							if (currNavActive && i < headings.length - 1) {
+								var heading = headings[i + 1];
+								var next = decodeURIComponent(heading.href.split('#')[1]);
+								var nextHeader = document.getElementById(next);
+
+								if (nextHeader) {
+									var top = nextHeader.getBoundingClientRect().top;
+									currNavActive = top > OFFSET;
+								} else {
+									console.error('Can not find header element', {
+										id: next,
+										heading: heading,
+									});
+								}
+							}
+							/**
+							 * Stop searching once a first such header is found,
+							 * this makes sure the highlighted header is the most current one
+							 */
+
+							if (currNavActive) {
+								activeNavFound = true;
+								headings[i].parentElement.classList.add('active');
+							} else {
+								headings[i].parentElement.classList.remove('active');
+							}
+						}
+					}, 100);
+				};
+
+				document.addEventListener('scroll', onScroll);
+				document.addEventListener('resize', onScroll);
+				// document.addEventListener('DOMContentLoaded', function() {
+				// 	// Cache the headings once the page has fully loaded.
+				// 	headingsCache = findHeadings();
+				// 	onScroll();
+				// });
+			})();
+		});
+	</script>
+	{{end}}
+	<form 
+	method="POST" {{if eq "form" .Params.skwad.mode}}action="{{.Params.skwad.url}}"{{end}}
+	id="{{$formID}}" ref="{{with $.Params.Ref}}{{.}}{{else}}{{printf "%s-%s" $.CurrentSection.Title $formID}}{{end}}">
+
+
+		{{if eq true .Params.skwad.clientside}}
+		<div class="form-group checklist-header">
+			<label class="sr-only" for="inputFile">File Upload</label>
+			<input type="file" class="form-control-file text-primary font-weight-bold" id="inputFile" accept="application/json"
+				   onchange="skwad.UseDocumentWithFile(this)" data-title="{{T "checklist-load-answers"}}">
+		</div>
+		{{end}}
+{{end}}
