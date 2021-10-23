@@ -1,4 +1,4 @@
-baseURL = 'https://minimumcd.org/'
+baseURL = 'https://temp-mvcd.netlify.app/'
 title = 'MinimumCD.org'
 languageCode = "en-US"
 defaultContentLanguage = "en"
