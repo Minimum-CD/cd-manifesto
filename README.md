@@ -148,3 +148,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Nathan Nicholson   | <https://www.linkedin.com/in/nathan-r-nicholson>            |
 | William H. Kirk    | <https://www.linkedin.com/in/whk/>                          |
 | John Boyes         | <https://www.linkedin.com/in/john-boyes/>                   |
+| Patrice Corbard    | <https://www.linkedin.com/in/patricecorbard/>               |
