@@ -76,4 +76,4 @@ Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/bl
 
 ## Signatories
 
-{{%excerpt-include filename="MinimumCD/signatures.md" panel="From excerpt page" /%}}
+{{%excerpt-include filename="MinimumCD/signatures.md" panel="" /%}}
