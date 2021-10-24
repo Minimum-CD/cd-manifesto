@@ -4,21 +4,21 @@
 
 -- Accelerate (Unofficial translation)
 
-Nosotros, los abajo firmantes, creemos que se requiere una definición mínima de entrega continua para mejorar el flujo de entrega. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
+Nosotros, los abajo firmantes, creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
 
 - Introducir a los nuevos profesionales de forma coherente
-- Discutir las prácticas de ingeniería que abarca la entrega continua
+- Discutir las prácticas de ingeniería que abarca CD
 - Ayudarse mutuamente a mejorar las capacidades actuales
 
-Solo mediante la implementación de prácticas básicas comenzamos a ver los beneficios de la entrega continua.
+Solo mediante la implementación de prácticas básicas comenzamos a ver los beneficios de CD.
 
-Las siguientes prácticas son el requerimiento mínimo, un punto de partida. El resultado esperado es la mejora continua de la velocidad, la calidad y la seguridad de la tubería de entrega. 
+Las siguientes prácticas son el requerimiento mínimo, un punto de partida. El resultado esperado es la mejora continua de la velocidad, la calidad y la seguridad de el pipeline. 
 
 ---
 
 ## Entrega Continua
 
-La entrega continua es la disciplina de ingeniería que consiste en realizar todos los cambios de forma estándar y segura. Cubre un amplio espectro de actividades dependiendo de lo que se entregue. Sin embargo, hay comportamientos y habilidades que deben cumplirse en todos los contextos para calificar como "entrega continua".
+La Entrega Continua (CD) es la disciplina de ingeniería que consiste en realizar todos los cambios de forma estándar y segura. Cubre un amplio espectro de actividades dependiendo de lo que se entregue. Sin embargo, hay comportamientos y habilidades que deben cumplirse en todos los contextos para calificar como "entrega continua".
 
 Las actividades mínimas requeridas para la entrega continua son:
 
@@ -27,49 +27,51 @@ Las actividades mínimas requeridas para la entrega continua son:
 - El pipeline decide la posibilidad de publicación de los cambios, su veredicto es [definitivo](../faq.md#why-should-the-pipeline-be-definitive-for-deploy).
 - Los artefactos creados por el pipeline siempre cumplen con la [definición de implementable](../faq.md#what-do-we-mean-by-definition-of-deployable).
 - [Artefacto inmutable](../faq#what-is-an-immutable-artifact). No hay cambios hechos por personas después de la confirmación.
-- Todo el trabajo de funciones se detiene cuando el  pipeline está en rojo.
+- Todo el trabajo de funciones se detiene cuando el pipeline está en rojo.
 - Entorno de prueba similar a Producción.
 - Revertir bajo demanda.
 - [Configuración de la aplicación](../faq.md#what-is-application-configuration) se implementa junto con el artefacto.
 
 ## Integración Continua
 
-Integración continua es la actividad de integrar muy frecuentemente el trabajo al tronco del controlador de versiones y verificar que el trabajo sea, según nuestro leal saber y entender, liberable.
+Integración continua (CI por sus siglas en inglés) es la actividad de integrar muy frecuentemente el trabajo a la rama principal del controlador de versiones y verificar que el trabajo sea, según nuestro leal saber y entender, liberable.
 
-The minimum activities required for CI are:
+Las actividades mínimas requeridas para CI son:
 
-- [Trunk-based development](https://trunkbaseddevelopment.com/)
-- Work integrates to the trunk at a minimum daily
-- Work has automated testing before merge to trunk
-- Work is tested with other work automatically on merge
-- All feature work stops when the build is red
-- New work does not break delivered work
+- [Desarrollo basado en rama principal](https://trunkbaseddevelopment.com/)
+- El trabajo se integra al tronco pricipal al menos ua vez al día
+- El trabajo tiene pruebas automatizadas antes de fusionarse con el tronco
+- El trabajo se prueba con otro trabajo automáticamente despues de ser incorporado
+- Todo el trabajo de funciones se detiene cuando el build esta en estaro rojo
+- El trabajo nuevo no quiebra el trabajo entregado 
 
-## Trunk-based Development
+## Desarrollo Basado en Tronco
 
-[Trunk-based development](https://trunkbaseddevelopment.com/) is the branching pattern required to meet the definition
-of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
-waste that increases batch size.
+[Desarrollo Basado en Tronco](https://trunkbaseddevelopment.com/) (TBD por sus siglas en inglés) es el patrón de ramificación requerido para cumplir con la definición de CI. Previene el trabajo perdido, el riesgo de corrupción que proviene de la resolución de conflictos fusionados, y también reduce los residuo causados por el movimiento que aumentan el volumen de los cambios.
 
-- The minimum activities required for TBD are:
-  - All changes integrate into the trunk
-  - If branches from the trunk are used:
-    - They originate from the trunk
-    - They re-integrate to the trunk
-    - They are short-lived and removed after the merge
+- Las actividades mínimas requeridas para TBD son:
+   - Todos los cambios se integran en el tronco
+   - Si se utilizan ramas del tronco:
+     - Se originan en el tronco
+     - Se reintegran al tronco
+     - Son de corta duración y se eliminan después de ser reintegrados con el tronco.
 
-## Beyond the Minimums
+## Más allá de los mínimos
 
-Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices should be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys. 
+El Mínimo CD no es el primer paso en un modelo de madurez. Sin embargo, sigue siendo el mínimo básico sobre el que se deben construir muchas más prácticas según corresponda a su contexto. Para ayudar en el trayecto para ir más allá del Mínimo CD, mantenemos una lista de recursos que se enfocan en la Entrega Continua que hemos encontrado muy útil en nuestros propios viajes.
 
-These contain the basics, but also the knowledge needed to become an "Elite" CD organization. They are specific to solving the problem of "why can't we go to production today?"
+Estos contienen los conceptos básicos, pero también los conocimientos necesarios para convertirse en una organización de CD "Elite". Son específicos para resolver el problema de "¿por qué no podemos ir a producción hoy?"
 
-[Read the list](./references.md).
+[Lea la lista](../referencias.md) 
 
-## Why did we build this?
+## ¿Por qué construimos esto?
 
-For more background on Minimum CD and answers to other common questions, please [read the FAQs](./faq.md).
+Para obtener más información sobre el CD mínimo y respuestas a otras preguntas comunes, [lea las preguntas frecuentes](../faq.md).
 
-## Want to Contribute or become a signatory?
+Los signatarios han firmado la [versión original en inglés](../README.md/#sigatories) y la lista actual de nombres se publica solo con esa versión.
 
-Read our [contribution guidelines](./CONTRIBUTING.md).
+## Traducción
+
+Esta traducción es un esfuerzo de la comunidad para ayudar a transmitir esta información más allá de las barrera lingüísticas. Los firmantes mismos no pueden confirmar la exactitud de la traducción.
+
+Traducido de la versión del documento: _8ee5abb_, _2021-10-24_
