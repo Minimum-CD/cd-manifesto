@@ -30,7 +30,6 @@ Basta aprire una issue o inviare un nuovo PR. La firma sarà rimossa prontamente
 
 Operiamo attraverso il consenso. Per essere inserita nella lista, ciascuna pratica deve essere essenziale a prescindere dal contesto
 Se una pratica non è nella lista significa che, o non fa parte delle prtaiche di base o è in conflitto con una delle pratiche elencate.
-If a practice isn't there, it either doesn't meet the absolute minimum standard in every context or it.
 Il miglior modo per suggerire una modifica o un'aggiunta alla lista è creare una "issue" su github.
 
 ## E' solo questo ciò di cui abbiamo bisogno per implemntare la CD?
