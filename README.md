@@ -75,6 +75,8 @@ For more background on Minimum CD and answers to other common questions, please 
 ## Translations
 
 - [Finnish](./fi/README.md)
+- [French](./fr/README.md)
+- [Italian](./it/README.md)
 - [Spanish](./es/README.md)
 
 ## Want to Contribute or become a signatory?
@@ -138,5 +140,13 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | Andrew Ochsner     | <https://www.linkedin.com/in/aochsner/>                     |
 | Stephen Magill     | <https://www.linkedin.com/in/stephen-magill-2070a096/>      |
 | Jordan Schwartz    | <https://www.linkedin.com/in/jordanaschwartz/>              |
+| Jean-François Lépine| <https://www.linkedin.com/in/jean-fran%C3%A7ois-l%C3%A9pine-6a122726/> |
 | Markus Arikan      | <https://www.linkedin.com/in/marikan/>                      |
 | Jeff Dunn          | <https://www.linkedin.com/in/jeffadunn/>                    |
+| Bob Winter         | <https://www.linkedin.com/in/bob-winter>                    |
+| Azlam Abdulsalam   | <https://www.linkedin.com/in/azlam>                         |
+| Jos Hendriks       | <https://www.linkedin.com/in/jos-hendriks/>                 |
+| Nathan Nicholson   | <https://www.linkedin.com/in/nathan-r-nicholson>            |
+| William H. Kirk    | <https://www.linkedin.com/in/whk/>                          |
+| John Boyes         | <https://www.linkedin.com/in/john-boyes/>                   |
+| Patrice Corbard    | <https://www.linkedin.com/in/patricecorbard/>               |
