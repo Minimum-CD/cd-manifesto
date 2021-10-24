@@ -6,6 +6,7 @@ weight: 2
 
 Do you want to become a signatory? Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
+{{%excerpt%}}
 | Name               | Contact                                                     |
 |--------------------|-------------------------------------------------------------|
 | Dave Farley        | <https://www.linkedin.com/in/dave-farley-a67927>            |
@@ -71,4 +72,4 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | William H. Kirk    | <https://www.linkedin.com/in/whk/>                          |
 | John Boyes         | <https://www.linkedin.com/in/john-boyes/>                   |
 
-
+{{% /excerpt%}}

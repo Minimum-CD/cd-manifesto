@@ -1,5 +1,5 @@
 ---
-title: Suomalainen
+title: Suomi
 description: ""
 weight: 3
 ---

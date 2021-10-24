@@ -73,3 +73,7 @@ For  background on Minimum CD and answers to other common questions, please [rea
 ## Want to Contribute?
 
 Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
+
+## Signatories
+
+{{%excerpt-include filename="MinimumCD/signatures.md" panel="From excerpt page" /%}}
