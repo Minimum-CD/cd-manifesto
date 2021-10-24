@@ -38,7 +38,7 @@ Oh, no, questo è il minimo indispensabile.
 
 ## Come possiamo utilizzare questi contenuti per migliorare?
 
-La CD necessita la CI e la CI necessita della Trunk-Based Development. Comincia dal fondo e lavora verso l'alto. 
+La CD necessita dela Continuous Integration (CI) e la CI necessita della Trunk-Based Development. Comincia dal fondo e lavora verso l'alto. 
 Chiediti, "perchè non risuciamo ancora a fare questa cosa?" La risposta a questa domanda è il motore che traina il miglioramento delle organizzazioni.
 Non abbiamo visto un singolo contesto in cui la CD non possa essere applicata.
 In alcune contesti la CD potrebbe impiegare più tempo a risolvere problemi specifi. Ne vale comunque la pena. La CD migliora tutto.
