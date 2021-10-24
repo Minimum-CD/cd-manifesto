@@ -2,7 +2,7 @@
 
 > "La entrega continua mejora el rendimiento de entrega y la calidad también ayda a mejorar la cultura, reduce el agotamiento y el dolor de la implementación."
 
--- Accelerate (Unofficial translation)
+-- Accelerate (Traducción no oficial)
 
 Nosotros, los abajo firmantes, creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
 
