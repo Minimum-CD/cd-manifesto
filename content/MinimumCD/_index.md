@@ -10,7 +10,7 @@ weight: 1
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations
 {{% /notice %}}
 
-We, [the undersigned](./signatures), believe that a minimal definition of continuous delivery (CD) is required to improve the flow of delivery and achieve the outcomes above. While our contexts may be different, there are universal practices common in all. By defining them we can:
+We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD) is required to improve the flow of delivery and achieve the outcomes above. While our contexts may be different, there are universal practices common in all. By defining them we can:
 
 - Introduce new practitioners in a consistent way
 - Discuss engineering practices that comprise CD
