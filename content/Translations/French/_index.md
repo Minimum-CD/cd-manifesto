@@ -1,6 +1,6 @@
 ---
 title: Francais
-description: ""
+description: "Le minimum vital pour de la Livraison Continue"
 weight: 3
 ---
 

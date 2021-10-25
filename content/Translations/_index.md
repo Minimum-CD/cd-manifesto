@@ -4,6 +4,5 @@ description: ""
 weight: 1
 ---
 
-- [Soumi](./Finnish)
-- [Francais](./Francais)
-- [Italiano](./Italian)
+{{% children style="h2" depth="1" description="true" %}}
+

@@ -1,6 +1,6 @@
 ---
 title: Italiano
-description: ""
+description: "Implementazione minima della Continuous Delivery"
 weight: 3
 ---
 
