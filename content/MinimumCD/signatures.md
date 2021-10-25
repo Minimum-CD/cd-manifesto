@@ -71,5 +71,7 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Nathan Nicholson   | <https://www.linkedin.com/in/nathan-r-nicholson>            |
 | William H. Kirk    | <https://www.linkedin.com/in/whk/>                          |
 | John Boyes         | <https://www.linkedin.com/in/john-boyes/>                   |
+| Patrice Corbard    | <https://www.linkedin.com/in/patricecorbard/>               |
+| Dirk Lehmann       | <https://www.linkedin.com/in/dirk-lehmann-7712bb125/>       |
 
 {{% /excerpt%}}
