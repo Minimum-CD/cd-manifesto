@@ -149,3 +149,4 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | William H. Kirk    | <https://www.linkedin.com/in/whk/>                          |
 | John Boyes         | <https://www.linkedin.com/in/john-boyes/>                   |
 | Patrice Corbard    | <https://www.linkedin.com/in/patricecorbard/>               |
+| Dirk Lehmann       | <https://www.linkedin.com/in/dirk-lehmann-7712bb125/>       |
