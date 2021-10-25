@@ -1,4 +1,4 @@
-# Minimum Viable Continuous Delivery
+# Mínima Entrega Continua Viable
 
 > "La entrega continua mejora el rendimiento de entrega y la calidad también ayda a mejorar la cultura, reduce el agotamiento y el dolor de la implementación."
 
