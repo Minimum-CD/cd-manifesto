@@ -150,3 +150,5 @@ Read our [contribution guidelines](./CONTRIBUTING.md).
 | John Boyes         | <https://www.linkedin.com/in/john-boyes/>                   |
 | Patrice Corbard    | <https://www.linkedin.com/in/patricecorbard/>               |
 | Dirk Lehmann       | <https://www.linkedin.com/in/dirk-lehmann-7712bb125/>       |
+| Niko Kivelä        | <https://www.linkedin.com/in/nikokivela/>                   |
+| Vu Ha              | <https://www.linkedin.com/in/vuhacanada/>                   |
