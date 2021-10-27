@@ -67,7 +67,7 @@ Sono risposte specifiche alla domanda "Cosa ci impedisce di andare in produzione
 
 ## Perche abbiamo costruito questa lista?
 
-Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](../faq.md).
+Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](faq.md).
 
 ## Per contribuire o diventare firmatari
 
