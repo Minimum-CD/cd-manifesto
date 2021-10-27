@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate `(Unofficial translation)`
 
-Noi, [i firmatari](#Firmatari), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
+Noi, [i firmatari](../../minimumcd/signatures/), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
 
 - Introdurre alla Continuous Delivery nuovi praticanti in modo coerente
 - Discutere le pratiche ingegneristiche che costituiscono CD
@@ -30,14 +30,14 @@ Il set minimo di attività richieste per la CD sono:
 
 - [Continuous integration](#continuous-integration) (Integrazione Continua)
 - La [application pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) è l'unico percorso per il rilascio in produzione
-- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](../faq.md#why-should-the-pipeline-be-definitive-for-deploy)
+- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](./faq/#perché-la-pipeline-dovrebbe-dettare-legge-per-il-rilascio)
 - Gli artefatti creati dalla pipeline soddisfano sempre la definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) della specifica organizzazione
 - Artefatti immutabili ([Immutable artifact](../faq.md#what-is-an-immutable-artifact)): nessuna modifica manuale dopo i commit
 - Tutto il lavoro si ferma se la pipeline fallisce
 - Utilizzare ambienti di test il più possibile simili all'ambiente di produzione
 - Rollback su richiesta
-- La [configurazione dell'applicazione](../faq.md#what-is-application-configuration) viene distribuita assieme agli artefatti
-
+- La [configurazione dell'applicazione](./faq/#cosè-la-configurazione-dellapplicazione-application-configuration) viene distribuita assieme agli artefatti
+  
 ## Continuous Integration (Integrazione continua)
 
 La CI è l'attività che ci consente di integrare continuamente il lavoro di ciascun membro del team nel trunk del repository e verificare che questo sia sempre, al meglio delle nostre conoscenze, funzionante e rilasciabile.
@@ -69,19 +69,19 @@ La CD minima non è il primo passo in un modello di maturità, tuttavia è il mi
 Queste risorse contengono sia conoscenze di base, sia conoscenze necessarie a farvi diventare un'organizzazione CD "d'élite".
 Sono risposte specifiche alla domanda "Cosa ci impedisce di andare in produzione oggi?"
 
-[Vedi la lista](../references.md).
+[Vedi la lista](../../references).
 
 ## Perche abbiamo costruito questa lista?
 
-Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](../faq.md).
+Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](./faq.md).
 
 ## Per contribuire o diventare firmatari
 
-Vedere [linee guida per contribuire](../CONTRIBUTING.md).
+Vedere [linee guida per contribuire](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
 ## Firmatari
 
-I firmatari hanno firmato la [versione originale in inglese](../README.md#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
+I firmatari hanno firmato la [versione originale in inglese](../../minimumcd/signatures/) e la lista corrente dei nomi è pubblicata solo in quella versione
 
 ## Traduzione
 
