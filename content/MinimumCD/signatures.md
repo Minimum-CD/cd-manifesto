@@ -73,5 +73,8 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | John Boyes         | <https://www.linkedin.com/in/john-boyes/>                   |
 | Patrice Corbard    | <https://www.linkedin.com/in/patricecorbard/>               |
 | Dirk Lehmann       | <https://www.linkedin.com/in/dirk-lehmann-7712bb125/>       |
+| Niko Kivelä        | <https://www.linkedin.com/in/nikokivela/>                   |
+| Vu Ha              | <https://www.linkedin.com/in/vuhacanada/>                   |
+| Srđan Đukić        | <https://www.linkedin.com/in/srdandukic/>                   |
 
 {{% /excerpt%}}
