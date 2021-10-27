@@ -62,3 +62,6 @@ name = "Github"
 identifier = "ds"
 url = "https://github.com/Minimum-CD/cd-manifesto"
 weight = 10
+
+[create-footer-md]
+other = "Licensed MIT"
