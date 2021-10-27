@@ -77,6 +77,7 @@ For more background on Minimum CD and answers to other common questions, please 
 - [Finnish](./fi/README.md)
 - [French](./fr/README.md)
 - [Italian](./it/README.md)
+- [Spanish](./es/README.md)
 
 ## Want to Contribute or become a signatory?
 
