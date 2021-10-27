@@ -1,0 +1,25 @@
+{{- template "pageBlock" dict "name" .name "page" .context -}}
+{{- template "siteBlock" dict "name" .name "page" .context "tip" .tip -}}
+
+{{- define "siteBlock" -}}
+	{{ $path := printf "_layout/%s/_index.%s.md" .name .page.Lang}}	
+	{{ range where .page.Site.Pages "File.BaseFileName" $path }}
+		{{ .Content }} 
+	{{else}}
+		{{ $path = printf "_layout/%s/_index.md" .name }}	
+		{{ if .page.Site.GetPage "page" (print .name ".md") }}
+	    	{{(.page.Site.GetPage "page" (print .name ".md")).Content}}
+	    {{else}}
+	    	{{safeHTML .tip}}
+	  	{{end}}
+	{{end}}
+{{- end -}}
+
+{{- define "pageBlock" -}}
+{{ if .page.File}}
+{{ $path :=  printf "%s__%s.md" .page.File.Dir .name}}
+	{{ with .page.Site.GetPage $path }}
+		{{ .Content }}
+	{{end}}
+{{- end -}}
+{{- end -}}

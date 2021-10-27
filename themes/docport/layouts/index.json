@@ -1,0 +1,20 @@
+[{{ range $index, $page := .Site.Pages }}
+{{- if not (hasPrefix $page.Section "_") -}}
+{{- if  $page.File -}}
+{{- if not (hasPrefix $page.File.BaseFileName "__") -}}
+{{- if not ( $page.Params.Ignoresearch) -}}
+{{- if ne $page.Type "json" -}}
+{{- if and $index (gt $index 0) -}},{{- end }}
+{
+	"uri": "{{ $page.Permalink }}",
+	"title": "{{ htmlEscape $page.Title}}",
+	"tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag| htmlEscape }}"{{ end }}],
+	"description": "{{ htmlEscape .Description}}",
+	"content": {{$page.Plain | jsonify}}
+}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}]

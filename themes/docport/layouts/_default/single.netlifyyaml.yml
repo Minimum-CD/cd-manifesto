@@ -1,0 +1,28 @@
+{{.RawContent}}
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "{{with .Params.netlifycms_content_folder}}{{.}}{{else}}content{{end}}"
+    create: true
+    media_folder: ''
+    public_folder: ''
+    editor:
+      preview: true
+    nested: { depth: 100 } # accepts an optional summary template
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: 'Order', name: 'weight', widget: 'number', default: 10,required: false }
+      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: 'Is Hidden ?', name: 'hidden', widget: 'boolean',required: false, default: false, hint: 'Hide this page from any menu' }
+      - { label: 'Hide page components', name: 'hide', widget: 'select',required: false, multiple: true, hint: 'Choose how to layout your content', options: [{ label: "Header", value: "header" },{ label: "Left menu ", value: "nav" }, { label: "breadcrumb", value: "breadcrumb" }, { label: "right bar with table of content", value: "toc" }, { label: "Next Page Helper", value: "nextpage" }, { label: "footer", value: "footer" }]}
+      - { label: 'Render', name: 'render', widget: 'select',required: false, hint: 'Choose how to layout your content', options: [{ label: "Default (empty value)", value: "" },{ label: "Raw - Full HTML", value: "raw" }]}
+      - { label: 'Force display as a subpage ?', name: 'subpage', widget: 'boolean',required: false, default: false, hint: 'Display this page as subcontent' }
+      - { label: 'Menu Entry Head', name: 'head', widget: 'string', required: false, hint: 'Display something before menu entry' }
+      - { label: 'Menu label Prefix', name: 'pre', widget: 'string', required: false, hint: 'Display something before menu label' }
+      - { label: 'Menu label Suffix', name: 'post', widget: 'string', required: false, hint: 'Display something after menu label' }
+      - { label: 'Menu - Always open', name: 'alwaysopen', widget: 'boolean', required: false, default: false, hint: 'Open menu by default' }    
+      - { label: 'Redirection', name: 'redirect', widget: 'string', required: false  }
+    meta: { path: { widget: string, label: 'Path', index_file: '_index', pattern: ['.*', "Error"] } }

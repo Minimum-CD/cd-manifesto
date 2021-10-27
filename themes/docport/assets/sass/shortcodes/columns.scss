@@ -1,0 +1,16 @@
+div.columns{
+	flex-wrap: wrap;
+    display: flex;
+
+	div.column{
+		flex: 1 1;
+		margin: 0 1em;
+	}
+	:first-child{
+		margin-left: 0px!important;
+	}
+	:last-child{
+		margin-right: 0px!important;
+	}
+}
+

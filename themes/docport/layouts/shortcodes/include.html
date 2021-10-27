@@ -1,0 +1,18 @@
+{{$file := .Get 0}}
+{{ with .Page.File }}
+{{ $path :=  printf "%s%s" .Dir $file}}
+{{ with $.Site.GetPage $path }}{{ .Page.Content }}{{else}}
+<span style=" border: 4px dashed white;display: block;background-color: red;padding: 1em;color:white; font-size: large;font-weight: bold;text-transform: capitalize;">
+	Include : File "{{$path}}" not found !
+	<br>
+	<small>param was "{{$file}}"</small>
+</span>
+{{ end }}
+{{else}}
+<span style=" border: 4px dashed white;display: block;background-color: red;padding: 1em;color:white; font-size: large;font-weight: bold;text-transform: capitalize;">
+	Include : Current page file does not exist !
+	<br>
+	<small>param was "{{$file}}"</small>
+</span>
+
+{{end}}

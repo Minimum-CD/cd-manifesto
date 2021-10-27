@@ -1,0 +1,22 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "docPort"
+license = "MIT"
+licenselink = "https://github.com/vjeantet/hugo-theme-docport/blob/master/LICENSE.md"
+description = "Documentation theme for Hugo"
+homepage = "https://github.com/vjeantet/hugo-theme-docport"
+repo = "https://github.com/vjeantet/hugo-theme-docport"
+tags = ["documentation", "menu","slide","search"]
+features = ["documentation","menu","checklist","search","slide","netlify-cms"]
+min_version = 0.50
+
+[author]
+  name = "Valere JEANTET"
+  homepage = "http://twitter.com/vjeantet"
+
+[original]
+  name = "docPort"
+  homepage = "https://github.com/vjeantet/hugo-theme-docdock/"
+  repo = "https://github.com/vjeantet/hugo-theme-docdock"
+  licenselink = "https://github.com/matcornic/hugo-theme-docdock/blob/master/LICENSE.md"

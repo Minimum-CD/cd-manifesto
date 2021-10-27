@@ -1,0 +1,64 @@
+
+[create-footer-md]
+other = "Créez un fichier footer.md dans le répertoire content pour personaliser ce pied de page"
+
+[Search-placeholder]
+other = "Rechercher..."
+
+[Page]
+other = "Page"
+
+[Next-Pages]
+other = "Pages suivantes"
+
+[Previous-Pages]
+other = "Pages précédentes"
+
+[pagination-on]
+other = "sur"
+
+[Attachments-label]
+other = "Documents attachés"
+
+[title-404]
+other = "Erreur"
+
+[message-404]
+other = "Woops. Looks like this page doesn't exist."
+
+[Go-to-homepage]
+other = "Vers la page d'accueil"
+
+[Edit-this-page]
+other = "Modifier"
+
+[Expand-title]
+other = "Déroulez-moi..."
+
+[last-update-on]
+other = "Dernière mise à jour le "
+
+[jump-to-section]
+other= "Allez au chapitre..."
+
+[home]
+other= "Accueil"
+
+[next-section]
+other= "Contenu suivant"
+
+[table-of-contents]
+other= "Contenu de la page"
+
+[last-update-by]
+other = "Dernière modification par "
+
+[checklist-load-answers]
+other = "Charger un fichier de réponse"
+
+[checklist-download-answers]
+other = "Télécharger les réponses"
+
+[checklist-post-answers]
+other = "Envoyer les réponses"
+

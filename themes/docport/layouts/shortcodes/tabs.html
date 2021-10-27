@@ -1,0 +1,18 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<!-- https://github.com/alex-shpak/hugo-book/blob/master/layouts/shortcodes/tabs.html   -->
+
+{{ if .Inner }}{{ end }}
+{{ $group := printf "tabs-%d" .Ordinal }}
+
+<div class="tabs">
+{{- range $index, $tab := .Scratch.Get $group -}}
+  <input type="radio" name="{{ $group }}" id="{{ printf "%s-%d" $group $index }}" {{ if not $index }}checked="checked"{{ end }} />
+  <label for="{{ printf "%s-%d" $group $index }}">
+    {{- $tab.Name -}}
+  </label>
+  <div class="tab">
+    {{- .Content |  markdownify -}}
+  </div>
+{{- end -}}
+</div>
+

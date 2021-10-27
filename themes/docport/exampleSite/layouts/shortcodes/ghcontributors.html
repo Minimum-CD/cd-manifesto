@@ -1,0 +1,12 @@
+
+
+  {{ $url := .Get 0 }}
+  {{ range getJSON $url }}
+  <div>
+    <img src="{{.avatar_url}}" class="inline" width="32" height="32" style="height: 32px;height: 32px;vertical-align:middle; ">
+    <span>
+    	<a href="{{.html_url}}">@{{.login}}</a>
+    	<label >{{.contributions}} commits</label>
+    </span>
+  </div>
+  {{ end }}

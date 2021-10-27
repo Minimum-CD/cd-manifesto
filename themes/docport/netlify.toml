@@ -1,0 +1,4 @@
+[build]
+  publish = "exampleSite/public"
+  command = "hugo -s exampleSite --config config.toml --baseURL /"
+

@@ -1,0 +1,124 @@
+
+    <!-- FIL D'ARIANE -->
+    {{if not (in .Params.hide "breadcrumb")}}
+    <nav id="ariane" aria-label="breadcrumb">
+      <ol class="ariane">
+        {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+      </ol>
+    </nav>
+    {{end}}
+    <!-- FIN FIL D'ARIANE -->
+
+    <!-- TITRE -->
+		{{$pagetitle := .Title}}
+        {{if eq $pagetitle ""}}
+        	{{with .File}}{{$pagetitle = .BaseFileName}}{{end}}
+        {{end}}
+		
+		{{ $cPage := .}}
+		{{ $elements := (where .Sections "NONONO" false) }}
+		{{ $isSubPage := .Params.subpage }}
+		{{ $subpages := (where (where (where .Sections.ByWeight "Params.subpage" true) "Params.hidden" "ne" true ) "Kind" "section")}}
+		{{ $pages := (where (where .CurrentSection.Pages.ByWeight "Kind" "page") "Params.hidden" "ne" true ) }}
+		
+
+		{{if $isSubPage }}
+        	<h1>{{.Parent.Title}}<span>{{$pagetitle}}</span></h1>
+        {{else}}
+			<h1>{{.CurrentSection.Title}}{{if .IsPage }}<span>{{$pagetitle}}</span>{{end}}</h1>
+        {{end}}
+
+		{{if gt (len $subpages) 0}} 	<!-- section has subpage -->
+			{{ $elements = $subpages }}
+		{{else if $isSubPage }}			<!-- Section is subpage -->
+			{{ $elements = (where (where .Parent.Sections.ByWeight "Params.subpage" true) "Params.hidden" "ne" true ) }}
+		{{else if gt (len $pages) 0}}	<!-- Section has pages	 -->
+			{{ $elements = $pages }}
+		{{else}}
+										<!-- section has no subpage and is not subpage -->
+		{{end}}
+
+		{{ if gt (len $elements) 0}}
+				<nav class="subpages">
+			 	{{- range $elements}}
+			 	  {{- if .File -}}
+		            {{- if and (not .Params.hidden) ( not (hasPrefix .File.BaseFileName "__")) }}
+	            		{{$pagetitle := .Title}}
+	        			{{if eq $pagetitle ""}}{{$pagetitle = .File.BaseFileName}}{{end}}
+	            	<li {{if eq . $cPage}}class="active"{{- end}}>
+	            		<a title="$pagetitle" href="{{ .RelPermalink}}">{{safeHTML .Params.Pre}}{{$pagetitle}}{{safeHTML .Params.Post}}</a>
+	            	</li>
+		            {{- end}}
+		          {{- end}}  
+	        	{{- end}}
+	        	</nav> 
+		{{ end }}
+	<!-- FIN TITRE -->
+
+	<!-- JUMP TO SECTION -->
+	{{if not (in .Params.hide "toc")}}
+	<div class="jump-to-section">
+		<span onclick="$h = $(this);$h.next('nav').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('nav').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+  			<span class="fas fa-align-right"></span>
+  			{{ T "jump-to-section"}}
+  			<i style=";" class="fas fa-chevron-right"></i>
+		</span>
+		{{ .TableOfContents }}
+	</div>
+	{{end}}
+	<!-- / JUMP TO SECTION -->
+
+
+
+
+
+
+	<div class="content">
+    {{- with .Content -}}
+		{{ partial "_skwad-header.html" $ }}
+	    {{ . | replaceRE "(<h[1-9]) id=\"([^\"]+)\"(.+)(</h[1-9]+>)" `${1} ref="${2}" ${3}${4}<a class="anchor" id="${2}"></a>` | safeHTML }}
+		{{ partial "_skwad-footer.html" $ }}
+    {{- else -}}
+      {{with index .Pages 0}}
+      <meta http-equiv = "refresh" content = "0; url = {{.RelPermalink}}"/>
+      {{- else -}}
+      	No content
+      {{- end -}}
+    {{- end -}}
+	</div>
+
+
+
+
+
+
+	{{if not (in .Params.hide "nextpage")}} 
+	<div class="chevrons">
+		{{ partial "_next-prev-page.html" .CurrentSection }}
+	</div>
+	{{end -}}
+
+	
+
+
+
+{{ define "breadcrumbnav" }}
+  {{ if .p1.Parent }}
+  	{{ if .p1.Parent.IsHome}}
+	<li >
+      <a class="text-link" href="{{.p1.Site.BaseURL}}">
+        {{ T "home"}}
+      </a>
+    </li>
+	{{else}}
+		{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}	
+  	{{end}}
+  {{ else if not .p1.IsHome }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+  {{ end }}
+    <li class="{{ if eq .p1 .p2 }}active{{ end }}">
+      {{ if ne .p1 .p2 }}<a class="text-link" href="{{ .p1.RelPermalink }}">{{ end }}
+        {{ .p1.Title }}
+      {{ if ne .p1 .p2 }}</a>{{ end }}
+    </li>
+{{ end }}

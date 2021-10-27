@@ -14,7 +14,7 @@ Suggested changes may be re-phrased for clarity, but we will verify intent with 
 
 ## Adding your signature
 
-If you agree that this is MinimumCD, please create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to add your signature. We are determined to be good custodians of the core principles and promise that any changes to the practices will receive much scrutiny.
+If you agree that this is MinimumCD, please create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to add your signature to the [signature file](content/MinimumCD/signatures.md). We are determined to be good custodians of the core principles and promise that any changes to the practices will receive much scrutiny.
 
 ## Removing your signature
 

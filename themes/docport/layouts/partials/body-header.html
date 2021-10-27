@@ -1,0 +1,25 @@
+<div>
+    {{if not (in .Params.hide "nav")}}
+    <div class="burger {{.Params.layout }}">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">&#9776;</a>
+    </div>
+    {{end}}
+
+    <div>
+    {{- $defaultheader := printf "<a class='baselink' href='%s'>%s</a>" .Site.BaseURL .Site.Title -}}
+    {{- partial "_mdinclude.html" (dict "name" "header" "context" . "tip" $defaultheader ) -}}
+    </div>
+
+    {{- with .Site.Menus.shortcuts}}
+    <nav class="shortcuts">
+        {{- range sort . "Weight"}}
+            <li class="" role="">
+                <a href="{{.URL}}" {{if eq $.Site.Params.menushortcutsnewtab true}}target="_blank"{{end}} rel="noopener">
+                  {{safeHTML .Name}}
+                </a>
+            </li>
+        {{- end}}
+    </nav>
+    {{- end}}
+
+</div>

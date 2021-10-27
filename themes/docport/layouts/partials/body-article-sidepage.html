@@ -1,0 +1,52 @@
+{{- partial "_mdinclude.html" (dict "name" "article-sidebar-before" "context" .) -}}
+<div class="TableOfContents">
+    <label><i class="fas fa-align-right"></i>&nbsp;&nbsp;{{T "table-of-contents"}}</label>
+    <nav>
+        <ul >
+            <li><a href="{{ .RelPermalink }}">{{.Title}}</a></li>
+        </ul>
+    </nav>
+    {{ .TableOfContents }}
+</div>
+{{- partial "_mdinclude.html" (dict "name" "article-sidebar-after" "context" .) -}}
+
+
+<div class="Actions">
+	<nav>
+		<ul>
+			{{ if .Site.Params.editURL }}
+			<li>
+		        <a href="{{ .Site.Params.editURL }}{{with .File}}{{ replace .Dir "\\" "/" | safeURL }}{{ .LogicalName }}{{end}}" target="blank">
+		          <i class="fab fa-github"></i>
+		          {{T "Edit-this-page"}}
+		      	</a>
+		    </li>
+		    {{end}}	
+		    
+		    {{ if .Site.Params.editWithNetlifyCMSURL }}
+		    {{with .Page.File}}
+		    <li>
+		    	{{$dir := (replace .Dir "\\" "/")  }}{{if eq $dir "/" }}{{$dir = ""}}{{end}}
+		        <a href="{{ $.Site.BaseURL }}{{ $.Site.Params.editWithNetlifyCMSURL }}{{ $dir | safeURL }}{{ .BaseFileName }}" target="blank">
+		        <i class="fab fa-github"></i>
+		        {{T "Edit-this-page"}}</a>
+		    </li>
+		    {{end}}
+		    {{end}}
+			{{ if not .Page.Lastmod.IsZero }}
+		      <li>
+		          <i class='fas fa-calendar'></i>
+		          {{T "last-update-on"}} {{ .Page.Lastmod.Format "02 January 2006" }}
+		      </li>
+		    {{end}}
+		    {{with .GitInfo}}
+		      <li title="">
+		          <i class='fas fa-user'></i>
+		          {{T "last-update-by"}} {{ .AuthorName }}
+		      </li>
+		    {{end}}
+
+    	</ul>
+	</nav>
+    
+</div>

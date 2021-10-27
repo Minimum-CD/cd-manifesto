@@ -1,0 +1,5 @@
+<!-- Boutton -->
+{{ with .Get "align" }}<center>{{end}}
+<button type="button" class="btn  {{with .Get "theme"}}btn-{{.}}{{else}}btn-primary{{end}}" {{ with .Get "href" }} onclick="location.href='{{.}}'"{{end}} {{ if .Get "ref" }} onclick="location.href='{{relref . (.Get "ref") }}'"{{end}}>{{.Inner | markdownify}}</button>
+{{ with .Get "align" }}</center>{{end}}
+<!-- Boutton -->

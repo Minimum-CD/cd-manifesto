@@ -1,0 +1,33 @@
+{{- if not .Site.Params.disableSearch}}
+<div class="search">
+	<div class="searchbox">
+	  <input data-search-input id="search-by" type="text" placeholder="{{T "Search-placeholder"}}">
+	</div>
+	<script type="text/javascript" src="{{"vendor/lunr/lunr.min.js" | relURL}}"></script>
+	<script type="text/javascript" src="{{"vendor/auto-complete/auto-complete.js" | relURL}}"></script>
+	<link href="{{"vendor/auto-complete/auto-complete.css" | relURL}}" rel="stylesheet">
+	<script type="text/javascript">
+	  {{ if .Site.IsMultiLingual }}
+	      var baseurl = "{{.Site.BaseURL}}{{.Site.LanguagePrefix}}";
+	  {{ else }}
+	      var baseurl = "{{.Site.BaseURL}}";
+	  {{ end }}
+	</script>
+	<script type="text/javascript" src="{{"js/search.js" | relURL}}"></script>
+</div>
+{{- end}}
+
+
+{{- partial "_mdinclude.html" (dict "name" "sidebar-before" "context" .) -}}
+
+<div id="close_menu">
+  <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">
+      <i class="fa fa-lg fa-times"></i>
+  </a>
+</div>
+
+<ul class="menu">
+  {{- partial "_menu.html" . }}
+</ul>
+
+{{- partial "_mdinclude.html" (dict "name" "sidebar-after" "context" .) -}}

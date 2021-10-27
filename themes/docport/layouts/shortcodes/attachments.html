@@ -1,0 +1,35 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+
+<section class="attachments">
+<i class="fas fa-paperclip"></i>	
+
+<label>
+{{with .Get "title"}}{{.}}{{else}}{{T "Attachments-label"}}{{end}}
+</label>
+
+{{with .Page.File}}
+{{if eq .BaseFileName "_index"}}
+	{{$.Scratch.Add "filesName" "_files"}}
+{{else}}
+	{{$.Scratch.Add "filesName" (printf "%s.files" .BaseFileName)}}
+{{end}}
+{{end}}
+
+{{- range (readDir (printf "./content/%s%s" .Page.File.Dir ($.Scratch.Get "filesName")) ) -}}
+{{ $fileDir := replace $.Page.File.Dir "\\" "/" }}
+	{{- if ($.Get "pattern") -}}
+		{{if (findRE ($.Get "pattern") .Name)}}
+			<li>
+				<a href="{{ printf "%s/%s%s/%s" $.Site.BaseURL $fileDir ($.Scratch.Get "filesName") .Name }}" >
+					{{.Name}}
+				</a>
+				&nbsp;({{div .Size 1024 }} kB)
+			</li>
+		{{end}}
+	{{- else -}}
+		<li><a href="{{ printf "%s/%s%s/%s" $.Site.BaseURL $fileDir ($.Scratch.Get "filesName") .Name }}" >{{.Name}}</a>&nbsp;({{div .Size 1024 }} kB)</li>
+	{{- end -}}
+{{- end -}}
+
+</section>
+{{.Inner}}

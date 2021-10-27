@@ -1,0 +1,63 @@
+
+[create-footer-md]
+other = "Create a content/_layout/footer/_index.md file to customize the footer content !"
+
+[Search-placeholder]
+other = "Type to search..."
+
+[Page]
+other = "Page"
+
+[Next-Pages]
+other = "Next Pages"
+
+[Previous-Pages]
+other = "Previous Pages"
+
+[pagination-on]
+other = "of"
+
+[Attachments-label]
+other = "Attachments"
+
+[title-404]
+other = "Error"
+
+[message-404]
+other = "Woops. Looks like this page doesn't exist."
+
+[Go-to-homepage]
+other = "Go to homepage"
+
+[Edit-this-page]
+other = "Improve this page"
+
+[Expand-title]
+other = "Expand me..."
+
+[last-update-on]
+other = "Last update on"
+
+[jump-to-section]
+other= "Jump to Section"
+
+[home]
+other= "Home"
+
+[next-section]
+other= "Next page"
+
+[table-of-contents]
+other= "What's on this page"
+
+[last-update-by]
+other = "Last update by"
+
+[checklist-load-answers]
+other = "Load answers from file"
+
+[checklist-download-answers]
+other = "Download Answers"
+
+[checklist-post-answers]
+other = "Submit Answers"

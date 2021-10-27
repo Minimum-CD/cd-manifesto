@@ -1,0 +1,17 @@
+{{ define "title" }}
+	{{ .Title }} :: {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+	{{ if eq .WordCount 0}}
+	 {{with index .Pages 0}}
+	    {{ partial "body-article-content.html" . }}
+	 {{end}}
+	{{else}}
+		{{ partial "body-article-content.html" . }}
+	{{end}}
+{{ end }}
+
+{{ define "sidepage" }}
+	{{ partial "body-article-sidepage.html" . }}
+{{ end }}

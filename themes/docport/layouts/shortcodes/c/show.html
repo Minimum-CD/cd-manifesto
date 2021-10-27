@@ -1,0 +1,15 @@
+{{ $random := delimit (shuffle (split (md5 .Page.File.UniqueID) "" )) "" }}
+{{ $id := printf "dp-show-%s" $random}}
+{{ $condition := trim (.Get 0) " "}}
+{{ $regFormValue := printf "skwad.fValue('$1')"}}
+{{ $conditionFix := replaceRE `{(\w+)}` $regFormValue $condition  }}
+{{ $conditionFix = replace $conditionFix ` and ` ` && `  }}
+{{ $conditionFix = replace $conditionFix ` or ` ` || `  }}
+{{ $conditionFix = replaceRE  `[^)]+has\s+('\w+')` ".includes($1)" $conditionFix }}
+
+<div id="{{$id}}" class="baz" style="display:none" v-if="{{$conditionFix | safeHTMLAttr}}">
+{{with .Get 1}}
+<input type="hidden" value="true" name="{{.}}">
+{{end}}
+{{.Inner | markdownify}}</div>
+

@@ -1,0 +1,5 @@
+{{ $name := .Get 0 }}
+{{ $value := .Get 1 }}
+{{ $options := .Get 2 }}
+{{ $multiple := cond (eq "multi" $options) true false }}
+<input type="hidden" name="{{$name}}" value="{{$value}}">

@@ -1,0 +1,64 @@
+<iframe id="slideFrame" src="{{"none.html" | relURL }}" style="width:{{with .Get "width"}}{{.}}{{else}}100%{{end}};height:{{with .Get "height"}}{{.}}{{else}}30em{{end}}; border:0px"></iframe>
+
+<div id="slideContent">
+	
+		<link rel="stylesheet" defer href="https://unpkg.com/reveal.js@4.0.2/dist/reset.css">
+		<link rel="stylesheet" defer href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
+		<link rel="stylesheet" defer href="https://unpkg.com/reveal.js@4.0.2/dist/theme/{{with .Get "theme"}}{{.|safeHTML}}{{else}}black{{end}}.css" id="theme">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" defer href="https://unpkg.com/reveal.js@4.0.2/plugin/highlight/monokai.css" id="highlight-theme">
+
+
+	<div class="reveal">
+	<div class="slides">
+	<section data-markdown
+	         data-separator="^---"
+			 data-separator-vertical="^___"
+			 data-separator-notes="^Note:"
+			 data-charset="utf8">
+		{{ .Inner | safeHTML}}
+	</section>
+	</div>
+	</div>
+
+
+	<script async src="https://unpkg.com/reveal.js@4.0.2/dist/reveal.js"></script>
+	<script async src="https://unpkg.com/reveal.js@4.0.2/plugin/notes/notes.js"></script>
+	<script async src="https://unpkg.com/reveal.js@4.0.2/plugin/markdown/markdown.js"></script>
+	<script async src="https://unpkg.com/reveal.js@4.0.2/plugin/highlight/highlight.js"></script>
+
+	<script>
+	function initSlides() {
+		Reveal.initialize({
+		      	
+		        controls : {{with .Get "controls"}}{{.|safeHTML}}{{else}}false{{end}}, 
+ 				center: {{with .Get "center"}}{{.|safeHTML}}{{else}}true{{end}} ,		
+		        history: {{with .Get "history"}}{{.|safeHTML}}{{else}}false{{end}} ,
+		        progress: {{with .Get "progress"}}{{.|safeHTML}}{{else}}false{{end}} ,
+		        transition: {{with .Get "transition"}}{{.}}{{else}}"concave"{{end}},
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],        
+
+		      });
+	}
+	</script>
+</div>
+<li><a href="#" onclick="slideFullScreen();">See it fullscreen</a></li>
+
+<script type="text/javascript">
+var toto = document.getElementById('slideContent').innerHTML
+document.getElementById('slideFrame').contentWindow.document.write(document.getElementById('slideContent').innerHTML); 
+document.getElementById('slideContent').remove();
+document.addEventListener("DOMContentLoaded",function(){
+	  setTimeout(function () {
+      document.getElementById('slideFrame').contentWindow.initSlides() ;
+    }, 2000);
+});
+
+function slideFullScreen() {
+	document.open();
+	document.write(toto);
+	document.close();
+	initSlides()
+}
+</script>

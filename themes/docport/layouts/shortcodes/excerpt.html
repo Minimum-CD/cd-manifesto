@@ -1,0 +1,8 @@
+
+{{with .Get "hidden"}}
+	{{if eq . "false"}}
+		{{$.Inner | safeHTML}}			
+	{{end}}
+{{else}}
+	{{.Inner | safeHTML}}
+{{end}}
