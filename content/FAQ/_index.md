@@ -21,7 +21,7 @@ By establishing a baseline, we hope to provide a clear roadmap of core abilities
 
 If you are a practitioner and agree with this goal, feel free to submit a pull request to add yourself.
 
-### What if I change my mind?
+## What if I change my mind?
 
 We do not want to hold anyone hostage. Our goal is elevating the conversation by having a common language to begin with. You can either open an issue or submit a PR. We will promptly update.
 
