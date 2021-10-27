@@ -76,6 +76,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Niko Kivelä        | <https://www.linkedin.com/in/nikokivela/>                   |
 | Vu Ha              | <https://www.linkedin.com/in/vuhacanada/>                   |
 | Srđan Đukić        | <https://www.linkedin.com/in/srdandukic/>                   |
-| Andy Roth.         | <https://www.linkedin.com/in/andrewryanroth/>               |
+| Andy Roth          | <https://www.linkedin.com/in/andrewryanroth/>               |
 
 {{% /excerpt%}}
