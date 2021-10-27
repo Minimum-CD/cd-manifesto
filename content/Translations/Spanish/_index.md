@@ -1,5 +1,5 @@
 ---
-title: Espanol
+title: Español
 description: "Mínima Entrega Continua Viable"
 weight: 3
 ---
