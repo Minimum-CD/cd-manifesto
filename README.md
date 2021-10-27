@@ -10,6 +10,6 @@ If you'd like to submit a translation, please see the suggestions [here](TRANSLA
 
 ## Tool info
 
-Built with Hugo
+Built with [Hugo](https://gohugo.io/)
 
 [Theme](https://docport.netlify.app/docport-theme/) documentation
