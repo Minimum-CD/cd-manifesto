@@ -30,7 +30,7 @@ Il set minimo di attività richieste per la CD sono:
 
 - [Continuous integration](#continuous-integration) (Integrazione Continua)
 - La [application pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) è l'unico percorso per il rilascio in produzione
-- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](./faq/#perché-la-pipeline-dovrebbe-dettare-legge-per-il-rilascio)
+- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](faq.md#perché-la-pipeline-dovrebbe-dettare-legge-per-il-rilascio)
 - Gli artefatti creati dalla pipeline soddisfano sempre la definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) della specifica organizzazione
 - Artefatti immutabili ([Immutable artifact](../faq.md#what-is-an-immutable-artifact)): nessuna modifica manuale dopo i commit
 - Tutto il lavoro si ferma se la pipeline fallisce
