@@ -36,7 +36,7 @@ Il set minimo di attività richieste per la CD sono:
 - Tutto il lavoro si ferma se la pipeline fallisce
 - Utilizzare ambienti di test il più possibile simili all'ambiente di produzione
 - Rollback su richiesta
-- La [configurazione dell'applicazione](./faq/#cosè-la-configurazione-dellapplicazione-application-configuration) viene distribuita assieme agli artefatti
+- La [configurazione dell'applicazione](faq.md#cosa-significa-artefatti-immutabili) viene distribuita assieme agli artefatti
   
 ## Continuous Integration (Integrazione continua)
 
