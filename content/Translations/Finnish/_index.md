@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate
 
-Me, [allekirjoittaneet](#signatories), uskomme, että jatkuvalle toimittamiselle (engl. continuous delivery, CD) tarvitaan määritelmä, jotta toimitusvirtaa voidaan parantaa. Riippumatta erilaisista olosuhteistamme, on olemassa yleispäteviä käytäntöjä. Määrittelemällä nämä käytännöt voimme:
+Me, [allekirjoittaneet](../../minimumcd/signatures/), uskomme, että jatkuvalle toimittamiselle (engl. continuous delivery, CD) tarvitaan määritelmä, jotta toimitusvirtaa voidaan parantaa. Riippumatta erilaisista olosuhteistamme, on olemassa yleispäteviä käytäntöjä. Määrittelemällä nämä käytännöt voimme:
 
 - Perehdyttää uudet harjoittajat yhdenmukaisella tavalla
 - Keskustella ohjelmistotuotannon käytännöistä, joista CD muodostuu
@@ -28,16 +28,16 @@ Jatkuva toimittaminen (CD) on ohjelmistotuotannon toimintamalli, jolla kaikki mu
 
 Jatkuvan toimittamisen minimivaatimukset ovat:
 
-- [Jatkuva integraatio](#continuous-integration)
+- [Jatkuva integraatio](#jatkuva-integraatio)
 - [Sovelluksen toimitusputki](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
   on ainoa tie tuotantoonvientiin.
-- Toimitusputki määrää muutosten julkaisukelpoisuuden, sen lausunto on [ehdoton](./faq.md#why-should-the-pipeline-be-definitive-for-deploy)
+- Toimitusputki määrää muutosten julkaisukelpoisuuden, sen lausunto on [ehdoton](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - [Organisaation tuotantoonvientikelpoisen määritelmä täyttyy aina](https://www.youtube.com/watch?v=bHKHdp4H-8w)
-- [Artifakti on muuttumaton](./faq#what-is-an-immutable-artifact). Ei ihmisen tekemiä muutoksia versionhallintaan tallentamisen jälkeen.
+- [Artifakti on muuttumaton](../../faq/#what-is-an-immutable-artifact). Ei ihmisen tekemiä muutoksia versionhallintaan tallentamisen jälkeen.
 - Kaikki uuskehitys loppuu, kun toimitusputki on punaisella
 - Tuotannonkaltainen testiympäristö
 - Tuotantoonviennin peruutus tarvittaessa
-- [Sovelluksen konfiguraatio](./faq.md#what-is-application-configuration) viedään tuotantoon artifaktin kanssa 
+- [Sovelluksen konfiguraatio](../../faq/#what-is-application-configuration) viedään tuotantoon artifaktin kanssa 
 
 ## Jatkuva integraatio
 
@@ -70,19 +70,19 @@ Minimi-CD ei ole ensimmäinen askel kypsyysmallissa. Siitä huolimatta se on vä
 
 Näistä lähteistä löytyy sekä perusasiat että tiedot, joilla voi tulla "eliitti"-CD-organisaatioksi. Ne keskittyvät ratkaisemaan ongelman: "Miksei me voida mennä tuotantoon tänään?"
 
-[Lue lista](../references.md).
+[Lue lista](../../references).
 
 ## Miksi teimme tämän?
 
-Lisää taustatietoa Minimi-CD:stä ja vastauksia yleisimpiin kysymyksiin löytyy [usein kysytyistä kysymyksistä](../faq.md).
+Lisää taustatietoa Minimi-CD:stä ja vastauksia yleisimpiin kysymyksiin löytyy [usein kysytyistä kysymyksistä](../../faq/).
 
 ## Haluatko osallistua tai allekirjoittaa?
 
-Lue [osallistumisohje](../CONTRIBUTING.md).
+Lue [osallistumisohje](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
 ## Allekirjoittajat
 
-Allekirjoittajat ovat allekirjoittaneet [englanninkielisen alkuperäisdokumentin](../#signatories) ja ajantasainen nimilista julkaistaan ainoastaan sen yhteydessä.
+Allekirjoittajat ovat allekirjoittaneet [englanninkielisen alkuperäisdokumentin](../../minimumcd/#signatories) ja ajantasainen nimilista julkaistaan ainoastaan sen yhteydessä.
 
 ## Käännös
 
