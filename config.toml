@@ -28,7 +28,7 @@ disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
 
-editURL = "https://github.com/Minimum-CD/cd-manifesto/content/"
+editURL = "https://github.com/Minimum-CD/cd-manifesto/blob/master/content/"
 enableGitInfo = true
 
 [mediaTypes]

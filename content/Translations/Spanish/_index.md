@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate (Traducción no oficial)
 
-Nosotros, los abajo firmantes, creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
+Nosotros, [los abajo firmantes](../../minimumcd/signatures/), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
 
 - Introducir a los nuevos profesionales de forma coherente
 - Discutir las prácticas de ingeniería que abarca CD
@@ -30,13 +30,13 @@ Las actividades mínimas requeridas para la entrega continua son:
 
 - [Integración continua](#integración-continua).
 - El [pipeline de la aplicación](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) es la unica forma de  implementar cambios en producción.
-- El pipeline decide la posibilidad de publicación de los cambios, su veredicto es [definitivo](../faq.md#why-should-the-pipeline-be-definitive-for-deploy).
-- Los artefactos creados por el pipeline siempre cumplen con la [definición de implementable](../faq.md#what-do-we-mean-by-definition-of-deployable).
-- [Artefacto inmutable](../faq#what-is-an-immutable-artifact). No hay cambios hechos por personas después de la confirmación.
+- El pipeline decide la posibilidad de publicación de los cambios, su veredicto es [definitivo](../../faq/#why-should-the-pipeline-be-definitive-for-deploy).
+- Los artefactos creados por el pipeline siempre cumplen con la [definición de implementable](../../faq/#what-do-we-mean-by-definition-of-deployable).
+- [Artefacto inmutable](../../faq/#what-is-an-immutable-artifact). No hay cambios hechos por personas después de la confirmación.
 - Todo el trabajo de funciones se detiene cuando el pipeline está en rojo.
 - Entorno de prueba similar a Producción.
 - Revertir bajo demanda.
-- [Configuración de la aplicación](../faq.md#what-is-application-configuration) se implementa junto con el artefacto.
+- [Configuración de la aplicación](../../faq/#what-is-application-configuration) se implementa junto con el artefacto.
 
 ## Integración Continua
 
@@ -68,13 +68,13 @@ El Mínimo CD no es el primer paso en un modelo de madurez. Sin embargo, sigue s
 
 Estos contienen los conceptos básicos, pero también los conocimientos necesarios para convertirse en una organización de CD "Elite". Son específicos para resolver el problema de "¿por qué no podemos ir a producción hoy?"
 
-[Lea la lista](../referencias.md) 
+[Lea la lista](../../references) 
 
 ## ¿Por qué construimos esto?
 
-Para obtener más información sobre el CD mínimo y respuestas a otras preguntas comunes, [lea las preguntas frecuentes](../faq.md).
+Para obtener más información sobre el CD mínimo y respuestas a otras preguntas comunes, [lea las preguntas frecuentes](../../faq).
 
-Los signatarios han firmado la [versión original en inglés](../README.md/#sigatories) y la lista actual de nombres se publica solo con esa versión.
+Los signatarios han firmado la [versión original en inglés](../../minimumcd#signatories) y la lista actual de nombres se publica solo con esa versión.
 
 ## Traducción
 
