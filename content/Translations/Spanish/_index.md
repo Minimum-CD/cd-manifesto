@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate (Traducción no oficial)
 
-Nosotros, los abajo firmantes, creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
+Nosotros, [los abajo firmantes](../../minimumcd/signatures/), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
 
 - Introducir a los nuevos profesionales de forma coherente
 - Discutir las prácticas de ingeniería que abarca CD
@@ -68,13 +68,13 @@ El Mínimo CD no es el primer paso en un modelo de madurez. Sin embargo, sigue s
 
 Estos contienen los conceptos básicos, pero también los conocimientos necesarios para convertirse en una organización de CD "Elite". Son específicos para resolver el problema de "¿por qué no podemos ir a producción hoy?"
 
-[Lea la lista](../referencias.md) 
+[Lea la lista](../../references) 
 
 ## ¿Por qué construimos esto?
 
 Para obtener más información sobre el CD mínimo y respuestas a otras preguntas comunes, [lea las preguntas frecuentes](../../faq).
 
-Los signatarios han firmado la [versión original en inglés](../README.md/#sigatories) y la lista actual de nombres se publica solo con esa versión.
+Los signatarios han firmado la [versión original en inglés](../../minimumcd#signatories) y la lista actual de nombres se publica solo con esa versión.
 
 ## Traducción
 
