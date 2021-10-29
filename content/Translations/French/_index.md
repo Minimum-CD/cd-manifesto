@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate
 
-Nous, [les signataires](#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons :
+Nous, [les signataires](../../minimumcd/signatures/), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons :
 
 - Présenter les choses aux nouveaux arrivants de manière cohérente
 - Discuter des pratiques d'ingénierie qui composent le CD (Continuous Delivery)
@@ -31,16 +31,16 @@ pour être qualifiés de « livraison continue »
 
 Les activités minimales requises pour la Livraison Continue sont :
 
-- [L'intégration continue](#continuous-integration)
+- [L'intégration continue](#intégration-continue)
 - Le [pipeline de déploiement](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
   est le seul chemin qui permet de déployer en production.
-- Le pipeline décide de la diffusion des modifications, son verdict est [définitif](./faq.md#why-should-the-pipeline-be-definitive-for-deploy)
+- Le pipeline décide de la diffusion des modifications, son verdict est [définitif](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - Les artefacts créés par le pipeline répondent toujours à la [définition de Déployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) de l'organisation
-- [L'artefact ne change jamais](./faq#what-is-an-immutable-artifact). Il n'y a aucun changement humain après le commit.
+- [L'artefact ne change jamais](../../faq/#what-is-an-immutable-artifact). Il n'y a aucun changement humain après le commit.
 - Tous les travaux sur les fonctionnalités s'arrêtent lorsque le pipeline est rouge
 - L'environnement de test est proche de l'environnement de production
 - On peut revenir en arrière (rollback) à la demande
-- [La configuration de l'application](./faq.md#what-is-application-configuration) est déployée avec l'artefact 
+- [La configuration de l'application](../../faq/#what-is-application-configuration) est déployée avec l'artefact 
 
 ## Intégration Continue
 
@@ -62,8 +62,6 @@ Les activités minimales requises pour CI sont :
 Il évite la perte de travail, le risque de corruption qui provient des résolutions de conflits lors des fusions, et 
 réduit également le gaspillage d'énergie induit par la taille des lots/
 
-
-
 - Les activités minimales requises pour TBD sont :
   - Tous les changements sont intégrés dans le tronc commun
   - Si des branches du tronc commun sont utilisés :
@@ -81,20 +79,15 @@ livraison continue, que nous que nous avons trouvées très utiles dans nos prop
 Ces ressources contiennent les bases, mais aussi les connaissances nécessaires pour devenir une organisation de Livraison Continue "d'élite".
 Elles sont dédiées à la résolution du problème « pourquoi ne pouvons-nous pas passer en production aujourd'hui ? »
 
-[Lire la liste](./references.md).
+[Lire la liste](../../references).
 
 ## Pourquoi avons-nous construit ce manifeste ?
 
-Pour plus d'informations sur la Livraison Continue Minimale et des réponses à d'autres questions courantes, [veuillez lire la FAQ](./faq.md).
-
-## Traductions
-
-- [Anglais](https://github.com/Minimum-CD/cd-manifesto/blob/master/README.md)
-- [Finlandais](https://github.com/Minimum-CD/cd-manifesto/blob/master/fi/README.md)
+Pour plus d'informations sur la Livraison Continue Minimale et des réponses à d'autres questions courantes, [veuillez lire la FAQ](../../faq/).
 
 ## Vous souhaitez contribuer ou devenir signataire ?
 
-Les signataires ont signé le [document original en anglais](../#signatories), et la liste des noms sera tenue à jour uniquement sur celui-ci.
+Les signataires ont signé le [document original en anglais](../../minimumcd#signatories), et la liste des noms sera tenue à jour uniquement sur celui-ci.
 
 ## Traduction
 
