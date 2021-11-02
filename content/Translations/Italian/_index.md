@@ -30,13 +30,13 @@ Il set minimo di attività richieste per la CD sono:
 
 - [Continuous integration](#continuous-integration) (Integrazione Continua)
 - La [application pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) è l'unico percorso per il rilascio in produzione
-- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](faq.md/#perché-la-pipeline-dovrebbe-dettare-legge-per-il-rilascio)
+- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](./faq/#perch%C3%A9-la-pipeline-dovrebbe-dettare-legge-per-il-rilascio)
 - Gli artefatti creati dalla pipeline soddisfano sempre la definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) della specifica organizzazione
-- Artefatti immutabili ([Immutable artifact](faq.md/#cosa-significa-artefatti-immutabili)): nessuna modifica manuale dopo i commit
+- Artefatti immutabili ([Immutable artifact](./faq/#cosa-significa-artefatti-immutabili)): nessuna modifica manuale dopo i commit
 - Tutto il lavoro si ferma se la pipeline fallisce
 - Utilizzare ambienti di test il più possibile simili all'ambiente di produzione
 - Rollback su richiesta
-- La [configurazione dell'applicazione](faq.md/#cosa-significa-artefatti-immutabili) viene distribuita assieme agli artefatti
+- La [configurazione dell'applicazione](./faq/#cosa-significa-artefatti-immutabili) viene distribuita assieme agli artefatti
   
 ## Continuous Integration (Integrazione continua)
 
@@ -73,7 +73,7 @@ Sono risposte specifiche alla domanda "Cosa ci impedisce di andare in produzione
 
 ## Perche abbiamo costruito questa lista?
 
-Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](faq.md).
+Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](./faq/).
 
 ## Per contribuire o diventare firmatari
 
