@@ -77,5 +77,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Vu Ha              | <https://www.linkedin.com/in/vuhacanada/>                   |
 | Srđan Đukić        | <https://www.linkedin.com/in/srdandukic/>                   |
 | Andy Roth          | <https://www.linkedin.com/in/andrewryanroth/>               |
+| Peter Maddison     | <https://www.linkedin.com/in/peter-maddison/>               |
 
 {{% /excerpt%}}
