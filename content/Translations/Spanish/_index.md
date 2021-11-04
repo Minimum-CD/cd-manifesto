@@ -75,7 +75,7 @@ Lee la [pauta de contribución](https://github.com/Minimum-CD/cd-manifesto/blob/
 
 ## Firmantes
 
-Los firmantes avalan la [versión original en inglés](../../minimumcd#signatories) y la lista actual de nombres se publica solo con esa versión.
+Los firmantes avalan la [versión original en inglés](../../minimumcd#signatories) y la lista actual de nombres solo se publica con esa versión.
 
 ## Traducción
 
