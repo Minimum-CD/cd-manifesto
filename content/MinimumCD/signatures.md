@@ -79,5 +79,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Andy Roth          | <https://www.linkedin.com/in/andrewryanroth/>               |
 | Peter Maddison     | <https://www.linkedin.com/in/peter-maddison/>               |
 | Cari Copeland      | <https://www.linkedin.com/in/cacopela/>                     |
+| Kevin LaBranche    | <https://www.linkedin.com/in/kevinlabranche/>               |
 
 {{% /excerpt%}}
