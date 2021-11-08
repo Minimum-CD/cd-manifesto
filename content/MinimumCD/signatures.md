@@ -83,5 +83,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Bjorn Edwin        | <https://www.linkedin.com/in/bjornedwin/>                   |
 | Daniel Calle       | <https://www.linkedin.com/in/danielcallesanchez/>           |
 | Phillip Parker     | <https://www.linkedin.com/in/phillipparkersoftware/>        |
+| Savinder Puri      | <https://www.linkedin.com/in/savinderpuri/>                 |
 
 {{% /excerpt%}}
