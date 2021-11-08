@@ -81,6 +81,7 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Cari Copeland      | <https://www.linkedin.com/in/cacopela/>                     |
 | Kevin LaBranche    | <https://www.linkedin.com/in/kevinlabranche/>               |
 | Bjorn Edwin        | <https://www.linkedin.com/in/bjornedwin/>                   |
+| Daniel Calle       | <https://www.linkedin.com/in/danielcallesanchez/>           |
 | Phillip Parker     | <https://www.linkedin.com/in/phillipparkersoftware/>        |
 
 {{% /excerpt%}}
