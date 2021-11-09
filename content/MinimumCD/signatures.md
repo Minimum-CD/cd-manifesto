@@ -84,5 +84,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Daniel Calle       | <https://www.linkedin.com/in/danielcallesanchez/>           |
 | Phillip Parker     | <https://www.linkedin.com/in/phillipparkersoftware/>        |
 | Savinder Puri      | <https://www.linkedin.com/in/savinderpuri/>                 |
+| Michael Küsters    | <https://www.linkedin.com/in/michaelkuesters/>              |
 
 {{% /excerpt%}}
