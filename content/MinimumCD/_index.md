@@ -34,7 +34,7 @@ The minimum activities required for CD are:
   is the only path to deploy to production.
 - The pipeline decides the releasability of changes, its verdict is [definitive](../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - Artifacts created by the pipeline always meet the organization's [definition of deployable](../faq/#what-do-we-mean-by-definition-of-deployable)
-- [Immutable artifact](./faq#what-is-an-immutable-artifact). No human changes after commit.
+- [Immutable artifact](../faq/#what-is-an-immutable-artifact). No human changes after commit.
 - All feature work stops when the pipeline is red
 - Production-like test environment
 - Rollback on-demand
