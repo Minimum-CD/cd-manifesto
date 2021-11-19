@@ -86,6 +86,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Savinder Puri      | <https://www.linkedin.com/in/savinderpuri/>                 |
 | Michael Küsters    | <https://www.linkedin.com/in/michaelkuesters/>              |
 | Bryan Guinn        | <https://www.linkedin.com/in/bryanjguinn/>                  |
-| Adam Hawkins      | <https://www.linkedin.com/in/hi-adam-hawkins/>               |
+| Adam Hawkins       | <https://www.linkedin.com/in/hi-adam-hawkins/>              |
 
 {{% /excerpt%}}
