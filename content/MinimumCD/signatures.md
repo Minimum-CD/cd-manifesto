@@ -87,5 +87,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Michael Küsters    | <https://www.linkedin.com/in/michaelkuesters/>              |
 | Bryan Guinn        | <https://www.linkedin.com/in/bryanjguinn/>                  |
 | Adam Hawkins       | <https://www.linkedin.com/in/hi-adam-hawkins/>              |
+| Guillaume Faas     | <https://www.linkedin.com/in/guillaumefaas/>                |
 
 {{% /excerpt%}}
