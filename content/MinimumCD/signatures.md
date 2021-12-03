@@ -89,5 +89,5 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Adam Hawkins       | <https://www.linkedin.com/in/hi-adam-hawkins/>              |
 | Guillaume Faas     | <https://www.linkedin.com/in/guillaumefaas/>                |
 | Leandro Zis        | <https://www.linkedin.com/in/leandro-zis-140828191/>        |
-
+| Jan Krag           | <https://www.linkedin.com/in/jankrag/>                      |
 {{% /excerpt%}}
