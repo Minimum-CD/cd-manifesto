@@ -91,4 +91,5 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Leandro Zis        | <https://www.linkedin.com/in/leandro-zis-140828191/>        |
 | Jan Krag           | <https://www.linkedin.com/in/jankrag/>                      |
 | Niko Heikkilä      | <https://www.linkedin.com/in/nikoheikkila/>                 |
+| Andrew Khoury      | <https://www.linkedin.com/in/drewkhoury/>                   |
 {{% /excerpt%}}
