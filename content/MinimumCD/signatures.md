@@ -92,4 +92,7 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Jan Krag           | <https://www.linkedin.com/in/jankrag/>                      |
 | Niko Heikkilä      | <https://www.linkedin.com/in/nikoheikkila/>                 |
 | Tiago Gabriel      | <https://www.linkedin.com/in/tgdraugr/>                     |
+| Ray Myers          | <https://www.linkedin.com/in/cadrlife/>                     |
+| Andrew Khoury      | <https://www.linkedin.com/in/drewkhoury/>                   |
+
 {{% /excerpt%}}
