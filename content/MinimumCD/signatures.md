@@ -42,7 +42,7 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
 | Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
 | Christophe Chaudier| <https://www.linkedin.com/in/cchaudier/>                    |
-| Rosalind Radcliffe | <https://www.linkedin.com/in/rosalind-radcliffe/>           | 
+| Rosalind Radcliffe | <https://www.linkedin.com/in/rosalind-radcliffe/>           |
 | Austin Abro        | <https://www.linkedin.com/in/austinabro/>                   |
 | Ron Forrester      | <https://www.linkedin.com/in/ronforresterpdx/>              |
 | David Hawes-Johnson| <https://www.linkedin.com/in/davidhawesjohnson/>            |
@@ -91,6 +91,7 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Leandro Zis        | <https://www.linkedin.com/in/leandro-zis-140828191/>        |
 | Jan Krag           | <https://www.linkedin.com/in/jankrag/>                      |
 | Niko Heikkilä      | <https://www.linkedin.com/in/nikoheikkila/>                 |
+| Tiago Gabriel      | <https://www.linkedin.com/in/tgdraugr/>                     |
 | Ray Myers          | <https://www.linkedin.com/in/cadrlife/>                     |
 | Andrew Khoury      | <https://www.linkedin.com/in/drewkhoury/>                   |
 
