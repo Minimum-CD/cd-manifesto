@@ -23,3 +23,4 @@ These contain the basics for getting started, but also the knowledge needed to b
 | [Trunk-Based Development And Branch Abstraction](https://leanpub.com/trunk-based-development)                                                       | Book    | Paul Hammant                            |
 | [Trunk-based Development](https://trunkbaseddevelopment.com/)                                                                                       | Website | Paul Hammant                            |
 | [Continuous Integration Certification](https://martinfowler.com/bliki/ContinuousIntegrationCertification.html)|Blog post|Martin Fowler|
+| [5 Minute DevOps: What is a Production Issue?] (https://bdfinst.medium.com/5-minute-devops-what-is-a-production-issue-9e9b3997aa54)|Blog post|Bryan Finster| 
