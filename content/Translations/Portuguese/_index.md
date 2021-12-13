@@ -1,10 +1,10 @@
 ---
-title: Português
+title: "Português"
 description: "Mínimo viável para a Entrega Contínua"
 weight: 3
 ---
 
-# Mínimo viável para a Entrega Contínua
+## Mínimo viável para a Entrega Contínua
 
 {{% notice %}}
 "A entrega contínua não só melhora a qualidade e capacidade de entrega, bem como ajuda na evolução da cultura, reduz o cansaço e as dores do desenvolvimento/release."
@@ -24,7 +24,7 @@ As práticas descritas em seguida são o mínimo, ou seja, um ponto de partida. 
 
 ---
 
-# Entrega Contínua
+## Entrega Contínua
 
 A entrega contínua (CD) é a disciplina de engenharia que consiste na entrega de todas as alterações, de forma padronizada, com segurança. Ela cobre um extenso espetro de atividades, dependendo do que está a ser entregue. Porém, há comportamentos e habilidades que devem ser considerados, em todos os contextos, para que o processo possa ser classificado como "entrega contínua".
 
