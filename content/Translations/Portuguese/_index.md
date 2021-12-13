@@ -39,3 +39,16 @@ As atividades mínimas exigidas para o CD são:
 - Ambientes de teste semelhantes a ambiente produtivo
 - _Rollback_ conforme necessário
 - A [configuração da aplicação](../../faq/#what-is-application-configuration) é _deployed_ com o artefacto.
+
+## Integração Contínua
+
+A integração contínua (Continuous Integration, CI) é a atividade que consiste em frequentemente integrar o trabalho desenvolvido no _trunk_ do sistema de controlo de versões e verificar que esse trabalho, dentro do que se conhece, é passível de ser _released_.
+
+As atividades mínimas necessárias ao CI são:
+
+- [_Trunk-based development_](https://trunkbaseddevelopment.com/)
+- O trabalho integra em _trunk_, no mínimo, diariamente
+- O trabalho tem testes automatizados antes do _merge_ em _trunk_
+- O trabalho é testado automaticamente com outras mudanças no _merge_
+- Todo o trabalho em funcionalidades é suspenso quando a _build_ falha
+- Novo trabalho não quebra o trabalho já entregue
