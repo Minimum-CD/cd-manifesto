@@ -7,9 +7,11 @@ weight: 3
 ## Mínimo viável para a Entrega Contínua
 
 {{% notice %}}
+
 "A entrega contínua não só melhora a qualidade e capacidade de entrega, bem como ajuda na evolução da cultura, reduz o cansaço e as dores do desenvolvimento/release."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (Tradução não oficial)
+
 {{% /notice %}}
 
 Nós, [os abaixo-assinados](../../minimumcd/signatures/), acreditamos que é necessária uma definição mínima de entrega contínua (Continuous Delivery, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
@@ -63,3 +65,21 @@ Os atividades mínimas essenciais para o TBD são:
     - Eles têm sempre origem em _trunk_
     - Eles re-integram sempre em _trunk_
     - Eles são de curta-duração e são removidos depois do _merge_
+
+## Por que construímos este manifesto?
+
+Para obter informações acerca do Mínimo CD e respostas a outras questões comuns, por favor [lê as FAQ](../../faq) (versão inglesa).
+
+## Queres contribuir?
+
+Lê as nossas [diretrizes de contribuição](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md) (versão inglesa).
+
+## Signatários
+
+Os signatários assinaram a [versão original em inglês](../../minimumcd#signatories) e a lista atual de nomes é publicada apenas nessa versão.
+
+## Tradução
+
+Esta tradução é um esforço de toda a comunidade, que tem como objetivo a disseminação destes conceitos, para lá das barreiras linguísticas. Os signatários abstêm-se de afirmar a exatidão da tradução.
+
+Traduzido da versão: _c6c522c_, _2021-12-13_
