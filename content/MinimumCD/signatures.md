@@ -96,5 +96,7 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Andrew Khoury      | <https://www.linkedin.com/in/drewkhoury/>                   |
 | Bosse Nyström      | <https://www.linkedin.com/in/bossenystrom/>                 |
 | Mili Oručević      | <https://www.linkedin.com/in/milio/>                        |
+| Albert Rigo        | <https://www.linkedin.com/in/albertrigo/>                   |
+| Christian Pendleton| <https://www.linkedin.com/in/christian-pendleton/>          |
 
 {{% /excerpt%}}
