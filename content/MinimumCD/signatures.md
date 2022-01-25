@@ -99,5 +99,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Albert Rigo        | <https://www.linkedin.com/in/albertrigo/>                   |
 | Anders Nyvang      | <https://www.linkedin.com/in/andersnyvang/>                 |
 | Christian Pendleton| <https://www.linkedin.com/in/christian-pendleton/>          |
+| Arialdo Martini    | <https://arialdomartini.github.io>                          |
 
 {{% /excerpt%}}
