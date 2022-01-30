@@ -1,7 +1,7 @@
 ---
 title: Change Log
 description: ""
-weight: 3
+weight: 100
 ---
 
 ## Changes to the core practices

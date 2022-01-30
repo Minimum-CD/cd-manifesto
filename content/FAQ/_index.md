@@ -1,7 +1,7 @@
 ---
 title: Frequent Questions
 description: FAQ
-weight: 2
+weight: 5
 ---
 
 ## Why does this exist?
