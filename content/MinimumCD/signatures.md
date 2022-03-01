@@ -100,5 +100,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Anders Nyvang      | <https://www.linkedin.com/in/andersnyvang/>                 |
 | Christian Pendleton| <https://www.linkedin.com/in/christian-pendleton/>          |
 | Arialdo Martini    | <https://arialdomartini.github.io>                          |
+| Jamie Taylor       | <https://www.linkedin.com/in/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-jamie-taylor-57602959/> |
 
 {{% /excerpt%}}
