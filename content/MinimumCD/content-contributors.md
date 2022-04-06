@@ -25,5 +25,7 @@ Do you want to submit good practices, suggestions, or an experience report? Read
 | Prasanjit Singh                                                             |
 | [Rosalind Radcliffe](https://www.linkedin.com/in/rosalind-radcliffe/)       |
 | [Tracy Bannon](https://www.linkedin.com/in/tracylbannon/)                   |
+| [Patrick S. Kelso](<https://www.linkedin.com/in/patrickkelso/>)                |
+
 
 {{% /excerpt%}}
