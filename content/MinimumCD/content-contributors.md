@@ -12,7 +12,7 @@ Do you want to submit good practices, suggestions, or an experience report?
 
 Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md)&nbsp;-.
 
-### Contributors (Alphabetical)&nbsp;-
+### Contributors
 
 [Justin&nbsp;Abrahms](https://justin.abrah.ms/)&nbsp;-
 [Tracy&nbsp;Bannon](https://www.linkedin.com/in/tracylbannon/)&nbsp;-
