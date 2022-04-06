@@ -12,7 +12,7 @@ Do you want to submit good practices, suggestions, or an experience report? Read
 | [Bryan Finster](https://www.linkedin.com/in/bryan-finster/)                 |
 | [Chris Gallivan](https://www.linkedin.com/in/christopher-gallivan-16a2b02/) |
 | [Chris Gossett](https://www.linkedin.com/in/christopher-gossett-03b09347/)  |
-| Christina Rhylander                                                         |
+| [Christina Rhylander](https://www.linkedin.com/in/christina-rhylander-78683495/)|
 | [Dave Farley](https://www.linkedin.com/in/dave-farley-a67927)               |
 | [Ferrix Hovi](https://www.linkedin.com/in/ferrix/)                          |
 | [Istvan Bathazi](https://www.linkedin.com/in/istvan-bathazi/)               |
@@ -21,8 +21,8 @@ Do you want to submit good practices, suggestions, or an experience report? Read
 | [Justin Abrahms](https://justin.abrah.ms/)                                  |
 | [Marc Boudreau](https://www.linkedin.com/in/marc-boudreau)                  |
 | [Nathen Harvey](https://twitter.com/nathenharvey)                           |
-| Nick Eggleston                                                              |
-| Prasanjit Singh                                                             |
+| [Nick Eggleston](https://www.linkedin.com/in/nick-eggleston-light/)         |
+| [Prasanjit Singh](https://www.linkedin.com/in/prasanjit-singh/)             |
 | [Rosalind Radcliffe](https://www.linkedin.com/in/rosalind-radcliffe/)       |
 | [Tracy Bannon](https://www.linkedin.com/in/tracylbannon/)                   |
 | [Patrick S. Kelso](<https://www.linkedin.com/in/patrickkelso/>)                |
