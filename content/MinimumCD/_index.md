@@ -70,9 +70,7 @@ waste that increases batch size.
 
 For  background on Minimum CD and answers to other common questions, please [read the FAQs](../faq).
 
-## Want to Contribute?
-
-Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
+{{%excerpt-include filename="MinimumCD/content-contributors.md" panel="" /%}}
 
 ## Signatories
 
