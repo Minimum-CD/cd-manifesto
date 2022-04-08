@@ -105,5 +105,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 | Sumit Agarwal      | <https://www.linkedin.com/in/agarwalsumitcloudarchitect>    |
 | Vincent Ospazi     | <https://www.linkedin.com/in/vincentospazi/>                |
 | Angel Rivera       | <https://www.linkedin.com/in/punkdata/>                     |
+| Jason van Brackel  | <https://www.linkedin.com/in/jason-van-brackel/>            |
 
 {{% /excerpt%}}
