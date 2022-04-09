@@ -1,0 +1,38 @@
+{
+  "name": "minimumcd",
+  "version": "1.0.0",
+  "description": "Minimum Viable CD",
+  "main": "hugo serve",
+  "scripts": {
+    "start": "hugo serve",
+    "build": "hugo",
+    "test": "echo 'test'",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minimum-CD/cd-manifesto.git"
+  },
+  "keywords": [
+    "ci",
+    "cd",
+    "ci/cd",
+    "mvp",
+    "agile",
+    "continuous",
+    "integration",
+    "delviery",
+    "trunk-based",
+    "trunk"
+  ],
+  "author": "MinimumCD.org",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/Minimum-CD/cd-manifesto/issues"
+  },
+  "homepage": "https://minimumcd.org/minimumcd/",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "markdownlint-cli": "^0.31.1"
+  }
+}
