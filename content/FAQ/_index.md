@@ -7,7 +7,7 @@ weight: 5
 ## Why does this exist?
 
 At the October 2021 DevOps Enterprise Summit, several of us met to discuss the problem of the consistent
-misunderstanding of continuous delivery and decided to run an improvement experiment. 
+misunderstanding of continuous delivery and decided to run an improvement experiment.
 
 In the 2017 book "Accelerate", the authors observe that:
 
