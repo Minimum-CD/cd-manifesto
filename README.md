@@ -10,6 +10,8 @@ This site uses NPM scripts to automate style checks.
 
 `npm ci` will install all pre-commit hooks to verify style errors and test before allowing commits.
 
+`npm test` will validate formatting. This will also run automatically as a pre-commit hook.
+
 `npm start` will run the site locally.
 
 `npm run build` will create the static site if you need to see the resulting structure.
