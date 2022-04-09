@@ -7,105 +7,104 @@ weight: 2
 Do you want to become a signatory? Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
 {{%excerpt%}}
-| Name               | Contact                                                     |
-|--------------------|-------------------------------------------------------------|
-| Dave Farley        | <https://www.linkedin.com/in/dave-farley-a67927>            |
-| Bryan Finster      | <https://www.linkedin.com/in/bryan-finster/>                |
-| Ferrix Hovi        | <https://www.linkedin.com/in/ferrix/>                       |
-| Justin Abrahms     | <https://justin.abrah.ms/>                                  |
-| Joe Arrowood       | <https://www.linkedin.com/in/joearrowood/>                  |
-| Jerreck McWilliams | <https://www.linkedin.com/in/jerreck/>                      |
-| Istvan Bathazi     | <https://www.linkedin.com/in/istvan-bathazi/>               |
-| Sara Gramling      | <https://www.linkedin.com/in/saragramling/>                 |
-| Tracy Bannon       | <https://www.linkedin.com/in/tracylbannon/>                 |
-| Dana Finster       | <https://www.linkedin.com/in/danafinster/>                  |
-| Patrick S. Kelso   | <https://www.linkedin.com/in/patrickkelso/>                 |
-| Ben Link           | <https://www.linkedin.com/in/benjamindlink/>                |
-| Chris Kernaghan    | <https://www.linkedin.com/in/chriskernaghan/>               |
-| Chris Gossett      | <https://www.linkedin.com/in/christopher-gossett-03b09347/> |
-| Joshua Barton      | <https://www.linkedin.com/in/bartonjoshua/>                 |
-| Marc Boudreau      | <https://www.linkedin.com/in/marc-boudreau>                 |
-| Courtney Kissler   | <https://www.linkedin.com/in/courtney-kissler-0930681/>     |
-| Andrea Laforgia    | <https://www.linkedin.com/in/andrealaforgia/>               |
-| Michael Nygard     | <https://www.linkedin.com/in/mtnygard/>                     |
-| Aurel Estoup       | <https://www.linkedin.com/in/aurel-estoup/>                 |
-| Emiliano Sutil     | <https://www.linkedin.com/in/emiliano-sutil-77a2091b/>      |
-| Jason Walker       | <https://github.com/desktophero>                            |
-| Thomas J. Sweet    | <https://www.linkedin.com/in/thomasjsweet/>                 |
-| Kelly Brownsberger | <https://www.linkedin.com/in/kellybrownsberger/>            |
-| Andrew Marshall    | <https://www.linkedin.com/in/ajmarshall2k/>                 |
-| Vilas Veeraraghavan| <https://www.linkedin.com/in/vilas-veeraraghavan/>          |
-| Javier Lopez       | <https://www.linkedin.com/in/javierlopezfernandez/>         |
-| Javier Magana      | <https://www.linkedin.com/in/javier-a-magana-98108/>        |
-| Faraz Syed         | <https://www.linkedin.com/in/farazsyed/>                    |
-| James Simon        | <https://www.linkedin.com/in/jamesesimon/>                  |
-| Nathen Harvey      | <https://twitter.com/nathenharvey>                          |
-| Jesse Getzie       | <https://www.linkedin.com/in/jessegetzie/>                  |
-| Christophe Chaudier| <https://www.linkedin.com/in/cchaudier/>                    |
-| Rosalind Radcliffe | <https://www.linkedin.com/in/rosalind-radcliffe/>           |
-| Austin Abro        | <https://www.linkedin.com/in/austinabro/>                   |
-| Ron Forrester      | <https://www.linkedin.com/in/ronforresterpdx/>              |
-| David Hawes-Johnson| <https://www.linkedin.com/in/davidhawesjohnson/>            |
-| Paul Moore         | <https://www.linkedin.com/in/pdmoore2/>                     |
-| Shawn Button       | <https://www.linkedin.com/in/shawnbutton/>                  |
-| Jesse Lin          | <https://www.linkedin.com/in/jesse-lin/>                    |
-| Markus Mikkolainen | <https://www.linkedin.com/in/itmmti/>                       |
-| Alessandro Fardin  | <https://www.linkedin.com/in/alessandro-fardin-61028b28/>   |
-| James Moverley     | <https://www.linkedin.com/in/jmoverley/>                    |
-| Michael Kingery    | <https://www.linkedin.com/in/kingerymike/>                  |
-| Isaac Perez Moncho | <https://www.linkedin.com/in/isaac-perez-moncho-84922b6/>   |
-| Igor Gassmann      | <https://igassmann.me/>                                     |
-| Wayne Gaskill      | <https://www.linkedin.com/in/waynegaskill/>                 |
-| Chris Gallivan     | <https://www.linkedin.com/in/christopher-gallivan-16a2b02/> |
-| Alexander Birk     | <https://www.linkedin.com/in/alexander-birk-050625215/>     |
-| Kaine Bent         | <https://www.linkedin.com/in/ka1ne/>                        |
-| Andrew Ochsner     | <https://www.linkedin.com/in/aochsner/>                     |
-| Stephen Magill     | <https://www.linkedin.com/in/stephen-magill-2070a096/>      |
-| Jordan Schwartz    | <https://www.linkedin.com/in/jordanaschwartz/>              |
-| Jean-François Lépine| <https://www.linkedin.com/in/jean-fran%C3%A7ois-l%C3%A9pine-6a122726/> |
-| Markus Arikan      | <https://www.linkedin.com/in/marikan/>                      |
-| Jeff Dunn          | <https://www.linkedin.com/in/jeffadunn/>                    |
-| Bob Winter         | <https://www.linkedin.com/in/bob-winter>                    |
-| Azlam Abdulsalam   | <https://www.linkedin.com/in/azlam>                         |
-| Jos Hendriks       | <https://www.linkedin.com/in/jos-hendriks/>                 |
-| Nathan Nicholson   | <https://www.linkedin.com/in/nathan-r-nicholson>            |
-| William H. Kirk    | <https://www.linkedin.com/in/whk/>                          |
-| John Boyes         | <https://www.linkedin.com/in/john-boyes/>                   |
-| Patrice Corbard    | <https://www.linkedin.com/in/patricecorbard/>               |
-| Dirk Lehmann       | <https://www.linkedin.com/in/dirk-lehmann-7712bb125/>       |
-| Niko Kivelä        | <https://www.linkedin.com/in/nikokivela/>                   |
-| Vu Ha              | <https://www.linkedin.com/in/vuhacanada/>                   |
-| Srđan Đukić        | <https://www.linkedin.com/in/srdandukic/>                   |
-| Andy Roth          | <https://www.linkedin.com/in/andrewryanroth/>               |
-| Peter Maddison     | <https://www.linkedin.com/in/peter-maddison/>               |
-| Cari Copeland      | <https://www.linkedin.com/in/cacopela/>                     |
-| Kevin LaBranche    | <https://www.linkedin.com/in/kevinlabranche/>               |
-| Bjorn Edwin        | <https://www.linkedin.com/in/bjornedwin/>                   |
-| Daniel Calle       | <https://www.linkedin.com/in/danielcallesanchez/>           |
-| Phillip Parker     | <https://www.linkedin.com/in/phillipparkersoftware/>        |
-| Savinder Puri      | <https://www.linkedin.com/in/savinderpuri/>                 |
-| Michael Küsters    | <https://www.linkedin.com/in/michaelkuesters/>              |
-| Bryan Guinn        | <https://www.linkedin.com/in/bryanjguinn/>                  |
-| Adam Hawkins       | <https://www.linkedin.com/in/hi-adam-hawkins/>              |
-| Guillaume Faas     | <https://www.linkedin.com/in/guillaumefaas/>                |
-| Leandro Zis        | <https://www.linkedin.com/in/leandro-zis-140828191/>        |
-| Jan Krag           | <https://www.linkedin.com/in/jankrag/>                      |
-| Niko Heikkilä      | <https://www.linkedin.com/in/nikoheikkila/>                 |
-| Tiago Gabriel      | <https://www.linkedin.com/in/tgdraugr/>                     |
-| Ray Myers          | <https://www.linkedin.com/in/cadrlife/>                     |
-| Andrew Khoury      | <https://www.linkedin.com/in/drewkhoury/>                   |
-| Bosse Nyström      | <https://www.linkedin.com/in/bossenystrom/>                 |
-| Mili Oručević      | <https://www.linkedin.com/in/milio/>                        |
-| Albert Rigo        | <https://www.linkedin.com/in/albertrigo/>                   |
-| Anders Nyvang      | <https://www.linkedin.com/in/andersnyvang/>                 |
-| Christian Pendleton| <https://www.linkedin.com/in/christian-pendleton/>          |
-| Arialdo Martini    | <https://arialdomartini.github.io>                          |
-| Jamie Taylor       | <https://www.linkedin.com/in/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-jamie-taylor-57602959/> |
-| Eduardo Ferro      | <https://www.linkedin.com/in/eferro/>                       |
-| Sumit Agarwal      | <https://www.linkedin.com/in/agarwalsumitcloudarchitect>    |
-| Vincent Ospazi     | <https://www.linkedin.com/in/vincentospazi/>                |
-| Angel Rivera       | <https://www.linkedin.com/in/punkdata/>                     |
-| Jason van Brackel  | <https://www.linkedin.com/in/jason-van-brackel/>            |
-| Thomas Vitale      | <https://www.linkedin.com/in/vitalethomas/>                 |
+
+[Dave&nbsp;Farley](https://www.linkedin.com/in/dave-farley-a67927)&nbsp;-
+[Bryan&nbsp;Finster](https://www.linkedin.com/in/bryan-finster/)&nbsp;-
+[Ferrix&nbsp;Hovi](https://www.linkedin.com/in/ferrix/)&nbsp;-
+[Justin&nbsp;Abrahms](https://justin.abrah.ms/)&nbsp;-
+[Joe&nbsp;Arrowood](https://www.linkedin.com/in/joearrowood/)&nbsp;-
+[Jerreck&nbsp;McWilliams](https://www.linkedin.com/in/jerreck/)&nbsp;-
+[Istvan&nbsp;Bathazi](https://www.linkedin.com/in/istvan-bathazi/)&nbsp;-
+[Sara&nbsp;Gramling](https://www.linkedin.com/in/saragramling/)&nbsp;-
+[Tracy&nbsp;Bannon](https://www.linkedin.com/in/tracylbannon/)&nbsp;-
+[Dana&nbsp;Finster](https://www.linkedin.com/in/danafinster/)&nbsp;-
+[Patrick&nbsp;S.&nbsp;Kelso](https://www.linkedin.com/in/patrickkelso/)&nbsp;-
+[Ben&nbsp;Link](https://www.linkedin.com/in/benjamindlink/)&nbsp;-
+[Chris&nbsp;Kernaghan](https://www.linkedin.com/in/chriskernaghan/)&nbsp;-
+[Chris&nbsp;Gossett](https://www.linkedin.com/in/christopher-gossett-03b09347/)&nbsp;-
+[Joshua&nbsp;Barton](https://www.linkedin.com/in/bartonjoshua/)&nbsp;-
+[Marc&nbsp;Boudreau](https://www.linkedin.com/in/marc-boudreau)&nbsp;-
+[Courtney&nbsp;Kissler](https://www.linkedin.com/in/courtney-kissler-0930681/)&nbsp;-
+[Andrea&nbsp;Laforgia](https://www.linkedin.com/in/andrealaforgia/)&nbsp;-
+[Michael&nbsp;Nygard](https://www.linkedin.com/in/mtnygard/)&nbsp;-
+[Aurel&nbsp;Estoup](https://www.linkedin.com/in/aurel-estoup/)&nbsp;-
+[Emiliano&nbsp;Sutil](https://www.linkedin.com/in/emiliano-sutil-77a2091b/)&nbsp;-
+[Jason&nbsp;Walker](https://github.com/desktophero)&nbsp;-
+[Thomas&nbsp;J.&nbsp;Sweet](https://www.linkedin.com/in/thomasjsweet/)&nbsp;-
+[Kelly&nbsp;Brownsberger](https://www.linkedin.com/in/kellybrownsberger/)&nbsp;-
+[Andrew&nbsp;Marshall](https://www.linkedin.com/in/ajmarshall2k/)&nbsp;-
+[Vilas&nbsp;Veeraraghavan](https://www.linkedin.com/in/vilas-veeraraghavan/)&nbsp;-
+[Javier&nbsp;Lopez](https://www.linkedin.com/in/javierlopezfernandez/)&nbsp;-
+[Javier&nbsp;Magana](https://www.linkedin.com/in/javier-a-magana-98108/)&nbsp;-
+[Faraz&nbsp;Syed](https://www.linkedin.com/in/farazsyed/)&nbsp;-
+[James&nbsp;Simon](https://www.linkedin.com/in/jamesesimon/)&nbsp;-
+[Nathen&nbsp;Harvey](https://twitter.com/nathenharvey)&nbsp;-
+[Jesse&nbsp;Getzie](https://www.linkedin.com/in/jessegetzie/)&nbsp;-
+[Christophe&nbsp;Chaudier](https://www.linkedin.com/in/cchaudier/)&nbsp;-
+[Rosalind&nbsp;Radcliffe](https://www.linkedin.com/in/rosalind-radcliffe/)&nbsp;-
+[Austin&nbsp;Abro](https://www.linkedin.com/in/austinabro/)&nbsp;-
+[Ron&nbsp;Forrester](https://www.linkedin.com/in/ronforresterpdx/)&nbsp;-
+[David&nbsp;Hawes-Johnson](https://www.linkedin.com/in/davidhawesjohnson/)&nbsp;-
+[Paul&nbsp;Moore](https://www.linkedin.com/in/pdmoore2/)&nbsp;-
+[Shawn&nbsp;Button](https://www.linkedin.com/in/shawnbutton/)&nbsp;-
+[Jesse&nbsp;Lin](https://www.linkedin.com/in/jesse-lin/)&nbsp;-
+[Markus&nbsp;Mikkolainen](https://www.linkedin.com/in/itmmti/)&nbsp;-
+[Alessandro&nbsp;Fardin](https://www.linkedin.com/in/alessandro-fardin-61028b28/)&nbsp;-
+[James&nbsp;Moverley](https://www.linkedin.com/in/jmoverley/)&nbsp;-
+[Michael&nbsp;Kingery](https://www.linkedin.com/in/kingerymike/)&nbsp;-
+[Isaac&nbsp;Perez&nbsp;Moncho](https://www.linkedin.com/in/isaac-perez-moncho-84922b6/)&nbsp;-
+[Igor&nbsp;Gassmann](https://igassmann.me/)&nbsp;-
+[Wayne&nbsp;Gaskill](https://www.linkedin.com/in/waynegaskill/)&nbsp;-
+[Chris&nbsp;Gallivan](https://www.linkedin.com/in/christopher-gallivan-16a2b02/)&nbsp;-
+[Alexander&nbsp;Birk](https://www.linkedin.com/in/alexander-birk-050625215/)&nbsp;-
+[Kaine&nbsp;Bent](https://www.linkedin.com/in/ka1ne/)&nbsp;-
+[Andrew&nbsp;Ochsner](https://www.linkedin.com/in/aochsner/)&nbsp;-
+[Stephen&nbsp;Magill](https://www.linkedin.com/in/stephen-magill-2070a096/)&nbsp;-
+[Jordan&nbsp;Schwartz](https://www.linkedin.com/in/jordanaschwartz/)&nbsp;-
+[Jean-François&nbsp;Lépine](https://www.linkedin.com/in/jean-fran%C3%A7ois-l%C3%A9pine-6a122726/)&nbsp;-
+[Markus&nbsp;Arikan](https://www.linkedin.com/in/marikan/)&nbsp;-
+[Jeff&nbsp;Dunn](https://www.linkedin.com/in/jeffadunn/)&nbsp;-
+[Bob&nbsp;Winter](https://www.linkedin.com/in/bob-winter)&nbsp;-
+[Azlam&nbsp;Abdulsalam](https://www.linkedin.com/in/azlam)&nbsp;-
+[Jos&nbsp;Hendriks](https://www.linkedin.com/in/jos-hendriks/)&nbsp;-
+[Nathan&nbsp;Nicholson](https://www.linkedin.com/in/nathan-r-nicholson)&nbsp;-
+[William&nbsp;H.&nbsp;Kirk](https://www.linkedin.com/in/whk/)&nbsp;-
+[John&nbsp;Boyes](https://www.linkedin.com/in/john-boyes/)&nbsp;-
+[Patrice&nbsp;Corbard](https://www.linkedin.com/in/patricecorbard/)&nbsp;-
+[Dirk&nbsp;Lehmann](https://www.linkedin.com/in/dirk-lehmann-7712bb125/)&nbsp;-
+[Niko&nbsp;Kivelä](https://www.linkedin.com/in/nikokivela/)&nbsp;-
+[Vu&nbsp;Ha](https://www.linkedin.com/in/vuhacanada/)&nbsp;-
+[Srđan&nbsp;Đukić](https://www.linkedin.com/in/srdandukic/)&nbsp;-
+[Andy&nbsp;Roth](https://www.linkedin.com/in/andrewryanroth/)&nbsp;-
+[Peter&nbsp;Maddison](https://www.linkedin.com/in/peter-maddison/)&nbsp;-
+[Cari&nbsp;Copeland](https://www.linkedin.com/in/cacopela/)&nbsp;-
+[Kevin&nbsp;LaBranche](https://www.linkedin.com/in/kevinlabranche/)&nbsp;-
+[Bjorn&nbsp;Edwin](https://www.linkedin.com/in/bjornedwin/)&nbsp;-
+[Daniel&nbsp;Calle](https://www.linkedin.com/in/danielcallesanchez/)&nbsp;-
+[Phillip&nbsp;Parker](https://www.linkedin.com/in/phillipparkersoftware/)&nbsp;-
+[Savinder&nbsp;Puri](https://www.linkedin.com/in/savinderpuri/)&nbsp;-
+[Michael&nbsp;Küsters](https://www.linkedin.com/in/michaelkuesters/)&nbsp;-
+[Bryan&nbsp;Guinn](https://www.linkedin.com/in/bryanjguinn/)&nbsp;-
+[Adam&nbsp;Hawkins](https://www.linkedin.com/in/hi-adam-hawkins/)&nbsp;-
+[Guillaume&nbsp;Faas](https://www.linkedin.com/in/guillaumefaas/)&nbsp;-
+[Leandro&nbsp;Zis](https://www.linkedin.com/in/leandro-zis-140828191/)&nbsp;-
+[Jan&nbsp;Krag](https://www.linkedin.com/in/jankrag/)&nbsp;-
+[Niko&nbsp;Heikkilä](https://www.linkedin.com/in/nikoheikkila/)&nbsp;-
+[Tiago&nbsp;Gabriel](https://www.linkedin.com/in/tgdraugr/)&nbsp;-
+[Ray&nbsp;Myers](https://www.linkedin.com/in/cadrlife/)&nbsp;-
+[Andrew&nbsp;Khoury](https://www.linkedin.com/in/drewkhoury/)&nbsp;-
+[Bosse&nbsp;Nyström](https://www.linkedin.com/in/bossenystrom/)&nbsp;-
+[Mili&nbsp;Oručević](https://www.linkedin.com/in/milio/)&nbsp;-
+[Albert&nbsp;Rigo](https://www.linkedin.com/in/albertrigo/)&nbsp;-
+[Anders&nbsp;Nyvang](https://www.linkedin.com/in/andersnyvang/)&nbsp;-
+[Christian&nbsp;Pendleton](https://www.linkedin.com/in/christian-pendleton/)&nbsp;-
+[Arialdo&nbsp;Martini](https://arialdomartini.github.io)&nbsp;-
+[Jamie&nbsp;Taylor](https://www.linkedin.com/in/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-jamie-taylor-57602959/)&nbsp;-
+[Eduardo&nbsp;Ferro](https://www.linkedin.com/in/eferro/)&nbsp;-
+[Sumit&nbsp;Agarwal](https://www.linkedin.com/in/agarwalsumitcloudarchitect)&nbsp;-
+[Vincent&nbsp;Ospazi](https://www.linkedin.com/in/vincentospazi/)&nbsp;-
+[Angel&nbsp;Rivera](https://www.linkedin.com/in/punkdata/)&nbsp;-
+[Jason&nbsp;van&nbsp;Brackel](https://www.linkedin.com/in/jason-van-brackel/)&nbsp;-
+[Thomas&nbsp;Vitale](https://www.linkedin.com/in/vitalethomas/)&nbsp;-
 
 {{% /excerpt%}}
