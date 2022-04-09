@@ -10,7 +10,7 @@ weight: 2
 
 Do you want to submit good practices, suggestions, or an experience report? 
 
-Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md)&nbsp;-.
+Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
 ### Contributors
 
