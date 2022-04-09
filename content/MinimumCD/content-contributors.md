@@ -8,7 +8,7 @@ weight: 2
 
 ## Contributing
 
-Do you want to submit good practices, suggestions, or an experience report? 
+Do you want to submit a translation, good practices, suggestions, or an experience report?
 
 Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md)&nbsp;-.
 
