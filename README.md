@@ -4,6 +4,18 @@ This is a community project to define the minimum set of practices that give the
 
 The website for this project, contained in this repo, is currently hosted at [minimumcd.org](https://minimumcd.org/minimumcd/)
 
+## Running Locally
+
+This site uses NPM scripts to automate style checks.
+
+`npm ci` will install all pre-commit hooks to verify style errors and test before allowing commits.
+
+`npm test` will validate formatting. This will also run automatically as a pre-commit hook.
+
+`npm start` will run the site locally.
+
+`npm run build` will create the static site if you need to see the resulting structure.
+
 ## Contributing
 
 Please see the [contribution](CONTRIBUTING.md) page for adding signatures or suggesting improvements.
