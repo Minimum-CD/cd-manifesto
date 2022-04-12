@@ -106,5 +106,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Angel&nbsp;Rivera](https://www.linkedin.com/in/punkdata/)&nbsp;-
 [Jason&nbsp;van&nbsp;Brackel](https://www.linkedin.com/in/jason-van-brackel/)&nbsp;-
 [Thomas&nbsp;Vitale](https://www.linkedin.com/in/vitalethomas/)&nbsp;-
+[Martin&nbsp;Gross](https://www.linkedin.com/in/martingrossfluxum/)&nbsp;-
 
 {{% /excerpt%}}
