@@ -62,6 +62,6 @@ Testing is a common struggle. Many teams either do not test or know a little abo
 
 ## Health Metrics
 
-- Commits/Day/Developer: How frequently are we as a team integrating code to the trunk each day. "Good" is 1 or more per day per dev. Never compare individuals. this is a team average.
-- Development cycle time: The time from when work begin to being completed. "Good" is less than 2 days on average.
-- Defect rate: Critical backpressure metric to ensure speed does not overtake quality and vice versa.
+- **Commits/Day/Developer**: How frequently are we as a team integrating code to the trunk each day. "Good" is 1 or more per day per dev. Never compare individuals. this is a team average.
+- **Development cycle time**: The time from when work begin to being completed. "Good" is less than 2 days on average.
+- **Defect rate**: Critical backpressure metric to ensure speed does not overtake quality and vice versa.
