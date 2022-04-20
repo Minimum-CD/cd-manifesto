@@ -108,5 +108,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Thomas&nbsp;Vitale](https://www.linkedin.com/in/vitalethomas/)&nbsp;-
 [Martin&nbsp;Gross](https://www.linkedin.com/in/martingrossfluxum/)&nbsp;-
 [Richard&nbsp;Abercrombie](https://www.linkedin.com/in/richard-abercrombie-b110151b4)&nbsp;-
+[João&nbsp;Farias](https://www.linkedin.com/in/joaogfarias/)&nbsp;-
 
 {{% /excerpt%}}
