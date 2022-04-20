@@ -53,7 +53,7 @@ Evolutionary coding methods:
 
 ## Common problems discovered
 
-CI requires a lot of teamwork to function correctly. If the team currently uses a "push" workflow where work is assigned instead of a "pull" workflow where the next most improtant work is picked up by the next available teammate, then CI will be very difficult. Teamwork suffers because everyone is focused on their individual "assignments" rather than team goals.
+CI requires a lot of teamwork to function correctly. If the team currently uses a "push" workflow where work is assigned instead of a "pull" workflow where the next most important work is picked up by the next available teammate, then CI will be very difficult. Teamwork suffers because everyone is focused on their individual "assignments" rather than team goals.
 
 We need to [break down work better](https://dojoconsortium.org/docs/work-decomposition/work-breakdown/). We should have a "Definition of Ready" that requires every story and task has a testable description of "done" before any work starts.
 
