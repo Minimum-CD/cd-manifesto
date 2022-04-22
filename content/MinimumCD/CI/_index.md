@@ -20,7 +20,7 @@ While CI depends on tooling, the team workflow and working agreement is more imp
 
 You probably don't. However, there are several strategies available for making evolutionary changes that build toward the complete feature. See [Recommended practices](#recommended-practices).
 
-### "What tests should run during CI"
+### "What tests should run during CI?"
 
 Our goal is to detect issues as early as possible. Any functional tests that can be executed without deploying the application should be run. This includes, but is not limited to:
 
