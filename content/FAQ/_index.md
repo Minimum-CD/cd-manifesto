@@ -2,7 +2,7 @@
 title: Frequent Questions
 description: FAQ
 weight: 5
-draft: true
+draft: false
 ---
 
 ## Why does this exist?
