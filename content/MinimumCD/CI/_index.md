@@ -35,6 +35,12 @@ Evolutionary coding methods:
 
 ## FAQ
 
+### "What are the main problems to overcome?"
+
+1. Poor teamwork, usually driven by assigning work instead of using a pull system.
+2. Lack of proper testable acceptance criteria. This is made worse by #1 because everyone will be focused on their individual assignments instead of the team's goals. [BDD](https://dojoconsortium.org/docs/work-decomposition/behavior-driven-development/) is the best way to get to true, declarative functional tests that everyone understands. Coding should be driven from those tests.
+3. Lack of knowledge of evolutionary coding practices. "I can't commit until the feature is complete!" We need to break those changes down to the level where we can commit a passing unit test. Branch by abstraction, feature flags, or just planning changes so that the last change integrates the feature with the rest of the application.
+
 ### "How do I complete a large feature in less than a day?"
 
 You probably don't. However, there are several strategies available for making evolutionary changes that build toward the complete feature. See [Recommended practices](#recommended-practices).
