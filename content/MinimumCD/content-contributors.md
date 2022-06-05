@@ -49,6 +49,7 @@ Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/bl
 [Rosalind&nbsp;Radcliffe](https://www.linkedin.com/in/rosalind-radcliffe/)&nbsp;-
 [Christina&nbsp;Rhylander](https://www.linkedin.com/in/christina-rhylander-78683495/)&nbsp;-
 [Prasanjit&nbsp;Singh](https://www.linkedin.com/in/prasanjit-singh/)&nbsp;-
-[Emiliano&nbsp;Sutil](https://www.linkedin.com/in/emiliano-sutil-77a2091b/)
+[Emiliano&nbsp;Sutil](https://www.linkedin.com/in/emiliano-sutil-77a2091b/)&nbsp;-
+[Austin&nbsp;Abro](https://www.linkedin.com/in/austinabro/)
 
 {{% /excerpt%}}
