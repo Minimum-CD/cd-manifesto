@@ -21,7 +21,8 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.98.0'
+        hugo-version: '0.91.2'
+        extended: true
     - name: run tests ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
