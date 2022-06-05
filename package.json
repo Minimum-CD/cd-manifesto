@@ -8,7 +8,8 @@
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky install",
-    "test": "npm run lint",
+    "test": "npm run lint; npm run link-check",
+    "link-check": "start-server-and-test start http://localhost:1313 'blc http://localhost:1313 --recursive --ordered --exclude-external'",
     "start": "hugo serve"
   },
   "repository": {
@@ -35,6 +36,8 @@
   "homepage": "https://minimumcd.org/minimumcd/",
   "devDependencies": {
     "husky": "^7.0.4",
-    "markdownlint-cli": "^0.31.1"
+    "markdownlint-cli": "^0.31.1",
+    "start-server-and-test": "^1.14.0",
+    "broken-link-checker": "^0.7.8"
   }
 }
