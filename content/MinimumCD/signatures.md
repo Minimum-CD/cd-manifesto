@@ -110,5 +110,7 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Richard&nbsp;Abercrombie](https://www.linkedin.com/in/richard-abercrombie-b110151b4)&nbsp;-
 [João&nbsp;Farias](https://www.linkedin.com/in/joaogfarias/)&nbsp;-
 [Tycko&nbsp;Franklin](https://www.linkedin.com/in/tyckofranklin/)
+[Ali&nbsp;Kamalizade](https://www.linkedin.com/in/alikamalizade/)&nbsp;-
+[Nikhil&nbsp;Thakare](https://www.linkedin.com/in/nikhilsthakare/)
 
 {{% /excerpt%}}
