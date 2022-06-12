@@ -111,6 +111,7 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [João&nbsp;Farias](https://www.linkedin.com/in/joaogfarias/)&nbsp;-
 [Tycko&nbsp;Franklin](https://www.linkedin.com/in/tyckofranklin/)
 [Ali&nbsp;Kamalizade](https://www.linkedin.com/in/alikamalizade/)&nbsp;-
-[Nikhil&nbsp;Thakare](https://www.linkedin.com/in/nikhilsthakare/)
+[Nikhil&nbsp;Thakare](https://www.linkedin.com/in/nikhilsthakare/)&nbsp;-
+[Ono&nbsp;Vaticone](https://www.linkedin.com/in/onoratovaticone/)
 
 {{% /excerpt%}}
