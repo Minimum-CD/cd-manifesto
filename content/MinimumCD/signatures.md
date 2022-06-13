@@ -109,9 +109,10 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Martin&nbsp;Gross](https://www.linkedin.com/in/martingrossfluxum/)&nbsp;-
 [Richard&nbsp;Abercrombie](https://www.linkedin.com/in/richard-abercrombie-b110151b4)&nbsp;-
 [João&nbsp;Farias](https://www.linkedin.com/in/joaogfarias/)&nbsp;-
-[Tycko&nbsp;Franklin](https://www.linkedin.com/in/tyckofranklin/)
+[Tycko&nbsp;Franklin](https://www.linkedin.com/in/tyckofranklin/)&nbsp;-
 [Ali&nbsp;Kamalizade](https://www.linkedin.com/in/alikamalizade/)&nbsp;-
 [Nikhil&nbsp;Thakare](https://www.linkedin.com/in/nikhilsthakare/)&nbsp;-
-[Ono&nbsp;Vaticone](https://www.linkedin.com/in/onoratovaticone/)
+[Ono&nbsp;Vaticone](https://www.linkedin.com/in/onoratovaticone/)&nbsp;-
+[Jordan&nbsp;TEMIM](https://www.linkedin.com/in/jordan-temim/)&nbsp;-
 
 {{% /excerpt%}}
