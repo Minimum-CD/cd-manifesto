@@ -114,5 +114,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Nikhil&nbsp;Thakare](https://www.linkedin.com/in/nikhilsthakare/)&nbsp;-
 [Ono&nbsp;Vaticone](https://www.linkedin.com/in/onoratovaticone/)&nbsp;-
 [Jordan&nbsp;TEMIM](https://www.linkedin.com/in/jordan-temim/)&nbsp;-
+[Scott&nbsp;Hammer](https://www.linkedin.com/in/sahammer/)&nbsp;-
 
 {{% /excerpt%}}
