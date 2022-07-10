@@ -115,5 +115,6 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Ono&nbsp;Vaticone](https://www.linkedin.com/in/onoratovaticone/)&nbsp;-
 [Jordan&nbsp;TEMIM](https://www.linkedin.com/in/jordan-temim/)&nbsp;-
 [Scott&nbsp;Hammer](https://www.linkedin.com/in/sahammer/)&nbsp;-
+[Brian&nbsp;Lindner](https://www.linkedin.com/in/brianlindner/)&nbsp;-
 
 {{% /excerpt%}}
