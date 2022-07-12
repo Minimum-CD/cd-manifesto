@@ -117,4 +117,5 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Scott&nbsp;Hammer](https://www.linkedin.com/in/sahammer/)&nbsp;-
 [Brian&nbsp;Lindner](https://www.linkedin.com/in/brianlindner/)&nbsp;-
 [Anyul&nbsp;Rivas](https://www.linkedin.com/in/anyulled/)&nbsp;-
+[Peter&nbsp;Gfader](https://www.linkedin.com/in/petergfader/)&nbsp;-
 {{% /excerpt%}}
