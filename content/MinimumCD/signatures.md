@@ -119,4 +119,5 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Anyul&nbsp;Rivas](https://www.linkedin.com/in/anyulled/)&nbsp;-
 [Peter&nbsp;Gfader](https://www.linkedin.com/in/petergfader/)&nbsp;-
 [Patrick&nbsp;McEvoy](https://www.linkedin.com/in/patrickmcevoy/)&nbsp;-
+[Domenico&nbsp;Luciani](https://www.linkedin.com/in/dlion/)&nbsp;-
 {{% /excerpt%}}
