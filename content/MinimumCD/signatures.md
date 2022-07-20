@@ -121,4 +121,5 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Patrick&nbsp;McEvoy](https://www.linkedin.com/in/patrickmcevoy/)&nbsp;-
 [Domenico&nbsp;Luciani](https://www.linkedin.com/in/dlion/)&nbsp;-
 [Tareq&nbsp;Kirresh](https://www.linkedin.com/in/tareq-kirresh/)&nbsp;-
+[Dinkar&nbsp;Gupta](https://www.linkedin.com/in/dinkargupta/)&nbsp;-
 {{% /excerpt%}}
