@@ -70,6 +70,10 @@ waste that increases batch size.
 
 For  background on Minimum CD and answers to other common questions, please [read the FAQs](../faq).
 
+## Starting the Journey
+
+Questions on where to start? Check out some [recommendations](../journey).
+
 {{%excerpt-include filename="MinimumCD/content-contributors.md" panel="" /%}}
 
 ## Signatories
