@@ -25,7 +25,7 @@ You may have some others on the list that as you start implementing will come in
 - Documentation for Change Advisory Board (CAB) in place
 - Pull request reviewed by first and second level reviewers
 
-Every process we add needs to add value. There's obvious value in doing performance teating unless we are demanding performance at a level that isn't required for the use case. However, before we define CAB documentation as required to for "deployable", why does that process exist? One common reason for that meeting is a compliance rule for "two sets of eyes on every change". However, that can be validated by the automation without the need to bundle changes and wait for a meeting.
+Every process we add needs to add value. There's obvious value in doing performance testing unless we are demanding performance at a level that isn't required for the use case. However, before we define CAB documentation as required to for "deployable", why does that process exist? One common reason for that meeting is a compliance rule for "two sets of eyes on every change". However, that can be validated by the automation without the need to bundle changes and wait for a meeting.
 
 {{%alert info%}}
 We wanted to investigate the impact of change approval processes on software delivery performance. Thus, we asked about four possible scenarios:
