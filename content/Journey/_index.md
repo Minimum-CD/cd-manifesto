@@ -92,6 +92,6 @@ A very good case study for this is [Gary Gruver's work at HP Laserjet](https://i
 ## Additional Resources
 
 - [Engineering the Digital Transformation](https://www.amazon.com/Engineering-Digital-Transformation-Gary-Gruver/dp/1543975267) - Gary Gruver
-- [Continuous Delivery](https://continuousdelivery.com/)
-- [Continuous Delivery Pipelines](https://www.amazon.com/Continuous-Delivery-Pipelines-Better-Software/dp/B096TTQHYM)
-- [Dojo Consortium Playbooks](https://dojoconsortium.org/)
+- [Continuous Delivery](https://continuousdelivery.com/) - Dave Farley & Jez Humble
+- [Continuous Delivery Pipelines](https://www.amazon.com/Continuous-Delivery-Pipelines-Better-Software/dp/B096TTQHYM) - Dave Farley
+- [Dojo Consortium Playbooks](https://dojoconsortium.org/) - Enterprise Dojo Consortium
