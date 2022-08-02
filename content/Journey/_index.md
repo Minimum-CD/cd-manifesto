@@ -82,7 +82,7 @@ A team never assigns work. A team works together to deliver the highest priority
 
 ## Replace Manual With automation
 
-Using our definitions for "deployable" and "releasable", we need to start repacing manual verification with automated. This takes time. We need to change workflows too. For example, there are some things that are manual today that will need to be manual forever. None of those things should be verifying rules or checklists. We can automate those.
+Using our definitions for "deployable" and "releasable", we need to start replacing manual verification with automated. This takes time. We need to change workflows too. For example, there are some things that are manual today that will need to be manual forever. None of those things should be verifying rules or checklists. We can automate those.
 
 User Acceptance Testing is a common pre-release activity. However, we can usually replace that continuous usability testing, exploratory testing, and frequent demo. All of these should be happening parallel to delivery, not as stage gates. In some cases there are regulatory reasons why UAT exists as a stage gate. However, we need to keep in mind that anything that adds drag will increase batch size, reduce feedback, and increase defect creation rates. How can we optimize that UAT process to make it smaller and more frequent to reduce this risk?
 
