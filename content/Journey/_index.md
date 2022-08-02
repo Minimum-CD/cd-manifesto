@@ -72,7 +72,7 @@ CI means we are integrating partially completed features continuously. The TDD h
 
 ### Stories are too big & lack testable acceptance criteria
 
-Real test driven development begins with the team's conversation about the story. It's common for teams to be handed stories and expected to "estimate" and code them. That negatively impacts quality because the team lacks the information required to deliver a good outcome. Instead, a unrefined story should be the start of the conversation about product goals, implementation, and validation.
+Real test driven development begins with the team's conversation about the story. It's common for teams to be handed stories and expected to "estimate" and code them. That negatively impacts quality because the team lacks the information required to deliver a good outcome. Instead, an unrefined story should be the start of the conversation about product goals, implementation, and validation.
 
 [Work decomposition](https://dojoconsortium.org/docs/work-decomposition/work-breakdown/) & testing are fundamental skills for CI This is best done by focusing on [Behavior Driven Development](https://dojoconsortium.org/docs/work-decomposition/behavior-driven-development/) instead of "story format". We need acceptance criteria that drive testing so we have declarative statements about exactly how the change should behave. Beyond providing the required clarity, it also reduces the cognative load of writing tests, improves teamwork, and gives us natural segments to "slice" the so we can reduce stories to 1-2 days effort. This also protects us from changing priorities forcing incomplete work to be "parked"; another major contributor to poor quality.
 
