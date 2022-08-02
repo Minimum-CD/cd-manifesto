@@ -123,4 +123,5 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [Tareq&nbsp;Kirresh](https://www.linkedin.com/in/tareq-kirresh/)&nbsp;-
 [Dinkar&nbsp;Gupta](https://www.linkedin.com/in/dinkargupta/)&nbsp;-
 [Thomas&nbsp;Much](https://github.com/thmuch)&nbsp;-
+[John&nbsp;Fly](https://linkedin.com/in/johnfly)&nbsp;-
 {{% /excerpt%}}
