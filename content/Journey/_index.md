@@ -60,7 +60,7 @@ We must treat tests as first-class citizens. They are more important than the co
 
 ### The team lacks knowledge on how to write tests for CI
 
-Dig into testing. Learn effective test patterns. Many people start out testing implementation and then struggle to keep tets current as implementation changes. Avoid implementation testing. Test behaviors. If we cannot refactor code without changing the test then we are testing incorrectly. Focus on BDD to define tests and TDD to implement tests. People often push back on TDD, but that is most commonly because they never learned how to do it correctly. BDD was created to help. Lean in.
+Dig into testing. Learn effective test patterns. Many people start out testing implementation and then struggle to keep tests current as implementation changes. Avoid implementation testing. Test behaviors. If we cannot refactor code without changing the test then we are testing incorrectly. Focus on BDD to define tests and TDD to implement tests. People often push back on TDD, but that is most commonly because they never learned how to do it correctly. BDD was created to help. Lean in.
 
 There are layers of tests in a properly architected suite of CI tests. The [*xUnit Test Patterns*](http://xunitpatterns.com/) book is a great place to start.
 
