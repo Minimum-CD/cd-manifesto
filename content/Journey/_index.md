@@ -68,7 +68,7 @@ Teams are not good at testing initally for the same reason they aren't good at a
 
 ### Individual tasks are too big
 
-CI means we are integrating partially completed features continuously. The TDD helps us learn how to decompose tasks into very small, releasable changes that are do not break existing behaviors. However, the initial habit is generally to not interage changes until they are "complete". This results is large change-sets that are more difficult to code review. This makes code review take more time, require more re-work, and reduces the ability of the reviewer to spot problems. By focusing as a team to decompose tasks to hours of work rather than days, we have improved clarity, smaller change-sets, and higher quality.
+CI means we are integrating partially completed features continuously. The TDD helps us learn how to decompose tasks into very small, releasable changes that are do not break existing behaviors. However, the initial habit is generally to not integrate changes until they are "complete". This results is large change-sets that are more difficult to code review. This makes code review take more time, require more re-work, and reduces the ability of the reviewer to spot problems. By focusing as a team to decompose tasks to hours of work rather than days, we have improved clarity, smaller change-sets, and higher quality.
 
 ### Stories are too big & lack testable acceptance criteria
 
