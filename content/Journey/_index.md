@@ -9,7 +9,7 @@ So, where do we start? It's a bad idea to go from "we can't safely commit change
 
 ## Defining Deployable & Releasable
 
-What things must be true before we can release changes. What must be true before we can deploy changes? We need to look at those as two different problems to solve and solve for each of them. Don't get stuck on a long term project defining this. You won't think of everything on the first pass. Also, some things on your list may just be process scars and not something that's actually required.
+What things must be true before we can release changes? What must be true before we can deploy changes? We need to look at those as two different problems to solve and solve for each of them. Don't get stuck on a long term project defining this. You won't think of everything on the first pass. Also, some things on your list may just be process scars and not something that's actually required.
 
 Some common examples:
 
