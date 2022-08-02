@@ -40,6 +40,7 @@ Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/bl
 [Adam&nbsp;Hawkins](mailto:adam@hawkins.io)&nbsp;-
 [Ferrix&nbsp;Hovi](https://www.linkedin.com/in/ferrix/)&nbsp;-
 [Patrick&nbsp;S.&nbsp;Kelso](<https://www.linkedin.com/in/patrickkelso/>)&nbsp;-
+[Michael&nbsp;Kingery](https://www.linkedin.com/in/kingerymike/)&nbsp;-
 [Jan&nbsp;Krag](mailto:jankrag@gmail.com)&nbsp;-
 [Andrea&nbsp;Laforgia](https://www.linkedin.com/in/andrealaforgia/)&nbsp;-
 [Jean-François&nbsp;Lépine](mailto:lepinejeanfrancois@gmail.com)&nbsp;-
