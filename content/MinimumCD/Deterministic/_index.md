@@ -7,7 +7,7 @@ draft: true
 
 ## Definition
 
-When all of our rules have been automated then the pipeline becomes the sole arbiter of "releasable". The pipline has verified that the change functions as expected, passes security checks, and meets our compliance requirements.
+When all of our acceptance rules have been automated then the pipeline becomes the sole arbiter of "releasable". The pipeline has verified that the change functions as expected, passes our security checks, performs as expected, and meets our compliance requirements. At this point, the speed of delivery is only limited by our ability to communicate with the target environment.
 
 ## Recommended practices
 
