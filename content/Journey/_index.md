@@ -60,7 +60,7 @@ We must treat tests as first-class citizens. They are more important than the co
 
 ### The team lacks knowledge on how to write tests for CI
 
-Dig into testing. Learn effective test patterns. Many people start out testing implementation and then struggle to keep tests current as implementation changes. Avoid implementation testing. Test behaviors. If we cannot refactor code without changing the test then we are testing incorrectly. Focus on BDD to define tests and TDD to implement tests. People often push back on TDD, but that is most commonly because they never learned how to do it correctly. BDD was created to help. Lean in.
+Dig into testing. [Learn effective test patterns](https://bdfinst.medium.com/5-minute-devops-testing-101-4698b6464172). Many people start testing implementation and then struggle to keep tests current as implementation changes. Avoid implementation testing. Test behaviors. If we cannot refactor code without changing the test then we are testing incorrectly. Focus on BDD to define tests and TDD to implement tests. People often push back on TDD, but that is most commonly because they never learned how to do it correctly. BDD was created to help. Lean in.
 
 There are layers of tests in a properly architected suite of CI tests. The [*xUnit Test Patterns*](http://xunitpatterns.com/) book is a great place to start.
 
@@ -68,9 +68,10 @@ Teams are not good at testing initially for the same reason they aren't good at 
 
 ### Individual tasks are too big
 
-CI means we are integrating partially completed features continuously. TDD helps us learn how to decompose tasks into very small, releasable changes that do not break existing behaviors. However, the initial habit is often to wait to integrate changes until they are "complete". This results in large change-sets that are more difficult to code review. This makes code review take more time, requires more re-work, and reduces the ability of the reviewer to spot problems. Techniques such as [Feature Toggles](https://martinfowler.com/bliki/FeatureToggle.html) or [Keystone Interfaces](https://martinfowler.com/bliki/KeystoneInterface.html) allow the release of incomplete features until they are ready and allow us to drive down the size of changes. By focusing as a team to decompose tasks into hours of work rather than days and using engineering techniques to control release, we have improved clarity, smaller change-sets, and higher quality. 
+CI means we are integrating partially completed features continuously. TDD helps us learn how to decompose tasks into very small, releasable changes that do not break existing behaviors. However, the initial habit is often to wait to integrate changes until they are "complete". This results in large change-sets that are more difficult to code review. This makes code review take more time, requires more re-work, and reduces the ability of the reviewer to spot problems. Techniques such as [Feature Toggles](https://martinfowler.com/bliki/FeatureToggle.html) or [Keystone Interfaces](https://martinfowler.com/bliki/KeystoneInterface.html) allow the release of incomplete features until they are ready and allow us to drive down the size of changes. By focusing as a team to decompose tasks into hours of work rather than days and using engineering techniques to control release, we have improved clarity, smaller change-sets, and higher quality.
 
 ### Stories are too big & lack testable acceptance criteria
+
 Real test-driven development begins with the team's conversation about the story. It's common for teams to be handed stories and expected to "estimate" and code them. That negatively impacts quality because the team lacks the information required to deliver a good outcome. Instead, an unrefined story should be the start of the conversation about product goals, implementation, and validation.
 
 [Work decomposition](https://dojoconsortium.org/docs/work-decomposition/work-breakdown/) & testing are fundamental skills for CI This is best done by focusing on [Behavior Driven Development](https://dojoconsortium.org/docs/work-decomposition/behavior-driven-development/) instead of "story format". We need acceptance criteria that drive testing so we have declarative statements about exactly how the change should behave. Beyond providing the required clarity, it also reduces the cognitive load of writing tests, improves teamwork, and gives us natural segments to "slice" so we can reduce stories to 1-2 days of effort. This also protects us from changing priorities forcing incomplete work to be "parked"; another major contributor to poor quality.
@@ -89,9 +90,18 @@ Relentlessly improve and replace processes with automation. Keep pushing down th
 
 A very good case study for this is [Gary Gruver's work at HP Laserjet](https://itrevolution.com/the-amazing-devops-transformation-of-the-hp-laserjet-firmware-team-gary-gruver/)
 
+## TEST!
+
+This cannot be stressed enough. The purpose of the pipeline is to fully validate that an artifact is production worthy or to reject it. Do not run towards daily delivery without first building confidence in your ability to detect failure. Move fast validation to the desktop and execute it again when trying to merge code to the trunk and again whenever changes are made to the trunk.
+
+Testing is not limited to functional testing. We need to test for security, compliance, and everything else that is needed to validate the artifact in our context.
+
+Set error budgets and do not exceed them. If we are pushing features and our error budget is broken, we need to focus on hardening our pipelines. When things break in production, we harden our pipelines. When we find an edge case in exploratory testing, we harden the pipeline. Our primary goal is to build efficient and effective quality gates. Only then can we move quickly.
+
 ## Additional Resources
 
 - [Engineering the Digital Transformation](https://www.amazon.com/Engineering-Digital-Transformation-Gary-Gruver/dp/1543975267) - Gary Gruver
 - [Continuous Delivery](https://continuousdelivery.com/) - Dave Farley & Jez Humble
 - [Continuous Delivery Pipelines](https://www.amazon.com/Continuous-Delivery-Pipelines-Better-Software/dp/B096TTQHYM) - Dave Farley
 - [Dojo Consortium Playbooks](https://dojoconsortium.org/) - Enterprise Dojo Consortium
+- [5 Minute DevOps: Testing 101](https://bdfinst.medium.com/5-minute-devops-testing-101-4698b6464172)
