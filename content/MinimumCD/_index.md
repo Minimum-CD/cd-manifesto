@@ -46,7 +46,7 @@ CI is the activity of very frequently integrating work to the trunk of version c
 
 The minimum activities required for CI are:
 
-- [Trunk-based development](https://trunkbaseddevelopment.com/)
+- [Trunk-based development](#trunk-based-development)
 - Work integrates to the trunk at a minimum daily
 - Work has automated testing before merge to trunk
 - Work is tested with other work automatically on merge
@@ -55,7 +55,7 @@ The minimum activities required for CI are:
 
 ## Trunk-based Development
 
-[Trunk-based development](https://trunkbaseddevelopment.com/) is the branching pattern required to meet the definition
+[Trunk-based development](./tbd) is the branching pattern required to meet the definition
 of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
 waste that increases batch size.
 
