@@ -25,7 +25,7 @@ Evolutionary coding methods:
 
 - **Teamwork:** CI requires a lot of teamwork to function correctly. If the team currently uses a "push" workflow where work is assigned instead of a "pull" workflow where the next most important work is picked up by the next available teammate, then CI will be very difficult. Teamwork suffers because everyone is focused on their individual "assignments" rather than team goals. Long delays in code review, large changesets, and excessive team process hurt outcomes. Find a cadence for code review to process them quickly and set some team norms on changeset size and collaboration. Pair programming is a good way to help address these problems quickly.
 - **Work Breakdown:** We need to [break down work better](https://dojoconsortium.org/docs/work-decomposition/work-breakdown/). We should have a "Definition of Ready" that requires every story and task has a testable description of "done" before any work starts. A good rule of thumb is that if everyone agrees the team can complete that item in less than 2 days, it's refined enough for CI.
-- **Testing:** This is a common struggle. It's common that teams either do not test or know little about basic unit testing. Testing implementation instead of behavior is another common issue. Teams will need to improve the efficiency and effectiveness of their tests and build a suite of various types of tests with the goal of moving detection as close to creation as possible. CI requires falling passionately in love with testing, but that should be true of software engineering anyway.
+- **Testing:** This is a common struggle. It's common that teams either do not test or know little about basic unit testing. Testing implementation instead of behavior is another common issue. Teams will need to improve the efficiency and effectiveness of their tests and build a suite of various types of tests to move detection as close to creation as possible. CI requires falling passionately in love with testing, but that should be true of software engineering anyway.
 
 ## Health Metrics
 
@@ -57,8 +57,8 @@ You don't need any tests in existing code to begin. You need to test new code wi
 
 ### What code coverage percentage should we set as a standard for our team?
 
-"We will not go lower than the current level of code coverage." However, if the team is not committed to a disciplined quality process to the extent that delivery dates are never seen as an excuse, this could incentivize fake tests to meet the coverage minimum. See the [Dojo Consortium's info](https://dojoconsortium.org/metrics/code-coverage/) on this metric.
+"We will not go lower than the current level of code coverage." However, if the team is not committed to a disciplined quality process to the extent that delivery dates are never seen as an excuse, this could incentivize fake tests to meet the coverage minimum.
 
 ### What code coverage percentage should we set as a standard for all teams?
 
-We shouldn't. Code coverage minimum mandates incentivize fake tests that hide the fact that code is not tested. It is better to have no tests than to have fake tests.
+We shouldn't. Code coverage mandates incentivize meaningless tests that hide the fact that code is not tested. It is better to have no tests than to have tests you do not trust. See the [Dojo Consortium's info](https://dojoconsortium.org/metrics/code-coverage/) on this metric.
