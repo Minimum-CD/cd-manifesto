@@ -4,7 +4,7 @@ description: No human changes after commit.
 weight: 5
 ---
 
-Central to CD is that we are validating the artifact with the pipeline. It is built once and deployed to all environments. A common anti-pattern is building an artifact for each environment. The pipeline should generate immutable, versioned artifacts. 
+Central to CD is that we are validating the artifact with the pipeline. It is built once and deployed to all environments. A common anti-pattern is building an artifact for each environment. The pipeline should generate immutable, versioned artifacts.
 
 ## Definition
 
@@ -15,4 +15,5 @@ Immutability provides us with the confidence to know that the results from the p
 
 ## What is Improved
 
-Everything must be version controlled, source code, environment configurations, application configurations, and even test data. This reduces variability and improves the quality process.
+- **Everything must be version controlled**: source code, environment configurations, application configurations, and even test data. This reduces variability and improves the quality process.
+  
