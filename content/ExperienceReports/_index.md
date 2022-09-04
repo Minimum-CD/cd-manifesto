@@ -15,6 +15,7 @@ It's true, some people still think CD is just tools. Here are some reports from 
 - [Claire Liguori on trunk-based development at Amazon](https://twitter.com/clare_liguori/status/1275128831821504512)
 - [Ken Mugrage on trunk-based development as part of modern Continuous Delivery](https://www.youtube.com/watch?v=w008iz_UwDk&t=1151s)
 - [Jez Humble on the three-year-long transition to CI/trunk-based development in the HP LaserJet firmware team](https://www.youtube.com/watch?v=2zYxWEZ0gYg&t=1682s)
+- [John Allspaw and Paul Hammond on trunk-based development with feature toggles at Flickr (in 2009)](https://www.youtube.com/watch?v=LdOe18KhtT4&t=972s)
 
 ## MinimumCD in the Media
 
