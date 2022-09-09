@@ -4,7 +4,7 @@ description: Specific advice for an often misunderstood principle of continuous 
 weight: 1
 ---
 
-We need to reduce batch size because smaller batches of work are easier to verify, they tend to fail small, we are less likely to suffer from sunk-cost fallacy, we amplify feedback loops, etc. How small should they be? As small as we can make them to get production feedback on what we are trying to learn. Working to reduce batch size acts as a forcing function for exposing and removing hidden waste in upstream processes.There are several batch sizes we are trying to reduce. 
+We need to reduce batch size because smaller batches of work are easier to verify, they tend to fail small, we are less likely to suffer from sunk-cost fallacy, we amplify feedback loops, etc. How small should they be? As small as we can make them to get production feedback on what we are trying to learn. Working to reduce batch size acts as a forcing function for exposing and removing hidden waste in upstream processes.There are several batch sizes we are trying to reduce.
 
 ### Deploy More Often
 

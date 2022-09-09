@@ -1,7 +1,7 @@
 ---
 title: Minimum Viable CD
 description: ""
-weight: 1
+weight: 2
 ---
 
 {{% notice %}}

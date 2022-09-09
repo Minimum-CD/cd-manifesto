@@ -1,7 +1,7 @@
 ---
 title: Community Experiences
 description: CD in the real world
-weight: 3
+weight: 5
 ---
 
 ## CD in the Real World

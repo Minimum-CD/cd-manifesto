@@ -1,7 +1,7 @@
 ---
 title: Beyond the Minimums
 description: Recommended Resources
-weight: 2
+weight: 5
 ---
 
 Minimum CD is not the first step in a maturity model. However, it is still the bare minimum upon which many more practices should be built as appropriate to your context.  To aid your journey in going beyond Minimum CD, we maintain a list of resources that focus on Continuous Delivery which we have found very useful in our own journeys.

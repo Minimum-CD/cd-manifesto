@@ -1,7 +1,7 @@
 ---
 title: Recommended Practices
 description: ""
-weight: 2
+weight: 5
 ---
 
 {{% children style="h2" depth="1" description="true" %}}

@@ -1,7 +1,7 @@
 ---
 title: Starting the Journey
 description: Suggested improvement paths
-weight: 5
+weight: 1
 draft: false
 ---
 
