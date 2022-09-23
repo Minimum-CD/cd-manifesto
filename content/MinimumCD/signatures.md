@@ -126,4 +126,5 @@ Do you want to become a signatory? Read our [contribution guidelines](https://gi
 [John&nbsp;Fly](https://linkedin.com/in/johnfly)&nbsp;-
 [Nick&nbsp;Zdunic](https://linkedin.com/in/nzdunic)&nbsp;-
 [Adrienne&nbsp;Shulman](https://linkedin.com/in/adrienneshulman)&nbsp;-
+[Luke&nbsp;Gee](https://www.linkedin.com/in/luke-gee-nbyuk/)&nbsp;-
 {{% /excerpt%}}
