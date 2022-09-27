@@ -7,7 +7,7 @@ weight: 2
 Do you want to become a signatory? Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
 {{%excerpt%}}
-
+[Garrard&nbsp;Kitchen](https://www.linkedin.com/in/garrard-kitchen/)&nbsp;-
 [Dave&nbsp;Farley](https://www.linkedin.com/in/dave-farley-a67927)&nbsp;-
 [Bryan&nbsp;Finster](https://www.linkedin.com/in/bryan-finster/)&nbsp;-
 [Ferrix&nbsp;Hovi](https://www.linkedin.com/in/ferrix/)&nbsp;-
