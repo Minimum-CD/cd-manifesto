@@ -4,6 +4,8 @@ This is a community project to define the minimum set of practices that give the
 
 The website for this project, contained in this repo, is currently hosted at [minimumcd.org](https://minimumcd.org/minimumcd/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d9c2de6c-4010-4e9c-b03a-9b303cfbfdf0/deploy-status)](https://app.netlify.com/sites/minimumcd/deploys)
+
 ## Running Locally
 
 This site uses NPM scripts to automate style checks.
