@@ -10,7 +10,7 @@
                 {{ $fullName := split .name  " " }}
                 {{ if .contact }}
                     <a href="{{ .contact }}" alt="{{ .name }}" target="_blank">
-                        {{ range $fullName }}{{ . }}{{ end }}
+                        {{ range $fullName }}{{ . }}&nbsp;{{ end }}
                     </a>
                     &nbsp;
                     {{ if ne (add $index 1) $len }}<bold>&bull;&nbsp;</bold>{{ end }}
