@@ -1,16 +1,22 @@
 <div>
     {{ with .Site.Data.names.contributors }}
+    {{ $list := .list }}
+    {{ $len := (len $list) }}
+
     <h2>Contributors</h2>
-    <h4>({{ len .list }})</h4>
-        {{ range .list }}
+    <h4>({{ $len }})</h4>
+        {{ range $index, $element := $list }}
             {{ if .name }}
                 {{ $fullName := split .name  " " }}
                 {{ if .contact }}
                     <a href="{{ .contact }}" alt="{{ .name }}" target="_blank">
-                        {{ range $fullName }}{{ . }}&nbsp;{{ end }}-
+                        {{ range $fullName }}{{ . }}{{ end }}
                     </a>
+                    &nbsp;
+                    {{ if ne (add $index 1) $len }}<bold> &bull; </bold>{{ end }}
                 {{ else }}
-                    {{ .name }}&nbsp;-
+                    {{ .name }}&nbsp;
+                    {{ if ne (add $index 1) $len }}<bold> &bull; </bold>{{ end }}
                 {{ end }}
             {{ end }}
         {{ end }}
