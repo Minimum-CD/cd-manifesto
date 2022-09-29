@@ -1,0 +1,16 @@
+<div>
+    {{ with .Site.Data.names.signatures }}
+        {{ range .list }}
+            {{ if .name }}
+                {{ $fullName := split .name  " " }}
+                {{ if .contact }}
+                    <a href="{{ .contact }}" alt="{{ .name }}" target="_blank">
+                        {{ range $fullName }}{{ . }}&nbsp;{{ end }}-
+                    </a>
+                {{ else }}
+                    {{ .name }}&nbsp;-
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</div>
