@@ -67,15 +67,18 @@ waste that increases batch size.
     - They are short-lived and removed after the merge
 
 ## Why did we build this?
-
-For  background on Minimum CD and answers to other common questions, please [read the FAQs](../faq).
+For background on Minimum CD and answers to other common questions, please [read the FAQs](../faq).
 
 ## Starting the Journey
 
 Questions on where to start? Check out some [recommendations](../journey).
 
-{{%excerpt-include filename="MinimumCD/content-contributors.md" panel="" /%}}
+## Contributing
 
-## Signatories
+Do you want to submit a translation, good practices, suggestions, or an experience report?
 
-{{%excerpt-include filename="MinimumCD/signatures.md" panel="" /%}}
+Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
+
+{{< contributors >}}
+
+{{< signatures >}}

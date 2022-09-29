@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate
 
-Nous, [les signataires](../../minimumcd/signatures/), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons :
+Nous, [les signataires](../../minimumcd#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons :
 
 - Présenter les choses aux nouveaux arrivants de manière cohérente
 - Discuter des pratiques d'ingénierie qui composent le CD (Continuous Delivery)
