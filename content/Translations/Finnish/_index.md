@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate
 
-Me, [allekirjoittaneet](../../minimumcd/signatures/), uskomme, että jatkuvalle toimittamiselle (engl. continuous delivery, CD) tarvitaan määritelmä, jotta toimitusvirtaa voidaan parantaa. Riippumatta erilaisista olosuhteistamme, on olemassa yleispäteviä käytäntöjä. Määrittelemällä nämä käytännöt voimme:
+Me, [allekirjoittaneet](../../minimumcd#signatories), uskomme, että jatkuvalle toimittamiselle (engl. continuous delivery, CD) tarvitaan määritelmä, jotta toimitusvirtaa voidaan parantaa. Riippumatta erilaisista olosuhteistamme, on olemassa yleispäteviä käytäntöjä. Määrittelemällä nämä käytännöt voimme:
 
 - Perehdyttää uudet harjoittajat yhdenmukaisella tavalla
 - Keskustella ohjelmistotuotannon käytännöistä, joista CD muodostuu

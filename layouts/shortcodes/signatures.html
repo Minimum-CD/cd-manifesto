@@ -1,6 +1,7 @@
 <div>
     {{ with .Site.Data.names.signatures }}
-    <h2>Signatories ({{ len .list }})</h2>
+    <h2>Signatories</h2>
+    <h4>({{ len .list }})</h4>
         {{ range .list }}
             {{ if .name }}
                 {{ $fullName := split .name  " " }}

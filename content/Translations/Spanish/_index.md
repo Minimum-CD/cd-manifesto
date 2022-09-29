@@ -13,7 +13,7 @@ weight: 3
 {{% /notice %}}
 
 
-Nosotros, [los abajo firmantes](../../minimumcd/signatures/), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega y lograr los resultados anteriores. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
+Nosotros, [los abajo firmantes](../../minimumcd#signatories), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega y lograr los resultados anteriores. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
 
 - Introducir a los nuevos profesionales de forma coherente
 - Discutir las prácticas de ingeniería que abarca CD
