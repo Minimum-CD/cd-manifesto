@@ -1,5 +1,6 @@
 <div>
     {{ with .Site.Data.names.contributors }}
+    <h2>Contributors ({{ len .list }})</h2>
         {{ range .list }}
             {{ if .name }}
                 {{ $fullName := split .name  " " }}
