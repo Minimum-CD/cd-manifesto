@@ -13,10 +13,10 @@
                         {{ range $fullName }}{{ . }}{{ end }}
                     </a>
                     &nbsp;
-                    {{ if ne (add $index 1) $len }}<bold> &bull; </bold>{{ end }}
+                    {{ if ne (add $index 1) $len }}<bold>&bull;&nbsp;</bold>{{ end }}
                 {{ else }}
                     {{ .name }}&nbsp;
-                    {{ if ne (add $index 1) $len }}<bold> &bull; </bold>{{ end }}
+                    {{ if ne (add $index 1) $len }}<bold>&bull;&nbsp;</bold>{{ end }}
                 {{ end }}
             {{ end }}
         {{ end }}
