@@ -1,79 +1,117 @@
 # For contact info, feel free to use LinkedIn, Twitter, GitHub, 
 # or any other location. If you prefer, leave it blank.
 list:
-  - name: Azlam Abdulsalam
+  - givenName: Azlam 
+    familyName: Abdulsalam
     contact: https://www.linkedin.com/in/azlam/
-  - name: Justin Abrahms
+  - givenName: Justin 
+    familyName: Abrahms
     contact: https://justin.abrah.ms/
-  - name: Austin Abro
+  - givenName: Austin 
+    familyName: Abro
     contact: https://www.linkedin.com/in/austinabro/
-  - name: Graham Allan
+  - givenName: Graham 
+    familyName: Allan
     contact: https://github.com/Grundlefleck
-  - name: Tracy Bannon
+  - givenName: Tracy 
+    familyName: Bannon
     contact: https://www.linkedin.com/in/tracylbannon/
-  - name: Istvan Bathazi
+  - givenName: Istvan 
+    familyName: Bathazi
     contact: https://www.linkedin.com/in/istvan-bathazi/
-  - name: Kaine Bent
+  - givenName: Kaine 
+    familyName: Bent
     contact: https://www.ka1ne.com/
-  - name: Marc Boudreau
+  - givenName: Marc 
+    familyName: Boudreau
     contact: https://www.linkedin.com/in/marc-boudreau
-  - name: Kelly Brownsberger
+  - givenName: Kelly 
+    familyName: Brownsberger
     contact: https://www.linkedin.com/in/kellybrownsberger/
-  - name: Shawn Button
+  - givenName: Shawn 
+    familyName: Button
     contact: https://www.linkedin.com/in/shawnbutton/
-  - name: Daniel Calle
+  - givenName: Daniel 
+    familyName: Calle
     contact: https://www.linkedin.com/in/danielcallesanchez/
-  - name: Patrice Corbard
+  - givenName: Patrice 
+    familyName: Corbard
     contact: https://www.linkedin.com/in/patricecorbard/
-  - name: Jeff Dunn
+  - givenName: Jeff 
+    familyName: Dunn
     contact: https://www.linkedin.com/in/jeffadunn/
-  - name: Nick Eggleston
+  - givenName: Nick 
+    familyName: Eggleston
     contact: https://www.linkedin.com/in/nick-eggleston-light/
-  - name: Alessandro Fardin
+  - givenName: Alessandro 
+    familyName: Fardin
     contact: https://www.linkedin.com/in/alessandro-fardin-61028b28/
-  - name: Dave Farley
+  - givenName: Dave 
+    familyName: Farley
     contact: https://www.linkedin.com/in/dave-farley-a67927
-  - name: Javier Lopez Fernandez
+  - givenName: Javier Lopez 
+    familyName: Fernandez
     contact: mailto:javisan81@hotmail.com
-  - name: Bryan Finster
+  - givenName: Bryan 
+    familyName: Finster
     contact: https://www.linkedin.com/in/bryan-finster/
-  - name: Tiago Gabriel
+  - givenName: Tiago 
+    familyName: Gabriel
     contact: https://dev.to/tgdraugr
-  - name: Chris Gallivan
+  - givenName: Chris 
+    familyName: Gallivan
     contact: https://www.linkedin.com/in/christopher-gallivan-16a2b02/
-  - name: Chris Gossett
+  - givenName: Chris 
+    familyName: Gossett
     contact: https://www.linkedin.com/in/christopher-gossett-03b09347/
-  - name: Nathen Harvey
+  - givenName: Nathen 
+    familyName: Harvey
     contact: https://twitter.com/nathenharvey
-  - name: Dave Hawes-Johnson
+  - givenName: Dave 
+    familyName: Hawes-Johnson
     contact: https://www.linkedin.com/in/davidhawesjohnson/
-  - name: Adam Hawkins
+  - givenName: Adam 
+    familyName: Hawkins
     contact: mailto:adam@hawkins.io
-  - name: Ferrix Hovi
+  - givenName: Ferrix 
+    familyName: Hovi
     contact: https://www.linkedin.com/in/ferrix/
-  - name: Patrick S. Kelso
+  - givenName: Patrick S. 
+    familyName: Kelso
     contact: <https://www.linkedin.com/in/patrickkelso/>
-  - name: Michael Kingery
+  - givenName: Michael 
+    familyName: Kingery
     contact: https://www.linkedin.com/in/kingerymike/
-  - name: Jan Krag
+  - givenName: Jan 
+    familyName: Krag
     contact: mailto:jankrag@gmail.com
-  - name: Andrea Laforgia
+  - givenName: Andrea 
+    familyName: Laforgia
     contact: https://www.linkedin.com/in/andrealaforgia/
-  - name: Jean-François Lépine
+  - givenName: Jean-François 
+    familyName: Lépine
     contact: mailto:lepinejeanfrancois@gmail.com
-  - name: Jesse Lin
+  - givenName: Jesse 
+    familyName: Lin
     contact: https://www.linkedin.com/in/jesse-lin/
-  - name: Javier A Magaña
+  - givenName: Javier A 
+    familyName: Magaña
     contact: https://www.linkedin.com/in/javier-a-magana-98108/
-  - name: Jerreck McWilliams
+  - givenName: Jerreck 
+    familyName: McWilliams
     contact: https://www.linkedin.com/in/jerreck/
-  - name: Nathan Nicholson
+  - givenName: Nathan 
+    familyName: Nicholson
     contact: https://www.linkedin.com/in/nathan-r-nicholson/
-  - name: Rosalind Radcliffe
+  - givenName: Rosalind 
+    familyName: Radcliffe
     contact: https://www.linkedin.com/in/rosalind-radcliffe/
-  - name: Christina Rhylander
+  - givenName: Christina 
+    familyName: Rhylander
     contact: https://www.linkedin.com/in/christina-rhylander-78683495/
-  - name: Prasanjit Singh
+  - givenName: Prasanjit 
+    familyName: Singh
     contact: https://www.linkedin.com/in/prasanjit-singh/
-  - name: Emiliano Sutil
+  - givenName: Emiliano 
+    familyName: Sutil
     contact: https://www.linkedin.com/in/emiliano-sutil-77a2091b/
