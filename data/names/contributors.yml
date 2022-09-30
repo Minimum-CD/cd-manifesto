@@ -1,117 +1,117 @@
-# For contact info, feel free to use LinkedIn, Twitter, GitHub, 
+# For contact info, feel free to use LinkedIn, Twitter, GitHub,
 # or any other location. If you prefer, leave it blank.
 list:
-  - givenName: Azlam 
-    familyName: Abdulsalam
-    contact: https://www.linkedin.com/in/azlam/
-  - givenName: Justin 
-    familyName: Abrahms
-    contact: https://justin.abrah.ms/
-  - givenName: Austin 
-    familyName: Abro
-    contact: https://www.linkedin.com/in/austinabro/
-  - givenName: Graham 
-    familyName: Allan
-    contact: https://github.com/Grundlefleck
-  - givenName: Tracy 
-    familyName: Bannon
-    contact: https://www.linkedin.com/in/tracylbannon/
-  - givenName: Istvan 
-    familyName: Bathazi
-    contact: https://www.linkedin.com/in/istvan-bathazi/
-  - givenName: Kaine 
-    familyName: Bent
-    contact: https://www.ka1ne.com/
-  - givenName: Marc 
-    familyName: Boudreau
-    contact: https://www.linkedin.com/in/marc-boudreau
-  - givenName: Kelly 
-    familyName: Brownsberger
-    contact: https://www.linkedin.com/in/kellybrownsberger/
-  - givenName: Shawn 
-    familyName: Button
-    contact: https://www.linkedin.com/in/shawnbutton/
-  - givenName: Daniel 
-    familyName: Calle
-    contact: https://www.linkedin.com/in/danielcallesanchez/
-  - givenName: Patrice 
-    familyName: Corbard
-    contact: https://www.linkedin.com/in/patricecorbard/
-  - givenName: Jeff 
-    familyName: Dunn
-    contact: https://www.linkedin.com/in/jeffadunn/
-  - givenName: Nick 
-    familyName: Eggleston
-    contact: https://www.linkedin.com/in/nick-eggleston-light/
-  - givenName: Alessandro 
-    familyName: Fardin
-    contact: https://www.linkedin.com/in/alessandro-fardin-61028b28/
-  - givenName: Dave 
-    familyName: Farley
+  - fName: Dave
+    lName: Farley
     contact: https://www.linkedin.com/in/dave-farley-a67927
-  - givenName: Javier Lopez 
-    familyName: Fernandez
+  - fName: Azlam
+    lName: Abdulsalam
+    contact: https://www.linkedin.com/in/azlam/
+  - fName: Justin
+    lName: Abrahms
+    contact: https://justin.abrah.ms/
+  - fName: Austin
+    lName: Abro
+    contact: https://www.linkedin.com/in/austinabro/
+  - fName: Graham
+    lName: Allan
+    contact: https://github.com/Grundlefleck
+  - fName: Tracy
+    lName: Bannon
+    contact: https://www.linkedin.com/in/tracylbannon/
+  - fName: Istvan
+    lName: Bathazi
+    contact: https://www.linkedin.com/in/istvan-bathazi/
+  - fName: Kaine
+    lName: Bent
+    contact: https://www.ka1ne.com/
+  - fName: Marc
+    lName: Boudreau
+    contact: https://www.linkedin.com/in/marc-boudreau
+  - fName: Kelly
+    lName: Brownsberger
+    contact: https://www.linkedin.com/in/kellybrownsberger/
+  - fName: Shawn
+    lName: Button
+    contact: https://www.linkedin.com/in/shawnbutton/
+  - fName: Daniel
+    lName: Calle
+    contact: https://www.linkedin.com/in/danielcallesanchez/
+  - fName: Patrice
+    lName: Corbard
+    contact: https://www.linkedin.com/in/patricecorbard/
+  - fName: Jeff
+    lName: Dunn
+    contact: https://www.linkedin.com/in/jeffadunn/
+  - fName: Nick
+    lName: Eggleston
+    contact: https://www.linkedin.com/in/nick-eggleston-light/
+  - fName: Alessandro
+    lName: Fardin
+    contact: https://www.linkedin.com/in/alessandro-fardin-61028b28/
+  - fName: Javier Lopez
+    lName: Fernandez
     contact: mailto:javisan81@hotmail.com
-  - givenName: Bryan 
-    familyName: Finster
+  - fName: Bryan
+    lName: Finster
     contact: https://www.linkedin.com/in/bryan-finster/
-  - givenName: Tiago 
-    familyName: Gabriel
+  - fName: Tiago
+    lName: Gabriel
     contact: https://dev.to/tgdraugr
-  - givenName: Chris 
-    familyName: Gallivan
+  - fName: Chris
+    lName: Gallivan
     contact: https://www.linkedin.com/in/christopher-gallivan-16a2b02/
-  - givenName: Chris 
-    familyName: Gossett
+  - fName: Chris
+    lName: Gossett
     contact: https://www.linkedin.com/in/christopher-gossett-03b09347/
-  - givenName: Nathen 
-    familyName: Harvey
+  - fName: Nathen
+    lName: Harvey
     contact: https://twitter.com/nathenharvey
-  - givenName: Dave 
-    familyName: Hawes-Johnson
+  - fName: Dave
+    lName: Hawes-Johnson
     contact: https://www.linkedin.com/in/davidhawesjohnson/
-  - givenName: Adam 
-    familyName: Hawkins
+  - fName: Adam
+    lName: Hawkins
     contact: mailto:adam@hawkins.io
-  - givenName: Ferrix 
-    familyName: Hovi
+  - fName: Ferrix
+    lName: Hovi
     contact: https://www.linkedin.com/in/ferrix/
-  - givenName: Patrick S. 
-    familyName: Kelso
+  - fName: Patrick S.
+    lName: Kelso
     contact: <https://www.linkedin.com/in/patrickkelso/>
-  - givenName: Michael 
-    familyName: Kingery
+  - fName: Michael
+    lName: Kingery
     contact: https://www.linkedin.com/in/kingerymike/
-  - givenName: Jan 
-    familyName: Krag
+  - fName: Jan
+    lName: Krag
     contact: mailto:jankrag@gmail.com
-  - givenName: Andrea 
-    familyName: Laforgia
+  - fName: Andrea
+    lName: Laforgia
     contact: https://www.linkedin.com/in/andrealaforgia/
-  - givenName: Jean-François 
-    familyName: Lépine
+  - fName: Jean-François
+    lName: Lépine
     contact: mailto:lepinejeanfrancois@gmail.com
-  - givenName: Jesse 
-    familyName: Lin
+  - fName: Jesse
+    lName: Lin
     contact: https://www.linkedin.com/in/jesse-lin/
-  - givenName: Javier A 
-    familyName: Magaña
+  - fName: Javier A
+    lName: Magaña
     contact: https://www.linkedin.com/in/javier-a-magana-98108/
-  - givenName: Jerreck 
-    familyName: McWilliams
+  - fName: Jerreck
+    lName: McWilliams
     contact: https://www.linkedin.com/in/jerreck/
-  - givenName: Nathan 
-    familyName: Nicholson
+  - fName: Nathan
+    lName: Nicholson
     contact: https://www.linkedin.com/in/nathan-r-nicholson/
-  - givenName: Rosalind 
-    familyName: Radcliffe
+  - fName: Rosalind
+    lName: Radcliffe
     contact: https://www.linkedin.com/in/rosalind-radcliffe/
-  - givenName: Christina 
-    familyName: Rhylander
+  - fName: Christina
+    lName: Rhylander
     contact: https://www.linkedin.com/in/christina-rhylander-78683495/
-  - givenName: Prasanjit 
-    familyName: Singh
+  - fName: Prasanjit
+    lName: Singh
     contact: https://www.linkedin.com/in/prasanjit-singh/
-  - givenName: Emiliano 
-    familyName: Sutil
+  - fName: Emiliano
+    lName: Sutil
     contact: https://www.linkedin.com/in/emiliano-sutil-77a2091b/
