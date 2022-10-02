@@ -1,79 +1,117 @@
-# For contact info, feel free to use LinkedIn, Twitter, GitHub, 
+# For contact info, feel free to use LinkedIn, Twitter, GitHub,
 # or any other location. If you prefer, leave it blank.
 list:
-  - name: Azlam Abdulsalam
-    contact: https://www.linkedin.com/in/azlam/
-  - name: Justin Abrahms
-    contact: https://justin.abrah.ms/
-  - name: Austin Abro
-    contact: https://www.linkedin.com/in/austinabro/
-  - name: Graham Allan
-    contact: https://github.com/Grundlefleck
-  - name: Tracy Bannon
-    contact: https://www.linkedin.com/in/tracylbannon/
-  - name: Istvan Bathazi
-    contact: https://www.linkedin.com/in/istvan-bathazi/
-  - name: Kaine Bent
-    contact: https://www.ka1ne.com/
-  - name: Marc Boudreau
-    contact: https://www.linkedin.com/in/marc-boudreau
-  - name: Kelly Brownsberger
-    contact: https://www.linkedin.com/in/kellybrownsberger/
-  - name: Shawn Button
-    contact: https://www.linkedin.com/in/shawnbutton/
-  - name: Daniel Calle
-    contact: https://www.linkedin.com/in/danielcallesanchez/
-  - name: Patrice Corbard
-    contact: https://www.linkedin.com/in/patricecorbard/
-  - name: Jeff Dunn
-    contact: https://www.linkedin.com/in/jeffadunn/
-  - name: Nick Eggleston
-    contact: https://www.linkedin.com/in/nick-eggleston-light/
-  - name: Alessandro Fardin
-    contact: https://www.linkedin.com/in/alessandro-fardin-61028b28/
-  - name: Dave Farley
+  - fName: Dave
+    lName: Farley
     contact: https://www.linkedin.com/in/dave-farley-a67927
-  - name: Javier Lopez Fernandez
+  - fName: Azlam
+    lName: Abdulsalam
+    contact: https://www.linkedin.com/in/azlam/
+  - fName: Justin
+    lName: Abrahms
+    contact: https://justin.abrah.ms/
+  - fName: Austin
+    lName: Abro
+    contact: https://www.linkedin.com/in/austinabro/
+  - fName: Graham
+    lName: Allan
+    contact: https://github.com/Grundlefleck
+  - fName: Tracy
+    lName: Bannon
+    contact: https://www.linkedin.com/in/tracylbannon/
+  - fName: Istvan
+    lName: Bathazi
+    contact: https://www.linkedin.com/in/istvan-bathazi/
+  - fName: Kaine
+    lName: Bent
+    contact: https://www.ka1ne.com/
+  - fName: Marc
+    lName: Boudreau
+    contact: https://www.linkedin.com/in/marc-boudreau
+  - fName: Kelly
+    lName: Brownsberger
+    contact: https://www.linkedin.com/in/kellybrownsberger/
+  - fName: Shawn
+    lName: Button
+    contact: https://www.linkedin.com/in/shawnbutton/
+  - fName: Daniel
+    lName: Calle
+    contact: https://www.linkedin.com/in/danielcallesanchez/
+  - fName: Patrice
+    lName: Corbard
+    contact: https://www.linkedin.com/in/patricecorbard/
+  - fName: Jeff
+    lName: Dunn
+    contact: https://www.linkedin.com/in/jeffadunn/
+  - fName: Nick
+    lName: Eggleston
+    contact: https://www.linkedin.com/in/nick-eggleston-light/
+  - fName: Alessandro
+    lName: Fardin
+    contact: https://www.linkedin.com/in/alessandro-fardin-61028b28/
+  - fName: Javier Lopez
+    lName: Fernandez
     contact: mailto:javisan81@hotmail.com
-  - name: Bryan Finster
+  - fName: Bryan
+    lName: Finster
     contact: https://www.linkedin.com/in/bryan-finster/
-  - name: Tiago Gabriel
+  - fName: Tiago
+    lName: Gabriel
     contact: https://dev.to/tgdraugr
-  - name: Chris Gallivan
+  - fName: Chris
+    lName: Gallivan
     contact: https://www.linkedin.com/in/christopher-gallivan-16a2b02/
-  - name: Chris Gossett
+  - fName: Chris
+    lName: Gossett
     contact: https://www.linkedin.com/in/christopher-gossett-03b09347/
-  - name: Nathen Harvey
+  - fName: Nathen
+    lName: Harvey
     contact: https://twitter.com/nathenharvey
-  - name: Dave Hawes-Johnson
+  - fName: Dave
+    lName: Hawes-Johnson
     contact: https://www.linkedin.com/in/davidhawesjohnson/
-  - name: Adam Hawkins
+  - fName: Adam
+    lName: Hawkins
     contact: mailto:adam@hawkins.io
-  - name: Ferrix Hovi
+  - fName: Ferrix
+    lName: Hovi
     contact: https://www.linkedin.com/in/ferrix/
-  - name: Patrick S. Kelso
+  - fName: Patrick S.
+    lName: Kelso
     contact: <https://www.linkedin.com/in/patrickkelso/>
-  - name: Michael Kingery
+  - fName: Michael
+    lName: Kingery
     contact: https://www.linkedin.com/in/kingerymike/
-  - name: Jan Krag
+  - fName: Jan
+    lName: Krag
     contact: mailto:jankrag@gmail.com
-  - name: Andrea Laforgia
+  - fName: Andrea
+    lName: Laforgia
     contact: https://www.linkedin.com/in/andrealaforgia/
-  - name: Jean-François Lépine
+  - fName: Jean-François
+    lName: Lépine
     contact: mailto:lepinejeanfrancois@gmail.com
-  - name: Jesse Lin
+  - fName: Jesse
+    lName: Lin
     contact: https://www.linkedin.com/in/jesse-lin/
-  - name: Javier A Magaña
+  - fName: Javier A
+    lName: Magaña
     contact: https://www.linkedin.com/in/javier-a-magana-98108/
-  - name: Jerreck McWilliams
+  - fName: Jerreck
+    lName: McWilliams
     contact: https://www.linkedin.com/in/jerreck/
-  - name: Nathan Nicholson
+  - fName: Nathan
+    lName: Nicholson
     contact: https://www.linkedin.com/in/nathan-r-nicholson/
-  - name: Rosalind Radcliffe
+  - fName: Rosalind
+    lName: Radcliffe
     contact: https://www.linkedin.com/in/rosalind-radcliffe/
-  - name: Christina Rhylander
+  - fName: Christina
+    lName: Rhylander
     contact: https://www.linkedin.com/in/christina-rhylander-78683495/
-  - name: Prasanjit Singh
+  - fName: Prasanjit
+    lName: Singh
     contact: https://www.linkedin.com/in/prasanjit-singh/
-  - name: Emiliano Sutil
+  - fName: Emiliano
+    lName: Sutil
     contact: https://www.linkedin.com/in/emiliano-sutil-77a2091b/
