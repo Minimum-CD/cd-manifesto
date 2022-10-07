@@ -3,8 +3,6 @@
     {{ $list := .list }}
     {{ $len := (len $list) }}
 
-
-    <h2>Signatories</h2>
     <h4>({{ $len }})</h4>
         {{ range $index, $element := $list }}
             {{ if gt $index 0 }}<bold> &bull; </bold>{{ end }}
