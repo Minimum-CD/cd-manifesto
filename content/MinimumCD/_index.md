@@ -4,11 +4,15 @@ description: ""
 weight: 1
 ---
 
+
 {{% notice %}}
 "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations
 {{% /notice %}}
+
+![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
+
 
 We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD) is required to improve the flow of delivery and achieve the outcomes above. While our contexts may be different, there are universal practices common in all. By defining them we can:
 
@@ -80,5 +84,7 @@ Do you want to submit a translation, good practices, suggestions, or an experien
 Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
 {{< contributors >}}
+
+## Signatories
 
 {{< signatures >}}
