@@ -18,7 +18,7 @@ If you agree that this is MinimumCD, please create a [pull request](https://help
 
 ## Removing your signature
 
-If we fail to uphold the ideals we've stated and you wish to remove your signature, please raise a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we will remove you without delay. 
+If we fail to uphold the ideals we've stated and you wish to remove your signature, please raise a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we will remove you without delay.
 
 ## Community Discussions
 
