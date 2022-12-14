@@ -1,13 +1,12 @@
 ---
-
-title: Minimum Viable CD
-description: ""
-weight: 1
-
+title: Deutsch
+description: "Minimale nutzbare kontinuierliche Lieferung"
+weight: 3
 ---
 
 {{% notice %}}
-"Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
+
+"Kontinuierliche Lieferung vebessert die Geschwindigkeit und Qualität der Auslieferung, und hilft zugleich die Kultur zu verbessern, Burnout und Mühsal in der Entwicklung zu vermeiden."
 
 -- Das Mindset von DevOps. Accelerate: 24 Schlüsselkompetenzen, um leistungsstarke Technologieunternehmen zu entwickeln und zu skalieren
 {{% /notice %}}
@@ -34,7 +33,7 @@ Die untenstehenden Praktiken sind das Minimum, ein Ausgangspunkt. Das erwartete 
 
 ## Kontinuierliche Lieferung
 
-Continuous Delivery (kontinuierlice Lieferung) ist die technische Disziplin, bei der alle Änderungen auf sichere Weise in einem stets gleichen Verfahren bereitgestellt werden. CD deckt ein breites Spektrum von Aktivitäten ab, je nach den Besonderheiten des Liefergegenstandes. Es gibt jedoch bestimmte Verhaltensweisen und Fähigkeiten, die in jedem Kontext erfüllt sein müssen, um als "kontinuierliche Lieferung" zu gelten.
+Kontinuierliche Lieferung (Continuous Delivery) ist die technische Disziplin, bei der alle Änderungen auf sichere Weise in einem stets gleichen Verfahren bereitgestellt werden. CD deckt ein breites Spektrum von Aktivitäten ab, je nach den Besonderheiten des Liefergegenstandes. Es gibt jedoch bestimmte Verhaltensweisen und Fähigkeiten, die in jedem Kontext erfüllt sein müssen, um als "kontinuierliche Lieferung" zu gelten.
 
 Die für CD erforderlichen Mindestaktivitäten sind:
 
