@@ -33,23 +33,23 @@ Die untenstehenden Praktiken sind das Minimum, ein Ausgangspunkt. Das erwartete 
 
 ## Kontinuierliche Lieferung
 
-Kontinuierliche Lieferung (Continuous Delivery) ist die technische Disziplin, bei der alle Änderungen auf sichere Weise in einem stets gleichen Verfahren bereitgestellt werden. CD deckt ein breites Spektrum von Aktivitäten ab, je nach den Besonderheiten des Liefergegenstandes. Es gibt jedoch bestimmte Verhaltensweisen und Fähigkeiten, die in jedem Kontext erfüllt sein müssen, um als "kontinuierliche Lieferung" zu gelten.
+Kontinuierliche Lieferung (_Continuous Delivery_, _CD_) ist die technische Disziplin, bei der alle Änderungen auf sichere Weise in einem stets gleichen Verfahren bereitgestellt werden. CD deckt ein breites Spektrum von Aktivitäten ab, je nach den Besonderheiten des Liefergegenstandes. Es gibt jedoch bestimmte Verhaltensweisen und Fähigkeiten, die in jedem Kontext erfüllt sein müssen, um als "kontinuierliche Lieferung" zu gelten.
 
 Die für CD erforderlichen Mindestaktivitäten sind:
 
 - [Kontinuierliche Integration](#kontinuierliche-integration) verwenden
 - Die [Anwendungspipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) ist die einzige Möglichkeit zur Lieferung in einer beliebigen Umgebung.
 - Die Pipeline entscheidet über die Freigabefähigkeit von Änderungen, ihr Urteil ist [endgültig](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
-- Die von der Pipeline erstellten Artefakte entsprechen immer der der organisationseigenen ["Definition für deployable"](../../faq/#what-do-we-mean-by-definition-of-deployable).
-- [Unveränderliche Artefakte](../immutable). Keine menschlichen Änderungen nach der Übergabe.
+- Die von der Pipeline erstellten Artefakte entsprechen immer der der organisationseigenen ["Definition für deploybar"](../../faq/#what-do-we-mean-by-definition-of-deployable).
+- [Unveränderliche Artefakte](../immutable). Keine menschlichen Änderungen nach der Übergabe an cas CD-System.
 - Jegliche Arbeiten an Features werden eingestellt, wenn die Pipeline defekt ist.
 - Produktionsähnliche Testumgebung
 - Rollback bei Bedarf
-- [Anwendungskonfiguration](../../faq/#what-is-application-configuration) wird mit dem Artefakt ausgeliefert
+- [Anwendungskonfiguration](../../faq/#what-is-application-configuration) wird gemeinsam mit dem Artefakt ausgeliefert
 
 ## Kontinuierliche Integration
 
-Bei der kontinuierlichen Integration wird die Arbeit sehr häufig in den Stamm (_trunk_) der Versionskontrolle integriert und überprüft, ob die Arbeit nach bestem Wissen und Gewissen freigegeben werden kann.
+Bei der kontinuierlichen Integration (_continuous integration_, _CI_) wird die Arbeit sehr häufig in den Stamm (_trunk_) der Versionskontrolle integriert und überprüft, ob die Arbeit nach bestem Wissen und Gewissen freigegeben werden kann.
 
 Die für CI erforderlichen Mindestaktivitäten sind:
 
@@ -57,8 +57,8 @@ Die für CI erforderlichen Mindestaktivitäten sind:
 - Die Arbeit wird mindestens täglich in den Stamm integriert
 - Die Arbeit wird vor dem Zusammenführen mit dem Trunk automatisch getestet.
 - Die Arbeit wird beim Merge automatisch mit anderen Arbeiten getestet
-- Alle Arbeiten an Features werden gestoppt, wenn der Build rot ist.
-- Neue Arbeiten machen die gelieferten Arbeiten nicht kaputt
+- Alle Arbeiten an Features werden gestoppt, wenn der Build defekt ist.
+- Neue Arbeiten machen die bereits gelieferten Arbeiten nicht kaputt
 
 ## Trunk-basierte Entwicklung
 
