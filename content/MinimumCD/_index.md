@@ -13,7 +13,6 @@ weight: 1
 
 ![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 
-
 We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD) is required to improve the flow of delivery and achieve the outcomes above. While our contexts may be different, there are universal practices common in all. By defining them we can:
 
 - Introduce new practitioners in a consistent way
@@ -71,6 +70,7 @@ waste that increases batch size.
     - They are short-lived and removed after the merge
 
 ## Why did we build this?
+
 For background on Minimum CD and answers to other common questions, please [read the FAQs](../faq).
 
 ## Starting the Journey
