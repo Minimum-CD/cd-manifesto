@@ -28,9 +28,9 @@ If you'd like to submit a translation, please see the suggestions [here](TRANSLA
 
 Want to print stickers? You can find our logo images [here](https://github.com/Minimum-CD/cd-manifesto/blob/master/static/images)
 
-![](<img src="static/images/minimumCD-logo-hex.png" alt="MinCD Hex" height="150px">)
+<img src="static/images/minimumCD-logo-hex.png" alt="MinCD Hex" height="150px">
 
-![](<img src="static/images/minimumCD-Tagline.png" alt="MinCD Hex" height="150px">)
+<img src="static/images/minimumCD-Tagline.png" alt="MinCD Hex" height="150px">
 
 ## Tool info
 
