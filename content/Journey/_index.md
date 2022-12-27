@@ -90,7 +90,7 @@ Relentlessly improve and replace processes with automation. Keep pushing down th
 
 A very good case study for this is [Gary Gruver's work at HP Laserjet](https://itrevolution.com/the-amazing-devops-transformation-of-the-hp-laserjet-firmware-team-gary-gruver/)
 
-## TEST
+## TEST!
 
 This cannot be stressed enough. The purpose of the pipeline is to fully validate that an artifact is production worthy or to reject it. Do not run towards daily delivery without first building confidence in your ability to detect failure. Move fast validation to the desktop and execute it again when trying to merge code to the trunk and again whenever changes are made to the trunk.
 
