@@ -19,7 +19,7 @@ TBD is a team workflow where changes are integrated into the trunk with no inter
 It is important to note that release branches are an intermediate step that some chose on their path to continuous delivery while improving their quality processes in the pipeline. True CD releases from the trunk.
 
 ## What is Improved
-**Smaller changes**TBD emphasizes small, frequent changes that are easier for the team to review and more resistant to impactful merge conflicts. Conflicts become rare and trivial.
+- **Smaller changes**: TBD emphasizes small, frequent changes that are easier for the team to review and more resistant to impactful merge conflicts. Conflicts become rare and trivial.
 - **We must test**: TBD requires us to implement tests as part of the development process. 
 - **Better teamwork**: We need to work more closely as a team. This has many positive impacts, not least we will be more focused on getting the team's highest priority done. We will stop starting and start finishing work. 
 - **Better work definition**: Small changes require us to decompose the work into a level of detail that helps uncover things that lack clarity or do not make sense. This provides much earlier feedback on potential quality issues.
