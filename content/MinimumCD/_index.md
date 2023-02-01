@@ -62,12 +62,13 @@ The minimum activities required for CI are:
 of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
 waste that increases batch size.
 
-- The minimum activities required for TBD are:
-  - All changes integrate into the trunk
-  - If branches from the trunk are used:
-    - They originate from the trunk
-    - They re-integrate to the trunk
-    - They are short-lived and removed after the merge
+The minimum activities required for TBD are:
+
+- All changes integrate into the trunk
+- If branches from the trunk are used:
+  - They originate from the trunk
+  - They re-integrate to the trunk
+  - They are short-lived and removed after the merge
 
 ## Why did we build this?
 
