@@ -34,10 +34,10 @@ The minimum activities required for CD are:
 - Use [Continuous integration](#continuous-integration)
 - The [application
   pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
-  is the only way to deploy to any environment.
+  is the only way to deploy to any environment
 - The pipeline decides the releasability of changes, its verdict is [definitive](../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - Artifacts created by the pipeline always meet the organization's [definition of deployable](../faq/#what-do-we-mean-by-definition-of-deployable)
-- [Immutable artifact](./immutable). No human changes after commit.
+- [Immutable artifact](./immutable) (no human changes after commit)
 - All feature work stops when the pipeline is red
 - Production-like test environment
 - Rollback on-demand
@@ -62,12 +62,13 @@ The minimum activities required for CI are:
 of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
 waste that increases batch size.
 
-- The minimum activities required for TBD are:
-  - All changes integrate into the trunk
-  - If branches from the trunk are used:
-    - They originate from the trunk
-    - They re-integrate to the trunk
-    - They are short-lived and removed after the merge
+The minimum activities required for TBD are:
+
+- All changes integrate into the trunk
+- If branches from the trunk are used:
+  - They originate from the trunk
+  - They re-integrate to the trunk
+  - They are short-lived and removed after the merge
 
 ## Why did we build this?
 
