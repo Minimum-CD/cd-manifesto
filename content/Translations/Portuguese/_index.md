@@ -60,7 +60,7 @@ As atividades mínimas necessárias ao CI são:
 
 ## Trunk-Based Development
 
-O [_Trunk-based development_](../../tbd) (versão inglesa) (TBD) é um padrão de _branching_ essencial para cumprimento dos requisitos de CI. Impede a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
+O [_Trunk-based development_](../../minimumcd/tbd) (versão inglesa) (TBD) é um padrão de _branching_ essencial para cumprimento dos requisitos de CI. Impede a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
 
 Os atividades mínimas essenciais para o TBD são:
 
