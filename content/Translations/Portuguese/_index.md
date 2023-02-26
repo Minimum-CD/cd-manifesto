@@ -4,6 +4,7 @@ description: "Mínimo viável para a Entrega Contínua"
 weight: 3
 ---
 
+
 ## Mínimo viável para a Entrega Contínua
 
 {{% notice %}}
@@ -13,6 +14,8 @@ weight: 3
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (Tradução não oficial)
 
 {{% /notice %}}
+
+![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 
 Nós, [os abaixo-assinados](../../minimumcd#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
 
@@ -36,7 +39,7 @@ As atividades mínimas exigidas para o CD são:
 - A [_pipeline_ aplicational](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) é a única forma possível de fazer _deploy_ para qualquer ambiente
 - A _pipeline_ decide a possibilidade dessas mudanças serem replicadas para o ambiente produtivo. Esse veredicto é [definitivo](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - Os artefactos criados pela _pipeline_ respeitam sempre a [definição de _deployable_](../../faq/#what-do-we-mean-by-definition-of-deployable) da organização
-- [Artefacto imutável](../../faq/#what-is-an-immutable-artifact). Não existem mudanças manuais após o _commit_
+- [Artefacto imutável](../../faq/#what-is-an-immutable-artifact) (não existem mudanças manuais após o _commit_)
 - Todo o desenvolvimento de funcionalidades é suspenso quando a _pipeline_ se encontra em falha (em vermelho)
 - Ambientes de teste semelhantes ao ambiente produtivo
 - _Rollback_ conforme necessário
@@ -48,7 +51,7 @@ A integração contínua (Continuous Integration, CI) é a atividade que consist
 
 As atividades mínimas necessárias ao CI são:
 
-- [_Trunk-based development_](https://trunkbaseddevelopment.com/)
+- [_Trunk-based development_](#trunk-based-development)
 - O trabalho integra em _trunk_, no mínimo, diariamente
 - O trabalho tem testes automatizados antes do _merge_ em _trunk_
 - O trabalho é testado automaticamente com outras mudanças no _merge_
@@ -57,9 +60,10 @@ As atividades mínimas necessárias ao CI são:
 
 ## Trunk-Based Development
 
-O [_Trunk-based development_](https://trunkbaseddevelopment.com/) (TBD) é um padrão de _branching_ essencial para cumprimento dos requisitos de CI. Impede a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
+O [_Trunk-based development_](../../tbd) (versão inglesa) (TBD) é um padrão de _branching_ essencial para cumprimento dos requisitos de CI. Impede a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
 
 Os atividades mínimas essenciais para o TBD são:
+
 - Todas as mudanças integram em _trunk_
 - No caso de serem usados _branches_:
     - Eles têm sempre origem em _trunk_
@@ -70,7 +74,13 @@ Os atividades mínimas essenciais para o TBD são:
 
 Para obter informações acerca do Mínimo CD e respostas a outras questões comuns, por favor [lê as FAQ](../../faq) (versão inglesa).
 
-## Queres contribuir?
+## Começando a jornada
+
+Dúvidas sobre como começar? Confira algumas [recomendações](../../journey) (versão inglesa).
+
+## Contribuindo
+
+Você quer enviar uma tradução, boas práticas, sugestões ou um relato de experiência?
 
 Lê as nossas [diretrizes de contribuição](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md) (versão inglesa).
 
@@ -82,4 +92,4 @@ Os signatários assinaram a [versão original em inglês](../../minimumcd#signat
 
 Esta tradução é um esforço de toda a comunidade, que tem como objetivo a disseminação destes conceitos, para lá das barreiras linguísticas. Os signatários abstêm-se de afirmar a exatidão da tradução.
 
-Traduzido da versão: _c6c522c_, _2021-12-13_
+Traduzido da versão: _52efc0bd_, _2023-02-06_
