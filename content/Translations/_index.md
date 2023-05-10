@@ -4,4 +4,4 @@ description: ""
 weight: 10
 ---
 
-{{% children style="h2" depth="1" description="true" %}}
+{{% children style="h2" depth="1" description="true" /%}}
