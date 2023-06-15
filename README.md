@@ -2,7 +2,7 @@
 
 This is a community project to define the minimum set of practices that give the expected improvements to outcomes, quality of life, and organizational structure that come with continuous delivery.
 
-The website for this project, contained in this repo, is currently hosted at [minimumcd.org](https://minimumcd.org/minimumcd/)
+The website for this project, contained in this repo, is currently hosted at [MinimumCD.org](https://minimumcd.org/minimumcd/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d9c2de6c-4010-4e9c-b03a-9b303cfbfdf0/deploy-status)](https://app.netlify.com/sites/minimumcd/deploys)
 
@@ -23,6 +23,12 @@ This site uses NPM scripts to automate style checks.
 Please see the [contribution](CONTRIBUTING.md) page for adding signatures or suggesting improvements.
 
 If you'd like to submit a translation, please see the suggestions [here](TRANSLATING.md).
+
+## Starchart
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Minimum-CD/cd-manifesto.svg)](https://starchart.cc/Minimum-CD/cd-manifesto)
 
 ## Stickers
 
