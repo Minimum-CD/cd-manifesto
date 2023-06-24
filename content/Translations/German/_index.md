@@ -85,6 +85,8 @@ Möchten Sie eine Übersetzung, Best Practices, Vorschläge oder einen Erfahrung
 
 Lesen Sie unsere [Richtlinien für Beiträge](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md)
 
+## Mitwirkende
+
 {{< contributors >}}
 
 ## Unterzeichner

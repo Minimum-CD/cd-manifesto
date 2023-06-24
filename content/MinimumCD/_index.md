@@ -84,6 +84,8 @@ Do you want to submit a translation, good practices, suggestions, or an experien
 
 Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
+## Contributors
+
 {{< contributors >}}
 
 ## Signatories
