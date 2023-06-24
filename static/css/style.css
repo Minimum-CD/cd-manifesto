@@ -1,0 +1,11 @@
+body header, header a, header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 936px) {
+    body header div.burger {
+      display: flex;
+    }
+}
