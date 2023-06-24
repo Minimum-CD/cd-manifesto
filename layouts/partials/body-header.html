@@ -10,15 +10,16 @@
     {{- partial "_mdinclude.html" (dict "name" "header" "context" . "tip" $defaultheader ) -}}
     </div>
 
-    {{- with .Site.Menus.shortcuts}}
-    <nav class="shortcuts">
-        {{- range sort . "Weight"}}
-            <li class="" role="">
-                <a href="{{.URL}}" {{if eq $.Site.Params.menushortcutsnewtab true}}target="_blank"{{end}} rel="noopener">
-                  {{safeHTML .Name}}
-                </a>
-            </li>
-        {{- end}}
+    {{- with .Site.Params.github_repo }}
+    <nav>
+        <a
+            class="github-button"
+            href="https://github.com/{{.}}"
+            data-color-scheme="no-preference: light; light: light; dark: dark;"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star {{.}} on GitHub"
+        >Star</a>
     </nav>
     {{- end}}
 
