@@ -87,8 +87,8 @@ Lesen Sie unsere [Richtlinien für Beiträge](https://github.com/Minimum-CD/cd-m
 
 ## Mitwirkende
 
-{{< contributors >}}
+{{< name-list "contributors" >}}
 
 ## Unterzeichner
 
-{{< signatures >}}
+{{< name-list "signatures" >}}
