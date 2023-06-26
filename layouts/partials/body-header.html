@@ -1,12 +1,12 @@
 <div>
     {{if not (in .Params.hide "nav")}}
     <div class="burger {{.Params.layout }}">
-        <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">&#9776;</a>
+        <a href="javascript:void(0);" onclick="$('article > aside').toggleClass('responsive')">&#9776;</a>
     </div>
     {{end}}
 
-    <div height="100px">
-    {{- $defaultheader := printf "<a class='baselink' href='%s'><img src='%s' alt='Site logo' height='100px'> %s</a>" .Site.BaseURL .Site.Params.logo .Site.Title -}}
+    <div>
+    {{- $defaultheader := printf "<a class='baselink' href='%s'><img src='%s' alt='Site logo'> %s</a>" .Site.BaseURL .Site.Params.logo .Site.Title -}}
     {{- partial "_mdinclude.html" (dict "name" "header" "context" . "tip" $defaultheader ) -}}
     </div>
 
@@ -22,5 +22,4 @@
         >Star</a>
     </nav>
     {{- end}}
-
 </div>
