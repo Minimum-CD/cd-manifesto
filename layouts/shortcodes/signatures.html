@@ -4,9 +4,9 @@
     {{ range $index, $element := $names }}
         {{ if gt $index 0 }}&bull;{{ end }}
         {{ if .contact }}
-            <a href="{{ .contact }}" target="_blank">{{ .name }}</a>
+            <a href="{{ .contact }}" target="_blank" class="nobr">{{ .name }}</a>
         {{ else }}
-            <a href="#">{{ .name }}</a>
+            <a href="#" class="nobr">{{ .name }}</a>
         {{ end }}
     {{ end }}
 </div>
