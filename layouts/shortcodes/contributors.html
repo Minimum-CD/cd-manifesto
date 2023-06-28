@@ -1,19 +1,19 @@
+{{ $sortedNames := slice }}
+{{ range .Site.Data.names.contributors.list }}
+    {{ $nameParts := split .name " " }}
+    {{ $lastName := index (last 1 $nameParts) 0 }}
+    {{ $newEntry := merge . (dict "lastName" $lastName) }}
+    {{ $sortedNames = $sortedNames | append $newEntry }}
+{{ end }}
+{{ $sortedNames = sort $sortedNames ".lastName" }}
 <div>
-    {{ with $.Site.Data.names.contributors }}
-    {{ $list := ( sort .list "lName" ) }}
-    {{ $len := (len $list) }}
-
-    <h2>Contributors</h2>
-    <h4>({{ $len }})</h4>
-        {{ range $index, $element := $list }}
-            {{ if gt $index 0 }}<bold> &bull; </bold>{{ end }}
-            {{ if .contact }}
-                <a href="{{ .contact }}" alt="{{ .fName }} {{ .lName }}" target="_blank">
-                    {{ .fName }}&nbsp;{{ .lName }}
-                </a>
-            {{ else }}
-                {{ .fName }}&nbsp;{{ .lName }}
-            {{ end }}
+    <h4>({{ len $sortedNames }})</h4>
+    {{ range $index, $element := $sortedNames }}
+        {{ if gt $index 0 }}&bull;{{ end }}
+        {{ if .contact }}
+            <a href="{{ .contact }}" target="_blank" class="nobr">{{ .name }}</a>
+        {{ else }}
+            <a href="#" class="nobr">{{ .name }}</a>
         {{ end }}
     {{ end }}
 </div>

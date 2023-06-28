@@ -1,19 +1,12 @@
+{{ $names := .Site.Data.names.signatures.list }}
 <div>
-    {{ with $.Site.Data.names.signatures }}
-    {{ $list := .list }}
-    {{ $len := (len $list) }}
-
-    <h4>({{ $len }})</h4>
-        {{ range $index, $element := $list }}
-            {{ if gt $index 0 }}<bold> &bull; </bold>{{ end }}
-                {{ $fullName := split .name  " " }}
-                {{ if .contact }}
-                    <a href="{{ .contact }}" alt="{{ .name }}" target="_blank">
-                        {{ range $fullName }}{{ . }}&nbsp;{{ end }}
-                    </a>
-                {{ else }}
-                    {{ .name }}
-                {{ end }}
+    <h4>({{ len $names }})</h4>
+    {{ range $index, $element := $names }}
+        {{ if gt $index 0 }}&bull;{{ end }}
+        {{ if .contact }}
+            <a href="{{ .contact }}" target="_blank" class="nobr">{{ .name }}</a>
+        {{ else }}
+            <a href="#" class="nobr">{{ .name }}</a>
         {{ end }}
     {{ end }}
 </div>

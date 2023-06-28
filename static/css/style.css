@@ -9,3 +9,7 @@ body header, header a, header nav {
       display: flex;
     }
 }
+
+.nobr {
+  white-space: nowrap;
+}
