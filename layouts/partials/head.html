@@ -1,0 +1,7 @@
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
+{{ range .Site.Params.custom_js -}}
+    <script async defer src="{{ . | absURL }}"></script>
+{{- end }}

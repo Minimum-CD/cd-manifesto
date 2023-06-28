@@ -27,11 +27,13 @@ color_second = "#b30000"
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+custom_css = ["css/style.css"]
 
 editURL = "https://github.com/Minimum-CD/cd-manifesto/blob/master/content/"
 enableGitInfo = true
 logo = '/images/minimumCD-logo-hex.png'
-
+custom_js = ["https://buttons.github.io/buttons.js"]
+github_repo = "Minimum-CD/cd-manifesto"
 
 [mediaTypes]
   [mediaTypes."application/netlifyconfig"]
@@ -58,12 +60,6 @@ lineNumbersInTable = true
 noClasses = true
 style = "monokai"
 tabWidth = 2
-
-[[menu.shortcuts]]
-name = "Github"
-identifier = "ds"
-url = "https://github.com/Minimum-CD/cd-manifesto"
-weight = 10
 
 [create-footer-md]
 other = "Licensed MIT"
