@@ -86,8 +86,8 @@ Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/bl
 
 ## Contributors
 
-{{< name-list "contributors" >}}
+{{< contributors >}}
 
 ## Signatories
 
-{{< name-list "signatures" >}}
+{{< signatures >}}
