@@ -1,4 +1,4 @@
-baseURL = 'https://minimumcd.org/minimumcd/'
+baseURL = 'https://minimumcd.org/'
 title = 'MinimumCD.org'
 languageCode = "en-US"
 defaultContentLanguage = "en"

@@ -8,7 +8,6 @@ weight: 5
 
 It's true, some people still think CD is just tools. Here are some reports from people who are on the journey to migrate to a CD flow.
 
-- [Josh Warden on learning how to implement trunk-based development](https://jessewarden.com/2022/01/trunk-based-development-retro.html)
 - [Experience report from a Walmart development team in 2017](https://www.youtube.com/watch?v=MHK16QNVXXU&t=6s)
 - [Edward Thomson on trunk-based development at Microsoft](https://www.youtube.com/watch?v=ykZbBD-CmP8&t=232s)
 - [Rachel Potvin on trunk-based development at Google](https://youtu.be/W71BTkUbdqE?t=873)
