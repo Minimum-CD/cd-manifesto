@@ -40,7 +40,6 @@
   "devDependencies": {
     "husky": "^7.0.4",
     "linkinator": "^5.0.1",
-    "markdownlint": "^0.29.0",
     "markdownlint-cli": "^0.31.1"
   }
 }
