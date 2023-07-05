@@ -27,12 +27,12 @@
   "main": "hugo serve",
   "scripts": {
     "build": "hugo",
-    "link-check": "npm run build && linkinator -r public/ -s linkedin",
+    "link-check": "npm run build && linkinator ./public --config .linkinator.config.json ",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky install",
     "start": "hugo serve",
-    "test": "npm run lint"
+    "test": "npm run lint && npm run link-check"
   },
   "devDependencies": {
     "husky": "^7.0.4",
