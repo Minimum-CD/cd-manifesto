@@ -24,6 +24,9 @@
   },
   "license": "CC-BY-4.0",
   "author": "MinimumCD.org",
+  "engines": {
+    "node": "^16 || ^18"
+  },
   "main": "hugo serve",
   "scripts": {
     "build": "hugo",
