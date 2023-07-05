@@ -2,20 +2,6 @@
   "name": "minimumcd",
   "version": "1.0.0",
   "description": "Minimum Viable CD",
-  "main": "hugo serve",
-  "scripts": {
-    "build": "hugo",
-    "lint": "markdownlint ./content/**/*.md",
-    "lint:fix": "markdownlint -f ./content/**/*.md",
-    "prepare": "husky install",
-    "test": "npm run lint; npm run link-check",
-    "link-check": "start-server-and-test start http://localhost:1313 'blc http://localhost:1313 --recursive --ordered --exclude-external'",
-    "start": "hugo serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Minimum-CD/cd-manifesto.git"
-  },
   "keywords": [
     "ci",
     "cd",
@@ -28,16 +14,29 @@
     "trunk-based",
     "trunk"
   ],
-  "author": "MinimumCD.org",
-  "license": "CC-BY-4.0",
+  "homepage": "https://minimumcd.org/minimumcd/",
   "bugs": {
     "url": "https://github.com/Minimum-CD/cd-manifesto/issues"
   },
-  "homepage": "https://minimumcd.org/minimumcd/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minimum-CD/cd-manifesto.git"
+  },
+  "license": "CC-BY-4.0",
+  "author": "MinimumCD.org",
+  "main": "hugo serve",
+  "scripts": {
+    "build": "hugo",
+    "link-check": "npm run build && linkinator -r public/ -s linkedin",
+    "lint": "markdownlint ./content/**/*.md",
+    "lint:fix": "markdownlint -f ./content/**/*.md",
+    "prepare": "husky install",
+    "start": "hugo serve",
+    "test": "npm run lint"
+  },
   "devDependencies": {
     "husky": "^7.0.4",
-    "markdownlint-cli": "^0.31.1",
-    "start-server-and-test": "^1.14.0",
-    "broken-link-checker": "^0.7.8"
+    "linkinator": "^5.0.1",
+    "markdownlint-cli": "^0.31.1"
   }
 }
