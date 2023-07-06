@@ -10,10 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     steps:
     - uses: actions/checkout@v3
     
@@ -23,10 +20,10 @@ jobs:
         hugo-version: '0.115.1'
         extended: true
         
-    - name: run tests ${{ matrix.node-version }}
+    - name: Run Tests 
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 'lts/Hydrogen'
         cache: 'npm'
     - run: npm ci
     - run: npm test
