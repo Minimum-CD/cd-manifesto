@@ -74,11 +74,11 @@ The minimum activities required for TBD are:
 - They end at the trunk
 - Like mayflies, they kick the bucket pretty fast.
   
-## Why did we build this?
+## Why'd we build this?
 
 We wrote that down along with some other stuff to [help y'all out](../../faq).
 
-## Startin' the Journey
+## Headin' Down the Trail
 
 Wanna know where to start? Check out some [ideas](../../journey) that've worked for us.
 
