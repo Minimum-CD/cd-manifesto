@@ -44,7 +44,7 @@ La CI è l'attività che ci consente di integrare continuamente il lavoro di cia
 
 Le attività minime richieste dalla CI sono:
 
-- [Trunk-based development](https://trunkbaseddevelopment.com/)
+- [Trunk-based development](../../minimumcd/tbd/)
 - Il lavoro viene integrato nel trunk almeno una volta al giorno
 - Una suite di test automatici verifica il lavoro prima che venga integrato nel trunk
 - Una suite di test automatici verifica il lavoro dopo essere stato integrato nel trunk
@@ -53,7 +53,7 @@ Le attività minime richieste dalla CI sono:
 
 ## Trunk-based Development
 
-Il [Trunk-based Development](https://trunkbaseddevelopment.com/) è il modello di branching necessario a soddisfare la definizione della CI. La CI evita la perdita delle modifiche, il rischio di corruzione che deriva dall'integrazione e dalla risoluzione dei conflitti, e riduce lo spreco dovuto ad attività che potrebbero aumentare la dimensione degli insiemi di modifiche.
+Il [Trunk-based Development](../../minimumcd/tbd/) è il modello di branching necessario a soddisfare la definizione della CI. La CI evita la perdita delle modifiche, il rischio di corruzione che deriva dall'integrazione e dalla risoluzione dei conflitti, e riduce lo spreco dovuto ad attività che potrebbero aumentare la dimensione degli insiemi di modifiche.
 
 - Le attività minime richieste dal TBD sono:
   - Tutte le modifiche devono essere integrate nel trunk

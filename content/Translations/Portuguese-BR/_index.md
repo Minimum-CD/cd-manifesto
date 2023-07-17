@@ -39,7 +39,7 @@ As atividades mínimas exigidas para o CD são:
 - O [_delivery pipeline_](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) é a única forma possível de fazer _deploy_ para qualquer ambiente
 - O _pipeline_ decide se as mudanças atendem ou não os requisitos para entrada em produção. Esse veredicto é [definitivo](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - Os artefatos criados pelo _pipeline_ respeitam sempre a [definição de _deployable_](../../faq/#what-do-we-mean-by-definition-of-deployable) da organização
-- [Artefato imutável](../../faq/#what-is-an-immutable-artifact) (não existem mudanças manuais após o _commit_)
+- [Artefato imutável](../../minimumcd/immutable/) (não existem mudanças manuais após o _commit_)
 - Todo o desenvolvimento de funcionalidades é suspenso quando o _pipeline_ falha
 - Ambiente de testes semelhante ao ambiente produtivo
 - _Rollback_ sob demanda

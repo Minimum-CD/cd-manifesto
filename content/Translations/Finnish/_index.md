@@ -33,11 +33,11 @@ Jatkuvan toimittamisen minimivaatimukset ovat:
   on ainoa tie tuotantoonvientiin.
 - Toimitusputki määrää muutosten julkaisukelpoisuuden, sen lausunto on [ehdoton](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - [Organisaation tuotantoonvientikelpoisen määritelmä täyttyy aina](https://www.youtube.com/watch?v=bHKHdp4H-8w)
-- [Artifakti on muuttumaton](../../faq/#what-is-an-immutable-artifact). Ei ihmisen tekemiä muutoksia versionhallintaan tallentamisen jälkeen.
+- [Artifakti on muuttumaton](../../minimumcd/immutable/). Ei ihmisen tekemiä muutoksia versionhallintaan tallentamisen jälkeen.
 - Kaikki uuskehitys loppuu, kun toimitusputki on punaisella
 - Tuotannonkaltainen testiympäristö
 - Tuotantoonviennin peruutus tarvittaessa
-- [Sovelluksen konfiguraatio](../../faq/#what-is-application-configuration) viedään tuotantoon artifaktin kanssa 
+- [Sovelluksen konfiguraatio](../../faq/#what-is-application-configuration) viedään tuotantoon artifaktin kanssa
 
 ## Jatkuva integraatio
 
@@ -45,7 +45,7 @@ Jatkuva integraatio (CI) on toimintatapa, jossa työ integroidaan päähaaraan e
 
 Jatkuvan integraation minimivaatimukset ovat:
 
-- Päähaarassa kehittäminen ([Trunk-based development](https://trunkbaseddevelopment.com/))
+- Päähaarassa kehittäminen ([Trunk-based development](../../minimumcd/tbd/))
 - Työ integroidaan päähaaraan vähintään päivittäin
 - Työ testataan automaattisesti ennen päähaaraan yhdistämistä
 - Työ testataan muun työn kanssa automaattisesti haaroja yhdistettäessä
@@ -54,7 +54,7 @@ Jatkuvan integraation minimivaatimukset ovat:
 
 ## Päähaarassa kehittäminen (Trunk-based Development)
 
-Päähaarassa kehittäminen eli [Trunk-based development](https://trunkbaseddevelopment.com/) on versionhallinnan haarauttamistapa, joka vaaditaan jatkuvan integraation määritelmään. Se estää työn katoamisen, työn korruptoitumisen haarojen yhdistämiseen liittyvissä konflikteissa ja vähentää liike-hukkaa, joka johtaa suuriin eräkokoihin.
+Päähaarassa kehittäminen eli [Trunk-based development](../../minimumcd/tbd/) on versionhallinnan haarauttamistapa, joka vaaditaan jatkuvan integraation määritelmään. Se estää työn katoamisen, työn korruptoitumisen haarojen yhdistämiseen liittyvissä konflikteissa ja vähentää liike-hukkaa, joka johtaa suuriin eräkokoihin.
 
 Päähaarassa kehittämisen minimivaatimukset ovat:
 

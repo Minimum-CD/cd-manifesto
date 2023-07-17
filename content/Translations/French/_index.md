@@ -24,9 +24,9 @@ Les pratiques ci-dessous sont le minimum, un point de départ. L'amélioration c
 
 ## Livraison Continue
 
-La Livraison Continue est la discipline d'ingénierie qui consiste à délivrer tous les changements de manière standard, 
-en toute sécurité. Il couvre un large éventail d'activités en fonction de ce qui est livré. 
-Cependant, il existe des comportements et des compétences qui doivent être mises en oeuvres dans tous les contextes 
+La Livraison Continue est la discipline d'ingénierie qui consiste à délivrer tous les changements de manière standard,
+en toute sécurité. Il couvre un large éventail d'activités en fonction de ce qui est livré.
+Cependant, il existe des comportements et des compétences qui doivent être mises en oeuvres dans tous les contextes
 pour être qualifiés de « livraison continue »
 
 Les activités minimales requises pour la Livraison Continue sont :
@@ -36,20 +36,20 @@ Les activités minimales requises pour la Livraison Continue sont :
   est le seul chemin qui permet de déployer en production.
 - Le pipeline décide de la diffusion des modifications, son verdict est [définitif](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - Les artefacts créés par le pipeline répondent toujours à la [définition de Déployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) de l'organisation
-- [L'artefact ne change jamais](../../faq/#what-is-an-immutable-artifact). Il n'y a aucun changement humain après le commit.
+- [L'artefact ne change jamais](../../minimumcd/immutable/). Il n'y a aucun changement humain après le commit.
 - Tous les travaux sur les fonctionnalités s'arrêtent lorsque le pipeline est rouge
 - L'environnement de test est proche de l'environnement de production
 - On peut revenir en arrière (rollback) à la demande
-- [La configuration de l'application](../../faq/#what-is-application-configuration) est déployée avec l'artefact 
+- [La configuration de l'application](../../faq/#what-is-application-configuration) est déployée avec l'artefact
 
 ## Intégration Continue
 
-L'Intégration Continue consiste à intégrer, très fréquemment, un travail donné au tronc principal du 
+L'Intégration Continue consiste à intégrer, très fréquemment, un travail donné au tronc principal du
 dépôt de code, et à vérifier que ce travail est, à notre connaissance, propre à être livré.
 
 Les activités minimales requises pour CI sont :
 
-- [Le développement à branche unique](https://trunkbaseddevelopment.com/)
+- [Le développement à branche unique](../../minimumcd/tbd/)
 - Le travail est intégré au tronc commun au moins chaque jour
 - Le travail est testé automatiquement avec d'être fusionné au tronc commun
 - Le travail est testé avec celui des autres automatiquement lors de la fusion
@@ -58,8 +58,8 @@ Les activités minimales requises pour CI sont :
 
 ## Le développement à branche unique (TBD)
 
-[Le développement à branche unique](https://trunkbaseddevelopment.com/) est le modèle de branche requis pour répondre à la définition d'Intégration Continue.
-Il évite la perte de travail, le risque de corruption qui provient des résolutions de conflits lors des fusions, et 
+[Le développement à branche unique](../../minimumcd/tbd/) est le modèle de branche requis pour répondre à la définition d'Intégration Continue.
+Il évite la perte de travail, le risque de corruption qui provient des résolutions de conflits lors des fusions, et
 réduit également le gaspillage d'énergie induit par la taille des lots/
 
 - Les activités minimales requises pour TBD sont :
@@ -71,9 +71,9 @@ réduit également le gaspillage d'énergie induit par la taille des lots/
 
 ## Au-delà des minimums
 
-La Livraison Continue Minimale n'est pas la première étape d'un modèle de maturité. 
+La Livraison Continue Minimale n'est pas la première étape d'un modèle de maturité.
 Cependant, cela reste le strict minimum sur lequel de nombreuses autres pratiques devraient être construites en fonction de votre contexte.
-Afin de vous aider à dépasser cette Livraison Continue Minimale, nous tenons à jour une liste de ressources axées sur la 
+Afin de vous aider à dépasser cette Livraison Continue Minimale, nous tenons à jour une liste de ressources axées sur la
 livraison continue, que nous que nous avons trouvées très utiles dans nos propres expériences.
 
 Ces ressources contiennent les bases, mais aussi les connaissances nécessaires pour devenir une organisation de Livraison Continue "d'élite".
