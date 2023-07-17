@@ -39,7 +39,7 @@ As atividades mínimas exigidas para o CD são:
 - A [_pipeline_ aplicational](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) é a única forma possível de fazer _deploy_ para qualquer ambiente
 - A _pipeline_ decide a possibilidade dessas mudanças serem replicadas para o ambiente produtivo. Esse veredicto é [definitivo](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - Os artefactos criados pela _pipeline_ respeitam sempre a [definição de _deployable_](../../faq/#what-do-we-mean-by-definition-of-deployable) da organização
-- [Artefacto imutável](../../faq/#what-is-an-immutable-artifact) (não existem mudanças manuais após o _commit_)
+- [Artefacto imutável](../../minimumcd/immutable/) (não existem mudanças manuais após o _commit_)
 - Todo o desenvolvimento de funcionalidades é suspenso quando a _pipeline_ se encontra em falha (em vermelho)
 - Ambientes de teste semelhantes ao ambiente produtivo
 - _Rollback_ conforme necessário
@@ -66,9 +66,9 @@ Os atividades mínimas essenciais para o TBD são:
 
 - Todas as mudanças integram em _trunk_
 - No caso de serem usados _branches_:
-    - Eles têm sempre origem em _trunk_
-    - Eles re-integram sempre em _trunk_
-    - Eles são de curta-duração e são removidos depois do _merge_
+  - Eles têm sempre origem em _trunk_
+  - Eles re-integram sempre em _trunk_
+  - Eles são de curta-duração e são removidos depois do _merge_
 
 ## Por que construímos este manifesto?
 
