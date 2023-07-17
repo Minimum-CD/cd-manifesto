@@ -37,7 +37,7 @@ The minimum activities required for CD are:
   is the only way to deploy to any environment
 - The pipeline decides the releasability of changes, its verdict is [definitive](../faq/#why-should-the-pipeline-be-definitive-for-deploy)
 - Artifacts created by the pipeline always meet the organization's [definition of deployable](../faq/#what-do-we-mean-by-definition-of-deployable)
-- [Immutable artifact](./immutable) (no human changes after commit)
+- [Immutable artifact](../minimumcd/immutable/) (no human changes after commit)
 - All feature work stops when the pipeline is red
 - Production-like test environment
 - Rollback on-demand
@@ -58,7 +58,7 @@ The minimum activities required for CI are:
 
 ## Trunk-based Development
 
-[Trunk-based development](./tbd) is the branching pattern required to meet the definition
+[Trunk-based development](../minimumcd/tbd) is the branching pattern required to meet the definition
 of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
 waste that increases batch size.
 

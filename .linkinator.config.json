@@ -1,8 +1,8 @@
 {
-    "recurse": true,
-    "skip": "^(https://.*linkedin.com),^(https://.*twitter.com),(/immutable),(/tbd)",
-    "verbosity": "error",
-    "timeout": 0,
-    "markdown": true,
-    "directoryListing": true
-  }
+  "recurse": true,
+  "skip": "^(https://.*linkedin.com),^(https://.*twitter.com),^(https://github.com/Minimum-CD*)",
+  "verbosity": "error",
+  "timeout": 0,
+  "markdown": true,
+  "directoryListing": true
+}
