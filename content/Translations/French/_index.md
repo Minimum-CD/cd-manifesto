@@ -84,4 +84,4 @@ Les signataires ont signé le [document original en anglais](../../minimumcd#sig
 
 Cette traduction est produite par la communauté pour obtenir ces informations au-delà des barrières linguistiques. Les signataires eux-mêmes ne peuvent confirmer l'exactitude de cette traduction.
 
-Traduit de la version : 206a173, 2021-10-20
+Traduit de la version : 35071d4, 2023-07-18
