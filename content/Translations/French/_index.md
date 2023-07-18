@@ -1,14 +1,16 @@
 ---
 title: Francais
-description: "Le minimum vital pour de la Livraison Continue"
+description: "Le minimum viable de la Livraison Continue"
 weight: 3
 ---
 
-# Le minimum vital pour de la Livraison Continue
+# Le minimum viable de la Livraison Continue
 
 > "La livraison continue améliore à la fois les performances de livraison et la qualité, et participe également à améliorer la culture et à réduire l'épuisement et la difficulté des déploiements."
 
 -- Accelerate
+
+![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 
 Nous, [les signataires](../../minimumcd#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons :
 
@@ -49,37 +51,26 @@ dépôt de code, et à vérifier que ce travail est, à notre connaissance, prop
 
 Les activités minimales requises pour CI sont :
 
-- [Le développement à branche unique](../../minimumcd/tbd/)
-- Le travail est intégré au tronc commun au moins chaque jour
+- [Le développement basé sur un tronc commun](../../minimumcd/tbd/)
+- Le travail est intégré au tronc commun au moins une fois par jour
 - Le travail est testé automatiquement avec d'être fusionné au tronc commun
 - Le travail est testé avec celui des autres automatiquement lors de la fusion
 - Tous les travaux sur les fonctionnalités s'arrêtent lorsque le build est rouge
 - Le nouveau travail ne casse pas le travail existant
 
-## Le développement à branche unique (TBD)
+## Le développement basé sur un tronc commun (Trunk-based Development, TBD)
 
-[Le développement à branche unique](../../minimumcd/tbd/) est le modèle de branche requis pour répondre à la définition d'Intégration Continue.
+[Le développement basé sur un tronc commun](../../minimumcd/tbd/) est le modèle de branche requis pour répondre à la définition d'Intégration Continue.
 Il évite la perte de travail, le risque de corruption qui provient des résolutions de conflits lors des fusions, et
 réduit également le gaspillage d'énergie induit par la taille des lots/
 
-- Les activités minimales requises pour TBD sont :
-  - Tous les changements sont intégrés dans le tronc commun
-  - Si des branches du tronc commun sont utilisés :
-    - Elles sont issues du tronc commun
-    - Elles se réintègrent au tronc commun
-    - Elles sont de courte durée et supprimées après la fusion
+Les activités minimales requises pour le TBD sont :
 
-## Au-delà des minimums
-
-La Livraison Continue Minimale n'est pas la première étape d'un modèle de maturité.
-Cependant, cela reste le strict minimum sur lequel de nombreuses autres pratiques devraient être construites en fonction de votre contexte.
-Afin de vous aider à dépasser cette Livraison Continue Minimale, nous tenons à jour une liste de ressources axées sur la
-livraison continue, que nous que nous avons trouvées très utiles dans nos propres expériences.
-
-Ces ressources contiennent les bases, mais aussi les connaissances nécessaires pour devenir une organisation de Livraison Continue "d'élite".
-Elles sont dédiées à la résolution du problème « pourquoi ne pouvons-nous pas passer en production aujourd'hui ? »
-
-[Lire la liste](../../references).
+- Tous les changements sont intégrés dans le tronc commun
+- Si des branches partant du tronc commun sont utilisées :
+  - Elles sont issues du tronc commun
+  - Elles sont réintègrées au tronc commun
+  - Elles sont de courte durée et supprimées après la fusion
 
 ## Pourquoi avons-nous construit ce manifeste ?
 
