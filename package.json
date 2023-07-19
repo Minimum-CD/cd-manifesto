@@ -32,7 +32,7 @@
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky install",
     "start": "hugo serve",
-    "test": "npm run lint && npm run link-check"
+    "test": "rm -rf public && npm run lint && npm run link-check"
   },
   "devDependencies": {
     "husky": "^8.0.3",
