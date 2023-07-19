@@ -12,7 +12,7 @@ weight: 3
 
 ![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 
-Nous, [les signataires](../../minimumcd#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons :
+Nous, [les signataires](../../minimumcd#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons&nbsp;:
 
 - Présenter les choses aux nouveaux arrivants de manière cohérente
 - Discuter des pratiques d'ingénierie qui composent le CD (Continuous Delivery)
@@ -31,7 +31,7 @@ en toute sécurité. Il couvre un large éventail d'activités en fonction de ce
 Cependant, il existe des comportements et des compétences qui doivent être mises en oeuvres dans tous les contextes
 pour être qualifiés de « livraison continue »
 
-Les activités minimales requises pour la Livraison Continue sont :
+Les activités minimales requises pour la Livraison Continue sont&nbsp;:
 
 - [L'intégration continue](#intégration-continue)
 - Le [pipeline de déploiement](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
@@ -49,7 +49,7 @@ Les activités minimales requises pour la Livraison Continue sont :
 L'Intégration Continue consiste à intégrer, très fréquemment, un travail donné au tronc principal du
 dépôt de code, et à vérifier que ce travail est, à notre connaissance, propre à être livré.
 
-Les activités minimales requises pour CI sont :
+Les activités minimales requises pour CI sont&nbsp;:
 
 - [Le développement basé sur un tronc commun](../../minimumcd/tbd/)
 - Le travail est intégré au tronc commun au moins une fois par jour
@@ -64,10 +64,10 @@ Les activités minimales requises pour CI sont :
 Il évite la perte de travail, le risque de corruption qui provient des résolutions de conflits lors des fusions, et
 réduit également le gaspillage d'énergie induit par la taille des lots/
 
-Les activités minimales requises pour le TBD sont :
+Les activités minimales requises pour le TBD sont&nbsp;:
 
 - Tous les changements sont intégrés dans le tronc commun
-- Si des branches partant du tronc commun sont utilisées :
+- Si des branches partant du tronc commun sont utilisées&nbsp;:
   - Elles sont issues du tronc commun
   - Elles sont réintègrées au tronc commun
   - Elles sont de courte durée et supprimées après la fusion
