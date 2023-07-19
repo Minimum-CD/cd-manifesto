@@ -54,8 +54,8 @@ best we can tell, releasable.
 The bare minimums for CI are:
 
 - [Trunk-based development](#trunk-based-development)
-- Work integrates to the trunk at least daily
-- Y'all automated the testin' before mergin' to trunk
+- Work integrates into the trunk at least daily
+- Y'all automated the testin' before mergin'
 - Work is tested with other work automagically on merge
 - All feature work stops when the build halts and catches fire
 - New work does not mess up delivered work
@@ -70,9 +70,9 @@ The minimum activities required for TBD are:
 
 - Everythin' integrates into the trunk
 - If branches from the trunk are used:
-- They start at the trunk
-- They end at the trunk
-- Like mayflies, they kick the bucket pretty fast.
+  - They start at the trunk
+  - They end at the trunk
+  - Like mayflies, they should die within a day
   
 ## Why'd we build this?
 
