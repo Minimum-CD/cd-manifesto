@@ -4,11 +4,11 @@ description: Specific advice for an often misunderstood principle of continuous 
 weight: 1
 ---
 
-We need to reduce batch size because smaller batches of work are easier to verify, they tend to fail small, we are less likely to suffer from sunk-cost fallacy, we amplify feedback loops, etc. How small should they be? As small as we can make them to get production feedback on what we are trying to learn. Working to reduce batch size acts as a forcing function for exposing and removing hidden waste in upstream processes.There are several batch sizes we are trying to reduce.
+We need to reduce batch size because smaller batches of work are easier to verify, they tend to fail small, we are less likely to suffer from sunk-cost fallacy, we amplify feedback loops, etc. How small should they be? As small as we can make them to get production feedback on what we are trying to learn. Working to reduce batch size acts as a forcing function for exposing and removing hidden waste in upstream processes. There are several batch sizes we are trying to reduce.
 
 ### Deploy More Often
 
-How often we are delivering changes to the end user? A common mistake is to only deploy completed features. It is far better to deploy something as soon as the pipeline certifies a change will not break the end-user. This could be as small as a some tested code that won't be used until several other small changes are delivered.
+How often we are delivering changes to the end user? A common mistake is to only deploy completed features. It is far better to deploy something as soon as the pipeline certifies a change will not break the end-user. This could be as small as some tested code that won't be used until several other small changes are delivered.
 
 There are two common arguments against increasing deploy frequency. The first is a misunderstanding of "valuable". "We don't want to deliver incomplete features because the customer can't use them so we aren't delivering any value."
 
