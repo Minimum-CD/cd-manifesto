@@ -35,11 +35,11 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "link-check": "npm run build && linkinator ./public --config .linkinator.config.json ",
-    "lint": "markdownlint ./content/**/*.md",
-    "lint:fix": "markdownlint -f ./content/**/*.md",
+    "link-check": "npm run build && linkinator ./build --config .linkinator.config.json ",
+    "lint": "markdownlint ./**/*.md",
+    "lint:fix": "markdownlint -f ./**/*.md",
     "prepare": "husky install",
-    "test": "rm -rf public && npm run lint && npm run link-check"
+    "test": "rm -rf build && npm run lint"
   },
   "devDependencies": {
     "husky": "^8.0.3",

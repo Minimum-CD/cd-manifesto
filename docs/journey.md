@@ -61,13 +61,13 @@ We must treat tests as first-class citizens. They are more important than the co
 
 Dig into testing. [Learn effective test patterns](https://bdfinst.medium.com/5-minute-devops-testing-101-4698b6464172). Many people start testing implementation and then struggle to keep tests current as implementation changes. Avoid implementation testing. Test behaviors. If we cannot refactor code without changing the test then we are testing incorrectly. Focus on BDD to define tests and TDD to implement tests. People often push back on TDD, but that is most commonly because they never learned how to do it correctly. BDD was created to help. Lean in.
 
-There are layers of tests in a properly architected suite of CI tests. The [*xUnit Test Patterns*](http://xunitpatterns.com/) book is a great place to start.
+There are layers of tests in a properly architected suite of CI tests. The [_xUnit Test Patterns_](http://xunitpatterns.com/) book is a great place to start.
 
 Teams are not good at testing initially for the same reason they aren't good at any other skill on day 1. It takes time. Start now.
 
 ### Individual tasks are too big
 
-CI means we are integrating partially completed features continuously. TDD helps us learn how to decompose tasks into very small, releasable changes that do not break existing behaviors. However, the initial habit is often to wait to integrate changes until they are "complete". This results in large change-sets that are more difficult to code review. This makes code review take more time, requires more re-work, and reduces the ability of the reviewer to spot problems. [Evolutionary coding methods](../minimumcd#evolutionary-coding-methods) allow the release of incomplete features until they are ready and allow us to drive down the size of changes. By focusing as a team to decompose tasks into hours of work rather than days and using engineering techniques to control release, we have improved clarity, smaller change-sets, and higher quality.
+CI means we are integrating partially completed features continuously. TDD helps us learn how to decompose tasks into very small, releasable changes that do not break existing behaviors. However, the initial habit is often to wait to integrate changes until they are "complete". This results in large change-sets that are more difficult to code review. This makes code review take more time, requires more re-work, and reduces the ability of the reviewer to spot problems. [Evolutionary coding methods](/docs/minimumcd#evolutionary-coding-methods) allow the release of incomplete features until they are ready and allow us to drive down the size of changes. By focusing as a team to decompose tasks into hours of work rather than days and using engineering techniques to control release, we have improved clarity, smaller change-sets, and higher quality.
 
 ### Stories are too big & lack testable acceptance criteria
 
