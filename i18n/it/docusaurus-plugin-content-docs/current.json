@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Manifest": {
+    "message": "Manifest",
+    "description": "The label for category Manifest in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Practices": {
+    "message": "Practices",
+    "description": "The label for category Practices in sidebar tutorialSidebar"
+  }
+}

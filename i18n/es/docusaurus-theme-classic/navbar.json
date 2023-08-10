@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Minimum Viable CD",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Minimum Viable CD Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Manifesto": {
+    "message": "Manifesto",
+    "description": "Navbar item with label Manifesto"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
