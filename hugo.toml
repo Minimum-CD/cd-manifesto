@@ -1,69 +1,83 @@
-baseURL = 'https://minimumcd.org/'
-title = 'MinimumCD.org'
-languageCode = "en-US"
+baseURL                = 'https://minimumcd.org/'
 defaultContentLanguage = "en"
+languageCode           = "en-US"
+title                  = 'MinimumCD.org'
 
 theme = "docport"
 
 pygmentsCodeFences = true
-pygmentsStyle = "monokai"
+pygmentsStyle      = "monokai"
 
-defaultContentLanguageInSubdir= false
+defaultContentLanguageInSubdir       = false
 enableMissingTranslationPlaceholders = false
 
 googleanalytics = "G-KVLFMQXEF1"
 
-disableKinds = ["taxonomy", "taxonomyTerm", "category", "RSS"]
+disableKinds = [
+  "RSS",
+  "category",
+  "taxonomy",
+  "taxonomyTerm"
+]
 
 # Keep this as is
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+  home = [
+    "HTML",
+    "JSON",
+    "RSS"
+  ]
 
 # Site params
 [params]
-ordersectionsby = "weight" # ordersectionsby = "title"
-color_main = "#477bbf"
-color_second = "#b30000"
-disableSearch = false # default is false
-disableNavChevron = false # set true to hide next/prev chevron, default is false
-menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+  color_main          = "#477bbf"
+  color_second        = "#b30000"
+  disableNavChevron   = false     # set true to hide next/prev chevron, default is false
+  disableSearch       = false     # default is false
+  menushortcutsnewtab = false     # set true to open shortcuts links to a new tab/window
+  ordersectionsby     = "weight"  # ordersectionsby = "title"
 
-editURL = "https://github.com/Minimum-CD/cd-manifesto/blob/master/content/"
-enableGitInfo = true
-logo = '/images/minimumCD-logo-hex.png'
-
+  custom_js = [
+    "https://buttons.github.io/buttons.js"
+  ]
+  editURL = "https://github.com/Minimum-CD/cd-manifesto/blob/master/content/"
+  enableGitInfo = true
+  github_repo = 'Minimum-CD/cd-manifesto'
+  logo = '/images/minimumCD-logo-hex.png'
 
 [mediaTypes]
   [mediaTypes."application/netlifyconfig"]
-    suffixes = ["yml"]
+    suffixes = [
+      "yml"
+    ]
 
 [outputFormats]
-[outputFormats.netlifyyaml]
-mediaType = "application/netlifyconfig"
-isPlainText = true
-isHTML = false
-notAlternative = true
+  [outputFormats.netlifyyaml]
+    isHTML         = false
+    isPlainText    = true
+    mediaType      = "application/netlifyconfig"
+    notAlternative = true
 
 [markup.goldmark.renderer]
-unsafe = true
+  unsafe = true
 
 # Code highlight configuration
 [markup.highlight]
-codeFences = true
-guessSyntax = true
-hl_Lines = ""
-lineNoStart = 1
-lineNos = false
-lineNumbersInTable = true
-noClasses = true
-style = "monokai"
-tabWidth = 2
+  codeFences         = true
+  guessSyntax        = true
+  hl_Lines           = ""
+  lineNoStart        = 1
+  lineNos            = false
+  lineNumbersInTable = true
+  noClasses          = true
+  style              = "monokai"
+  tabWidth           = 2
 
 [[menu.shortcuts]]
-name = "Github"
-identifier = "ds"
-url = "https://github.com/Minimum-CD/cd-manifesto"
-weight = 10
+  identifier = "ds"
+  name       = "Github"
+  url        = "https://github.com/Minimum-CD/cd-manifesto"
+  weight     = 10
 
 [create-footer-md]
-other = "Licensed MIT"
+  other = "Licensed MIT"
