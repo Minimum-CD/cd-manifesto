@@ -19,7 +19,7 @@ While CI depends on tooling, the team workflow and working agreement are more im
 Evolutionary coding methods:
 
 
-- [Keystone Interfaces](https://martinfowler.com/bliki/KeystoneInterface.html) (A.K.A [Dark Launching](https://martinfowler.com/bliki/DarkLaunching.html)) lets you deploy some portion of the code to production without being visible or usable by end-users. It can also let you recolt metrics on how good the feature behaves performance-wise before make it accessible.
+- [Keystone Interfaces](https://martinfowler.com/bliki/KeystoneInterface.html) (A.K.A [Dark Launching](https://martinfowler.com/bliki/DarkLaunching.html)) lets you deploy some portion of the code to production without being visible or usable by end-users. It can also let you review metrics on how well the feature behaves performance-wise before making it accessible.
 - [Branch by abstraction](https://www.branchbyabstraction.com/) is a good process for replacing existing new behaviors or frameworks with something new while constantly delivering. Also, a good pattern to use for A/B testing.
 - [Feature flags](https://martinfowler.com/articles/feature-toggles.html) can be temporary tools for feature release management or permanent tools for enabling behaviors for different personas. They can also be controlled with application configuration or dynamically with logic.
 
