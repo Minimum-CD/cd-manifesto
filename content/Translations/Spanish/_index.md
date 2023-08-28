@@ -12,7 +12,7 @@ weight: 3
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (Traducción no oficial)
 {{% /notice %}}
 
-Nosotros, [los abajo firmantes](../../minimumcd#signatories), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega y lograr los resultados anteriores. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
+Nosotros, [los abajo firmantes](../../minimumcd/#signatories), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega y lograr los resultados anteriores. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
 
 - Introducir a los nuevos profesionales de forma coherente
 - Discutir las prácticas de ingeniería que abarca CD
@@ -66,7 +66,7 @@ Las actividades mínimas requeridas para CI son:
 
 ## ¿Por qué construimos esto?
 
-Para obtener más información sobre el CD mínimo y respuestas a otras preguntas comunes, por favor [lea las preguntas más frecuentes](../../faq).
+Para obtener más información sobre el CD mínimo y respuestas a otras preguntas comunes, por favor [lea las preguntas más frecuentes](../../faq/).
 
 ## ¿Quieres contribuir?
 
@@ -74,7 +74,7 @@ Lee nuestra [pauta de contribución](https://github.com/Minimum-CD/cd-manifesto/
 
 ## Firmantes
 
-Los firmantes avalan la [versión original en inglés](../../minimumcd#signatories) y la lista actual de nombres solo se publica con esa versión.
+Los firmantes avalan la [versión original en inglés](../../minimumcd/#signatories) y la lista actual de nombres solo se publica con esa versión.
 
 ## Traducción
 
