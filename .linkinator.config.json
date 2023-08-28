@@ -1,8 +1,11 @@
 {
   "recurse": true,
-  "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com),^(https://github.com/Minimum-CD*)",
+  "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com)",
   "verbosity": "error",
   "timeout": 0,
   "markdown": true,
-  "directoryListing": true
+  "directoryListing": true,
+  "retry": true,
+  "retryErrors": true,
+  "retryErrorsCount": 3
 }
