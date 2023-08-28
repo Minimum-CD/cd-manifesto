@@ -4,5 +4,8 @@
   "verbosity": "error",
   "timeout": 0,
   "markdown": true,
-  "directoryListing": true
+  "directoryListing": true,
+  "retry": true,
+  "retryErrors": true,
+  "retryErrorsCount": 3
 }
