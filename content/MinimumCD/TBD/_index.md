@@ -14,7 +14,7 @@ Excerpt from *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim
 
 ## Definition
 
-TBD is a team workflow where changes are integrated into the trunk with no intermediate integration (Develop, Test, etc.) branch. The two common workflows are [making changes directly to the trunk](../../minimumcd/tbd/#trunk-based-development-for-smaller-teams) or using [very short-lived branches](../../minimumcd/tbd/#scaled-trunk-based-development) that branch from the trunk and integrate back into the trunk.
+TBD is a team workflow where changes are integrated into the trunk with no intermediate integration (Develop, Test, etc.) branch. The two common workflows are [making changes directly to the trunk](https://trunkbaseddevelopment.com/#trunk-based-development-for-smaller-teams) or using [very short-lived branches](https://trunkbaseddevelopment.com/#scaled-trunk-based-development) that branch from the trunk and integrate back into the trunk.
 
 It is important to note that release branches are an intermediate step that some chose on their path to continuous delivery while improving their quality processes in the pipeline. True CD releases from the trunk.
 
