@@ -1,8 +1,0 @@
-invalid content attribute in meta refresh --- index.html --> 
-hash does not exist --- minimumcd/index.html --> #ZgotmplZ
-empty hash --- minimumcd/index.html --> #
-missing doctype --- none.html --> <nil>
-hash does not exist --- translations/german/index.html --> #ZgotmplZ
-empty hash --- translations/german/index.html --> #
-hash does not exist --- translations/texan/index.html --> #ZgotmplZ
-empty hash --- translations/texan/index.html --> #
