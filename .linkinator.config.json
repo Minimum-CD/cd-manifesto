@@ -1,6 +1,6 @@
 {
   "recurse": true,
-  "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com),^(https://github.com/Minimum-CD*)",
+  "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com)",
   "verbosity": "error",
   "timeout": 0,
   "markdown": true,
