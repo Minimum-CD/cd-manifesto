@@ -37,7 +37,7 @@ jobs:
         continue-on-error: true
         uses: wjdp/htmltest-action@master
         with:
-          config: .htmltest.yml
+          config: .htmltest.yaml
 
       - name: Archive htmltest results
         uses: actions/upload-artifact@v2
