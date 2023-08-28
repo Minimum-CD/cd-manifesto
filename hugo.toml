@@ -15,9 +15,7 @@ googleanalytics = "G-KVLFMQXEF1"
 
 disableKinds = [
   "RSS",
-  "category",
-  "taxonomy",
-  "taxonomyTerm"
+  "taxonomy"
 ]
 
 # Keep this as is

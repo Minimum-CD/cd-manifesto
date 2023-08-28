@@ -31,7 +31,7 @@ jobs:
       - run: npm test
 
       - name: Run Hugo
-        run: hugo -s public -d $GITHUB_WORKSPACE/public
+        run: hugo -d $GITHUB_WORKSPACE/public
 
       - name: Test HTML
         continue-on-error: true
