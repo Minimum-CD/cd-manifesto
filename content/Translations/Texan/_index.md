@@ -62,7 +62,7 @@ The bare minimums for CI are:
 
 ## Trunk-based Development
 
-[Trunk-based development](../../minimumcd/tbd) is the branchin' pattern we need to meet the definition
+[Trunk-based development](../../minimumcd/tbd/) is the branchin' pattern we need to meet the definition
 of CI. It prevents lost work, the risk of corruption that comes from conflictin' changes, and reduces back-and-forth
 commiseratin' that makes changes bigger.
 
@@ -76,11 +76,11 @@ The minimum activities required for TBD are:
   
 ## Why'd we build this?
 
-We wrote that down along with some other stuff to [help y'all out](../../faq).
+We wrote that down along with some other stuff to [help y'all out](../../faq/).
 
 ## Headin' Down the Trail
 
-Wanna know where to start? Check out some [ideas](../../journey) that've worked for us.
+Wanna know where to start? Check out some [ideas](../../journey/) that've worked for us.
 
 ## Contributin'
 

@@ -17,7 +17,7 @@ weight: 3
 
 ![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 
-Nós, [os abaixo-assinados](../../minimumcd#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
+Nós, [os abaixo-assinados](../../minimumcd/#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
 
 - Introduzi-las aos novos praticantes, de forma consistente
 - Discutir as práticas de engenharia que abrangem a entrega contínua
@@ -60,7 +60,7 @@ As atividades mínimas necessárias ao CI são:
 
 ## Trunk-Based Development
 
-O [_Trunk-based development_](../../minimumcd/tbd) (versão inglesa) (TBD) é um padrão de _branching_ mandatório para cumprimento dos requisitos de CI. Evita a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
+O [_Trunk-based development_](../../minimumcd/tbd/) (versão inglesa) (TBD) é um padrão de _branching_ mandatório para cumprimento dos requisitos de CI. Evita a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
 
 As atividades mínimas necessárias para o TBD são:
 
@@ -72,11 +72,11 @@ As atividades mínimas necessárias para o TBD são:
 
 ## Por que construímos este manifesto?
 
-Para obter informações acerca do Mínimo CD e respostas a outras questões comuns, por favor [leia o FAQ](../../faq) (versão inglesa).
+Para obter informações acerca do Mínimo CD e respostas a outras questões comuns, por favor [leia o FAQ](../../faq/) (versão inglesa).
 
 ## Começando a jornada
 
-Dúvidas sobre como começar? Confira algumas [recomendações](../../journey) (versão inglesa).
+Dúvidas sobre como começar? Confira algumas [recomendações](../../journey/) (versão inglesa).
 
 ## Contribuindo
 
@@ -86,7 +86,7 @@ Leia as nossas [diretrizes de contribuição](https://github.com/Minimum-CD/cd-m
 
 ## Signatários
 
-Os signatários assinaram a [versão original em inglês](../../minimumcd#signatories) e a lista atual de nomes é publicada apenas nessa versão.
+Os signatários assinaram a [versão original em inglês](../../minimumcd/#signatories) e a lista atual de nomes é publicada apenas nessa versão.
 
 ## Tradução
 

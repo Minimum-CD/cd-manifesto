@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate `(Unofficial translation)`
 
-Noi, [i firmatari](../../minimumcd#signatories), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
+Noi, [i firmatari](../../minimumcd/#signatories), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
 
 - Introdurre alla Continuous Delivery nuovi praticanti in modo coerente
 - Discutere le pratiche ingegneristiche che costituiscono CD
@@ -28,7 +28,7 @@ La CD è la disciplina ingegneristica che consente di rilasciare nuove funzional
 
 Il set minimo di attività richieste per la CD sono:
 
-- [Continuous integration](#continuous-integration) (Integrazione Continua)
+- [Continuous integration](#continuous-integration-integrazione-continua) (Integrazione Continua)
 - La [application pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) è l'unico percorso per il rilascio in produzione
 - La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](./faq/#perch%C3%A9-la-pipeline-dovrebbe-dettare-legge-per-il-rilascio)
 - Gli artefatti creati dalla pipeline soddisfano sempre la definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) della specifica organizzazione
@@ -69,7 +69,7 @@ La CD minima non è il primo passo in un modello di maturità, tuttavia è il mi
 Queste risorse contengono sia conoscenze di base, sia conoscenze necessarie a farvi diventare un'organizzazione CD "d'élite".
 Sono risposte specifiche alla domanda "Cosa ci impedisce di andare in produzione oggi?"
 
-[Vedi la lista](../../references).
+[Vedi la lista](../../references/).
 
 ## Perche abbiamo costruito questa lista?
 
@@ -81,7 +81,7 @@ Vedere [linee guida per contribuire](https://github.com/Minimum-CD/cd-manifesto/
 
 ## Firmatari
 
-I firmatari hanno firmato la [versione originale in inglese](../../minimumcd#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
+I firmatari hanno firmato la [versione originale in inglese](../../minimumcd/#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
 
 ## Traduzione
 

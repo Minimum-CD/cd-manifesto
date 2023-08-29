@@ -10,7 +10,7 @@ weight: 3
 
 -- Accelerate
 
-Me, [allekirjoittaneet](../../minimumcd#signatories), uskomme, että jatkuvalle toimittamiselle (engl. continuous delivery, CD) tarvitaan määritelmä, jotta toimitusvirtaa voidaan parantaa. Riippumatta erilaisista olosuhteistamme, on olemassa yleispäteviä käytäntöjä. Määrittelemällä nämä käytännöt voimme:
+Me, [allekirjoittaneet](../../minimumcd/#signatories), uskomme, että jatkuvalle toimittamiselle (engl. continuous delivery, CD) tarvitaan määritelmä, jotta toimitusvirtaa voidaan parantaa. Riippumatta erilaisista olosuhteistamme, on olemassa yleispäteviä käytäntöjä. Määrittelemällä nämä käytännöt voimme:
 
 - Perehdyttää uudet harjoittajat yhdenmukaisella tavalla
 - Keskustella ohjelmistotuotannon käytännöistä, joista CD muodostuu
@@ -70,7 +70,7 @@ Minimi-CD ei ole ensimmäinen askel kypsyysmallissa. Siitä huolimatta se on vä
 
 Näistä lähteistä löytyy sekä perusasiat että tiedot, joilla voi tulla "eliitti"-CD-organisaatioksi. Ne keskittyvät ratkaisemaan ongelman: "Miksei me voida mennä tuotantoon tänään?"
 
-[Lue lista](../../references).
+[Lue lista](../../references/).
 
 ## Miksi teimme tämän?
 

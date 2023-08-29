@@ -1,0 +1,4 @@
+DirectoryPath: "public"
+IgnoreURLs:
+  - "^(https://.*linkedin.com)"
+  - "^(https://.*twitter.com)"

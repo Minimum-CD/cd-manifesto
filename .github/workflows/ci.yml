@@ -1,0 +1,47 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Run Tests
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/Hydrogen'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm test
+
+      - name: Run Hugo
+        run: hugo -d $GITHUB_WORKSPACE/public
+
+      - name: Test HTML
+        continue-on-error: true
+        uses: wjdp/htmltest-action@master
+        with:
+          config: .htmltest.yaml
+
+      - name: Archive htmltest results
+        uses: actions/upload-artifact@v2
+        with:
+          name: htmltest-report
+          path: tmp/.htmltest/htmltest.log
+          retention-days: 7 # Default 90 days
