@@ -62,3 +62,21 @@ so important. More can be found [here](../minimumcd/immutable/).
 ## What do we mean by "definition of deployable"?
 
 For every organization, there should be non-negotiables in place for delivery. These may include security, compliance, stability, responsiveness, etc. The pipeline should be the final word for this. See Dave Farley's video [Real Example of a Deployment Pipeline in the Fintech Industry](https://www.youtube.com/watch?v=bHKHdp4H-8w))
+
+## How do we differentiate between "deployment" and "release"?
+
+A "deployment" is the technical act of copying software to a host environment and getting it ready for use.
+
+A "release" makes a new feature available to users.
+
+More can be found [here](https://www.davefarley.net/?p=333).
+
+## How do we differentiate between "continuous delivery" and "continuous deployment"?
+
+"Continuous delivery" means that you work so your software is always releasable.
+
+"Continuous deployment" means that if your deployment pipeline passes, the change is automatically pushed to production.
+
+Continuous deployment is a subset of continuous delivery.
+
+See also Dave Farley's video on [The Difference Between Continuous Delivery & Continuous Deployment](https://www.youtube.com/watch?v=7SNbDWob6cI).
