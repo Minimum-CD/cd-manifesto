@@ -24,7 +24,7 @@ Please see the [contribution](CONTRIBUTING.md) page for adding signatures or sug
 
 If you'd like to submit a translation, please see the suggestions [here](TRANSLATING.md).
 
-## Starchart
+Any changes to the main page will be documented using [architectural decision records](doc/adr/0001-record-architecture-decisions.md) maintained with [adr-tools](https://github.com/npryce/adr-tools).
 
 ## Stargazers over time
 
