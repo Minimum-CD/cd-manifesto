@@ -84,6 +84,8 @@ Do you want to submit a translation, good practices, suggestions, or an experien
 
 Read our [contribution guidelines](https://github.com/Minimum-CD/cd-manifesto/blob/master/CONTRIBUTING.md).
 
+Want to chat about it? Join our [Slack community](https://join.slack.com/t/minimumcd/shared_invite/zt-23xsbnr86-Cj7~eO_B44YVF1yk~WtXkg).
+
 ## Contributors
 
 {{< contributors >}}
