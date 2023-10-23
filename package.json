@@ -32,12 +32,13 @@
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky install",
     "start": "hugo serve",
-    "test": "rm -rf public && npm run lint && npm run link-check"
+    "test": "npm run lint && npm run link-check",
+    "test:ci": "rm -rf public && hugo && npx check-html-links public"
   },
   "devDependencies": {
     "husky": "^8.0.3",
-    "linkinator": "^5.0.1",
-    "markdownlint-cli": "^0.35.0"
+    "linkinator": "^5.0.2",
+    "markdownlint-cli": "^0.37.0"
   },
   "engines": {
     "node": "^16 || ^18"
