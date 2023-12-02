@@ -4,7 +4,7 @@ description: "Le minimum viable de la Livraison Continue"
 weight: 3
 ---
 
-# Le minimum viable de la Livraison Continue
+## Le minimum viable de la Livraison Continue
 
 > "La livraison continue améliore à la fois les performances de livraison et la qualité, et participe également à améliorer la culture et à réduire l'épuisement et la difficulté des déploiements."
 

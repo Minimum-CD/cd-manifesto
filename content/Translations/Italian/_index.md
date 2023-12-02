@@ -4,7 +4,7 @@ description: "Implementazione minima della Continuous Delivery"
 weight: 3
 ---
 
-# Implementazione minima della Continuous Delivery
+## Implementazione minima della Continuous Delivery
 
 > "La Continuous Delivery migliora sia la velocità di rilascio che la qualità del software ed aiuta a migliorare la cultura, riduce i burnout e gli sforzi tipici legati al rilascio del software in produzione".
 
