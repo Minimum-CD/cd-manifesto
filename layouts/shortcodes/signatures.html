@@ -1,6 +1,6 @@
 {{ $names := .Site.Data.names.signatures.list }}
 <div>
-    <h4>({{ len $names }})</h4>
+    <h3>({{ len $names }})</h3>
     {{ range $index, $element := $names }}
         {{ if gt $index 0 }}&bull;{{ end }}
         {{ if .contact }}

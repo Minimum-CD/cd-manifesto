@@ -7,7 +7,7 @@
 {{ end }}
 {{ $sortedNames = sort $sortedNames ".lastName" }}
 <div>
-    <h4>({{ len $sortedNames }})</h4>
+    <h3>({{ len $sortedNames }})</h3>
     {{ range $index, $element := $sortedNames }}
         {{ if gt $index 0 }}&bull;{{ end }}
         {{ if .contact }}
