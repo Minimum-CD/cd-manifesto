@@ -39,7 +39,7 @@ The minimum activities required for CD are:
 - Artifacts created by the pipeline always meet the organization's [definition of deployable](../faq/#what-do-we-mean-by-definition-of-deployable)
 - [Immutable artifact](../minimumcd/immutable/) (no human changes after commit)
 - All feature work stops when the pipeline is red
-- Production-like test environment
+- [Production-like test environment](https://ephemeralenvironments.io)
 - Rollback on-demand
 - [Application configuration](../faq/#what-is-application-configuration) deploys with artifact
   
