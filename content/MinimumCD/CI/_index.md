@@ -62,4 +62,4 @@ You don't need any tests in existing code to begin. You need to test new code wi
 
 ### What code coverage percentage should we set as a standard for all teams?
 
-We shouldn't. Code coverage mandates incentivize meaningless tests that hide the fact that code is not tested. It is better to have no tests than to have tests you do not trust. See the [Dojo Consortium's info](https://dojoconsortium.org/metrics/code-coverage/) on this metric.
+We shouldn't. Code coverage mandates incentivize meaningless tests that hide the fact that code is not tested. It is better to have no tests than to have tests you do not trust. See the [Dojo Consortium's info](https://dojoconsortium.org/docs/metrics/code-coverage/) on this metric.
