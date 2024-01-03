@@ -56,7 +56,7 @@ Having more than one reviewer on a PR is a process smell for issues with the qua
 
 ### Tests are deferred or skipped
 
-We must treat tests as first-class citizens. They are more important than the code we are testing. They cannot be an afterthought and we need to make sure we are using them to increase our confidence rather than meeting some arbitrary ["coverage metric"](https://dojoconsortium.org/metrics/code-coverage/). We don't need all of the legacy code to be 100% tested, or even 1% tested to start CI. We need to commit to "we will never push untested changes." Timelines are irrelevant if we deliver things on time that are broken.
+We must treat tests as first-class citizens. They are more important than the code we are testing. They cannot be an afterthought and we need to make sure we are using them to increase our confidence rather than meeting some arbitrary ["coverage metric"](https://dojoconsortium.org/docs/metrics/code-coverage/). We don't need all of the legacy code to be 100% tested, or even 1% tested to start CI. We need to commit to "we will never push untested changes." Timelines are irrelevant if we deliver things on time that are broken.
 
 ### The team lacks knowledge on how to write tests for CI
 
