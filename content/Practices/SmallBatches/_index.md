@@ -8,13 +8,13 @@ We need to reduce batch size because smaller batches of work are easier to verif
 
 ### Deploy More Often
 
-How often we are delivering changes to the end user? A common mistake is to only deploy completed features. It is far better to deploy something as soon as the pipeline certifies a change will not break the end-user. This could be as small as some tested code that won't be used until several other small changes are delivered.
+How often are we delivering changes to the end user? A common mistake is to only deploy completed features. It is far better to deploy something as soon as the pipeline certifies a change will not break the end-user. This could be as small as some tested code that won't be used until several other small changes are delivered.
 
 There are two common arguments against increasing deploy frequency. The first is a misunderstanding of "valuable". "We don't want to deliver incomplete features because the customer can't use them so we aren't delivering any value."
 
 There are more stakeholders requiring value than the end-user. One of those is the product team. We are reducing the level of inventory waste in our flow and getting rapid feedback that we haven't broken existing behaviors with the new change. This gives us feedback on our quality gates and also lowers the risks of delivering a production fix.
 
-The second objection is, "our customers don't want changes that frequently."  
+The second objection is "our customers don't want changes that frequently."  
 
 This comes from a misunderstanding of what CD is for. Yes, we can deliver features with continuous delivery. However, a primary purpose of CD is production support. When production has an incident or we have a new zero-day vulnerability, they **do** want changes that frequently to resolve those problems. Can we? By improving delivery frequency, we are continuously verifying that we can still deliver those fixes safely.
 
@@ -32,7 +32,7 @@ Solving the problems required to meet the [definition of CI](../../minimumcd/#co
 
 ### Refine Smaller Stories
 
-How small is small? It's typical for teams who have only been taught Scrum to refine work until it can "fit in the sprint." Therefore, 5 to 10 day stories are very common. It's also very common for those to take 10 to 15 days to actually be delivered due to the lack of clarity in the stories. To resolve this, we shrink the timebox for a story then fix everything that prevents us from staying within that time box.
+How small is small? It's typical for teams who have only been taught Scrum to refine work until it can "fit in the sprint." Therefore, 5 to 10 day stories are very common. It's also very common for those to take 10 to 15 days to actually be delivered due to the lack of clarity in the stories. To resolve this, we shrink the time box for a story and then fix everything that prevents us from staying within that time box.
 
 In 2012, Paul Hammant, author of "Trunk-Based Development and Branch by Abstraction" made the following suggestion:
 
