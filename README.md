@@ -8,6 +8,19 @@ The website for this project, contained in this repo, is currently hosted at [Mi
 
 ## Running Locally
 
+### Install Hugo
+
+[Install Hugo](https://gohugo.io/installation/), the open-source static site generator used in this project.
+
+You can most easily install the latest version, but these versions of Hugo matter:
+
+- The build version in [.github/workflows/ci.yml](.github/workflows/ci.yml)
+- The deploy version in [netlify.toml](netlify.toml)
+
+You can install a particular version locally using [Prebuilt binaries](https://gohugo.io/installation/macos/#prebuilt-binaries). You need an "extended" version (to build SCSS/SASS with transpiler set to 'libsass').
+
+### Commands
+
 This site uses NPM scripts to automate style checks.
 
 `npm ci` will install all pre-commit hooks to verify style errors and test before allowing commits.
