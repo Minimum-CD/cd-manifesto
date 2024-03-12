@@ -2,7 +2,7 @@
 title: Minimum Viable CD
 linkTitle: "Minimum CD"
 
-description: "Problems to solve to improve your organization"
+description: Problems to solve to improve your organization
 weight: 1
 type: docs
 ---

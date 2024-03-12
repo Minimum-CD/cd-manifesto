@@ -1,7 +1,7 @@
 ---
 title: Frequent Questions
 linkTitle: "FAQ"
-description: FAQ
+description: 
 weight: 5
 type: docs
 menu:
