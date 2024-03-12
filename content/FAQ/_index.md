@@ -61,7 +61,7 @@ config](https://12factor.net/config) definitions where "config" is environment s
 
 Central to CD is that we are validating the delivered artifact with the pipeline. It is built once and deployed to all
 environments. A common anti-pattern is building an artifact for each environment. This is why trunk-based development is
-so important. More can be found [here](../minimumcd/immutable/).
+so important. More can be found [here](/minimumcd/immutable/).
 
 ## What do we mean by "definition of deployable"?
 
