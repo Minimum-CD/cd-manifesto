@@ -4,6 +4,10 @@
 <html>
   <head>
     <meta http-equiv="refresh" content="0;url={{.}}" />
+
+    {{ with .Site.Params.custom_js }} {{ range . -}}
+    <script async defer src="{{ . | absURL }}"></script>
+    {{- end }} {{- end }}
   </head>
 </html>
 {{ end -}} {{ end -}} {{ end }}
