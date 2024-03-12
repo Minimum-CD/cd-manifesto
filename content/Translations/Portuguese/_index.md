@@ -16,7 +16,7 @@ type: docs
 
 {{% /alert %}}
 
-![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
+{{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
 Nós, [os abaixo-assinados](../../minimumcd/#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
 

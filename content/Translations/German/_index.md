@@ -12,15 +12,7 @@ type: docs
 -- Das Mindset von DevOps. Accelerate: 24 Schlüsselkompetenzen, um leistungsstarke Technologieunternehmen zu entwickeln und zu skalieren
 {{% /alert %}}
 
-![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
-
-Minimum Viable CD
-
-"Kontinuierliche Lieferung verbessert sowohl die Lieferleistung als auch die Qualität und trägt außerdem zur Verbesserung der Unternehmenskultur und zur Verringerung von Burnout und Lieferungsschmerzen bei.
-
-- Accelerate: Die Wissenschaft von schlanker Software und DevOps: Aufbau und Skalierung hochleistungsfähiger Technologieorganisationen
-
-MinimumCD
+{{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
 Wir, [die Unterzeichner](#unterzeichner), sind der Meinung, dass eine Minimale Definition von Continuous Delivery (CD) erforderlich ist, um den Ablauf der Software-Lieferung zu verbessern und die oben genannten Ergebnisse zu erzielen. Obwohl unsere Kontexte unterschiedlich sein mögen, gibt es universelle Praktiken, die allen Situationen und Teams gemeinsam sind. Indem wir diese definieren, können wir:
 

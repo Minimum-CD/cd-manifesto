@@ -39,10 +39,12 @@ We wanted to investigate the impact of change approval processes on software del
 - We rely on peer review to manage changes.
 - We have no change approval process.
 
-The results were surprising. We found that approval only for high-risk changes was not correlated with software delivery performance. Teams that reported no approval process or used peer review achieved higher software delivery performance. Finally, teams that required approval by an external body achieved lower performance.
-{{% /alert %}}
+The results were surprising. We found that approval only for high-risk changes was not correlated with software delivery
+performance. Teams that reported no approval process or used peer review achieved higher software delivery performance.
+Finally, teams that required approval by an external body achieved lower performance.
 
-Excerpt from *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim
+__-- *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim__
+{{% /alert %}}
 
 ## Solving the Challenge of CI
 

@@ -1,6 +1,6 @@
 ---
 title: Minimum Viable CD
-description: "Minimum Viable CD"
+description: "Problems to solve to improve your organization"
 weight: 1
 type: docs
 ---
@@ -9,7 +9,8 @@ type: docs
 {{% alert %}}
 "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
 
--- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations
+__-- *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim__
+_
 {{% /alert %}}
 
 {{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}

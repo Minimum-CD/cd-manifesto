@@ -12,7 +12,7 @@ type: docs
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations
 {{% /alert %}}
 
-![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
+{{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
 We, [the undersigned](#signatories), reckon that parin' down continuous delivery (CD) to its core is required if we
 wanna improve the flow of delivery and achieve the outcomes above. While our contexts may vary, there are universal

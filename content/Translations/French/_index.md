@@ -11,7 +11,7 @@ type: docs
 
 -- Accelerate
 
-![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
+{{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
 Nous, [les signataires](../../minimumcd/#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons&nbsp;:
 

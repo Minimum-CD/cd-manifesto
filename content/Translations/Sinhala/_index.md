@@ -16,7 +16,7 @@ type: docs
 
 {{% /alert %}}
 
-![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
+{{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
 අපි, [පහළින් අත්සන් කර ඇත්තන්](#signatories), අඛණ්ඩව බෙදාහැරීමට හැකි මෘදුකාංග නිපදවීමේ ප්‍රවාහය (CD) වැඩිදියුණු කිරීමට සහ ඉහත ප්‍රතිඵල සාක්ෂාත් කර ගැනීමට අවම අර්ථ දැක්වීමක් අවශ්‍ය බව අපි විශ්වාස කරමු.
 
