@@ -26,7 +26,7 @@
             {{ $logo = . }}
           {{ end }}
           {{ with resources.Get $logo -}}
-            {{ ( . | minify).Content | safeHTML -}}
+          <img src="{{ $logo }}"  height="50px">
             {{ $title }}
           {{ end -}}
         {{ end -}}
