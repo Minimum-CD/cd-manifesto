@@ -2,14 +2,15 @@
 title: Deutsch
 description: "Minimale nutzbare kontinuierliche Lieferung"
 weight: 3
+type: docs
 ---
 
-{{% notice %}}
+{{% alert title="Tip" %}}
 
 "Kontinuierliche Lieferung vebessert die Geschwindigkeit und Qualität der Auslieferung, und hilft zugleich die Kultur zu verbessern, Burnout und Mühsal in der Entwicklung zu vermeiden."
 
 -- Das Mindset von DevOps. Accelerate: 24 Schlüsselkompetenzen, um leistungsstarke Technologieunternehmen zu entwickeln und zu skalieren
-{{% /notice %}}
+{{% /alert %}}
 
 ![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 

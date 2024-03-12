@@ -30,17 +30,18 @@
     "link-check": "npm run build && linkinator ./public --config .linkinator.config.json ",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
-    "prepare": "husky install",
+    "prepare": "husky",
     "start": "hugo serve",
     "test": "npm run lint && npm run link-check",
-    "test:ci": "rm -rf public && hugo && npx check-html-links public"
+    "test:ci": "rm -rf public && hugo && npx check-html-links public",
+    "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
   },
   "devDependencies": {
-    "husky": "^8.0.3",
-    "linkinator": "^5.0.2",
-    "markdownlint-cli": "^0.37.0"
-  },
-  "engines": {
-    "node": "^16 || ^18"
+    "autoprefixer": "^10.4.18",
+    "hugo-extended": "0.123.8",
+    "husky": "^9.0.11",
+    "linkinator": "^6.0.4",
+    "markdownlint-cli": "^0.39.0",
+    "postcss-cli": "^11.0.0"
   }
 }

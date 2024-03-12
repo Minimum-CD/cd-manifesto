@@ -3,6 +3,10 @@ title: Starting the Journey
 description: Suggested improvement paths
 weight: 1
 draft: false
+type: docs
+menu:
+  main:
+    weight: 20
 ---
 
 So, where do we start? It's a bad idea to go from "we can't safely commit changes to the trunk" to "deploy every change to production immediately" in one step. It's a journey that requires methodically solving problems in the context of your organization. Here we will discuss some of the common challenges that frequently need to be overcome.

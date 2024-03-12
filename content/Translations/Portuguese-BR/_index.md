@@ -2,18 +2,19 @@
 title: "Português Brasileiro"
 description: "Mínimo viável para a Entrega Contínua"
 weight: 3
+type: docs
 ---
 
 
 ## Mínimo viável para a Entrega Contínua
 
-{{% notice %}}
+{{% alert title="Tip" %}}
 
 "A entrega contínua não só melhora a qualidade e capacidade de entrega, bem como ajuda na evolução da cultura, reduz a estafa e as dificuldades na implantação."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (Tradução não oficial)
 
-{{% /notice %}}
+{{% /alert %}}
 
 ![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 

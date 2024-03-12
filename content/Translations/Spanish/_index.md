@@ -2,15 +2,16 @@
 title: Español
 description: "Entrega Continua Mínima Viable"
 weight: 3
+type: docs
 ---
 
 ## Entrega Continua Mínima Viable
 
-{{% notice %}}
+{{% alert title="Tip" %}}
 "La entrega continua mejora tanto el rendimiento como la calidad de la entrega, y también ayuda a mejorar la cultura y a reducir el agotamiento y el dolor del despliegue."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (Traducción no oficial)
-{{% /notice %}}
+{{% /alert %}}
 
 Nosotros, [los abajo firmantes](../../minimumcd/#signatories), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega y lograr los resultados anteriores. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
 

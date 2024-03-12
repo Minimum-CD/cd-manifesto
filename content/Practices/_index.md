@@ -2,6 +2,8 @@
 title: Recommended Practices
 description: ""
 weight: 5
+type: docs
+menu:
+  main:
+    weight: 20
 ---
-
-{{% children style="h2" depth="1" description="true" /%}}

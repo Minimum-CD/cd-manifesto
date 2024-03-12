@@ -2,14 +2,15 @@
 title: Texan
 description: "The bare minimum for makin' work suck less"
 weight: 3
+type: docs
 ---
 
 
-{{% notice %}}
+{{% alert title="Tip" %}}
 "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations
-{{% /notice %}}
+{{% /alert %}}
 
 ![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 

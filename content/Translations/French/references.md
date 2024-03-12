@@ -2,6 +2,7 @@
 title: Au-delà des minimums
 description: Ressources recommandées
 weight: 5
+type: docs
 ---
 
 ## Au-delà des minimums

@@ -2,6 +2,7 @@
 title: Italiano
 description: "Implementazione minima della Continuous Delivery"
 weight: 3
+type: docs
 ---
 
 ## Implementazione minima della Continuous Delivery

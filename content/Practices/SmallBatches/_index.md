@@ -2,6 +2,7 @@
 title: Work in Small Batches
 description: Specific advice for an often misunderstood principle of continuous delivery.
 weight: 1
+type: docs
 ---
 
 We need to reduce batch size because smaller batches of work are easier to verify, they tend to fail small, we are less likely to suffer from sunk-cost fallacy, we amplify feedback loops, etc. How small should they be? As small as we can make them to get production feedback on what we are trying to learn. Working to reduce batch size acts as a forcing function for exposing and removing hidden waste in upstream processes. There are several batch sizes we are trying to reduce.
@@ -20,11 +21,11 @@ This comes from a misunderstanding of what CD is for. Yes, we can deliver featur
 
 ### Commit Smaller Changes
 
-{{% notice %}}
+{{% alert title="Tip" %}}
 "Following our principle of working in small batches and building quality in, high-performing teams keep branches short-lived (less than one day's work) and integrate them into trunk/master frequently. Each change triggers a build process that includes running unit tests. If any part of this process fails, developers fix it immediately."
 
 -- Accelerate: Forsgren, et al
-{{% /notice %}}
+{{% /alert %}}
 
 How small is small? One change a day is big. Smaller than that. These are not feature complete changes. They are small, tested changes that can be delivered to production if certified by the pipeline.
 
@@ -36,11 +37,11 @@ How small is small? It's typical for teams who have only been taught Scrum to re
 
 In 2012, Paul Hammant, author of "Trunk-Based Development and Branch by Abstraction" made the following suggestion:
 
-{{% notice %}}
+{{% alert title="Tip" %}}
 "Story sizes should average as close to one day as possible. If they don't, your Agile project is going to be harder for nearly everyone involved. If your average is significantly greater than that one day, then change something until you get there."
 
 -- [Call to Arms: Average Story Size of One Day](https://paulhammant.com/2012/04/24/call-to-arms-average-story-sizes-of-one-day/)
-{{% /notice %}}
+{{% /alert %}}
 
 This may sound unachievable, but we have seen how effective this is in the enterprise Dojos. A primary workflow for Dojos is the "hyper-sprint". A hyper-sprint lasts for 2.5 days and includes refining work, doing the work, delivering the work, and retrospecting on how to do it better next time. Teams fail for a few weeks but then learn the skills and teamwork required to slice stories into much thinner value increments with fully testable acceptance criteria and deliver them as a team. Coding moves from exploration to implementation and quality feedback and throughput accelerate. It's very common for a team's throughput to double in 6-8 weeks with the right guidance. Again, this acts as a forcing function for uncovering and removing upstream impediments with missing product information, external hard dependencies with other teams, Change Advisory Board compliance theater, or other organizational issues.
 

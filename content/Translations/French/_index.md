@@ -2,6 +2,7 @@
 title: Francais
 description: "Le minimum viable de la Livraison Continue"
 weight: 3
+type: docs
 ---
 
 ## Le minimum viable de la Livraison Continue

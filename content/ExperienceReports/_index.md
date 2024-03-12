@@ -2,6 +2,10 @@
 title: Community Experiences
 description: CD in the real world
 weight: 5
+type: docs
+menu:
+  main:
+    weight: 20
 ---
 
 ## CD in the Real World
@@ -18,11 +22,11 @@ It's true, some people still think CD is just tools. Here are some reports from 
 
 ## Feedback
 
-{{% panel footer="Dave Farley, Author: Continuous Delivery" %}}
+{{% card footer="Dave Farley, Author: Continuous Delivery" %}}
 MinimumCD is a fantastic way to get to the meat of CD quickly. It's a clear, focused, no-holds-barred statement of what it takes to achieve CD. This matters because CD works, and it works better than any other way of delivering software that anyone has found so far.
 
 If you aren't practicing CD in the way that MinimumCD describes it, then you are building worse software more slowly. The trouble is, CD is difficult to adopt. MinimumCD cuts through distracting or confusing complications. If you can do what MinimumCD says, you will be doing a better job. It gives us a clear, simple focus on the essentials of CD that can help teams to understand what really matters to build better software faster.
-{{% /panel %}}
+{{% /card %}}
 
 ## MinimumCD in the Media
 

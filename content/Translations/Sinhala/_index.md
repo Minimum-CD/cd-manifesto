@@ -2,18 +2,19 @@
 title: Sinhala
 description: "අඛණ්ඩ බෙදාහැරීමට හැකි මෘදුකාංග නිපදවීමට අවමයෙන් කලයුතු සහ කලහැකිදේ"
 weight: 3
+type: docs
 ---
 
 
 ## අඛණ්ඩ බෙදාහැරීමට හැකි මෘදුකාංග නිපදවීමට අවමයෙන් කලයුතු සහ කලහැකිදේ
 
-{{% notice %}}
+{{% alert title="Tip" %}}
 
 "අඛණ්ඩ බෙදාහැරීමට හැකි මෘදුකාංග නිපදවීමේ ක්‍රියාවලිය මගින් මෘදුකාංග බෙදාහැරීමේ කාර්ය සාධනය සහ ගුණාත්මකභාවය යන දෙකම වැඩිදියුණු කරන අතර, එම නිපදවන පරිසරයේ අභිවර්ධනයක්ද ඇතිකරයි. තවද මේ බෙදාහැරීමේ කටයුතු සීග්‍ර වීමත් සමග එම කාර්ය කරන්නන් ධනාත්මක මානසිකත්වයෙන් පසුවේ."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (නිල නොවන පරිවර්තනය)
 
-{{% /notice %}}
+{{% /alert %}}
 
 ![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 

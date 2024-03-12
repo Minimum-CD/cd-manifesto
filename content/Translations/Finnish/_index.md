@@ -2,6 +2,7 @@
 title: Suomi
 description: "Vähäisin toimiva jatkuva toimittaminen"
 weight: 3
+type: docs
 ---
 
 ## Vähäisin toimiva jatkuva toimittaminen

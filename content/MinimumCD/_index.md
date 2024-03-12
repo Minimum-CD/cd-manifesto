@@ -1,15 +1,16 @@
 ---
 title: Minimum Viable CD
-description: ""
+description: "Minimum Viable CD"
 weight: 1
+type: docs
 ---
 
 
-{{% notice %}}
+{{% alert title="Tip" %}}
 "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations
-{{% /notice %}}
+{{% /alert %}}
 
 ![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
 

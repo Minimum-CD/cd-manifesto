@@ -1,6 +1,7 @@
 ---
 title: Domande Frequenti (FAQ)
 description: "Implementazione minima della Continuous Delivery"
+type: docs
 ---
 
 ## Motivazioni
