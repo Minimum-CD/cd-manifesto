@@ -1,5 +1,6 @@
 ---
 title: Starting the Journey
+linkTitle: "Starting Out"
 description: Suggested improvement paths
 weight: 1
 draft: false

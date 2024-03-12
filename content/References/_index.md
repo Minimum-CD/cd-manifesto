@@ -1,5 +1,6 @@
 ---
 title: Beyond the Minimums
+linkTitle: "Resources"
 description: Recommended Resources
 weight: 5
 type: docs

@@ -1,5 +1,6 @@
 ---
 title: Community Experiences
+linkTitle: "Experiences"
 description: CD in the real world
 weight: 5
 type: docs
@@ -30,5 +31,5 @@ If you aren't practicing CD in the way that MinimumCD describes it, then you are
 
 ## MinimumCD in the Media
 
-- [CodingBlocks Podcast, February 27, 2022](https://www.codingblocks.net/podcast/minimum-viable-continuous-delivery/): The host discuss their impressions of the project
+- [CodingBlocks Podcast, February 27, 2022](https://www.codingblocks.net/podcast/minimum-viable-continuous-delivery/): The hosts discuss their impressions of the project
 - [Tiny DevOps #21: Minimum Viable CD](https://jhall.io/archive/2021/11/30/minimum-viable-continuous-delivery/): Jonathan Hall talks to one of the core team about the goals of the project
