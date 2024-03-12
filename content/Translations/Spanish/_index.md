@@ -7,7 +7,7 @@ type: docs
 
 ## Entrega Continua Mínima Viable
 
-{{% alert title="Tip" %}}
+{{% alert %}}
 "La entrega continua mejora tanto el rendimiento como la calidad de la entrega, y también ayuda a mejorar la cultura y a reducir el agotamiento y el dolor del despliegue."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (Traducción no oficial)

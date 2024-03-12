@@ -8,7 +8,7 @@ type: docs
 
 ## Mínimo viável para a Entrega Contínua
 
-{{% alert title="Tip" %}}
+{{% alert %}}
 
 "A entrega contínua não só melhora a qualidade e capacidade de entrega, bem como ajuda na evolução da cultura, reduz o cansaço e as dores do desenvolvimento/release."
 

@@ -6,7 +6,7 @@ type: docs
 ---
 
 
-{{% alert title="Tip" %}}
+{{% alert %}}
 "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
 
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations

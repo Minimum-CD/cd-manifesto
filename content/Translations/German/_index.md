@@ -5,7 +5,7 @@ weight: 3
 type: docs
 ---
 
-{{% alert title="Tip" %}}
+{{% alert %}}
 
 "Kontinuierliche Lieferung vebessert die Geschwindigkeit und Qualität der Auslieferung, und hilft zugleich die Kultur zu verbessern, Burnout und Mühsal in der Entwicklung zu vermeiden."
 

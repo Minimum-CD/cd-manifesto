@@ -21,7 +21,7 @@ This comes from a misunderstanding of what CD is for. Yes, we can deliver featur
 
 ### Commit Smaller Changes
 
-{{% alert title="Tip" %}}
+{{% alert %}}
 "Following our principle of working in small batches and building quality in, high-performing teams keep branches short-lived (less than one day's work) and integrate them into trunk/master frequently. Each change triggers a build process that includes running unit tests. If any part of this process fails, developers fix it immediately."
 
 -- Accelerate: Forsgren, et al
@@ -37,7 +37,7 @@ How small is small? It's typical for teams who have only been taught Scrum to re
 
 In 2012, Paul Hammant, author of "Trunk-Based Development and Branch by Abstraction" made the following suggestion:
 
-{{% alert title="Tip" %}}
+{{% alert %}}
 "Story sizes should average as close to one day as possible. If they don't, your Agile project is going to be harder for nearly everyone involved. If your average is significantly greater than that one day, then change something until you get there."
 
 -- [Call to Arms: Average Story Size of One Day](https://paulhammant.com/2012/04/24/call-to-arms-average-story-sizes-of-one-day/)

@@ -31,7 +31,7 @@ You may have some others on the list that as you start implementing will come in
 
 Every process we add needs to add value. There's obvious value in doing performance testing unless we are demanding performance at a level that isn't required for the use case. However, before we define CAB documentation as required for "deployable", why does that process exist? One common reason for that meeting is a compliance rule for "two sets of eyes on every change". However, that can be validated by automation without the need to bundle changes and wait for a meeting.
 
-{{%alert info%}}
+{{% alert %}}
 We wanted to investigate the impact of change approval processes on software delivery performance. Thus, we asked about four possible scenarios:
 
 - All production changes must be approved by an external body (such as a manager or CAB).
@@ -40,7 +40,7 @@ We wanted to investigate the impact of change approval processes on software del
 - We have no change approval process.
 
 The results were surprising. We found that approval only for high-risk changes was not correlated with software delivery performance. Teams that reported no approval process or used peer review achieved higher software delivery performance. Finally, teams that required approval by an external body achieved lower performance.
-{{%/alert%}}
+{{% /alert %}}
 
 Excerpt from *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim
 
@@ -48,7 +48,7 @@ Excerpt from *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim
 
 The first challenge for the team is [continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html). CD requires CI and CI is very effective at uncovering most of the problems many teams have that impact quality. Martin Fowler has an [excellent blog post on introducing CI](https://www.martinfowler.com/articles/continuousIntegration.html#IntroducingContinuousIntegration) into the workflow. Over the years, we've seen many common problems that teams have.
 
-You may find more. Notice that tooling is rarely the problem. Always, "why can't we deliver working changes to the trunk today?", is the roadmap of problems to solve.  
+You may find more. Notice that tooling is rarely the problem. Always, "Why can't we deliver working changes to the trunk today?", is the roadmap of problems to solve.  
 
 ### Code review takes too long / has too many approvers
 
@@ -72,7 +72,7 @@ Teams are not good at testing initially for the same reason they aren't good at 
 
 ### Individual tasks are too big
 
-CI means we are integrating partially completed features continuously. TDD helps us learn how to decompose tasks into very small, releasable changes that do not break existing behaviors. However, the initial habit is often to wait to integrate changes until they are "complete". This results in large change-sets that are more difficult to code review. This makes code review take more time, requires more re-work, and reduces the ability of the reviewer to spot problems. [Evolutionary coding methods](../minimumcd/ci/#recommended-practices) allows the release of incomplete features until they are ready and allow us to drive down the size of changes. By focusing as a team to decompose tasks into hours of work rather than days and using engineering techniques to control release, we have improved clarity, smaller change-sets, and higher quality.
+CI means we are integrating partially completed features continuously. TDD helps us learn how to decompose tasks into very small, releasable changes that do not break existing behaviors. However, the initial habit is often to wait to integrate changes until they are "complete". This results in large changesets that are more difficult to code review. This makes code review take more time, requires more re-work, and reduces the ability of the reviewer to spot problems. [Evolutionary [coding methods](/minimumcd/ci/#recommended-practices) allow the release of incomplete features until they are ready and allow us to drive down the size of changes. By focusing as a team to decompose tasks into hours of work rather than days and using engineering techniques to control release, we have improved clarity, smaller change-sets, and higher quality.
 
 ### Stories are too big & lack testable acceptance criteria
 
