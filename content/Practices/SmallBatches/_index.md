@@ -30,7 +30,7 @@ This comes from a misunderstanding of what CD is for. Yes, we can deliver featur
 
 How small is small? One change a day is big. Smaller than that. These are not feature complete changes. They are small, tested changes that can be delivered to production if certified by the pipeline.
 
-Solving the problems required to meet the [definition of CI](../../minimumcd/#continuous-integration) is foundational for the efforts to improve the organization. It is very effective at uncovering that we need to improve testing, learn how to use evolutionary coding practices, understand trunk-based development, learn to decompose work better, and learn how to work as a team better. It's also effective at shining a light on upstream issues.
+Solving the problems required to meet the [definition of CI](/minimumcd/#continuous-integration) is foundational for the efforts to improve the organization. It is very effective at uncovering that we need to improve testing, learn how to use evolutionary coding practices, understand trunk-based development, learn to decompose work better, and learn how to work as a team better. It's also effective at shining a light on upstream issues.
 
 ### Refine Smaller Stories
 

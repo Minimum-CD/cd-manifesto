@@ -13,7 +13,7 @@ type: docs
 -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (Traducción no oficial)
 {{% /alert %}}
 
-Nosotros, [los abajo firmantes](../../minimumcd/#signatories), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega y lograr los resultados anteriores. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
+Nosotros, [los abajo firmantes](/minimumcd/#signatories), creemos que se requiere una definición mínima de entrega continua (CD por sus siglas en inglés) para mejorar el flujo de entrega y lograr los resultados anteriores. Si bien nuestros contextos pueden ser diferentes, existen prácticas universales. Al definirlos podemos:
 
 - Introducir a los nuevos profesionales de forma coherente
 - Discutir las prácticas de ingeniería que abarca CD
@@ -33,13 +33,13 @@ Las actividades mínimas requeridas para CD son:
 
 - [Integración continua](#integración-continua).
 - El [pipeline de la aplicación](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) es el único camino para desplegar en producción.
-- El pipeline decide la posibilidad de entrega de los cambios, el veredicto es [definitivo](../../faq/#why-should-the-pipeline-be-definitive-for-deploy).
-- Los artefactos creados por el pipeline siempre cumplen los requisitos de [definición de desplegable](../../faq/#what-do-we-mean-by-definition-of-deployable) de la organización.
-- [Artefacto inalterable](../../minimumcd/immutable/). No hay cambios hechos por personas después de la confirmación.
+- El pipeline decide la posibilidad de entrega de los cambios, el veredicto es [definitivo](/faq/#why-should-the-pipeline-be-definitive-for-deploy).
+- Los artefactos creados por el pipeline siempre cumplen los requisitos de [definición de desplegable](/faq/#what-do-we-mean-by-definition-of-deployable) de la organización.
+- [Artefacto inalterable](/minimumcd/immutable/). No hay cambios hechos por personas después de la confirmación.
 - Todo el trabajo de funcionalidades se detiene cuando el pipeline está en rojo
 - Entorno de prueba similar a producción
 - Revertir bajo demanda.
-- La [configuración de la aplicación](../../faq/#what-is-application-configuration) se despliega con el artefacto.
+- La [configuración de la aplicación](/faq/#what-is-application-configuration) se despliega con el artefacto.
 
 ## Integración Continua
 
@@ -47,7 +47,7 @@ Integración continua (CI por sus siglas en inglés) es la actividad de integrar
 
 Las actividades mínimas requeridas para CI son:
 
-- [Desarrollo basado en rama principal](../../minimumcd/tbd/)
+- [Desarrollo basado en rama principal](/minimumcd/tbd/)
 - El trabajo se integra a la rama principal como mínimo cada día
 - El trabajo tiene pruebas automatizadas antes de fusionarse con la rama principal
 - El trabajo se prueba con otro trabajo automáticamente al fusionarse
@@ -56,7 +56,7 @@ Las actividades mínimas requeridas para CI son:
 
 ## Desarrollo Basado en Rama Principal
 
-[Desarrollo Basado en Rama Principal](../../minimumcd/tbd/) (TBD por sus siglas en inglés) es el patrón de ramificación requerido para cumplir con la definición de CI. Previene el trabajo perdido, el riesgo de corrupción que proviene de la resolución de conflictos fusionados, y también reduce el desperdicio de movimiento que incrementan el volumen de cambios.
+[Desarrollo Basado en Rama Principal](/minimumcd/tbd/) (TBD por sus siglas en inglés) es el patrón de ramificación requerido para cumplir con la definición de CI. Previene el trabajo perdido, el riesgo de corrupción que proviene de la resolución de conflictos fusionados, y también reduce el desperdicio de movimiento que incrementan el volumen de cambios.
 
 - Las actividades mínimas requeridas para TBD son:
   - Todos los cambios se integran en la rama principal
@@ -67,7 +67,7 @@ Las actividades mínimas requeridas para CI son:
 
 ## ¿Por qué construimos esto?
 
-Para obtener más información sobre el CD mínimo y respuestas a otras preguntas comunes, por favor [lea las preguntas más frecuentes](../../faq/).
+Para obtener más información sobre el CD mínimo y respuestas a otras preguntas comunes, por favor [lea las preguntas más frecuentes](/faq/).
 
 ## ¿Quieres contribuir?
 
@@ -75,7 +75,7 @@ Lee nuestra [pauta de contribución](https://github.com/Minimum-CD/cd-manifesto/
 
 ## Firmantes
 
-Los firmantes avalan la [versión original en inglés](../../minimumcd/#signatories) y la lista actual de nombres solo se publica con esa versión.
+Los firmantes avalan la [versión original en inglés](/minimumcd/#signatories) y la lista actual de nombres solo se publica con esa versión.
 
 ## Traducción
 

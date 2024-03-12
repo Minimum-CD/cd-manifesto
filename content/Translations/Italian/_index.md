@@ -11,7 +11,7 @@ type: docs
 
 -- Accelerate `(Unofficial translation)`
 
-Noi, [i firmatari](../../minimumcd/#signatories), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
+Noi, [i firmatari](/minimumcd/#signatories), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
 
 - Introdurre alla Continuous Delivery nuovi praticanti in modo coerente
 - Discutere le pratiche ingegneristiche che costituiscono CD
@@ -45,7 +45,7 @@ La CI è l'attività che ci consente di integrare continuamente il lavoro di cia
 
 Le attività minime richieste dalla CI sono:
 
-- [Trunk-based development](../../minimumcd/tbd/)
+- [Trunk-based development](/minimumcd/tbd/)
 - Il lavoro viene integrato nel trunk almeno una volta al giorno
 - Una suite di test automatici verifica il lavoro prima che venga integrato nel trunk
 - Una suite di test automatici verifica il lavoro dopo essere stato integrato nel trunk
@@ -54,7 +54,7 @@ Le attività minime richieste dalla CI sono:
 
 ## Trunk-based Development
 
-Il [Trunk-based Development](../../minimumcd/tbd/) è il modello di branching necessario a soddisfare la definizione della CI. La CI evita la perdita delle modifiche, il rischio di corruzione che deriva dall'integrazione e dalla risoluzione dei conflitti, e riduce lo spreco dovuto ad attività che potrebbero aumentare la dimensione degli insiemi di modifiche.
+Il [Trunk-based Development](/minimumcd/tbd/) è il modello di branching necessario a soddisfare la definizione della CI. La CI evita la perdita delle modifiche, il rischio di corruzione che deriva dall'integrazione e dalla risoluzione dei conflitti, e riduce lo spreco dovuto ad attività che potrebbero aumentare la dimensione degli insiemi di modifiche.
 
 - Le attività minime richieste dal TBD sono:
   - Tutte le modifiche devono essere integrate nel trunk
@@ -70,7 +70,7 @@ La CD minima non è il primo passo in un modello di maturità, tuttavia è il mi
 Queste risorse contengono sia conoscenze di base, sia conoscenze necessarie a farvi diventare un'organizzazione CD "d'élite".
 Sono risposte specifiche alla domanda "Cosa ci impedisce di andare in produzione oggi?"
 
-[Vedi la lista](../../references/).
+[Vedi la lista](/references/).
 
 ## Perche abbiamo costruito questa lista?
 
@@ -82,7 +82,7 @@ Vedere [linee guida per contribuire](https://github.com/Minimum-CD/cd-manifesto/
 
 ## Firmatari
 
-I firmatari hanno firmato la [versione originale in inglese](../../minimumcd/#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
+I firmatari hanno firmato la [versione originale in inglese](/minimumcd/#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
 
 ## Traduzione
 

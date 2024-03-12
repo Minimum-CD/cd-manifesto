@@ -39,13 +39,13 @@ The minimum activities required for CD are:
 - The [application
   pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
   is the only way to deploy to any environment
-- The pipeline decides the releasability of changes. [Whatever it says, goes](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
-- Artifacts created by the pipeline always meet the organization's [definition of deployable](../../faq/#what-do-we-mean-by-definition-of-deployable)
-- [Immutable artifact](../../minimumcd/immutable/) (no human changes after commit)
+- The pipeline decides the releasability of changes. [Whatever it says, goes](/faq/#why-should-the-pipeline-be-definitive-for-deploy)
+- Artifacts created by the pipeline always meet the organization's [definition of deployable](/faq/#what-do-we-mean-by-definition-of-deployable)
+- [Immutable artifact](/minimumcd/immutable/) (no human changes after commit)
 - All feature work stops when the pipeline is red
 - Production-like test environment
 - Rollback on-demand
-- [Application configuration](../../faq/#what-is-application-configuration) deploys with artifact
+- [Application configuration](/faq/#what-is-application-configuration) deploys with artifact
 
 ## Continuous Integration
 
@@ -63,7 +63,7 @@ The bare minimums for CI are:
 
 ## Trunk-based Development
 
-[Trunk-based development](../../minimumcd/tbd/) is the branchin' pattern we need to meet the definition
+[Trunk-based development](/minimumcd/tbd/) is the branchin' pattern we need to meet the definition
 of CI. It prevents lost work, the risk of corruption that comes from conflictin' changes, and reduces back-and-forth
 commiseratin' that makes changes bigger.
 
@@ -77,11 +77,11 @@ The minimum activities required for TBD are:
   
 ## Why'd we build this?
 
-We wrote that down along with some other stuff to [help y'all out](../../faq/).
+We wrote that down along with some other stuff to [help y'all out](/faq/).
 
 ## Headin' Down the Trail
 
-Wanna know where to start? Check out some [ideas](../../journey/) that've worked for us.
+Wanna know where to start? Check out some [ideas](/journey/) that've worked for us.
 
 ## Contributin'
 

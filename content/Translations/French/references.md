@@ -15,4 +15,4 @@ livraison continue, que nous que nous avons trouvées très utiles dans nos prop
 Ces ressources contiennent les bases, mais aussi les connaissances nécessaires pour devenir une organisation de Livraison Continue « d'élite ».
 Elles sont dédiées à la résolution du problème « pourquoi ne pouvons-nous pas passer en production aujourd'hui ? »
 
-[Lire la liste](../../../references/).
+[Lire la liste](/references/).
