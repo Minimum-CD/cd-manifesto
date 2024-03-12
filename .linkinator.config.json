@@ -1,11 +1,16 @@
 {
   "recurse": true,
   "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com)",
+  "concurrency": 100,
+  "config": "string",
+  "format": "json",
   "verbosity": "error",
   "timeout": 0,
   "markdown": true,
+  "serverRoot": "./",
   "directoryListing": true,
   "retry": true,
   "retryErrors": true,
-  "retryErrorsCount": 3
+  "retryErrorsCount": 3,
+  "retryErrorsJitter": 5
 }
