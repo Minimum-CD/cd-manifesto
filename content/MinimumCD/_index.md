@@ -62,7 +62,7 @@ The minimum activities required for CI are:
 
 ## Trunk-based Development
 
-[Trunk-based development](/minimumcd/tbd) is the branching pattern required to meet the definition
+[Trunk-based development](/minimumcd/tbd/) is the branching pattern required to meet the definition
 of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
 waste that increases batch size.
 
@@ -76,11 +76,11 @@ The minimum activities required for TBD are:
 
 ## Why did we build this?
 
-For background on Minimum CD and answers to other common questions, please [read the FAQs](/faq).
+For background on Minimum CD and answers to other common questions, please [read the FAQs](/faq/).
 
 ## Starting the Journey
 
-Questions on where to start? Check out some [recommendations](/journey).
+Questions on where to start? Check out some [recommendations](/journey/).
 
 ## Contributing
 
