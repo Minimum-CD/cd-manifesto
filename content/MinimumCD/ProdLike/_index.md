@@ -2,6 +2,7 @@
 title: Prod-Like Test Environment
 description: Leveraging production-like test environments in your CI/CD pipeline enables reliable testing.
 weight: 5
+type: docs
 ---
 ## Definition
 

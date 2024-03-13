@@ -2,24 +2,17 @@
 title: Deutsch
 description: "Minimale nutzbare kontinuierliche Lieferung"
 weight: 3
+type: docs
 ---
 
-{{% notice %}}
+{{% alert %}}
 
 "Kontinuierliche Lieferung vebessert die Geschwindigkeit und Qualität der Auslieferung, und hilft zugleich die Kultur zu verbessern, Burnout und Mühsal in der Entwicklung zu vermeiden."
 
 -- Das Mindset von DevOps. Accelerate: 24 Schlüsselkompetenzen, um leistungsstarke Technologieunternehmen zu entwickeln und zu skalieren
-{{% /notice %}}
+{{% /alert %}}
 
-![MinimumCD](/images/minimumCD-logo-hex.png?height=150px)
-
-Minimum Viable CD
-
-"Kontinuierliche Lieferung verbessert sowohl die Lieferleistung als auch die Qualität und trägt außerdem zur Verbesserung der Unternehmenskultur und zur Verringerung von Burnout und Lieferungsschmerzen bei.
-
-- Accelerate: Die Wissenschaft von schlanker Software und DevOps: Aufbau und Skalierung hochleistungsfähiger Technologieorganisationen
-
-MinimumCD
+{{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
 Wir, [die Unterzeichner](#unterzeichner), sind der Meinung, dass eine Minimale Definition von Continuous Delivery (CD) erforderlich ist, um den Ablauf der Software-Lieferung zu verbessern und die oben genannten Ergebnisse zu erzielen. Obwohl unsere Kontexte unterschiedlich sein mögen, gibt es universelle Praktiken, die allen Situationen und Teams gemeinsam sind. Indem wir diese definieren, können wir:
 
@@ -39,13 +32,13 @@ Die für CD erforderlichen Mindestaktivitäten sind:
 
 - [Kontinuierliche Integration](#kontinuierliche-integration) verwenden
 - Die [Anwendungspipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) ist die einzige Möglichkeit zur Lieferung in einer beliebigen Umgebung.
-- Die Pipeline entscheidet über die Freigabefähigkeit von Änderungen, ihr Urteil ist [endgültig](../../faq/#why-should-the-pipeline-be-definitive-for-deploy)
-- Die von der Pipeline erstellten Artefakte entsprechen immer der der organisationseigenen ["Definition für deploybar"](../../faq/#what-do-we-mean-by-definition-of-deployable).
-- [Unveränderliche Artefakte](../../minimumcd/immutable/). Keine menschlichen Änderungen nach der Übergabe an cas CD-System.
+- Die Pipeline entscheidet über die Freigabefähigkeit von Änderungen, ihr Urteil ist [endgültig](/faq/#why-should-the-pipeline-be-definitive-for-deploy)
+- Die von der Pipeline erstellten Artefakte entsprechen immer der der organisationseigenen ["Definition für deploybar"](/faq/#what-do-we-mean-by-definition-of-deployable).
+- [Unveränderliche Artefakte](/minimumcd/immutable/). Keine menschlichen Änderungen nach der Übergabe an cas CD-System.
 - Jegliche Arbeiten an Features werden eingestellt, wenn die Pipeline defekt ist.
 - Produktionsähnliche Testumgebung
 - Rollback bei Bedarf
-- [Anwendungskonfiguration](../../faq/#what-is-application-configuration) wird gemeinsam mit dem Artefakt ausgeliefert
+- [Anwendungskonfiguration](/faq/#what-is-application-configuration) wird gemeinsam mit dem Artefakt ausgeliefert
 
 ## Kontinuierliche Integration
 
@@ -62,7 +55,7 @@ Die für CI erforderlichen Mindestaktivitäten sind:
 
 ## Trunk-basierte Entwicklung
 
-Die [trunk-basierte Entwicklung](../../minimumcd/tbd/) ist das branching Modell, das erforderlich ist, um die Definition von CI zu erfüllen. Es verhindert den Verlust von Arbeit, das Risiko von verfälschtem oder defektem Code bei der Lösung von Merge-Konflikten besteht und auch die (Lean-) Verschwendung durch Bewegung, die die Batchgröße erhöht.
+Die [trunk-basierte Entwicklung](/minimumcd/tbd/) ist das branching Modell, das erforderlich ist, um die Definition von CI zu erfüllen. Es verhindert den Verlust von Arbeit, das Risiko von verfälschtem oder defektem Code bei der Lösung von Merge-Konflikten besteht und auch die (Lean-) Verschwendung durch Bewegung, die die Batchgröße erhöht.
 
 - Die für TBD erforderlichen Mindestaktivitäten sind:
   - Alle Änderungen werden in den Stamm integriert.
@@ -73,11 +66,11 @@ Die [trunk-basierte Entwicklung](../../minimumcd/tbd/) ist das branching Modell,
 
 ## Warum haben wir das gebaut?
 
-Für Hintergrundinformationen zu Minimum CD und Antworten auf andere häufige Fragen, lesen Sie bitte die [FAQs](../../faq/).
+Für Hintergrundinformationen zu Minimum CD und Antworten auf andere häufige Fragen, lesen Sie bitte die [FAQs](/faq/).
 
 ## Die Reise beginnen
 
-Haben Sie Fragen, wo Sie anfangen sollen? Sehen Sie sich einige [Empfehlungen](../../journey/) an.
+Haben Sie Fragen, wo Sie anfangen sollen? Sehen Sie sich einige [Empfehlungen](/journey/) an.
 
 ## Beitragen
 

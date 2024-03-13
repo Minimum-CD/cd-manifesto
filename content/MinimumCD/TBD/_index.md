@@ -2,13 +2,14 @@
 title: Trunk Based Development
 description: Death of merge hell
 weight: 1
+type: docs
 ---
 
 {{%alert info%}}
 
-"Trunk-based development has been shown to be a predictor of high performance in software development and delivery. It is characterized by fewer than three active branches in a code repository; branches and forks having very short lifetimes (e.g., less than a day) before being merged into master; and application teams rarely or never having "code lock" periods when no one can check in code or do pull requests due to merging conflicts, code freezes, or stabilization phases."
+"Trunk-based development has been shown to be a predictor of high performance in software development and delivery. It is characterized by fewer than three active branches in a code repository; branches and forks having very short lifetimes (e.g., less than a day) before being merged; and application teams rarely or never having "code lock" periods when no one can check in code or do pull requests due to merging conflicts, code freezes, or stabilization phases."
 
-{{%/alert%}}
+{{% /alert %}}
 
 Excerpt from *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim
 
@@ -24,5 +25,5 @@ It is important to note that release branches are an intermediate step that some
 - **We must test**: TBD requires us to implement tests as part of the development process.
 - **Better teamwork**: We need to work more closely as a team. This has many positive impacts, not least we will be more focused on getting the team's highest priority done. We will stop starting and start finishing work.
 - **Better work definition**: Small changes require us to decompose the work into a level of detail that helps uncover things that lack clarity or do not make sense. This provides much earlier feedback on potential quality issues.
-- **Replaces process with engineering**: Instead of creating a process where we control the release of features with branches, we can control the release of features with engineering techniques called [evolutionary coding methods](../../minimumcd/ci/#recommended-practices). These techniques have additional benefits related to stability that cannot be found when replaced by process.
+- **Replaces process with engineering**: Instead of creating a process where we control the release of features with branches, we can control the release of features with engineering techniques called [evolutionary coding methods](/minimumcd/ci/#recommended-practices). These techniques have additional benefits related to stability that cannot be found when replaced by process.
 - **Reduces risk**: There are two risks with long-lived branches that happen frequently. First, the change will not integrate cleanly and the merge conflicts result in broken or lost features. Second, the branch will be abandoned. This is usually because of the first reason. Sometimes because all of the knowledge about what is in that branch resides in the mind of someone who decided to leave before it was integrated.

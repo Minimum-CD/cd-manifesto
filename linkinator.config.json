@@ -1,0 +1,7 @@
+{
+  "recurse": true,
+  "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com), ^(https://.*github.com)",
+  "verbosity": "error",
+  "url-rewrite-search": "https://minimumcd.org/",
+  "url-rewrite-replace": "public/"
+}

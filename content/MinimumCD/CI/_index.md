@@ -2,6 +2,7 @@
 title: Continuous Integration
 description: Start here
 weight: 2
+type: docs
 ---
 
 ## Definition

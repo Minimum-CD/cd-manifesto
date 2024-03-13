@@ -2,6 +2,7 @@
 title: Immutable Artifact
 description: No human changes after commit.
 weight: 5
+type: docs
 ---
 
 Central to CD is that we are validating the artifact with the pipeline. It is built once and deployed to all environments. A common anti-pattern is building an artifact for each environment. The pipeline should generate immutable, versioned artifacts.

@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ $site := . }} {{/* Save the global context */}}
+  {{ if not
+    .Site.Params.homePage
+  }}
+    {{ with .Content }}{{ . }}{{ end }}
+  {{ else }}
+    {{ with .Site.Params.homePage }}
+      <!doctype html>
+      <html>
+        <head>
+          <meta http-equiv="refresh" content="0;url={{ . }}" />
+        </head>
+      </html>
+    {{ end }}
+  {{ end }}
+{{ end }}
