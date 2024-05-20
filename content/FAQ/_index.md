@@ -73,8 +73,6 @@ A "deployment" is the technical act of copying software to a host environment an
 
 A "release" makes a new feature available to users.
 
-More can be found [here](https://www.davefarley.net/?p=333).
-
 ## How do we differentiate between "continuous delivery" and "continuous deployment"?
 
 "Continuous delivery" means that you work so your software is always releasable.
