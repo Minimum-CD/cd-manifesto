@@ -37,13 +37,13 @@
     "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "hugo-extended": "0.126.1",
-    "husky": "^9.0.11",
-    "linkinator": "^6.0.4",
-    "markdownlint-cli": "^0.40.0",
+    "autoprefixer": "^10.4.20",
+    "hugo-extended": "0.131.0",
+    "husky": "^9.1.4",
+    "linkinator": "^6.1.1",
+    "markdownlint-cli": "^0.41.0",
     "postcss-cli": "^11.0.0",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.3",
     "prettier-plugin-go-template": "^0.0.15"
   }
 }
