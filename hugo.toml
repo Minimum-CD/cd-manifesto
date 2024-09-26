@@ -1,5 +1,5 @@
 baseURL = 'https://minimumcd.org/'
-title   = 'Minimum CD'
+title   = 'Minimum Viable Continuous Delivery'
 
 enableGitInfo   = true
 enableRobotsTXT = true
