@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-our slack instance ( <https://minimumcd.slack.com/> ).
+our [Slack community](https://join.slack.com/t/minimumcd/shared_invite/zt-23xsbnr86-Cj7~eO_B44YVF1yk~WtXkg).
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
