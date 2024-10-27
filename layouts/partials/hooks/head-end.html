@@ -1,0 +1,3 @@
+{{ with site.Params.preview_image | plainify | htmlUnescape -}}
+  <meta property="og:image" content="{{ trim . "\n\r\t " -}}" />
+{{ end -}}

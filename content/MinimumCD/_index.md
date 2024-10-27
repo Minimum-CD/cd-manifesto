@@ -1,7 +1,7 @@
 ---
 title: Minimum Viable CD
 linkTitle: "Minimum CD"
-description: Delivery problem to solve that improve your organization
+description: Delivery problems to solve that improve your organization
 weight: 1
 type: docs
 ---
