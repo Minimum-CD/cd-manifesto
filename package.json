@@ -38,9 +38,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "hugo-extended": "0.134.3",
+    "hugo-extended": "0.136.2",
     "husky": "^9.1.6",
-    "linkinator": "^6.1.1",
+    "linkinator": "^6.1.2",
     "markdownlint-cli": "^0.42.0",
     "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",
