@@ -1,45 +1,4 @@
-<!-- Debug: Start preview image logic -->
-{{ $preview_image := "" }}
-<!-- Debug: Initial preview_image value: {{ $preview_image }} -->
-
-<!-- Debug: Checking .Params.preview_image -->
-{{ if .Params.preview_image }}
-  <!-- Debug: Found page-level preview_image: {{ .Params.preview_image }} -->
-{{ else }}
-  <!-- Debug: No page-level preview_image found -->
-{{ end }}
-
-
-<!-- Debug: Checking .Site.Params.preview_image -->
-{{ if .Site.Params.preview_image }}
-  <!-- Debug: Found site-level preview_image: {{ .Site.Params.preview_image }} -->
-{{ else }}
-  <!-- Debug: No site-level preview_image found -->
-{{ end }}
-
-{{ with .Params.preview_image }}
-  {{ $preview_image = . }}
-  <!-- Debug: Using page-level preview_image: {{ $preview_image }} -->
-{{ else }}
-  {{ with $.Site.Params.preview_image }}
-    {{ $preview_image = . }}
-    <!-- Debug: Using site-level preview_image: {{ $preview_image }} -->
-  {{ end }}
-{{ end }}
-
-
-<!-- Debug: Final preview_image value: {{ $preview_image }} -->
-<!-- Debug: Site BaseURL: {{ $.Site.BaseURL }} -->
-
-{{ with $preview_image }}
-  <!-- Debug: Creating meta tags with preview_image -->
-  <meta property="og:image" content="{{ $.Site.BaseURL }}{{ . | relURL }}" />
-  <!-- Debug: Full og:image URL: {{ $.Site.BaseURL }}{{ . | relURL }} -->
-  <meta
-    property="og:image:secure_url"
-    content="{{ $.Site.BaseURL }}{{ . | relURL }}"
-  />
-{{ else }}
-  <!-- Debug: No preview_image available for meta tags -->
-{{ end }}
-<!-- Debug: End preview image logic -->
+<meta
+  property="og:image"
+  content="{{ .Site.BaseURL }}{{ .Site.Params.preview_image }}"
+/>

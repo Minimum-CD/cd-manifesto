@@ -1,7 +1,6 @@
-baseURL       = 'https://minimumcd.org/'
-description   = 'We believe that a minimal definition of continuous delivery (CD) is required to help people achieve the benefits of CD. Only by implementing these core practices can we improve the quality of outcomes and work environments.'
-preview_image = '/images/minimumCD-Tagline.png'
-title         = 'Minimum Viable Continuous Delivery'
+baseURL     = 'https://minimumcd.org/'
+description = 'We believe that a minimal definition of continuous delivery (CD) is required to help people achieve the benefits of CD. Only by implementing these core practices can we improve the quality of outcomes and work environments.'
+title       = 'Minimum Viable Continuous Delivery'
 
 enableGitInfo   = true
 enableRobotsTXT = true
@@ -49,9 +48,9 @@ disableKinds = [
   ]
 
 [params]
-  # gcs_engine_id = "c68e6136e96d14a0f"
-  homePage = "/minimumcd"
+  preview_image = '/images/minimumCD-Tagline.png'
 
+  # gcs_engine_id = "c68e6136e96d14a0f"
   github_branch       = "master"
   github_project_repo = "https://github.com/Minimum-CD/cd-manifesto"
   github_repo         = "https://github.com/Minimum-CD/cd-manifesto"
