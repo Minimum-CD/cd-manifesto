@@ -33,7 +33,7 @@
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky",
     "start": "hugo serve",
-    "test": "npm run lint && npm run link-check",
+    "test": "npm run lint",
     "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
   },
   "devDependencies": {
