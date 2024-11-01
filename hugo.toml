@@ -3,7 +3,7 @@ baseURL = 'https://minimumcd.org/'
 featured_image = '/images/minimumCD-Tagline.png'
 title          = 'Minimum Viable Continuous Delivery'
 
-enableGitInfo   = true
+enableGitInfo   = false
 enableRobotsTXT = true
 
 disableKinds = [
