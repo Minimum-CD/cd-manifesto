@@ -4,41 +4,23 @@
 	"automerge": true,
 	"dependencyDashboard": true,
 	"dependencyDashboardAutoclose": true,
-	"extends": [
-		"config:base"
-	],
+	"extends": ["config:recommended"],
 	"packageRules": [
 		{
-			"matchPackagePatterns": [
-				"*"
-			],
-			"matchUpdateTypes": [
-				"minor",
-				"patch"
-			],
+			"matchUpdateTypes": ["minor", "patch"],
 			"description": "NPM Dependencies.",
-			"matchPaths": [
-				"**/package.json"
-			],
-			"groupName": "NPM"
+			"matchFileNames": ["**/package.json"],
+			"groupName": "NPM",
+			"matchPackageNames": ["*"]
 		},
 		{
-			"matchPackagePatterns": [
-				"*"
-			],
-			"matchUpdateTypes": [
-				"minor",
-				"patch"
-			],
+			"matchUpdateTypes": ["minor", "patch"],
 			"description": "Github Actions Dependencies.",
-			"matchPaths": [
-				".github/**"
-			],
-			"groupName": "NPM-Github"
+			"matchFileNames": [".github/**"],
+			"groupName": "NPM-Github",
+			"matchPackageNames": ["*"]
 		}
 	],
-	"schedule": [
-		"on Thursday after 12pm and before 11pm"
-	],
+	"schedule": ["on Thursday after 12pm and before 11pm"],
 	"timezone": "America/Denver"
 }
