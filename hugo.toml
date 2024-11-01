@@ -1,5 +1,5 @@
 baseURL     = 'https://minimumcd.org/'
-description = 'MinimumCD.org defines a minimum set of problems to solve to help teams achieve the benefits of continuous delivery. By implementing these essential practices, an organization can improve both the quality of the work environment and the outcomes of software development.'
+description = 'Minimum CD defines a minimum set of problems to solve to help teams achieve the benefits of continuous delivery. By implementing these essential practices, an organization can improve both the quality of the work environment and the outcomes of software development.'
 title       = 'Minimum Viable Continuous Delivery'
 
 enableGitInfo   = true
@@ -102,7 +102,7 @@ disableKinds = [
     sidebar_cache_limit                   = 10
     sidebar_menu_compact                  = true
     sidebar_menu_foldable                 = true
-    sidebar_search_disable                = false
+    sidebar_search_disable                = true
 
   [params.links]
     [[params.links.developer]]
