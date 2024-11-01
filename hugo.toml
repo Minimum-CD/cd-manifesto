@@ -1,6 +1,7 @@
-baseURL     = 'https://minimumcd.org/'
-description = 'MinimumCD.org outlines key practices to help teams achieve continuous delivery benefits. By adopting these essentials, organizations can improve software quality, enhance team environments, and boost development outcomes.'
-title       = 'Minimum Viable Continuous Delivery'
+baseURL = 'https://minimumcd.org/'
+
+featured_image = '/images/minimumCD-Tagline.png'
+title          = 'Minimum Viable Continuous Delivery'
 
 enableGitInfo   = true
 enableRobotsTXT = true
@@ -32,14 +33,7 @@ disableKinds = [
 [markup.goldmark.renderer]
   unsafe = true
 [markup.highlight]
-  # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
   style = "tango"
-  # Uncomment if you want your chosen highlight style used for code blocks without a specified language
-  # guessSyntax = "true"
-
-  # Everything below this are Site Params
-
-# Comment out if you don't want the "print entire section" link enabled.
 [outputs]
   section = [
     "HTML",
@@ -48,17 +42,16 @@ disableKinds = [
   ]
 
 [params]
+  description = 'MinimumCD.org outlines key practices to help teams achieve continuous delivery benefits. By adopting these essentials, organizations can improve software quality, enhance team environments, and boost development outcomes.'
+  images = [
+    '/images/minimumCD-Tagline.png'
+  ]
   preview_image = '/images/minimumCD-Tagline.png'
-
   # gcs_engine_id = "c68e6136e96d14a0f"
   github_branch       = "master"
   github_project_repo = "https://github.com/Minimum-CD/cd-manifesto"
   github_repo         = "https://github.com/Minimum-CD/cd-manifesto"
 
-  # Google Custom Search Engine ID. Remove or comment out to disable search.
-  # gcs_engine_id = "d72aa9b2712488cc3"
-
-  # Enable Lunr.js offline search
   offlineSearch = true
 
   prism_syntax_highlighting = true
@@ -72,19 +65,16 @@ disableKinds = [
   ]
 
   [params.taxonomy]
-    # set taxonomyCloud = [] to hide taxonomy clouds
     taxonomyCloud = [
       "categories",
       "tags"
     ]
 
-    # If used, must have same length as taxonomyCloud
     taxonomyCloudTitle = [
       "Categories",
       "Tag Cloud"
     ]
 
-    # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader = [
       "categories",
       "tags"
