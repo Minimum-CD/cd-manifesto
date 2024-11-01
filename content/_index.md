@@ -6,7 +6,7 @@ weight: 1
 cascade:
   - type: "docs"
 ---
-
+{{< figure src="/images/minimumCD-Tagline.png" alt="MinimumCD" width="40%">}}
 
 {{% alert %}}
 "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
@@ -14,8 +14,6 @@ cascade:
 __-- *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim__
 _
 {{% /alert %}}
-
-{{< figure src="/images/minimumCD-logo-hex.webp" alt="MinimumCD">}}
 
 We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD) is required to improve the flow of delivery and achieve the outcomes above. While our contexts may be different, there are universal practices common in all. By defining them we can:
 
