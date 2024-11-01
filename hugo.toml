@@ -46,7 +46,6 @@ disableKinds = [
   images = [
     '/images/minimumCD-Tagline.png'
   ]
-  preview_image = '/images/minimumCD-Tagline.png'
   # gcs_engine_id = "c68e6136e96d14a0f"
   github_branch       = "master"
   github_project_repo = "https://github.com/Minimum-CD/cd-manifesto"

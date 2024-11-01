@@ -1,8 +1,7 @@
 ---
 title: Recommended Practices
 linkTitle: "Practices"
-description: ""
-weight: 5
+description: "Recommended practice for continuous delivery"
 type: docs
 menu:
   main:
