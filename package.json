@@ -38,13 +38,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "hugo-extended": "0.136.2",
-    "husky": "^9.1.6",
+    "hugo-extended": "0.140.2",
+    "husky": "^9.1.7",
     "linkinator": "^6.1.2",
-    "markdownlint-cli": "^0.42.0",
-    "postcss": "^8.4.47",
+    "markdownlint-cli": "^0.43.0",
+    "postcss": "^8.4.49",
     "postcss-cli": "^11.0.0",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.2",
     "prettier-plugin-go-template": "^0.0.15"
   }
 }
