@@ -87,7 +87,7 @@ La [descomposición del trabajo](https://dojoconsortium.org/docs/work-decomposit
 
 Un equipo nunca asigna trabajo. Un equipo trabaja en conjunto para entregar la tarea de mayor prioridad en el backlog. Si hay un proceso donde el trabajo se asigna al comienzo de una iteración, entonces cada persona solo se enfoca en su trabajo asignado en lugar de en los objetivos del equipo. Esto trae un impacto negativo en todo nuestro flujo de trabajo. Todos en el equipo deberían estar involucrados en todo lo que hace el equipo. Eso hace que la descomposición del trabajo, la revisión del código, las pruebas y todo lo demás sea mucho más efectivo.
 
-## Reemplazar lo manual con la automatización
+## Reemplazar lo Manual con la Automatización
 
 Teniendo en cuenta nuestras definiciones de "desplegable" y "publicable", necesitamos comenzar a reemplazar la verificación manual con automatizada. Esto lleva tiempo. También necesitamos cambiar los flujos de trabajo. Por ejemplo, algunas cosas manuales hoy, seguiran siendo manuales siempre. Ninguna de estas deberían ser verificaciones de reglas o de checklists. Podemos automatizar esas.
 
