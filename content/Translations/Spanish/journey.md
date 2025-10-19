@@ -5,9 +5,6 @@ description: Caminos de mejora sugeridos
 weight: 1
 draft: false
 type: docs
-menu:
-  main:
-    weight: 20
 ---
 
 Entonces, ¿por dónde empezamos? Es mala idea pasar de "no podemos hacer commits seguros en el trunk" a "desplegar inmediatamente cada cambio en producción" en un solo paso. Es un viaje que requiere resolver metódicamente problemas en el contexto de tu organización. Aquí discutiremos algunos de los desafíos comunes que frecuentemente necesitan ser superados.
@@ -40,7 +37,7 @@ Queríamos investigar el impacto de los procesos de aprobación de cambios en el
 - Confiamos en la revisión por pares para gestionar los cambios.
 - No tenemos proceso de aprobación de cambios.
 
-Los resultados fueron sorprendentes. Descubrimos que la aprobación solo para cambios de alto riesgo no se correlacionaba con un rendimiento 
+Los resultados fueron sorprendentes. Descubrimos que la aprobación solo para cambios de alto riesgo no se correlacionaba con un rendimiento
 en la entrega de software. Los equipos que informaron no tener proceso de aprobación o que utilizaban revisión por pares lograron un mayor rendimiento en la entrega de software.
 Finalmente, los equipos que requerían la aprobación por un organismo externo lograron menor rendimiento.
 

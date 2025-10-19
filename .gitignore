@@ -6,3 +6,5 @@ node_modules/
 .hugo_build.lock
 tmp/
 bin/
+.hive-mind/
+.claude-flow/

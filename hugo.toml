@@ -110,6 +110,11 @@ disableKinds = [
   [services.googleAnalytics]
     id = "G-KVLFMQXEF1"
 
+[[menu.main]]
+  name = "Practices"
+  url = "https://practices.minimumcd.org"
+  weight = 20
+
 [module]
   proxy = "direct"
   [[module.imports]]
