@@ -30,10 +30,10 @@ disableKinds = [
   [markup.goldmark]
     [markup.goldmark.parser.attribute]
       block = true
-[markup.goldmark.renderer]
-  unsafe = true
-[markup.highlight]
-  style = "tango"
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "tango"
 [outputs]
   section = [
     "HTML",
@@ -89,8 +89,8 @@ disableKinds = [
     navbar_translucent_over_cover_disable = false
     show_nav_title                        = true
     sidebar_cache_limit                   = 10
-    sidebar_menu_compact                  = true
-    sidebar_menu_foldable                 = true
+    sidebar_menu_compact                  = false
+    sidebar_menu_foldable                 = false
     sidebar_search_disable                = true
 
   [params.links]
@@ -111,8 +111,8 @@ disableKinds = [
     id = "G-KVLFMQXEF1"
 
 [[menu.main]]
-  name = "Practices"
-  url = "https://practices.minimumcd.org"
+  name   = "Practices"
+  url    = "https://practices.minimumcd.org"
   weight = 20
 
 [module]

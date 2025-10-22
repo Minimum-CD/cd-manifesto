@@ -37,16 +37,16 @@ CD යනු මෘදුකාංග වලට කෙරෙන සියලු 
 CD සඳහා අවශ්‍ය අවම ක්‍රියාකාරකම් වන්නේ:
 
 - [Continuous Integration](#continuous-integration)භාවිතා කලයුතුවේ
-- එම [මෘදුකාංග යෙදුම් මාර්ගය pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
+- එම [මෘදුකාංග යෙදුම් මාර්ගය pipeline](/minimumcd/singlepath/)
   මෘදුකාංග බෙදාහැරීමේ එකම මාර්ගය වේ
-- එම යෙදුම් මාර්ගය (pipeline) වෙනස්කම්වල මුදා හැරීම තීරණය කරයි, එහි තීන්දුව [නිශ්චිත තීන්දුවවේ](/faq/#why-should-the-pipeline-be-definitive-for-deploy)
+- එම යෙදුම් මාර්ගය (pipeline) වෙනස්කම්වල මුදා හැරීම තීරණය කරයි, එහි තීන්දුව [නිශ්චිත තීන්දුවවේ](/minimumcd/deterministic/)
 
-- එම මාර්ගයෙන් නිර්මාණය කරන ලද වස්තුන් සෑම විටම ආයතනයේ [බෙදාහැරිය හැකි අර්ථ දැක්වීම සපුරාලයි](/faq/#what-do-we-mean-by-definition-of-deployable)
+- එම මාර්ගයෙන් නිර්මාණය කරන ලද වස්තුන් සෑම විටම ආයතනයේ [බෙදාහැරිය හැකි අර්ථ දැක්වීම සපුරාලයි](/minimumcd/deployable/)
 - [විචල්‍ය නොවන වස්තුන්](/minimumcd/immutable/) (සැකසීමෙන් පසු කිසි පුද්ගලයෙකුට මේ වස්තුන් වෙනස් කල නොහැක)
 - මෘදුකාංග යෙදුම් මාර්ගය (pipeline) රතු වූ විට සියලුම සියලු වැඩ නතර වේ
-- Production-වලට සමාන පරීක්ෂණ පරිසර
-- සැණකින් ප්‍රකූර්ති තත්වයට පත්කල හැකි පරීක්ෂණ පරිසර
-- [යෙදුම් වින්‍යාසය](/faq/#What-is-application-configuration)වස්තුන් සමඟ එකට බෙදාහැරේ
+- [Production-වලට සමාන පරීක්ෂණ පරිසර](/minimumcd/prodlike/)
+- [සැණකින් ප්‍රකූර්ති තත්වයට පත්කල හැකි පරීක්ෂණ පරිසර](/minimumcd/rollback/)
+- [යෙදුම් වින්‍යාසය](/minimumcd/appconfig/)වස්තුන් සමඟ එකට බෙදාහැරේ
 
 ## Continuous Integration
 

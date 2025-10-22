@@ -13,7 +13,7 @@ type: docs
 
 {{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
-Nous, [les signataires](/minimumcd/#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons&nbsp;:
+Nous, [les signataires](/#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons&nbsp;:
 
 - Présenter les choses aux nouveaux arrivants de manière cohérente
 - Discuter des pratiques d'ingénierie qui composent le CD (Continuous Delivery)
@@ -35,15 +35,15 @@ pour être qualifiés de « livraison continue »
 Les activités minimales requises pour la Livraison Continue sont&nbsp;:
 
 - [L'intégration continue](#intégration-continue)
-- Le [pipeline de déploiement](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
+- Le [pipeline de déploiement](/minimumcd/singlepath/)
   est le seul chemin qui permet de déployer en production.
-- Le pipeline décide de la diffusion des modifications, son verdict est [définitif](/faq/#why-should-the-pipeline-be-definitive-for-deploy)
+- Le pipeline décide de la diffusion des modifications, son verdict est [définitif](/minimumcd/deterministic/)
 - Les artefacts créés par le pipeline répondent toujours à la [définition de Déployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) de l'organisation
 - [L'artefact ne change jamais](/minimumcd/immutable/). Il n'y a aucun changement humain après le commit.
 - Tous les travaux sur les fonctionnalités s'arrêtent lorsque le pipeline est rouge
 - L'environnement de test est proche de l'environnement de production
 - On peut revenir en arrière (rollback) à la demande
-- [La configuration de l'application](/faq/#what-is-application-configuration) est déployée avec l'artefact
+- [La configuration de l'application](/minimumcd/appconfig/) est déployée avec l'artefact
 
 ## Intégration Continue
 
@@ -79,7 +79,7 @@ Pour plus d'informations sur la Livraison Continue Minimale et des réponses à 
 
 ## Vous souhaitez contribuer ou devenir signataire ?
 
-Les signataires ont signé le [document original en anglais](/minimumcd/#signatories), et la liste des noms sera tenue à jour uniquement sur celui-ci.
+Les signataires ont signé le [document original en anglais](/#signatories), et la liste des noms sera tenue à jour uniquement sur celui-ci.
 
 ## Traduction
 

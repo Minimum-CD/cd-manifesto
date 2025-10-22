@@ -51,11 +51,15 @@ CD cannot apply. It just takes longer in some situations to solve the problems. 
 "If the pipeline says everything looks good, that should be enough - it forces the focus on what 'releasable' means." -
 Dave Farley
 
+For a comprehensive guide on building deterministic pipelines, see [Deterministic Pipeline](/minimumcd/deterministic/).
+
 ## What is Application Configuration?
 
 The term "Configuration" is overused and underdefined across the industry.  We embrace [The Twelve-Factor App
 config](https://12factor.net/config) definitions where "config" is environment specific (varies by deployment) and
 "application config" is internal to the app and does NOT vary by environment.
+
+For a comprehensive guide on managing application configuration, see [Application Configuration](/minimumcd/appconfig/).
 
 ## What is an immutable artifact?
 
@@ -66,6 +70,8 @@ so important. See the [Immutable](/minimumcd/immutable/) page for more informati
 ## What do we mean by "definition of deployable"?
 
 For every organization, there should be non-negotiable guardrails in place for delivery. These may include security, compliance, stability, responsiveness, etc. The pipeline should be the final word for this. See Dave Farley's video [Real Example of a Deployment Pipeline in the Fintech Industry](https://www.youtube.com/watch?v=bHKHdp4H-8w))
+
+For a comprehensive guide on defining what "deployable" means for your organization, see [Definition of Deployable](/minimumcd/deployable/).
 
 ## How do we differentiate between "deployment" and "release"?
 

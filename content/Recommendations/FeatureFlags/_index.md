@@ -1,13 +1,13 @@
 ---
-title: Feature Flag
+title: Feature Flags
 description: When to use, or not use, feature flags
 weight: 1
 type: docs
 ---
 
 Feature flags are a useful tool. However, they are also often misused because people fail to consider other options when
-it comes to hiding incomplete features to enable frequent code integration. Below is a chart that covers the most common
-reasons people use feature flags and why some of those reasons are wrong. Also, you don't need a complicated tool for
+it comes to hiding incomplete features to enable frequent code integration. Below is a chart that covers common
+reasons people reach for feature flags and why some of those reasons are wrong. Also, you don't need a complicated tool for
 feature flags... until you do. See the section below the decision tree for examples of feature flag implementation based
 on use case.
 
@@ -18,31 +18,31 @@ graph TD
     Q1 -->|Yes| Q2{Do you need gradual<br/>rollout or testing<br/>in production?}
     Q1 -->|No| Q3{Is the feature<br/>incomplete or spans<br/>multiple releases?}
     
-    Q2 -->|Yes| UseFF1[✓ USE FEATURE FLAG<br/>Enables safe rollout<br/>and quick rollback]
+    Q2 -->|Yes| UseFF1[YES - USE FEATURE FLAG<br/>Enables safe rollout<br/>and quick rollback]
     Q2 -->|No| Q4{Do you need to<br/>test in production<br/>before full release?}
     
     Q3 -->|Yes| Q3A{Can you use an<br/>alternative pattern?}
     Q3 -->|No| Q5{Do different users/<br/>customers need<br/>different behavior?}
     
-    Q3A -->|New Feature| NoFF_NewFeature[✗ NO FEATURE FLAG<br/>Connect to tests only,<br/>integrate in final commit]
-    Q3A -->|Behavior Change| NoFF_Abstraction[✗ NO FEATURE FLAG<br/>Use branch by<br/>abstraction pattern]
-    Q3A -->|New API Route| NoFF_API[✗ NO FEATURE FLAG<br/>Build route, expose<br/>as last change]
-    Q3A -->|Not Applicable| UseFF2[✓ USE FEATURE FLAG<br/>Enables trunk-based<br/>development]
+    Q3A -->|New Feature| NoFF_NewFeature[NO - NO FEATURE FLAG<br/>Connect to tests only,<br/>integrate in final commit]
+    Q3A -->|Behavior Change| NoFF_Abstraction[NO - NO FEATURE FLAG<br/>Use branch by<br/>abstraction pattern]
+    Q3A -->|New API Route| NoFF_API[NO - NO FEATURE FLAG<br/>Build route, expose<br/>as last change]
+    Q3A -->|Not Applicable| UseFF2[YES - USE FEATURE FLAG<br/>Enables trunk-based<br/>development]
     
-    Q4 -->|Yes| UseFF3[✓ USE FEATURE FLAG<br/>Dark launch or<br/>beta testing]
+    Q4 -->|Yes| UseFF3[YES - USE FEATURE FLAG<br/>Dark launch or<br/>beta testing]
     Q4 -->|No| Q6{Is this an<br/>experiment or<br/>A/B test?}
     
-    Q5 -->|Yes| UseFF4[✓ USE FEATURE FLAG<br/>Customer-specific<br/>toggles needed]
+    Q5 -->|Yes| UseFF4[YES - USE FEATURE FLAG<br/>Customer-specific<br/>toggles needed]
     Q5 -->|No| Q7{Does change require<br/>coordination with<br/>other teams/services?}
     
-    Q6 -->|Yes| UseFF5[✓ USE FEATURE FLAG<br/>Required for<br/>experimentation]
-    Q6 -->|No| NoFF1[✗ NO FEATURE FLAG<br/>Simple change,<br/>deploy directly]
+    Q6 -->|Yes| UseFF5[YES - USE FEATURE FLAG<br/>Required for<br/>experimentation]
+    Q6 -->|No| NoFF1[NO - NO FEATURE FLAG<br/>Simple change,<br/>deploy directly]
     
-    Q7 -->|Yes| UseFF6[✓ USE FEATURE FLAG<br/>Enables independent<br/>deployment]
+    Q7 -->|Yes| UseFF6[YES - USE FEATURE FLAG<br/>Enables independent<br/>deployment]
     Q7 -->|No| Q8{Is this a bug fix<br/>or hotfix?}
     
-    Q8 -->|Yes| NoFF2[✗ NO FEATURE FLAG<br/>Deploy immediately]
-    Q8 -->|No| NoFF3[✗ NO FEATURE FLAG<br/>Standard deployment<br/>sufficient]
+    Q8 -->|Yes| NoFF2[NO - NO FEATURE FLAG<br/>Deploy immediately]
+    Q8 -->|No| NoFF3[NO - NO FEATURE FLAG<br/>Standard deployment<br/>sufficient]
     
     style UseFF1 fill:#90EE90
     style UseFF2 fill:#90EE90

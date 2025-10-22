@@ -18,7 +18,7 @@ type: docs
 
 {{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
-Nós, [os abaixo-assinados](/minimumcd/#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
+Nós, [os abaixo-assinados](/#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
 
 - Introduzi-las aos novos praticantes, de forma consistente
 - Discutir as práticas de engenharia que abrangem a entrega contínua
@@ -37,14 +37,14 @@ A entrega contínua (CD) é a disciplina de engenharia que consiste na entrega d
 As atividades mínimas exigidas para o CD são:
 
 - Uso de [Integração contínua](#integração-contínua)
-- A [_pipeline_ aplicational](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) é a única forma possível de fazer _deploy_ para qualquer ambiente
-- A _pipeline_ decide a possibilidade dessas mudanças serem replicadas para o ambiente produtivo. Esse veredicto é [definitivo](/faq/#why-should-the-pipeline-be-definitive-for-deploy)
-- Os artefactos criados pela _pipeline_ respeitam sempre a [definição de _deployable_](/faq/#what-do-we-mean-by-definition-of-deployable) da organização
+- A [_pipeline_ aplicational](/minimumcd/singlepath/) é a única forma possível de fazer _deploy_ para qualquer ambiente
+- A _pipeline_ decide a possibilidade dessas mudanças serem replicadas para o ambiente produtivo. Esse veredicto é [definitivo](/minimumcd/deterministic/)
+- Os artefactos criados pela _pipeline_ respeitam sempre a [definição de _deployable_](/minimumcd/deployable/) da organização
 - [Artefacto imutável](/minimumcd/immutable/) (não existem mudanças manuais após o _commit_)
 - Todo o desenvolvimento de funcionalidades é suspenso quando a _pipeline_ se encontra em falha (em vermelho)
-- Ambientes de teste semelhantes ao ambiente produtivo
-- _Rollback_ conforme necessário
-- A [configuração da aplicação](/faq/#what-is-application-configuration) é _deployed_ com o artefacto
+- [Ambientes de teste semelhantes ao ambiente produtivo](/minimumcd/prodlike/)
+- [_Rollback_ conforme necessário](/minimumcd/rollback/)
+- A [configuração da aplicação](/minimumcd/appconfig/) é _deployed_ com o artefacto
 
 ## Integração Contínua
 
@@ -87,7 +87,7 @@ Lê as nossas [diretrizes de contribuição](https://github.com/Minimum-CD/cd-ma
 
 ## Signatários
 
-Os signatários assinaram a [versão original em inglês](/minimumcd/#signatories) e a lista atual de nomes é publicada apenas nessa versão.
+Os signatários assinaram a [versão original em inglês](/#signatories) e a lista atual de nomes é publicada apenas nessa versão.
 
 ## Tradução
 
