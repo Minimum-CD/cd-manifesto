@@ -15,21 +15,25 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install npm dependencies
+        run: npm ci
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
 
-      - name: Run Tests
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
-      - run: npm ci
-      - run: npm test
+      - name: Run linting tests
+        run: npm test
 
-      - name: Run Hugo
+      - name: Build site with Hugo
         run: hugo -d $GITHUB_WORKSPACE/public
 
       - name: Test HTML
