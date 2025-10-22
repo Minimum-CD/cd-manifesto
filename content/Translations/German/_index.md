@@ -31,14 +31,14 @@ Kontinuierliche Lieferung (_Continuous Delivery_, _CD_) ist die technische Diszi
 Die für CD erforderlichen Mindestaktivitäten sind:
 
 - [Kontinuierliche Integration](#kontinuierliche-integration) verwenden
-- Die [Anwendungspipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) ist die einzige Möglichkeit zur Lieferung in einer beliebigen Umgebung.
-- Die Pipeline entscheidet über die Freigabefähigkeit von Änderungen, ihr Urteil ist [endgültig](/faq/#why-should-the-pipeline-be-definitive-for-deploy)
-- Die von der Pipeline erstellten Artefakte entsprechen immer der der organisationseigenen ["Definition für deploybar"](/faq/#what-do-we-mean-by-definition-of-deployable).
+- Die [Anwendungspipeline](/minimumcd/singlepath/) ist die einzige Möglichkeit zur Lieferung in einer beliebigen Umgebung.
+- Die Pipeline entscheidet über die Freigabefähigkeit von Änderungen, ihr Urteil ist [endgültig](/minimumcd/deterministic/)
+- Die von der Pipeline erstellten Artefakte entsprechen immer der der organisationseigenen ["Definition für deploybar"](/minimumcd/deployable/).
 - [Unveränderliche Artefakte](/minimumcd/immutable/). Keine menschlichen Änderungen nach der Übergabe an cas CD-System.
 - Jegliche Arbeiten an Features werden eingestellt, wenn die Pipeline defekt ist.
-- Produktionsähnliche Testumgebung
-- Rollback bei Bedarf
-- [Anwendungskonfiguration](/faq/#what-is-application-configuration) wird gemeinsam mit dem Artefakt ausgeliefert
+- [Produktionsähnliche Testumgebung](/minimumcd/prodlike/)
+- [Rollback bei Bedarf](/minimumcd/rollback/)
+- [Anwendungskonfiguration](/minimumcd/appconfig/) wird gemeinsam mit dem Artefakt ausgeliefert
 
 ## Kontinuierliche Integration
 

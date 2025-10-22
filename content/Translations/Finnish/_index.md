@@ -30,15 +30,15 @@ Jatkuva toimittaminen (CD) on ohjelmistotuotannon toimintamalli, jolla kaikki mu
 Jatkuvan toimittamisen minimivaatimukset ovat:
 
 - [Jatkuva integraatio](#jatkuva-integraatio)
-- [Sovelluksen toimitusputki](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
+- [Sovelluksen toimitusputki](/minimumcd/singlepath/)
   on ainoa tie tuotantoonvientiin.
-- Toimitusputki määrää muutosten julkaisukelpoisuuden, sen lausunto on [ehdoton](/faq/#why-should-the-pipeline-be-definitive-for-deploy)
+- Toimitusputki määrää muutosten julkaisukelpoisuuden, sen lausunto on [ehdoton](/minimumcd/deterministic/)
 - [Organisaation tuotantoonvientikelpoisen määritelmä täyttyy aina](https://www.youtube.com/watch?v=bHKHdp4H-8w)
 - [Artifakti on muuttumaton](/minimumcd/immutable/). Ei ihmisen tekemiä muutoksia versionhallintaan tallentamisen jälkeen.
 - Kaikki uuskehitys loppuu, kun toimitusputki on punaisella
 - Tuotannonkaltainen testiympäristö
 - Tuotantoonviennin peruutus tarvittaessa
-- [Sovelluksen konfiguraatio](/faq/#what-is-application-configuration) viedään tuotantoon artifaktin kanssa
+- [Sovelluksen konfiguraatio](/minimumcd/appconfig/) viedään tuotantoon artifaktin kanssa
 
 ## Jatkuva integraatio
 

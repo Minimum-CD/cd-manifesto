@@ -33,7 +33,7 @@ Separating application configuration from environment configuration provides sev
 
 ## Example Implementations
 
-### ❌ Anti-Pattern: External Application Config
+### Anti-Pattern: External Application Config
 
 ```yaml
 # Stored in external config service, modified after build
@@ -47,7 +47,7 @@ business_rules:
 
 **Problem**: Changes to this config after build mean the artifact behavior is untested and unpredictable.
 
-### ✅ Good Pattern: Bundled Application Config
+### Good Pattern: Bundled Application Config
 
 ```yaml
 # config/application.yml - bundled with artifact
@@ -79,11 +79,16 @@ environment:
 
 ## Common Patterns
 
-### Feature Flags (Dynamic Release Control)
+### Feature Flags (Release Control)
 
-Application config can include feature flags that are evaluated at runtime:
+Feature flags come in two flavors, and understanding the distinction is critical:
+
+#### Static Feature Flags (Application Configuration)
+
+**Bundled with the artifact** - These are application configuration:
 
 ```json
+// config/features.json (bundled with artifact)
 {
   "features": {
     "new_dashboard": {
@@ -94,7 +99,36 @@ Application config can include feature flags that are evaluated at runtime:
 }
 ```
 
-This config is bundled with the artifact. The feature flag system reads it to control feature visibility without code changes.
+- Flag definitions are in version control
+- Deployed with the artifact
+- Changing flags requires a new deployment
+- Pipeline tests validate flag behavior
+- **Use case**: Long-lived flags, kill switches, A/B test definitions
+
+#### Dynamic Feature Flags (Environment Configuration)
+
+**External service** - These are NOT application configuration:
+
+```javascript
+// Application code reads from external service at runtime
+const flags = await featureFlagService.getFlags({
+  user: currentUser,
+  environment: 'production'
+})
+
+if (flags.newDashboard) {
+  return renderNewDashboard()
+}
+```
+
+- Flag state stored in external service (LaunchDarkly, Split.io, etc.)
+- Changed without redeployment
+- Different per environment (dev/staging/production)
+- **Use case**: Real-time experimentation, emergency kill switches, gradual rollouts
+
+**Which should you use?**
+- **Static flags**: When you want config changes tested in pipeline
+- **Dynamic flags**: When you need real-time control without deployment
 
 ### Business Rules
 
@@ -131,7 +165,20 @@ If it's truly application configuration, make the change in code, commit it, let
 
 ### Can feature flags be application configuration?
 
-Yes! Feature flag **definitions** and **default states** are application config. The **evaluation logic** reads this bundled config. However, if you use a dynamic feature flag service that changes flags without redeployment, those remote overrides are environment-specific concerns.
+It depends on the type:
+
+**Static feature flags** (bundled with artifact): **YES**, these are application configuration
+- Flag definitions and states in version control
+- Deployed with the artifact
+- Changes require redeployment through pipeline
+
+**Dynamic feature flags** (external service): **NO**, these are environment configuration
+- Flag states stored externally (LaunchDarkly, Split.io, etc.)
+- Changed without redeployment
+- Different per environment
+- Not tested by pipeline before changes take effect
+
+Both are valid patterns serving different needs. Static flags ensure pipeline validation; dynamic flags enable real-time experimentation.
 
 ### What about config that changes frequently?
 

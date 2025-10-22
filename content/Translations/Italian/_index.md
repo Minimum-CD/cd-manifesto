@@ -30,14 +30,14 @@ La CD è la disciplina ingegneristica che consente di rilasciare nuove funzional
 Il set minimo di attività richieste per la CD sono:
 
 - [Continuous integration](#continuous-integration-integrazione-continua) (Integrazione Continua)
-- La [application pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) è l'unico percorso per il rilascio in produzione
-- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](/translations/italian/faq/#perch%C3%A9-la-pipeline-dovrebbe-dettare-legge-per-il-rilascio)
-- Gli artefatti creati dalla pipeline soddisfano sempre la definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) della specifica organizzazione
-- Artefatti immutabili ([Immutable artifact](/translations/italian/faq/#cosa-significa-artefatti-immutabili)): nessuna modifica manuale dopo i commit
+- La [application pipeline](/minimumcd/singlepath/) è l'unico percorso per il rilascio in produzione
+- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](/minimumcd/deterministic/)
+- Gli artefatti creati dalla pipeline soddisfano sempre la [definizione di rilasciabilità](/minimumcd/deployable/) della specifica organizzazione
+- [Artefatti immutabili](/minimumcd/immutable/): nessuna modifica manuale dopo i commit
 - Tutto il lavoro si ferma se la pipeline fallisce
-- Utilizzare ambienti di test il più possibile simili all'ambiente di produzione
-- Rollback su richiesta
-- La [configurazione dell'applicazione](/translations/italian/faq/#cosa-significa-artefatti-immutabili) viene distribuita assieme agli artefatti
+- [Utilizzare ambienti di test il più possibile simili all'ambiente di produzione](/minimumcd/prodlike/)
+- [Rollback su richiesta](/minimumcd/rollback/)
+- La [configurazione dell'applicazione](/minimumcd/appconfig/) viene distribuita assieme agli artefatti
   
 ## Continuous Integration (Integrazione continua)
 

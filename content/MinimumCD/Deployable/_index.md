@@ -77,7 +77,7 @@ Your definition of deployable should include automated checks for:
 
 ## Example Implementations
 
-### ❌ Anti-Pattern: Manual Approval Process
+### Anti-Pattern: Manual Approval Process
 
 ```text
 Developer: "I think this is ready to deploy"
@@ -88,7 +88,7 @@ Ops: "We need to review the deployment plan first"
 
 **Problem**: Manual steps delay feedback, introduce inconsistency, and reduce confidence.
 
-### ✅ Good Pattern: Automated Pipeline Gates
+### Good Pattern: Automated Pipeline Gates
 
 ```yaml
 # .github/workflows/cd-pipeline.yml
@@ -123,7 +123,7 @@ jobs:
 
       - name: Mark as deployable
         if: success()
-        run: echo "✅ Artifact meets definition of deployable"
+        run: echo "Artifact meets definition of deployable"
 ```
 
 **Benefit**: Every commit is automatically validated against all criteria. If it passes, it's deployable.

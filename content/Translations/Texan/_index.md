@@ -37,15 +37,15 @@ The minimum activities required for CD are:
 
 - Use [Continuous Integration](#continuous-integration)
 - The [application
-  pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract)
+  pipeline](/minimumcd/singlepath/)
   is the only way to deploy to any environment
-- The pipeline decides the releasability of changes. [Whatever it says, goes](/faq/#why-should-the-pipeline-be-definitive-for-deploy)
-- Artifacts created by the pipeline always meet the organization's [definition of deployable](/faq/#what-do-we-mean-by-definition-of-deployable)
+- The pipeline decides the releasability of changes. [Whatever it says, goes](/minimumcd/deterministic/)
+- Artifacts created by the pipeline always meet the organization's [definition of deployable](/minimumcd/deployable/)
 - [Immutable artifact](/minimumcd/immutable/) (no human changes after commit)
 - All feature work stops when the pipeline is red
 - Production-like test environment
 - Rollback on-demand
-- [Application configuration](/faq/#what-is-application-configuration) deploys with artifact
+- [Application configuration](/minimumcd/appconfig/) deploys with artifact
 
 ## Continuous Integration
 

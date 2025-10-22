@@ -32,14 +32,14 @@ CD es la disciplina de ingeniería que consiste en realizar todos los cambios de
 Las actividades mínimas requeridas para CD son:
 
 - [Integración continua](#integración-continua).
-- El [pipeline de la aplicación](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) es el único camino para desplegar en producción.
-- El pipeline decide la posibilidad de entrega de los cambios, el veredicto es [definitivo](/faq/#why-should-the-pipeline-be-definitive-for-deploy).
-- Los artefactos creados por el pipeline siempre cumplen los requisitos de [definición de desplegable](/faq/#what-do-we-mean-by-definition-of-deployable) de la organización.
+- El [pipeline de la aplicación](/minimumcd/singlepath/) es el único camino para desplegar en producción.
+- El pipeline decide la posibilidad de entrega de los cambios, el veredicto es [definitivo](/minimumcd/deterministic/).
+- Los artefactos creados por el pipeline siempre cumplen los requisitos de [definición de desplegable](/minimumcd/deployable/) de la organización.
 - [Artefacto inalterable](/minimumcd/immutable/). No hay cambios hechos por personas después de la confirmación.
 - Todo el trabajo de funcionalidades se detiene cuando el pipeline está en rojo
-- Entorno de prueba similar a producción
-- Revertir bajo demanda.
-- La [configuración de la aplicación](/faq/#what-is-application-configuration) se despliega con el artefacto.
+- [Entorno de prueba similar a producción](/minimumcd/prodlike/)
+- [Revertir bajo demanda](/minimumcd/rollback/)
+- La [configuración de la aplicación](/minimumcd/appconfig/) se despliega con el artefacto.
 
 ## Integración Continua
 

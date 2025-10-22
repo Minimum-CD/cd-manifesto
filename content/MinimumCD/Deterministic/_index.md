@@ -45,18 +45,22 @@ All pipeline inputs must be version controlled:
 - **Pipeline definitions** (GitHub Actions, Jenkins files, etc.)
 - **Test data** (fixtures, mocks, seeds)
 - **Configuration** (app config, test config)
-- **Dependencies** (lockfiles, pinned versions)
+- **Dependency lockfiles** (package-lock.json, Gemfile.lock, go.sum, Cargo.lock, poetry.lock, etc.)
 - **Build scripts** (Make, npm scripts, etc.)
+
+**Critical:** Always commit lockfiles to version control. This ensures every pipeline run uses identical dependency versions.
 
 ### Eliminate Environmental Variance
 
 The pipeline must control its environment:
 
-- **Container-based builds**: Use Docker to ensure consistent build environments
+- **Container-based builds**: Use Docker with specific image tags (e.g., `node:18.17.1`, never `node:latest`)
 - **Isolated test environments**: Each pipeline run gets a clean, isolated environment
-- **Pinned dependencies**: Lock all dependency versions (no `latest` tags)
+- **Exact dependency versions**: Always use lockfiles (`package-lock.json`, `go.sum`, etc.) and install with `--frozen-lockfile` or equivalent
 - **Controlled timing**: Don't rely on wall-clock time or race conditions
 - **Deterministic randomness**: Seed random number generators for reproducibility
+
+**Recommended Practice:** Never use floating version tags like `latest`, `stable`, or version ranges like `^1.2.3`. Always pin to exact versions.
 
 ### Remove Human Intervention
 
@@ -78,7 +82,7 @@ Flaky tests destroy determinism:
 
 ## Example Implementations
 
-### ❌ Anti-Pattern: Non-Deterministic Pipeline
+### Anti-Pattern: Non-Deterministic Pipeline
 
 ```yaml
 # Bad: Uses floating versions
@@ -104,7 +108,7 @@ deploy:
 
 **Problem**: Results vary based on when the pipeline runs, what's in production, which dependency versions are "latest," and human availability.
 
-### ✅ Good Pattern: Deterministic Pipeline
+### Good Pattern: Deterministic Pipeline
 
 ```yaml
 # Good: Pinned versions
@@ -185,12 +189,12 @@ jobs:
       # Each workflow run gets a fresh database
 ```
 
-### Dependency Lock Files
+### Dependency Lock Files (Recommended Practice)
 
-Pin every dependency:
+**Always use dependency lockfiles** - this is essential for deterministic builds:
 
 ```json
-// package-lock.json (committed to version control)
+// package-lock.json (ALWAYS commit to version control)
 {
   "dependencies": {
     "express": {
@@ -201,6 +205,37 @@ Pin every dependency:
   }
 }
 ```
+
+**Install with frozen lockfile:**
+
+```bash
+# npm
+npm ci --frozen-lockfile
+
+# yarn
+yarn install --frozen-lockfile
+
+# pnpm
+pnpm install --frozen-lockfile
+
+# Go
+go mod download  # uses go.sum for verification
+
+# Python (pip)
+pip install -r requirements.txt --require-hashes
+
+# Python (poetry)
+poetry install --no-update
+
+# Ruby
+bundle install --frozen
+```
+
+**Never:**
+- Use `npm install` in CI (use `npm ci` instead)
+- Add lockfiles to `.gitignore`
+- Use version ranges in production dependencies (`^`, `~`, `>=`)
+- Rely on "latest" tags for any dependency
 
 ### Quarantine for Flaky Tests
 

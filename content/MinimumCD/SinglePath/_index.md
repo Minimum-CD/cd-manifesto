@@ -20,7 +20,7 @@ Key principles:
 
 ## Why This Matters
 
-Multiple deployment paths create serious risks:
+### Multiple Deployment Paths Create Serious Risks
 
 - **Quality issues**: Bypassing the pipeline bypasses quality checks
 - **Configuration drift**: Manual deployments create inconsistencies between environments
@@ -29,94 +29,174 @@ Multiple deployment paths create serious risks:
 - **Compliance violations**: Audit trails break when changes bypass the pipeline
 - **Lost confidence**: Teams lose trust in the pipeline and resort to manual interventions
 
-A single deployment path provides:
+### A Single Deployment Path Provides
 
 - **Reliability**: Every deployment is validated the same way
 - **Traceability**: Clear audit trail from commit to production
 - **Consistency**: Environments stay in sync
 - **Speed**: Automated deployments are faster than manual
 - **Safety**: Quality gates are never bypassed
+- **Confidence**: Teams trust that production matches what was tested
+- **Recovery**: Rollbacks are as reliable as forward deployments
 
 ## What "Single Path" Means
 
-### All Environments Use the Pipeline
+### One Merge Pattern for All Changes
 
-The same pipeline deploys to every environment:
+{{% alert %}}
+Use ONE consistent merge pattern for ALL types of changes—features, bugs, hotfixes, everything.
+{{% /alert %}}
+
+**Direct Trunk Integration: all work integrates directly to trunk using the same process.**
+
+```text
+trunk ← features
+trunk ← bugfixes
+trunk ← hotfixes
+```
+
+#### Anti-pattern Examples
+
+1. Integration Branch
+
+```text
+trunk → integration ← features
+```
+
+This creates TWO merge structures instead of one:
+
+1. When trunk changes → merge to integration branch immediately
+2. When features change → merge to integration branch at least daily
+
+The integration branch lives a parallel life to the trunk, acting as a temporary container for partially finished features. This attempts to "mimic" feature toggles to keep inactive features out of production.
+
+##### Why This Violates Single-Path
+
+- Creates multiple merge patterns (trunk→integration AND features→integration)
+- Integration branch becomes a second "trunk" with different rules
+- Adds complexity: "Is this change ready for integration or trunk?"
+- Defeats the purpose: Use actual feature flags instead of mimicking them with branches
+- Accumulates "given-up" features that stay unfinished forever
+- Delays true integration: Features are integrated to integration branch but not to trunk
+
+2. GitFlow (Multiple Long-Lived Branches)
+
+```text
+master (production)
+  ↓
+develop (integration)
+  ↓
+feature branches → develop
+  ↓
+release branches → master
+  ↓
+hotfix branches → master → develop
+```
+
+GitFlow creates MULTIPLE merge patterns depending on change type:
+
+- Features: feature → develop → release → master
+- Hotfixes: hotfix → master AND hotfix → develop
+- Releases: develop → release → master
+
+##### Why This Violates Single-Path
+
+- Different types of changes follow different paths to production
+- Multiple long-lived branches (master, develop, release) create merge complexity
+- Hotfixes have a different path than features (bypassing develop)
+- Release branches delay integration and create batch deployments
+- Merge conflicts multiply across multiple integration points
+- Violates continuous integration principle (changes don't integrate daily to trunk)
+- Forces "release" to be a special event rather than continuous deployment
+
+#### The Correct Approach: Trunk-Based Development with Integration Patterns
+
+##### Option 1: Feature Flags
+
+For incomplete features that need to be hidden:
+
+```javascript
+// Feature code lives in trunk, controlled by flags
+if (featureFlags.newCheckout) {
+  return renderNewCheckout()
+}
+return renderOldCheckout()
+```
+
+##### Option 2: Branch by Abstraction
+
+For behavior changes:
+
+```javascript
+// Old behavior behind abstraction
+class PaymentProcessor {
+  process() {
+    // Gradually replace implementation while maintaining interface
+  }
+}
+```
+
+##### Option 3: Connect Tests Last
+
+For new features:
+
+```javascript
+// Build new feature code, integrate to trunk
+// Connect to UI/API only in final commit
+function newCheckoutFlow() {
+  // Complete implementation ready
+}
+
+// Final commit: wire it up
+<button onClick={newCheckoutFlow}>Checkout</button>
+```
+
+##### Option 4: Dark Launch
+
+For new API routes:
+
+```javascript
+// New API route exists but isn't exposed
+router.post('/api/v2/checkout', newCheckoutHandler)
+
+// Final commit: update client to use new route
+```
+
+All code integrates to trunk using ONE merge pattern. Incomplete features are managed through these patterns, not through separate integration branches.
+
+For guidance on when to use each pattern, see [Feature Flags](/recommendations/featureflags/).
+
+### All Environments Use the Same Pipeline
+
+The same pipeline deploys to every environment, including hotfixes and rollbacks:
 
 ```text
 Commit → Pipeline → Dev → Test → Staging → Production
 ```
 
-Not this:
+#### Anti-Patterns to Avoid
 
-```text
-Commit → Pipeline → Dev
-Commit → Manual deploy → Test
-Commit → Different process → Staging
-Hotfix → SSH to prod → Production ❌
-```
-
-### Hotfixes Use the Pipeline
-
-Even urgent changes flow through the pipeline:
-
-```text
-Critical bug discovered
-  ↓
-Create hotfix commit
-  ↓
-Pipeline validates (fast-tracked if needed)
-  ↓
-Automated deployment to production
-  ↓
-Verify fix
-```
-
-### Rollbacks Use the Pipeline
-
-Rolling back means deploying a previous artifact through the pipeline:
-
-```text
-Issue detected in production
-  ↓
-Trigger pipeline with previous artifact version
-  ↓
-Pipeline deploys previous artifact
-  ↓
-Service restored
-```
-
-### No Manual Deployments
-
-These are anti-patterns:
-
-- ❌ SSH into server and copy files
-- ❌ Upload through FTP/SFTP
-- ❌ Run scripts directly on production servers
-- ❌ Use separate "emergency deployment" process
-- ❌ Manual database changes in production
+- SSH into server and copy files
+- Upload through FTP/SFTP
+- Run scripts directly on production servers
+- Use separate "emergency deployment" process
+- Manual database changes in production
+- Different deployment processes for different environments
 
 ## Example Implementations
 
-### ❌ Anti-Pattern: Multiple Deployment Paths
+### Anti-Pattern: Multiple Deployment Paths
 
 ```text
-Normal deployments:
-  Developer → Push to Git → Pipeline → Staging
-
-Hotfixes:
-  Developer → SSH to prod → Apply patch directly
-
-Database changes:
-  DBA → SQL client → Run scripts manually
-
-Configuration:
-  Ops → Edit config files on server → Restart service
+Normal: Developer → Push to Git → Pipeline → Staging
+Hotfix: Developer → SSH to prod → Apply patch directly
+Database: DBA → SQL client → Run scripts manually
+Config: Ops → Edit files on server → Restart service
 ```
 
 **Problem**: No consistency, no audit trail, no validation. Production becomes a mystery box.
 
-### ✅ Good Pattern: Single Pipeline for Everything
+### Good Pattern: Single Pipeline for Everything
 
 ```yaml
 # .github/workflows/deploy.yml
@@ -168,16 +248,6 @@ jobs:
 
 **Benefit**: Every deployment—normal, hotfix, or rollback—uses this pipeline. Consistent, validated, traceable.
 
-## What is Improved
-
-- **Quality**: All changes are validated before deployment
-- **Speed**: Automated deployment is faster than manual intervention
-- **Reliability**: Consistent process reduces errors
-- **Auditability**: Complete history of what was deployed when and by whom
-- **Security**: All changes go through security validation
-- **Confidence**: Teams trust that production matches what was tested
-- **Recovery**: Rollbacks are as reliable as forward deployments
-
 ## Common Patterns
 
 ### Environment Promotion
@@ -196,24 +266,9 @@ Deploy to Staging → Validate
 Deploy to Production
 ```
 
-### Feature Flags for Hotfixes
-
-Use feature flags to quickly disable problematic features:
-
-```javascript
-// Application code
-if (featureFlags.newCheckout) {
-  return renderNewCheckout()
-}
-return renderOldCheckout()
-
-// Hotfix: Deploy new artifact with flag toggled off
-// No code changes needed—just config change through pipeline
-```
-
 ### Fast-Track Pipeline for Emergencies
 
-Keep the same path, but optimize for speed:
+Keep the same path, but optimize for speed when needed:
 
 ```yaml
 deploy-hotfix:
@@ -225,7 +280,16 @@ deploy-hotfix:
     - run: smoke-test --production
 ```
 
-### Database Migrations in Pipeline
+### Rollback via Pipeline
+
+Rollbacks should be faster than forward deployments:
+
+```bash
+# Trigger rollback via pipeline (skips build/test, already validated)
+gh workflow run deploy.yml -f version=v1.2.2 -f rollback=true
+```
+
+### Database Migrations
 
 All database changes flow through the pipeline:
 
@@ -236,25 +300,19 @@ deploy:
       run: |
         npm run db:migrate
         npm run db:validate
-
     - name: Deploy application
       run: kubectl apply -f deployment.yaml
-
     - name: Verify deployment
       run: kubectl rollout status deployment/app
 ```
 
-### Configuration Through Pipeline
+#### Database Change Requirements
 
-Configuration changes deploy through the same pipeline:
+- **Backward-compatible** (new code works with old schema)
+- **Forward-deployable** (migrations are additive)
+- **Automated** (migrations run in pipeline)
 
-```yaml
-# config/production.yml (version controlled)
-feature_flags:
-  new_checkout: false  # Disabled for hotfix
-
-# Pipeline deploys new artifact with updated config
-```
+This allows rolling back application code without rolling back schema.
 
 ## FAQ
 
@@ -264,7 +322,7 @@ Fix the pipeline first. If your pipeline is so fragile that it can't deploy crit
 
 ### What about emergency hotfixes that can't wait for the full pipeline?
 
-The pipeline should be fast enough to handle emergencies. If it's not, optimize the pipeline. A "fast-track" mode that skips some tests is acceptable, but it must still be the **same pipeline**, not a separate manual process.
+The pipeline should be fast enough to handle emergencies. If it's not, optimize the pipeline. A "fast-track" mode that skips some tests is acceptable (see Common Patterns above), but it must still be the **same pipeline**, not a separate manual process.
 
 ### Can we manually patch production "just this once"?
 
@@ -273,6 +331,7 @@ No. "Just this once" becomes "just this once again." Manual production changes a
 ### What if deploying through the pipeline takes too long?
 
 Optimize your pipeline:
+
 1. Parallelize tests
 2. Use faster test environments
 3. Implement progressive deployment (canary, blue-green)
@@ -280,27 +339,6 @@ Optimize your pipeline:
 5. Optimize build times
 
 A well-optimized pipeline should deploy to production in under 30 minutes.
-
-### How do we roll back if the pipeline is slow?
-
-Rollbacks should be faster than forward deployments:
-- Deploy a previous artifact (already built and tested)
-- Skip build and test stages
-- Go straight to deployment stage
-
-```bash
-# Trigger rollback via pipeline
-gh workflow run deploy.yml -f version=v1.2.2 -f rollback=true
-```
-
-### What about database rollbacks?
-
-Database changes should be:
-1. **Backward-compatible** (new code works with old schema)
-2. **Forward-deployable** (migrations are additive)
-3. **Automated** (migrations run in pipeline)
-
-This allows rolling back application code without rolling back schema.
 
 ### Can operators make manual changes for maintenance?
 

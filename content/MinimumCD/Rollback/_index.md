@@ -96,7 +96,7 @@ Rollback should:
 
 ## Example Implementations
 
-### ❌ Anti-Pattern: Manual Rollback Process
+### Anti-Pattern: Manual Rollback Process
 
 ```text
 1. Identify the problem (10 minutes)
@@ -113,7 +113,7 @@ Total: ~50 minutes + stress + risk
 
 **Problem**: Slow, manual, error-prone, no validation.
 
-### ✅ Good Pattern: Automated Rollback
+### Good Pattern: Automated Rollback
 
 ```yaml
 # .github/workflows/rollback.yml
@@ -148,12 +148,12 @@ jobs:
       - name: Notify team
         if: success()
         run: |
-          slack-notify "✅ Rolled back to ${{ inputs.version }}"
+          slack-notify "Rolled back to ${{ inputs.version }}"
 
       - name: Rollback failed
         if: failure()
         run: |
-          slack-notify "❌ Rollback to ${{ inputs.version }} failed!"
+          slack-notify "Rollback to ${{ inputs.version }} failed!"
 ```
 
 **Usage**:
@@ -227,13 +227,13 @@ return renderOldCheckout()
 Design schema changes to support rollback:
 
 ```sql
--- ✅ Good: Additive change
+-- Good: Additive change
 ALTER TABLE users ADD COLUMN phone VARCHAR(20);
 -- Old code ignores new column
 -- New code uses new column
 -- Rolling back code doesn't break
 
--- ❌ Bad: Breaking change
+-- Bad: Breaking change
 ALTER TABLE users DROP COLUMN email;
 -- Old code breaks if email is removed
 -- Rollback requires schema rollback (risky!)
