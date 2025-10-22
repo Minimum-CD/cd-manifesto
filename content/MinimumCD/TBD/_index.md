@@ -1,6 +1,6 @@
 ---
 title: Trunk Based Development
-description: Death of merge hell
+description: Trunk-based development eliminates merge conflicts by integrating all code changes directly to trunk. Learn how short-lived branches and daily commits improve software delivery performance.
 weight: 1
 type: docs
 ---

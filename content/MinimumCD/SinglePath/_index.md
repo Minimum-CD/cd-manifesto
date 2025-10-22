@@ -1,6 +1,6 @@
 ---
 title: Only Path to Any Environment
-description: The application pipeline is the only way to deploy to any environment
+description: All deployments must go through a single automated pipeline. Learn why using one deployment path for all environments improves reliability, security, and continuous delivery practices.
 weight: 5
 draft: false
 type: docs

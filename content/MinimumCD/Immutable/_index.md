@@ -1,6 +1,6 @@
 ---
 title: Immutable Artifact
-description: No human changes after commit.
+description: Immutable artifacts are built once and deployed unchanged to all environments. Learn why artifact immutability is essential for reliable continuous delivery and deployment consistency.
 weight: 5
 type: docs
 ---

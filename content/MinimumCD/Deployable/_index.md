@@ -1,6 +1,6 @@
 ---
 title: Definition of Deployable
-description: Pipeline artifacts always meet the organization's definition of deployable
+description: Define clear deployment standards with automated quality gates. Learn how to establish your definition of deployable with security, testing, and compliance checks in your CI/CD pipeline.
 weight: 5
 draft: false
 type: docs

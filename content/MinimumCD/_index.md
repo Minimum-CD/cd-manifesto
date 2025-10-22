@@ -1,7 +1,7 @@
 ---
 title: Description on the Minimums
 linkTitle: "Core Practices"
-description: MinimumCD.org outlines key practices to help teams achieve continuous delivery benefits. By adopting these essentials, organizations can improve software quality, enhance team environments, and boost development outcomes.
+description: Essential continuous delivery practices for software teams. Learn trunk-based development, continuous integration, deployment pipelines, and testing strategies to improve delivery speed and quality.
 weight: 1
 ---
 

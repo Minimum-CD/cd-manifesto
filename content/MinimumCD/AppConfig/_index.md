@@ -1,6 +1,6 @@
 ---
 title: Application Configuration
-description: Application configuration deploys with artifact
+description: Application configuration should deploy with your artifact, not vary by environment. Learn how to separate app config from environment config for reliable continuous delivery.
 weight: 5
 draft: false
 type: docs

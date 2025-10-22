@@ -1,6 +1,6 @@
 ---
 title: Deterministic Pipeline
-description: The pipeline decides the releasability of changes, its verdict is definitive
+description: Deterministic pipelines produce consistent results for the same inputs. Learn how to build reliable CI/CD pipelines with locked dependencies and reproducible builds for continuous delivery.
 weight: 5
 draft: false
 type: docs

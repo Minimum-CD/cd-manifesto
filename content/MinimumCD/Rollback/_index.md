@@ -1,6 +1,6 @@
 ---
 title: Rollback On-demand
-description: Ability to roll back a release on-demand
+description: Fast, safe rollback capability is essential for continuous delivery. Learn rollback strategies including blue-green deployments, canary releases, and feature flags for reliable production deployments.
 weight: 5
 draft: false
 type: docs
