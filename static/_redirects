@@ -8,5 +8,7 @@
 /minimumcd/singlepath/*  /minimumcd/single-path-to-production/:splat         301
 
 # Recommendations section URL improvements
-/recommendations/FeatureFlags/*   /recommendations/feature-flags/:splat         301
-/recommendations/SmallBatches/*   /recommendations/small-batches/:splat         301
+/recommendations/FeatureFlags/*   /recommendations/feature-flags/:splat   
+/recommendations/featureflags/*   /recommendations/feature-flags/:splat         301
+/recommendations/SmallBatches/*   /recommendations/small-batches/:splat        301
+/recommendations/smallbatches/*   /recommendations/small-batches/:splat         301
