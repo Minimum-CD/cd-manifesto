@@ -15,21 +15,28 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.126.1'
-          extended: true
-
-      - name: Run Tests
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
-      - run: npm ci
-      - run: npm test
 
-      - name: Run Hugo
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          # Pinned to 0.151.2 due to breaking change in 0.152.0
+          # See: https://discourse.gohugo.io/t/v0-152-0-error-command-error-failed-to-load-modules/56124
+          # Docsy v0.12.0 uses relative node_modules paths that are no longer valid in 0.152.0+
+          hugo-version: '0.151.2'
+          extended: true
+
+      - name: Run linting tests
+        run: npm test
+
+      - name: Build site with Hugo
         run: hugo -d $GITHUB_WORKSPACE/public
 
       - name: Test HTML
