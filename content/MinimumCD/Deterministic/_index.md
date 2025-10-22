@@ -232,6 +232,7 @@ bundle install --frozen
 ```
 
 **Never:**
+
 - Use `npm install` in CI (use `npm ci` instead)
 - Add lockfiles to `.gitignore`
 - Use version ranges in production dependencies (`^`, `~`, `>=`)
@@ -258,6 +259,7 @@ describe.skip('Quarantined: Flaky Test', () => {
 ### What if a test is occasionally flaky but hard to reproduce?
 
 This is still a problem. Flaky tests indicate either:
+
 1. A real bug in your code (race conditions, etc.)
 2. A problem with your test (dependencies on external state)
 
@@ -289,6 +291,7 @@ Manual verification can happen **after** deployment, not before. Deploy automati
 ### Should the pipeline ever be non-deterministic?
 
 There are rare cases where controlled non-determinism is useful (chaos engineering, fuzz testing), but these should be:
+
 1. Explicitly designed and documented
 2. Separate from the core deployment pipeline
 3. Reproducible via saved seeds/inputs

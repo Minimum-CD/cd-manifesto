@@ -268,6 +268,7 @@ Minimum: **Last 3-5 production releases**. Ideally: Any production release from 
 ### What if the database schema changed?
 
 Design schema changes to be **backward-compatible**:
+
 - Use expand-contract pattern
 - Make schema changes in separate deployment from code changes
 - Test that old code works with new schema
@@ -275,6 +276,7 @@ Design schema changes to be **backward-compatible**:
 ### What if we need to roll back the database too?
 
 Database rollbacks are risky. Instead:
+
 1. Design schema changes to support rollback (backward compatibility)
 2. Use feature flags to disable code using new schema
 3. If absolutely necessary, have tested database rollback scripts
@@ -293,6 +295,7 @@ For production: On-call engineer should be empowered to roll back immediately wi
 ### What if rollback fails?
 
 Have a **rollback-of-rollback** plan:
+
 1. Roll forward to the next known-good version
 2. Use feature flags to disable problematic features
 3. Have out-of-band deployment method (last resort)
@@ -304,6 +307,7 @@ But if rollback is regularly tested, failures should be rare.
 **Target: < 5 minutes** from decision to service restored.
 
 Breakdown:
+
 - Trigger: < 30 seconds
 - Deploy: 2-3 minutes
 - Verify: 1-2 minutes

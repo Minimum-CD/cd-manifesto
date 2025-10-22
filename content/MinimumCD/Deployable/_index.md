@@ -39,12 +39,14 @@ A strong definition of deployable creates:
 Your definition of deployable should include automated checks for:
 
 ### Security
+
 - Static security scans (SAST) pass
 - Dependency vulnerability scans show no critical issues
 - Secrets are not embedded in code
 - Authentication/authorization tests pass
 
 ### Functionality
+
 - All unit tests pass
 - Integration tests pass
 - End-to-end tests pass
@@ -52,24 +54,28 @@ Your definition of deployable should include automated checks for:
 - Business logic behaves as expected
 
 ### Compliance
+
 - Code meets regulatory requirements
 - Audit trails are in place
 - Required documentation is generated
 - Compliance tests pass
 
 ### Performance
+
 - Response time meets thresholds
 - Resource usage is within acceptable limits
 - Load tests pass
 - No memory leaks detected
 
 ### Reliability
+
 - Error rates are within acceptable bounds
 - Circuit breakers and retries work correctly
 - Graceful degradation is in place
 - Health checks pass
 
 ### Code Quality
+
 - Code style/linting checks pass
 - Code coverage meets minimum threshold
 - Static analysis shows no critical issues
@@ -221,6 +227,7 @@ Manual exploratory testing is valuable for discovering edge cases, but it should
 ### What about things we can't test automatically?
 
 Some requirements (like UX polish or accessibility) are harder to automate fully. For these:
+
 1. Automate what you can (e.g., accessibility checkers, visual regression tests)
 2. Make manual checks lightweight and concurrent, not blockers
 3. Continuously work to automate more

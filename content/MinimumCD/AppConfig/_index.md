@@ -127,6 +127,7 @@ if (flags.newDashboard) {
 - **Use case**: Real-time experimentation, emergency kill switches, gradual rollouts
 
 **Which should you use?**
+
 - **Static flags**: When you want config changes tested in pipeline
 - **Dynamic flags**: When you need real-time control without deployment
 
@@ -168,11 +169,13 @@ If it's truly application configuration, make the change in code, commit it, let
 It depends on the type:
 
 **Static feature flags** (bundled with artifact): **YES**, these are application configuration
+
 - Flag definitions and states in version control
 - Deployed with the artifact
 - Changes require redeployment through pipeline
 
 **Dynamic feature flags** (external service): **NO**, these are environment configuration
+
 - Flag states stored externally (LaunchDarkly, Split.io, etc.)
 - Changed without redeployment
 - Different per environment
