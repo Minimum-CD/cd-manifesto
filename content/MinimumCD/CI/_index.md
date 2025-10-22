@@ -160,7 +160,23 @@ const processor = useNewStripe
 
 ### Feature Flags
 
-Control feature visibility without blocking integration:
+Feature flags control feature visibility without blocking integration. However, they're often overused—many scenarios have better alternatives.
+
+**When to use feature flags:**
+- Large or high-risk changes needing gradual rollout
+- Testing in production before full release (dark launch, beta testing)
+- A/B testing and experimentation
+- Customer-specific behavior or toggles
+- Cross-team coordination requiring independent deployment
+
+**When NOT to use feature flags:**
+- New features that can connect to tests only, integrate in final commit
+- Behavior changes (use branch by abstraction instead)
+- New API routes (build route, expose as last change)
+- Bug fixes or hotfixes (deploy immediately)
+- Simple changes (standard deployment sufficient)
+
+**Example usage:**
 
 ```javascript
 // Incomplete feature integrated to trunk, hidden behind flag
@@ -172,6 +188,8 @@ return renderOldCheckout()  // Stable existing feature
 // Team can continue integrating newCheckout code daily
 // Feature revealed when complete by toggling flag
 ```
+
+For detailed decision guidance and implementation approaches, see [Feature Flags](/recommendations/featureflags/).
 
 ### Connect Last
 
