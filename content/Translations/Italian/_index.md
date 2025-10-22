@@ -30,14 +30,14 @@ La CD è la disciplina ingegneristica che consente di rilasciare nuove funzional
 Il set minimo di attività richieste per la CD sono:
 
 - [Continuous integration](#continuous-integration-integrazione-continua) (Integrazione Continua)
-- La [application pipeline](/minimumcd/singlepath/) è l'unico percorso per il rilascio in produzione
+- La [application pipeline](/minimumcd/single-path-to-production/) è l'unico percorso per il rilascio in produzione
 - La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](/minimumcd/deterministic/)
 - Gli artefatti creati dalla pipeline soddisfano sempre la [definizione di rilasciabilità](/minimumcd/deployable/) della specifica organizzazione
 - [Artefatti immutabili](/minimumcd/immutable/): nessuna modifica manuale dopo i commit
 - Tutto il lavoro si ferma se la pipeline fallisce
-- [Utilizzare ambienti di test il più possibile simili all'ambiente di produzione](/minimumcd/prodlike/)
+- [Utilizzare ambienti di test il più possibile simili all'ambiente di produzione](/minimumcd/production-like-test-environment/)
 - [Rollback su richiesta](/minimumcd/rollback/)
-- La [configurazione dell'applicazione](/minimumcd/appconfig/) viene distribuita assieme agli artefatti
+- La [configurazione dell'applicazione](/minimumcd/application-configuration/) viene distribuita assieme agli artefatti
   
 ## Continuous Integration (Integrazione continua)
 
@@ -45,7 +45,7 @@ La CI è l'attività che ci consente di integrare continuamente il lavoro di cia
 
 Le attività minime richieste dalla CI sono:
 
-- [Trunk-based development](/minimumcd/tbd/)
+- [Trunk-based development](/minimumcd/trunk-based-development/)
 - Il lavoro viene integrato nel trunk almeno una volta al giorno
 - Una suite di test automatici verifica il lavoro prima che venga integrato nel trunk
 - Una suite di test automatici verifica il lavoro dopo essere stato integrato nel trunk
@@ -54,7 +54,7 @@ Le attività minime richieste dalla CI sono:
 
 ## Trunk-based Development
 
-Il [Trunk-based Development](/minimumcd/tbd/) è il modello di branching necessario a soddisfare la definizione della CI. La CI evita la perdita delle modifiche, il rischio di corruzione che deriva dall'integrazione e dalla risoluzione dei conflitti, e riduce lo spreco dovuto ad attività che potrebbero aumentare la dimensione degli insiemi di modifiche.
+Il [Trunk-based Development](/minimumcd/trunk-based-development/) è il modello di branching necessario a soddisfare la definizione della CI. La CI evita la perdita delle modifiche, il rischio di corruzione che deriva dall'integrazione e dalla risoluzione dei conflitti, e riduce lo spreco dovuto ad attività che potrebbero aumentare la dimensione degli insiemi di modifiche.
 
 - Le attività minime richieste dal TBD sono:
   - Tutte le modifiche devono essere integrate nel trunk

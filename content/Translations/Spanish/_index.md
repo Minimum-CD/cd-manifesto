@@ -32,14 +32,14 @@ CD es la disciplina de ingeniería que consiste en realizar todos los cambios de
 Las actividades mínimas requeridas para CD son:
 
 - [Integración continua](#integración-continua).
-- El [pipeline de la aplicación](/minimumcd/singlepath/) es el único camino para desplegar en producción.
+- El [pipeline de la aplicación](/minimumcd/single-path-to-production/) es el único camino para desplegar en producción.
 - El pipeline decide la posibilidad de entrega de los cambios, el veredicto es [definitivo](/minimumcd/deterministic/).
 - Los artefactos creados por el pipeline siempre cumplen los requisitos de [definición de desplegable](/minimumcd/deployable/) de la organización.
 - [Artefacto inalterable](/minimumcd/immutable/). No hay cambios hechos por personas después de la confirmación.
 - Todo el trabajo de funcionalidades se detiene cuando el pipeline está en rojo
-- [Entorno de prueba similar a producción](/minimumcd/prodlike/)
+- [Entorno de prueba similar a producción](/minimumcd/production-like-test-environment/)
 - [Revertir bajo demanda](/minimumcd/rollback/)
-- La [configuración de la aplicación](/minimumcd/appconfig/) se despliega con el artefacto.
+- La [configuración de la aplicación](/minimumcd/application-configuration/) se despliega con el artefacto.
 
 ## Integración Continua
 
@@ -47,7 +47,7 @@ Integración continua (CI por sus siglas en inglés) es la actividad de integrar
 
 Las actividades mínimas requeridas para CI son:
 
-- [Desarrollo basado en rama principal](/minimumcd/tbd/)
+- [Desarrollo basado en rama principal](/minimumcd/trunk-based-development/)
 - El trabajo se integra a la rama principal como mínimo cada día
 - El trabajo tiene pruebas automatizadas antes de fusionarse con la rama principal
 - El trabajo se prueba con otro trabajo automáticamente al fusionarse
@@ -56,7 +56,7 @@ Las actividades mínimas requeridas para CI son:
 
 ## Desarrollo Basado en Rama Principal
 
-[Desarrollo Basado en Rama Principal](/minimumcd/tbd/) (TBD por sus siglas en inglés) es el patrón de ramificación requerido para cumplir con la definición de CI. Previene el trabajo perdido, el riesgo de corrupción que proviene de la resolución de conflictos fusionados, y también reduce el desperdicio de movimiento que incrementan el volumen de cambios.
+[Desarrollo Basado en Rama Principal](/minimumcd/trunk-based-development/) (TBD por sus siglas en inglés) es el patrón de ramificación requerido para cumplir con la definición de CI. Previene el trabajo perdido, el riesgo de corrupción que proviene de la resolución de conflictos fusionados, y también reduce el desperdicio de movimiento que incrementan el volumen de cambios.
 
 - Las actividades mínimas requeridas para TBD son:
   - Todos los cambios se integran en la rama principal

@@ -13,7 +13,7 @@ CI is not just about tooling—it's fundamentally about team workflow and workin
 
 ### The minimum activities required for CI
 
-1. [Trunk-based development](/minimumcd/tbd/) - all work integrates to trunk
+1. [Trunk-based development](/minimumcd/trunk-based-development/) - all work integrates to trunk
 2. Work integrates to trunk at a minimum daily (each developer, every day)
 3. Work has automated testing before merge to trunk
 4. Work is tested with other work automatically on merge
@@ -233,7 +233,7 @@ Run after code merges to trunk:
 
 ### What About Deployment Testing?
 
-Tests requiring deployment (end-to-end, smoke tests) are part of the [deployment pipeline](/minimumcd/singlepath/), not CI.
+Tests requiring deployment (end-to-end, smoke tests) are part of the [deployment pipeline](/minimumcd/single-path-to-production/), not CI.
 
 ## What is Improved
 

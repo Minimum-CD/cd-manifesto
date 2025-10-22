@@ -34,14 +34,14 @@ CD is the engineering discipline of delivering all changes in a standard way saf
 The minimum activities required for CD are:
 
 - Use [Continuous integration](#continuous-integration)
-- The [application pipeline](/minimumcd/singlepath/) is the only way to deploy to any environment
+- The [application pipeline](/minimumcd/single-path-to-production/) is the only way to deploy to any environment
 - The [pipeline decides the releasability of changes](/minimumcd/deterministic/), its verdict is __definitive__
 - Artifacts created by the pipeline always meet the organization's [definition of deployable](/minimumcd/deployable/)
 - [Immutable artifact](/minimumcd/immutable/) (no human changes after commit)
 - All feature work stops when the pipeline is red
-- [Production-like test environment](/minimumcd/prodlike/)
+- [Production-like test environment](/minimumcd/production-like-test-environment/)
 - [Rollback on-demand](/minimumcd/rollback/)
-- [Application configuration](/minimumcd/appconfig/) deploys with artifact
+- [Application configuration](/minimumcd/application-configuration/) deploys with artifact
   
 ## Continuous Integration
 
@@ -58,7 +58,7 @@ The minimum activities required for CI are:
 
 ## Trunk-based Development
 
-[Trunk-based development](/minimumcd/tbd/) is the branching pattern required to meet the definition
+[Trunk-based development](/minimumcd/trunk-based-development/) is the branching pattern required to meet the definition
 of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
 waste that increases batch size.
 

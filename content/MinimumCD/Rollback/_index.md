@@ -314,7 +314,7 @@ Breakdown:
 
 ### What about configuration changes?
 
-Configuration should be versioned with the artifact. Rolling back the artifact rolls back the configuration. See [Application Configuration](/minimumcd/appconfig/).
+Configuration should be versioned with the artifact. Rolling back the artifact rolls back the configuration. See [Application Configuration](/minimumcd/application-configuration/).
 
 ## Health Metrics
 

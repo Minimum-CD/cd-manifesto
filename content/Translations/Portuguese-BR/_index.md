@@ -37,14 +37,14 @@ A entrega contínua (CD) é a disciplina de engenharia que consiste na entrega d
 As atividades mínimas exigidas para o CD são:
 
 - Uso de [Integração contínua](#integração-contínua)
-- O [_delivery pipeline_](/minimumcd/singlepath/) é a única forma possível de fazer _deploy_ para qualquer ambiente
+- O [_delivery pipeline_](/minimumcd/single-path-to-production/) é a única forma possível de fazer _deploy_ para qualquer ambiente
 - O _pipeline_ decide se as mudanças atendem ou não os requisitos para entrada em produção. Esse veredicto é [definitivo](/minimumcd/deterministic/)
 - Os artefatos criados pelo _pipeline_ respeitam sempre a [definição de _deployable_](/minimumcd/deployable/) da organização
 - [Artefato imutável](/minimumcd/immutable/) (não existem mudanças manuais após o _commit_)
 - Todo o desenvolvimento de funcionalidades é suspenso quando o _pipeline_ falha
 - Ambiente de testes semelhante ao ambiente produtivo
 - [_Rollback_ sob demanda](/minimumcd/rollback/)
-- A [configuração da aplicação](/minimumcd/appconfig/) é implantada junto com o artefato
+- A [configuração da aplicação](/minimumcd/application-configuration/) é implantada junto com o artefato
 
 ## Integração Contínua
 
@@ -61,7 +61,7 @@ As atividades mínimas necessárias ao CI são:
 
 ## Trunk-Based Development
 
-O [_Trunk-based development_](/minimumcd/tbd/) (versão inglesa) (TBD) é um padrão de _branching_ mandatório para cumprimento dos requisitos de CI. Evita a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
+O [_Trunk-based development_](/minimumcd/trunk-based-development/) (versão inglesa) (TBD) é um padrão de _branching_ mandatório para cumprimento dos requisitos de CI. Evita a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
 
 As atividades mínimas necessárias para o TBD são:
 

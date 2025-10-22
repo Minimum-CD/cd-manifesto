@@ -31,14 +31,14 @@ Kontinuierliche Lieferung (_Continuous Delivery_, _CD_) ist die technische Diszi
 Die für CD erforderlichen Mindestaktivitäten sind:
 
 - [Kontinuierliche Integration](#kontinuierliche-integration) verwenden
-- Die [Anwendungspipeline](/minimumcd/singlepath/) ist die einzige Möglichkeit zur Lieferung in einer beliebigen Umgebung.
+- Die [Anwendungspipeline](/minimumcd/single-path-to-production/) ist die einzige Möglichkeit zur Lieferung in einer beliebigen Umgebung.
 - Die Pipeline entscheidet über die Freigabefähigkeit von Änderungen, ihr Urteil ist [endgültig](/minimumcd/deterministic/)
 - Die von der Pipeline erstellten Artefakte entsprechen immer der der organisationseigenen ["Definition für deploybar"](/minimumcd/deployable/).
 - [Unveränderliche Artefakte](/minimumcd/immutable/). Keine menschlichen Änderungen nach der Übergabe an cas CD-System.
 - Jegliche Arbeiten an Features werden eingestellt, wenn die Pipeline defekt ist.
-- [Produktionsähnliche Testumgebung](/minimumcd/prodlike/)
+- [Produktionsähnliche Testumgebung](/minimumcd/production-like-test-environment/)
 - [Rollback bei Bedarf](/minimumcd/rollback/)
-- [Anwendungskonfiguration](/minimumcd/appconfig/) wird gemeinsam mit dem Artefakt ausgeliefert
+- [Anwendungskonfiguration](/minimumcd/application-configuration/) wird gemeinsam mit dem Artefakt ausgeliefert
 
 ## Kontinuierliche Integration
 
@@ -55,7 +55,7 @@ Die für CI erforderlichen Mindestaktivitäten sind:
 
 ## Trunk-basierte Entwicklung
 
-Die [trunk-basierte Entwicklung](/minimumcd/tbd/) ist das branching Modell, das erforderlich ist, um die Definition von CI zu erfüllen. Es verhindert den Verlust von Arbeit, das Risiko von verfälschtem oder defektem Code bei der Lösung von Merge-Konflikten besteht und auch die (Lean-) Verschwendung durch Bewegung, die die Batchgröße erhöht.
+Die [trunk-basierte Entwicklung](/minimumcd/trunk-based-development/) ist das branching Modell, das erforderlich ist, um die Definition von CI zu erfüllen. Es verhindert den Verlust von Arbeit, das Risiko von verfälschtem oder defektem Code bei der Lösung von Merge-Konflikten besteht und auch die (Lean-) Verschwendung durch Bewegung, die die Batchgröße erhöht.
 
 - Die für TBD erforderlichen Mindestaktivitäten sind:
   - Alle Änderungen werden in den Stamm integriert.

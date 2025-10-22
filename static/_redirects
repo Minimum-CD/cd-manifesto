@@ -1,0 +1,8 @@
+# Permanent redirects for improved SEO URLs
+# MinimumCD section URL improvements
+
+/minimumcd/tbd/*         /minimumcd/trunk-based-development/:splat           301
+/minimumcd/ci/*          /minimumcd/continuous-integration/:splat            301
+/minimumcd/appconfig/*   /minimumcd/application-configuration/:splat         301
+/minimumcd/prodlike/*    /minimumcd/production-like-test-environment/:splat  301
+/minimumcd/singlepath/*  /minimumcd/single-path-to-production/:splat         301

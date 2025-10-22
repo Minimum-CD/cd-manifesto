@@ -37,14 +37,14 @@ A entrega contínua (CD) é a disciplina de engenharia que consiste na entrega d
 As atividades mínimas exigidas para o CD são:
 
 - Uso de [Integração contínua](#integração-contínua)
-- A [_pipeline_ aplicational](/minimumcd/singlepath/) é a única forma possível de fazer _deploy_ para qualquer ambiente
+- A [_pipeline_ aplicational](/minimumcd/single-path-to-production/) é a única forma possível de fazer _deploy_ para qualquer ambiente
 - A _pipeline_ decide a possibilidade dessas mudanças serem replicadas para o ambiente produtivo. Esse veredicto é [definitivo](/minimumcd/deterministic/)
 - Os artefactos criados pela _pipeline_ respeitam sempre a [definição de _deployable_](/minimumcd/deployable/) da organização
 - [Artefacto imutável](/minimumcd/immutable/) (não existem mudanças manuais após o _commit_)
 - Todo o desenvolvimento de funcionalidades é suspenso quando a _pipeline_ se encontra em falha (em vermelho)
-- [Ambientes de teste semelhantes ao ambiente produtivo](/minimumcd/prodlike/)
+- [Ambientes de teste semelhantes ao ambiente produtivo](/minimumcd/production-like-test-environment/)
 - [_Rollback_ conforme necessário](/minimumcd/rollback/)
-- A [configuração da aplicação](/minimumcd/appconfig/) é _deployed_ com o artefacto
+- A [configuração da aplicação](/minimumcd/application-configuration/) é _deployed_ com o artefacto
 
 ## Integração Contínua
 
@@ -61,7 +61,7 @@ As atividades mínimas necessárias ao CI são:
 
 ## Trunk-Based Development
 
-O [_Trunk-based development_](/minimumcd/tbd/) (versão inglesa) (TBD) é um padrão de _branching_ essencial para cumprimento dos requisitos de CI. Impede a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
+O [_Trunk-based development_](/minimumcd/trunk-based-development/) (versão inglesa) (TBD) é um padrão de _branching_ essencial para cumprimento dos requisitos de CI. Impede a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
 
 Os atividades mínimas essenciais para o TBD são:
 

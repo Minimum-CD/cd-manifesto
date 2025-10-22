@@ -30,7 +30,7 @@ Jatkuva toimittaminen (CD) on ohjelmistotuotannon toimintamalli, jolla kaikki mu
 Jatkuvan toimittamisen minimivaatimukset ovat:
 
 - [Jatkuva integraatio](#jatkuva-integraatio)
-- [Sovelluksen toimitusputki](/minimumcd/singlepath/)
+- [Sovelluksen toimitusputki](/minimumcd/single-path-to-production/)
   on ainoa tie tuotantoonvientiin.
 - Toimitusputki määrää muutosten julkaisukelpoisuuden, sen lausunto on [ehdoton](/minimumcd/deterministic/)
 - [Organisaation tuotantoonvientikelpoisen määritelmä täyttyy aina](https://www.youtube.com/watch?v=bHKHdp4H-8w)
@@ -38,7 +38,7 @@ Jatkuvan toimittamisen minimivaatimukset ovat:
 - Kaikki uuskehitys loppuu, kun toimitusputki on punaisella
 - Tuotannonkaltainen testiympäristö
 - Tuotantoonviennin peruutus tarvittaessa
-- [Sovelluksen konfiguraatio](/minimumcd/appconfig/) viedään tuotantoon artifaktin kanssa
+- [Sovelluksen konfiguraatio](/minimumcd/application-configuration/) viedään tuotantoon artifaktin kanssa
 
 ## Jatkuva integraatio
 
@@ -46,7 +46,7 @@ Jatkuva integraatio (CI) on toimintatapa, jossa työ integroidaan päähaaraan e
 
 Jatkuvan integraation minimivaatimukset ovat:
 
-- Päähaarassa kehittäminen ([Trunk-based development](/minimumcd/tbd/))
+- Päähaarassa kehittäminen ([Trunk-based development](/minimumcd/trunk-based-development/))
 - Työ integroidaan päähaaraan vähintään päivittäin
 - Työ testataan automaattisesti ennen päähaaraan yhdistämistä
 - Työ testataan muun työn kanssa automaattisesti haaroja yhdistettäessä
@@ -55,7 +55,7 @@ Jatkuvan integraation minimivaatimukset ovat:
 
 ## Päähaarassa kehittäminen (Trunk-based Development)
 
-Päähaarassa kehittäminen eli [Trunk-based development](/minimumcd/tbd/) on versionhallinnan haarauttamistapa, joka vaaditaan jatkuvan integraation määritelmään. Se estää työn katoamisen, työn korruptoitumisen haarojen yhdistämiseen liittyvissä konflikteissa ja vähentää liike-hukkaa, joka johtaa suuriin eräkokoihin.
+Päähaarassa kehittäminen eli [Trunk-based development](/minimumcd/trunk-based-development/) on versionhallinnan haarauttamistapa, joka vaaditaan jatkuvan integraation määritelmään. Se estää työn katoamisen, työn korruptoitumisen haarojen yhdistämiseen liittyvissä konflikteissa ja vähentää liike-hukkaa, joka johtaa suuriin eräkokoihin.
 
 Päähaarassa kehittämisen minimivaatimukset ovat:
 

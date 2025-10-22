@@ -59,7 +59,7 @@ The term "Configuration" is overused and underdefined across the industry.  We e
 config](https://12factor.net/config) definitions where "config" is environment specific (varies by deployment) and
 "application config" is internal to the app and does NOT vary by environment.
 
-For a comprehensive guide on managing application configuration, see [Application Configuration](/minimumcd/appconfig/).
+For a comprehensive guide on managing application configuration, see [Application Configuration](/minimumcd/application-configuration/).
 
 ## What is an immutable artifact?
 

@@ -35,7 +35,7 @@ pour être qualifiés de « livraison continue »
 Les activités minimales requises pour la Livraison Continue sont&nbsp;:
 
 - [L'intégration continue](#intégration-continue)
-- Le [pipeline de déploiement](/minimumcd/singlepath/)
+- Le [pipeline de déploiement](/minimumcd/single-path-to-production/)
   est le seul chemin qui permet de déployer en production.
 - Le pipeline décide de la diffusion des modifications, son verdict est [définitif](/minimumcd/deterministic/)
 - Les artefacts créés par le pipeline répondent toujours à la [définition de Déployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) de l'organisation
@@ -43,7 +43,7 @@ Les activités minimales requises pour la Livraison Continue sont&nbsp;:
 - Tous les travaux sur les fonctionnalités s'arrêtent lorsque le pipeline est rouge
 - L'environnement de test est proche de l'environnement de production
 - On peut revenir en arrière (rollback) à la demande
-- [La configuration de l'application](/minimumcd/appconfig/) est déployée avec l'artefact
+- [La configuration de l'application](/minimumcd/application-configuration/) est déployée avec l'artefact
 
 ## Intégration Continue
 
@@ -52,7 +52,7 @@ dépôt de code, et à vérifier que ce travail est, à notre connaissance, prop
 
 Les activités minimales requises pour CI sont&nbsp;:
 
-- [Le développement basé sur un tronc commun](/minimumcd/tbd/)
+- [Le développement basé sur un tronc commun](/minimumcd/trunk-based-development/)
 - Le travail est intégré au tronc commun au moins une fois par jour
 - Le travail est testé automatiquement avec d'être fusionné au tronc commun
 - Le travail est testé avec celui des autres automatiquement lors de la fusion
@@ -61,7 +61,7 @@ Les activités minimales requises pour CI sont&nbsp;:
 
 ## Le développement basé sur un tronc commun (Trunk-based Development, TBD)
 
-[Le développement basé sur un tronc commun](/minimumcd/tbd/) est le modèle de branche requis pour répondre à la définition d'Intégration Continue.
+[Le développement basé sur un tronc commun](/minimumcd/trunk-based-development/) est le modèle de branche requis pour répondre à la définition d'Intégration Continue.
 Il évite la perte de travail, le risque de corruption qui provient des résolutions de conflits lors des fusions, et
 réduit également le gaspillage d'énergie induit par la taille des lots/
 
