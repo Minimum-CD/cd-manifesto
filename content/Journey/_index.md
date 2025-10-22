@@ -1,9 +1,8 @@
 ---
 title: Starting the Journey
-linkTitle: "Starting Out"
+linkTitle: "Getting Started"
 description: Suggested improvement paths
 weight: 1
-draft: false
 type: docs
 menu:
   main:
