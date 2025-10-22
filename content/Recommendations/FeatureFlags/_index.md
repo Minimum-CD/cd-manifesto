@@ -1,13 +1,13 @@
 ---
-title: Feature Flag
+title: Feature Flags
 description: When to use, or not use, feature flags
 weight: 1
 type: docs
 ---
 
 Feature flags are a useful tool. However, they are also often misused because people fail to consider other options when
-it comes to hiding incomplete features to enable frequent code integration. Below is a chart that covers the most common
-reasons people use feature flags and why some of those reasons are wrong. Also, you don't need a complicated tool for
+it comes to hiding incomplete features to enable frequent code integration. Below is a chart that covers common
+reasons people reach for feature flags and why some of those reasons are wrong. Also, you don't need a complicated tool for
 feature flags... until you do. See the section below the decision tree for examples of feature flag implementation based
 on use case.
 
