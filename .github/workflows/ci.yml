@@ -27,7 +27,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          # Pinned to 0.151.2 due to breaking change in 0.152.0
+          # See: https://discourse.gohugo.io/t/v0-152-0-error-command-error-failed-to-load-modules/56124
+          # Docsy v0.12.0 uses relative node_modules paths that are no longer valid in 0.152.0+
+          hugo-version: '0.151.2'
           extended: true
 
       - name: Run linting tests
