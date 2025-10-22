@@ -11,7 +11,7 @@ type: docs
 
 -- Accelerate
 
-Me, [allekirjoittaneet](/minimumcd/#signatories), uskomme, että jatkuvalle toimittamiselle (engl. continuous delivery, CD) tarvitaan määritelmä, jotta toimitusvirtaa voidaan parantaa. Riippumatta erilaisista olosuhteistamme, on olemassa yleispäteviä käytäntöjä. Määrittelemällä nämä käytännöt voimme:
+Me, [allekirjoittaneet](/#signatories), uskomme, että jatkuvalle toimittamiselle (engl. continuous delivery, CD) tarvitaan määritelmä, jotta toimitusvirtaa voidaan parantaa. Riippumatta erilaisista olosuhteistamme, on olemassa yleispäteviä käytäntöjä. Määrittelemällä nämä käytännöt voimme:
 
 - Perehdyttää uudet harjoittajat yhdenmukaisella tavalla
 - Keskustella ohjelmistotuotannon käytännöistä, joista CD muodostuu
@@ -83,7 +83,7 @@ Lue [osallistumisohje](https://github.com/Minimum-CD/cd-manifesto/blob/master/CO
 
 ## Allekirjoittajat
 
-Allekirjoittajat ovat allekirjoittaneet [englanninkielisen alkuperäisdokumentin](/minimumcd/#signatories) ja ajantasainen nimilista julkaistaan ainoastaan sen yhteydessä.
+Allekirjoittajat ovat allekirjoittaneet [englanninkielisen alkuperäisdokumentin](/#signatories) ja ajantasainen nimilista julkaistaan ainoastaan sen yhteydessä.
 
 ## Käännös
 

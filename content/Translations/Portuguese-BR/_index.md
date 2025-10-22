@@ -18,7 +18,7 @@ type: docs
 
 {{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
-Nós, [os abaixo-assinados](/minimumcd/#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
+Nós, [os abaixo-assinados](/#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
 
 - Introduzi-las aos novos praticantes, de forma consistente
 - Discutir as práticas de engenharia que abrangem a entrega contínua
@@ -87,7 +87,7 @@ Leia as nossas [diretrizes de contribuição](https://github.com/Minimum-CD/cd-m
 
 ## Signatários
 
-Os signatários assinaram a [versão original em inglês](/minimumcd/#signatories) e a lista atual de nomes é publicada apenas nessa versão.
+Os signatários assinaram a [versão original em inglês](/#signatories) e a lista atual de nomes é publicada apenas nessa versão.
 
 ## Tradução
 

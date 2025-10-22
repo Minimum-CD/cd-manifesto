@@ -13,7 +13,7 @@ type: docs
 
 {{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
-Nous, [les signataires](/minimumcd/#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons&nbsp;:
+Nous, [les signataires](/#signatories), estimons qu'une définition minimale de la Livraison Continue (Continuous Delivery, CD) est requise afin d'améliorer les flux de livraisons. Bien que chaque contexte soit unique, il y a des pratiques universelles. En les définissant, nous pouvons&nbsp;:
 
 - Présenter les choses aux nouveaux arrivants de manière cohérente
 - Discuter des pratiques d'ingénierie qui composent le CD (Continuous Delivery)
@@ -79,7 +79,7 @@ Pour plus d'informations sur la Livraison Continue Minimale et des réponses à 
 
 ## Vous souhaitez contribuer ou devenir signataire ?
 
-Les signataires ont signé le [document original en anglais](/minimumcd/#signatories), et la liste des noms sera tenue à jour uniquement sur celui-ci.
+Les signataires ont signé le [document original en anglais](/#signatories), et la liste des noms sera tenue à jour uniquement sur celui-ci.
 
 ## Traduction
 

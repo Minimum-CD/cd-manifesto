@@ -11,7 +11,7 @@ type: docs
 
 -- Accelerate `(Unofficial translation)`
 
-Noi, [i firmatari](/minimumcd/#signatories), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
+Noi, [i firmatari](/#signatories), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
 
 - Introdurre alla Continuous Delivery nuovi praticanti in modo coerente
 - Discutere le pratiche ingegneristiche che costituiscono CD
@@ -82,7 +82,7 @@ Vedere [linee guida per contribuire](https://github.com/Minimum-CD/cd-manifesto/
 
 ## Firmatari
 
-I firmatari hanno firmato la [versione originale in inglese](/minimumcd/#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
+I firmatari hanno firmato la [versione originale in inglese](/#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
 
 ## Traduzione
 
