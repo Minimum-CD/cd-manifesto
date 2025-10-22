@@ -1,7 +1,7 @@
 ---
 title: Prod-Like Test Environment
 description: Production-like test environments catch bugs early and reduce deployment risk. Learn how to create reliable test environments that mirror production for better software quality assurance.
-weight: 5
+weight: 6
 type: docs
 ---
 ## Definition

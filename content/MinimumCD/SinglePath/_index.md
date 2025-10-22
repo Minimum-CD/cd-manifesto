@@ -1,7 +1,7 @@
 ---
 title: Only Path to Any Environment
 description: All deployments must go through a single automated pipeline. Learn why using one deployment path for all environments improves reliability, security, and continuous delivery practices.
-weight: 5
+weight: 2
 draft: false
 type: docs
 ---

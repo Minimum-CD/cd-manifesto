@@ -1,7 +1,7 @@
 ---
 title: Trunk Based Development
 description: Trunk-based development eliminates merge conflicts by integrating all code changes directly to trunk. Learn how short-lived branches and daily commits improve software delivery performance.
-weight: 1
+weight: 999
 type: docs
 ---
 

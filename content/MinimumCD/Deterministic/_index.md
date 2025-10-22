@@ -1,7 +1,7 @@
 ---
 title: Deterministic Pipeline
 description: Deterministic pipelines produce consistent results for the same inputs. Learn how to build reliable CI/CD pipelines with locked dependencies and reproducible builds for continuous delivery.
-weight: 5
+weight: 3
 draft: false
 type: docs
 ---

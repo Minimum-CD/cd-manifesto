@@ -1,7 +1,7 @@
 ---
 title: Continuous Integration
 description: Continuous integration requires daily code integration to trunk with automated testing. Learn CI best practices, testing strategies, and team workflows that improve software quality and delivery speed.
-weight: 2
+weight: 1
 type: docs
 ---
 
