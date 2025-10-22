@@ -164,7 +164,7 @@ router.post('/api/v2/checkout', newCheckoutHandler)
 
 All code integrates to trunk using ONE merge pattern. Incomplete features are managed through these patterns, not through separate integration branches.
 
-For guidance on when to use each pattern, see [Feature Flags](/recommendations/featureflags/).
+For guidance on when to use each pattern, see [Feature Flags](/recommendations/feature-flags/).
 
 ### All Environments Use the Same Pipeline
 

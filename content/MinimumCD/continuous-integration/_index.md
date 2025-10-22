@@ -189,7 +189,7 @@ return renderOldCheckout()  // Stable existing feature
 // Feature revealed when complete by toggling flag
 ```
 
-For detailed decision guidance and implementation approaches, see [Feature Flags](/recommendations/featureflags/).
+For detailed decision guidance and implementation approaches, see [Feature Flags](/recommendations/feature-flags/).
 
 ### Connect Last
 
@@ -205,7 +205,7 @@ function CheckoutStep3() { /* tested, working */ }
 <Route path="/checkout" component={CheckoutStep1} />
 ```
 
-For detailed guidance on when to use each pattern, see [Feature Flags](/recommendations/featureflags/).
+For detailed guidance on when to use each pattern, see [Feature Flags](/recommendations/feature-flags/).
 
 ## What Tests Should Run
 
