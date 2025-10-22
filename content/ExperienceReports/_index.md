@@ -1,12 +1,12 @@
 ---
 title: Community Experiences
-linkTitle: "Experiences"
+linkTitle: "Experience Reports"
 description: CD in the real world
 weight: 5
 type: docs
 menu:
   main:
-    weight: 20
+    weight: 40
 ---
 
 ## CD in the Real World
