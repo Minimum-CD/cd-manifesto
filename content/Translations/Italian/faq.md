@@ -1,6 +1,7 @@
 ---
 title: Domande Frequenti (FAQ)
 description: "Implementazione minima della Continuous Delivery"
+type: docs
 ---
 
 ## Motivazioni
@@ -56,6 +57,5 @@ Fondamentale per CD è che che gli artefatti distribuiti tramite la pipeline ven
 
 ## Che cosa intendiamo per "rilasciabile" (deployable)?
 
-Ogni organizzazione dovrebbe adottare criteri non negoziabili per i rilasci software. Questi potrebbero includere i controlli di sicurezza, conformità, stabilità, reattività, ecc. La pipeline dovrebbe avere l'ultima parola per tutto ciò. 
+Ogni organizzazione dovrebbe adottare criteri non negoziabili per i rilasci software. Questi potrebbero includere i controlli di sicurezza, conformità, stabilità, reattività, ecc. La pipeline dovrebbe avere l'ultima parola per tutto ciò.
 Raccomandiamo il video di Dave Farley [Esempio reale di una pipeline di rilascio nel settore Fintech](https://www.youtube.com/watch?v=bHKHdp4H-8w)
-

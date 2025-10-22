@@ -1,0 +1,53 @@
+name: Node.js CI
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 0 * * 1'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          # Pinned to 0.151.2 due to breaking change in 0.152.0
+          # See: https://discourse.gohugo.io/t/v0-152-0-error-command-error-failed-to-load-modules/56124
+          # Docsy v0.12.0 uses relative node_modules paths that are no longer valid in 0.152.0+
+          hugo-version: '0.151.2'
+          extended: true
+
+      - name: Run linting tests
+        run: npm test
+
+      - name: Build site with Hugo
+        run: hugo -d $GITHUB_WORKSPACE/public
+
+      - name: Test HTML
+        continue-on-error: true
+        uses: wjdp/htmltest-action@master
+        with:
+          config: .htmltest.yaml
+
+      - name: Archive htmltest results
+        uses: actions/upload-artifact@v4
+        with:
+          name: htmltest-report
+          path: tmp/.htmltest/htmltest.log
+          retention-days: 7 # Default 90 days

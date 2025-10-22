@@ -1,0 +1,12 @@
+{{ $names := .Site.Data.names.signatures.list }}
+<div>
+    <h3>({{ len $names }})</h3>
+    {{ range $index, $element := $names }}
+        {{ if gt $index 0 }}&bull;{{ end }}
+        {{ if .contact }}
+            <a href="{{ .contact }}" target="_blank" class="nobr">{{ .name }}</a>
+        {{ else }}
+            <a href="#" class="nobr">{{ .name }}</a>
+        {{ end }}
+    {{ end }}
+</div>

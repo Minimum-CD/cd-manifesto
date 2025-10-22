@@ -1,7 +1,8 @@
 ---
 title: Translations
-description: ""
-weight: 10
+linkTitle: "Translations"
+type: docs
+menu:
+  main:
+    weight: 60
 ---
-
-{{% children style="h2" depth="1" description="true" %}}

@@ -1,0 +1,8 @@
+{
+  "recurse": true,
+  "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com), ^(https://.*github.com)",
+  "verbosity": "error",
+  "retry": true,
+  "retryErrors": true,
+  "retryErrorsCount": 3
+}

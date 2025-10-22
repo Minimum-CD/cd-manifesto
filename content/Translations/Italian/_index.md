@@ -2,15 +2,16 @@
 title: Italiano
 description: "Implementazione minima della Continuous Delivery"
 weight: 3
+type: docs
 ---
 
-# Implementazione minima della Continuous Delivery
+## Implementazione minima della Continuous Delivery
 
 > "La Continuous Delivery migliora sia la velocità di rilascio che la qualità del software ed aiuta a migliorare la cultura, riduce i burnout e gli sforzi tipici legati al rilascio del software in produzione".
 
 -- Accelerate `(Unofficial translation)`
 
-Noi, [i firmatari](../../minimumcd/signatures/), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
+Noi, [i firmatari](/#signatories), riteniamo che la definizione di un'implementazione minima della Continuous Delivery (CD) sia necessaria per migliorare il flusso di rilascio del software. Sebbene i contesti in cui lavoriamo possano essere diversi, esistono pratiche universali. Definendo tali pratiche possiamo:
 
 - Introdurre alla Continuous Delivery nuovi praticanti in modo coerente
 - Discutere le pratiche ingegneristiche che costituiscono CD
@@ -28,15 +29,15 @@ La CD è la disciplina ingegneristica che consente di rilasciare nuove funzional
 
 Il set minimo di attività richieste per la CD sono:
 
-- [Continuous integration](#continuous-integration) (Integrazione Continua)
-- La [application pipeline](https://www.informit.com/articles/article.aspx?p=1621865&seqNum=2#:~:text=%EE%94%80Buy-,What%20Is%20a%20Deployment%20Pipeline%3F,-At%20an%20abstract) è l'unico percorso per il rilascio in produzione
-- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](./faq/#perch%C3%A9-la-pipeline-dovrebbe-dettare-legge-per-il-rilascio)
-- Gli artefatti creati dalla pipeline soddisfano sempre la definizione di rilasciabilità [definition of deployable](https://www.youtube.com/watch?v=bHKHdp4H-8w) della specifica organizzazione
-- Artefatti immutabili ([Immutable artifact](./faq/#cosa-significa-artefatti-immutabili)): nessuna modifica manuale dopo i commit
+- [Continuous integration](#continuous-integration-integrazione-continua) (Integrazione Continua)
+- La [application pipeline](/minimumcd/singlepath/) è l'unico percorso per il rilascio in produzione
+- La pipeline decide la rilasciabilità delle modifiche software, e il suo verdetto è [definitivo](/minimumcd/deterministic/)
+- Gli artefatti creati dalla pipeline soddisfano sempre la [definizione di rilasciabilità](/minimumcd/deployable/) della specifica organizzazione
+- [Artefatti immutabili](/minimumcd/immutable/): nessuna modifica manuale dopo i commit
 - Tutto il lavoro si ferma se la pipeline fallisce
-- Utilizzare ambienti di test il più possibile simili all'ambiente di produzione
-- Rollback su richiesta
-- La [configurazione dell'applicazione](./faq/#cosa-significa-artefatti-immutabili) viene distribuita assieme agli artefatti
+- [Utilizzare ambienti di test il più possibile simili all'ambiente di produzione](/minimumcd/prodlike/)
+- [Rollback su richiesta](/minimumcd/rollback/)
+- La [configurazione dell'applicazione](/minimumcd/appconfig/) viene distribuita assieme agli artefatti
   
 ## Continuous Integration (Integrazione continua)
 
@@ -44,7 +45,7 @@ La CI è l'attività che ci consente di integrare continuamente il lavoro di cia
 
 Le attività minime richieste dalla CI sono:
 
-- [Trunk-based development](https://trunkbaseddevelopment.com/)
+- [Trunk-based development](/minimumcd/tbd/)
 - Il lavoro viene integrato nel trunk almeno una volta al giorno
 - Una suite di test automatici verifica il lavoro prima che venga integrato nel trunk
 - Una suite di test automatici verifica il lavoro dopo essere stato integrato nel trunk
@@ -53,7 +54,7 @@ Le attività minime richieste dalla CI sono:
 
 ## Trunk-based Development
 
-Il [Trunk-based Development](https://trunkbaseddevelopment.com/) è il modello di branching necessario a soddisfare la definizione della CI. La CI evita la perdita delle modifiche, il rischio di corruzione che deriva dall'integrazione e dalla risoluzione dei conflitti, e riduce lo spreco dovuto ad attività che potrebbero aumentare la dimensione degli insiemi di modifiche.
+Il [Trunk-based Development](/minimumcd/tbd/) è il modello di branching necessario a soddisfare la definizione della CI. La CI evita la perdita delle modifiche, il rischio di corruzione che deriva dall'integrazione e dalla risoluzione dei conflitti, e riduce lo spreco dovuto ad attività che potrebbero aumentare la dimensione degli insiemi di modifiche.
 
 - Le attività minime richieste dal TBD sono:
   - Tutte le modifiche devono essere integrate nel trunk
@@ -69,11 +70,11 @@ La CD minima non è il primo passo in un modello di maturità, tuttavia è il mi
 Queste risorse contengono sia conoscenze di base, sia conoscenze necessarie a farvi diventare un'organizzazione CD "d'élite".
 Sono risposte specifiche alla domanda "Cosa ci impedisce di andare in produzione oggi?"
 
-[Vedi la lista](../../references).
+[Vedi la lista](/references/).
 
 ## Perche abbiamo costruito questa lista?
 
-Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](./faq/).
+Per maggiori dettagli sulla CD minima e risposte su altre domande comuni, vi rimandiamo alle [FAQs](/translations/italian/faq/).
 
 ## Per contribuire o diventare firmatari
 
@@ -81,7 +82,7 @@ Vedere [linee guida per contribuire](https://github.com/Minimum-CD/cd-manifesto/
 
 ## Firmatari
 
-I firmatari hanno firmato la [versione originale in inglese](../../minimumcd/signatures/) e la lista corrente dei nomi è pubblicata solo in quella versione
+I firmatari hanno firmato la [versione originale in inglese](/#signatories) e la lista corrente dei nomi è pubblicata solo in quella versione
 
 ## Traduzione
 

@@ -1,8 +1,12 @@
 ---
 title: Frequent Questions
-description: FAQ
+linkTitle: "FAQ"
+description: 
 weight: 5
-draft: false
+type: docs
+menu:
+  main:
+    weight: 99
 ---
 
 ## Why does this exist?
@@ -24,12 +28,12 @@ If you are a practitioner and agree with this goal, feel free to submit a pull r
 
 ## What if I change my mind?
 
-We do not want to hold anyone hostage. Our goal is elevating the conversation by having a common language to begin with. You can either open an issue or submit a PR. We will promptly update.
+We do not want to hold anyone hostage. Our goal is to elevate the conversation by having a common language. You can either open an issue or submit a PR. We will promptly accept your update.
 
 ## How are updates made to the practices list?
 
 The maintainers operate by consensus. We have a specific goal that any practice must be essential in every context to
-make the list. If a practice isn't there, it either doesn't meet the absolute minimum standard in every context or it
+make the list. If a practice isn't there, it either doesn't meet the absolute minimum standard in every context or
 conflicts with one of the current practices. Creating a GitHub issue is the best way to suggest an update to a practice.
 
 ## Is this everything We need for CD?
@@ -47,18 +51,40 @@ CD cannot apply. It just takes longer in some situations to solve the problems. 
 "If the pipeline says everything looks good, that should be enough - it forces the focus on what 'releasable' means." -
 Dave Farley
 
+For a comprehensive guide on building deterministic pipelines, see [Deterministic Pipeline](/minimumcd/deterministic/).
+
 ## What is Application Configuration?
 
 The term "Configuration" is overused and underdefined across the industry.  We embrace [The Twelve-Factor App
 config](https://12factor.net/config) definitions where "config" is environment specific (varies by deployment) and
 "application config" is internal to the app and does NOT vary by environment.
 
+For a comprehensive guide on managing application configuration, see [Application Configuration](/minimumcd/appconfig/).
+
 ## What is an immutable artifact?
 
 Central to CD is that we are validating the delivered artifact with the pipeline. It is built once and deployed to all
 environments. A common anti-pattern is building an artifact for each environment. This is why trunk-based development is
-so important.
+so important. See the [Immutable](/minimumcd/immutable/) page for more information.
 
-## What do we mean by definition of deployable?
+## What do we mean by "definition of deployable"?
 
-For every organization there should be non-negotiables in place for delivery. These may include security, compliance, stability, responsiveness, etc. The pipeline should be that final word for this. See Dave Farley's video [Real Example of a Deployment Pipeline in the Fintech Industry](https://www.youtube.com/watch?v=bHKHdp4H-8w))
+For every organization, there should be non-negotiable guardrails in place for delivery. These may include security, compliance, stability, responsiveness, etc. The pipeline should be the final word for this. See Dave Farley's video [Real Example of a Deployment Pipeline in the Fintech Industry](https://www.youtube.com/watch?v=bHKHdp4H-8w))
+
+For a comprehensive guide on defining what "deployable" means for your organization, see [Definition of Deployable](/minimumcd/deployable/).
+
+## How do we differentiate between "deployment" and "release"?
+
+A "deployment" is the technical act of copying software to a host environment and getting it ready for use.
+
+A "release" makes a new feature available to users.
+
+## How do we differentiate between "continuous delivery" and "continuous deployment"?
+
+"Continuous delivery" means that you work so your software is always releasable.
+
+"Continuous deployment" means that if your deployment pipeline passes, the change is automatically pushed to production.
+
+Continuous deployment is a subset of continuous delivery.
+
+See also Dave Farley's video on [The Difference Between Continuous Delivery & Continuous Deployment](https://www.youtube.com/watch?v=7SNbDWob6cI).
