@@ -1,18 +1,19 @@
 ---
 title: Minimum Viable CD
-linkTitle: "Minimum CD"
+linkTitle: 'Minimum CD'
 description: MinimumCD.org outlines key practices to help teams achieve continuous delivery benefits. By adopting these essentials, organizations can improve software quality, enhance team environments, and boost development outcomes.
 weight: 1
 cascade:
-  - type: "docs"
+  - type: 'docs'
 ---
+
 {{< figure src="/images/minimumCD-Tagline.png" alt="MinimumCD" width="40%">}}
 
 {{% alert %}}
 "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
 
-__-- *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim__
-_
+**-- _Accelerate_ by Nicole Forsgren Ph.D., Jez Humble & Gene Kim**
+\_
 {{% /alert %}}
 
 We, [the undersigned](#signatories), believe that a minimal definition of continuous delivery (CD) is required to improve the flow of delivery and achieve the outcomes above. While our contexts may be different, there are universal practices common in all. By defining them we can:
@@ -35,14 +36,14 @@ The minimum activities required for CD are:
 
 - Use [Continuous integration](#continuous-integration)
 - The [application pipeline](/minimumcd/single-path-to-production/) is the only way to deploy to any environment
-- The [pipeline decides the releasability of changes](/minimumcd/deterministic/), its verdict is __definitive__
+- The [pipeline decides the releasability of changes](/minimumcd/deterministic/), its verdict is **definitive**
 - Artifacts created by the pipeline always meet the organization's [definition of deployable](/minimumcd/deployable/)
 - [Immutable artifact](/minimumcd/immutable/) (no human changes after commit)
 - All feature work stops when the pipeline is red
 - [Production-like test environment](/minimumcd/production-like-test-environment/)
 - [Rollback on-demand](/minimumcd/rollback/)
 - [Application configuration](/minimumcd/application-configuration/) deploys with artifact
-  
+
 ## Continuous Integration
 
 CI is the activity of very frequently integrating work to the trunk of version control and verifying that the work is, to the best of our knowledge, releasable.

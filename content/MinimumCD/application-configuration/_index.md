@@ -39,7 +39,7 @@ Separating application configuration from environment configuration provides sev
 # Stored in external config service, modified after build
 feature_flags:
   new_checkout_flow: true
-  payment_processor: "stripe"
+  payment_processor: 'stripe'
 business_rules:
   max_cart_items: 100
   discount_threshold: 50.00
@@ -53,7 +53,7 @@ business_rules:
 # config/application.yml - bundled with artifact
 feature_flags:
   new_checkout_flow: true
-  payment_processor: "stripe"
+  payment_processor: 'stripe'
 business_rules:
   max_cart_items: 100
   discount_threshold: 50.00
@@ -113,7 +113,7 @@ Feature flags come in two flavors, and understanding the distinction is critical
 // Application code reads from external service at runtime
 const flags = await featureFlagService.getFlags({
   user: currentUser,
-  environment: 'production'
+  environment: 'production',
 })
 
 if (flags.newDashboard) {
@@ -147,8 +147,8 @@ These rules should be tested in the pipeline and deployed with the code.
 ```yaml
 # Application config - service relationships
 services:
-  payment_service_name: "payment-api"
-  user_service_name: "user-api"
+  payment_service_name: 'payment-api'
+  user_service_name: 'user-api'
 
 # Environment config - actual endpoints (injected)
 service_mesh_url: ${SERVICE_MESH_URL}

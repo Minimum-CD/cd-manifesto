@@ -1,6 +1,6 @@
 ---
 title: Work in Small Batches
-description: "Learn how to work in small batches for faster feedback and reduced risk. Expert guidance on BDD, acceptance test-driven development (ATDD), story slicing, technical decomposition, and daily code integration for continuous delivery teams."
+description: 'Learn how to work in small batches for faster feedback and reduced risk. Expert guidance on BDD, acceptance test-driven development (ATDD), story slicing, technical decomposition, and daily code integration for continuous delivery teams.'
 weight: 1
 type: docs
 ---
@@ -15,7 +15,7 @@ There are two common arguments against increasing deploy frequency. The first is
 
 There are more stakeholders requiring value than the end-user. One of those is the product team. We are reducing the level of inventory waste in our flow and getting rapid feedback that we haven't broken existing behaviors with the new change. This gives us feedback on our quality gates and also lowers the risks of delivering a production fix.
 
-The second objection is "our customers don't want changes that frequently."  
+The second objection is "our customers don't want changes that frequently."
 
 This comes from a misunderstanding of what CD is for. Yes, we can deliver features with continuous delivery. However, a primary purpose of CD is production support. When production has an incident or we have a new zero-day vulnerability, they **do** want changes that frequently to resolve those problems. Can we? By improving delivery frequency, we are continuously verifying that we can still deliver those fixes safely.
 
@@ -24,7 +24,7 @@ This comes from a misunderstanding of what CD is for. Yes, we can deliver featur
 {{% alert %}}
 "Following our principle of working in small batches and building quality in, high-performing teams keep branches short-lived (less than one day's work) and integrate them into trunk/master frequently. Each change triggers a build process that includes running unit tests. If any part of this process fails, developers fix it immediately."
 
-**-- *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim**
+**-- _Accelerate_ by Nicole Forsgren Ph.D., Jez Humble & Gene Kim**
 
 {{% /alert %}}
 
@@ -314,7 +314,7 @@ Then the response status is 200
 4. Commit to trunk
 
 Any changes to the API contract should be reflected as modified contract tests, integrated to trunk with passing tests.
-  
+
 ### Anti-Patterns to Avoid
 
 **Don't slice by technical layer:**

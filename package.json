@@ -28,6 +28,7 @@
   "scripts": {
     "build": "hugo --minify",
     "build:clean": "rm -rf public && npm run build",
+    "format:fix": "prettier --write '**/*.{js,yml,yaml,json,toml,md}'",
     "link-check": "npm run build:clean && linkinator --recurse public/ --config ./linkinator.config.json",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
@@ -45,6 +46,7 @@
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "prettier": "^3.6.2",
-    "prettier-plugin-go-template": "^0.0.15"
+    "prettier-plugin-go-template": "^0.0.15",
+    "prettier-plugin-toml": "^2.0.6"
   }
 }

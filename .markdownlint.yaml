@@ -1,4 +1,4 @@
 default: true
 
 MD013: false
-MD033: {allowed_elements: [div, h6]}
+MD033: { allowed_elements: [div, h6] }

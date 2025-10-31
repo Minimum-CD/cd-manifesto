@@ -1,7 +1,7 @@
 ---
 title: Frequent Questions
-linkTitle: "FAQ"
-description: 
+linkTitle: 'FAQ'
+description:
 weight: 5
 type: docs
 menu:
@@ -55,7 +55,7 @@ For a comprehensive guide on building deterministic pipelines, see [Deterministi
 
 ## What is Application Configuration?
 
-The term "Configuration" is overused and underdefined across the industry.  We embrace [The Twelve-Factor App
+The term "Configuration" is overused and underdefined across the industry. We embrace [The Twelve-Factor App
 config](https://12factor.net/config) definitions where "config" is environment specific (varies by deployment) and
 "application config" is internal to the app and does NOT vary by environment.
 

@@ -1,6 +1,6 @@
 ---
 title: Domande Frequenti (FAQ)
-description: "Implementazione minima della Continuous Delivery"
+description: 'Implementazione minima della Continuous Delivery'
 type: docs
 ---
 
@@ -9,6 +9,7 @@ type: docs
 Nell'ottobre 2021, durante il summit DevOps Enterprise, molti di noi si sono incontrati per discutere il problema del costante fraintendimento della Continuous Delivery. Abbiamo quindi deciso di condurre un esperimento per migliorarne la comprensione.
 
 Nel libro "Accelerate" del 2017, gli autori osservavano che:
+
 > "La Continuous Delivery migliora sia la velocità di rilascio che la qualità del software ed aiuta a migliorare la cultura, riduce i burnout e gli sforzi tipici legati al rilascio del software in produzione".
 
 Tale osservazione è basata sulla loro esperienza e sui dati raccolti negli anni tramite i questionari "State of DevOps" ("Stato della DevOps").

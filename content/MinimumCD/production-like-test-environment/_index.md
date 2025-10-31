@@ -4,6 +4,7 @@ description: Production-like test environments catch bugs early and reduce deplo
 weight: 6
 type: docs
 ---
+
 ## Definition
 
 It is crucial to leverage pre-production environments in your CI/CD to run all of your tests (Unit / Integration / UAT / Manual QA / E2E) early and often. Test environments increase interaction with new features and exposure to bugs -- both of which are important prerequisites for reliable software.

@@ -1,6 +1,6 @@
 ---
 title: Translations
-linkTitle: "Translations"
+linkTitle: 'Translations'
 type: docs
 menu:
   main:

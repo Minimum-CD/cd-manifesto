@@ -17,4 +17,3 @@ Immutability provides us with the confidence to know that the results from the p
 ## What is Improved
 
 - **Everything must be version controlled**: source code, environment configurations, application configurations, and even test data. This reduces variability and improves the quality process.
-  

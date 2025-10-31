@@ -279,9 +279,9 @@ Seed your random number generators with a fixed seed in tests:
 
 ```javascript
 // Deterministic randomness
-const rng = new Random(12345)  // Fixed seed
+const rng = new Random(12345) // Fixed seed
 const result = shuffle(array, rng)
-expect(result).toEqual([3, 1, 4, 2])  // Predictable
+expect(result).toEqual([3, 1, 4, 2]) // Predictable
 ```
 
 ### What if our deployment requires manual verification?

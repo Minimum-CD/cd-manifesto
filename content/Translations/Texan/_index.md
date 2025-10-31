@@ -5,7 +5,6 @@ weight: 3
 type: docs
 ---
 
-
 {{% alert %}}
 "Continuous delivery improves both delivery performance and quality, and also helps improve culture and reduce burnout and deployment pain."
 
@@ -74,7 +73,7 @@ The minimum activities required for TBD are:
   - They start at the trunk
   - They end at the trunk
   - Like mayflies, they should die within a day
-  
+
 ## Why'd we build this?
 
 We wrote that down along with some other stuff to [help y'all out](/faq/).

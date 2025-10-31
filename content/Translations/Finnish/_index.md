@@ -1,6 +1,6 @@
 ---
 title: Suomi
-description: "Vähäisin toimiva jatkuva toimittaminen"
+description: 'Vähäisin toimiva jatkuva toimittaminen'
 weight: 3
 type: docs
 ---

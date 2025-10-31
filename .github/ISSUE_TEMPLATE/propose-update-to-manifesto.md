@@ -1,10 +1,9 @@
 ---
 name: Propose Update to Manifesto
 about: Suggest an idea for this project
-title: "[Propose Update]"
+title: '[Propose Update]'
 labels: ''
 assignees: ''
-
 ---
 
 **Is your proposed change related to a problem? Please describe.**

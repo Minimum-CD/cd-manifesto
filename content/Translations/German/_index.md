@@ -1,6 +1,6 @@
 ---
 title: Deutsch
-description: "Minimale nutzbare kontinuierliche Lieferung"
+description: 'Minimale nutzbare kontinuierliche Lieferung'
 weight: 3
 type: docs
 ---
