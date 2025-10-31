@@ -48,7 +48,9 @@ While CI depends on tooling, the team workflow and working agreement are more im
 2. **Tests accompany commits**: No work committed to version control without required tests
 3. **Incremental progress**: Committed work may not be "feature complete", but must not break existing work
 4. **Trunk-based workflow**: All work begins from trunk and integrates to trunk at least daily
-5. **Team commitment**: If CI detects an error, the team stops feature work and collaborates to fix the build
+5. **Stop-the-line**: If CI detects an error, the team stops feature work and collaborates to fix the build immediately
+
+The stop-the-line practice is critical for maintaining an always-releasable trunk. For detailed guidance on implementing this discipline, see [Stop-the-Line Culture](./stop-the-line/).
 
 ## Example Implementations
 
@@ -64,7 +66,7 @@ Week 5: Still fixing integration problems
 Week 6: Finally stabilized, but lost 2 weeks to integration
 ```
 
-**Problems:**
+#### Problems
 
 - Long-lived branches accumulate merge conflicts
 - Integration issues discovered late
@@ -119,7 +121,7 @@ jobs:
           # Send Slack/email notification
 ```
 
-**Benefits:**
+#### Benefits
 
 - Changes tested within minutes
 - Team gets immediate feedback
@@ -133,33 +135,15 @@ To integrate code daily while building large features, use patterns like branch 
 
 For detailed guidance and code examples, see [Evolutionary Coding Practices](./evolutionary-coding-practices/).
 
-## What Tests Should Run
+## Testing in CI
 
-### Pre-Merge (Fast Feedback)
+A comprehensive testing strategy balances fast feedback with thorough validation. Run different test types at different stages of the pipeline:
 
-Run before code merges to trunk:
+- **Pre-merge tests** (< 10 minutes): Unit tests, linting, static security scans, dependency audits
+- **Post-merge tests** (< 30 minutes): All pre-merge tests plus integration tests, functional tests, performance tests (validate response time and throughput requirements), and dynamic security tests
+- **Deployment tests**: End-to-end and smoke tests belong in the [deployment pipeline](/minimumcd/single-path-to-production/), not CI
 
-- **Unit tests**: Test individual components in isolation
-- **Linting**: Code style and quality checks
-- **Static security scans**: SAST tools checking for vulnerabilities
-- **Dependency audits**: Known vulnerabilities in dependencies
-
-**Goal**: Complete in < 10 minutes
-
-### Post-Merge (Comprehensive Validation)
-
-Run after code merges to trunk:
-
-- **Integration tests**: Test component interactions
-- **Functional tests**: Test user-facing behavior
-- **Performance tests**: Ensure no regressions
-- **Security tests**: Dynamic security analysis
-
-**Goal**: Complete in < 30 minutes
-
-### What About Deployment Testing?
-
-Tests requiring deployment (end-to-end, smoke tests) are part of the [deployment pipeline](/minimumcd/single-path-to-production/), not CI.
+For detailed guidance on test strategy, the test pyramid, deterministic testing, and test quality, see [Testing Strategies](./testing-strategies/).
 
 ## What is Improved
 
@@ -236,37 +220,19 @@ No. Code coverage mandates incentivize meaningless tests that hide the fact that
 
 Instead: Focus on test quality, behavior coverage, and team discipline. See [Code Coverage](https://dojoconsortium.org/docs/metrics/code-coverage/) for detailed guidance.
 
-## Health Metrics
+## Monitoring CI Health
 
-### Commits per Day per Developer
+Track these key metrics to understand CI effectiveness and drive improvement:
 
-**What**: How frequently the team integrates code to trunk
-**Good**: 1 or more per developer per day (team average)
-**Important**: Never compare individuals—this is a team metric
+- **Commits per day per developer**: ≥ 1 (team average)—indicates integration discipline
+- **Development cycle time**: < 2 days average—shows effective work breakdown
+- **Build success rate**: > 95%—reflects pre-merge testing quality
+- **Time to fix broken build**: < 1 hour—demonstrates stop-the-line commitment
+- **Defect rate**: Stable or decreasing—ensures speed doesn't sacrifice quality
 
-### Development Cycle Time
+Make pipeline status visible to everyone through dashboards, notifications, and build radiators. Visibility drives faster response, shared accountability, and continuous improvement.
 
-**What**: Time from when work begins to completion
-**Good**: Less than 2 days on average
-**Indicates**: Effective work breakdown and CI practice
-
-### Build Success Rate
-
-**What**: Percentage of trunk builds that pass
-**Good**: > 95%
-**Indicates**: Quality of pre-merge testing and team discipline
-
-### Time to Fix Broken Build
-
-**What**: How quickly team resolves build failures
-**Good**: < 1 hour
-**Indicates**: Team commitment to "stop and fix"
-
-### Defect Rate
-
-**What**: Critical guardrail metric to ensure speed doesn't overtake quality
-**Good**: Stable or decreasing as CI improves
-**Indicates**: CI is improving quality, not just speed
+For detailed guidance on metrics, dashboards, and using data for improvement, see [Pipeline Visibility & Health Metrics](./pipeline-visibility/).
 
 ## Additional Resources
 

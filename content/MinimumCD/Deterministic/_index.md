@@ -206,31 +206,6 @@ jobs:
 }
 ```
 
-**Install with frozen lockfile:**
-
-```bash
-# npm
-npm ci --frozen-lockfile
-
-# yarn
-yarn install --frozen-lockfile
-
-# pnpm
-pnpm install --frozen-lockfile
-
-# Go
-go mod download  # uses go.sum for verification
-
-# Python (pip)
-pip install -r requirements.txt --require-hashes
-
-# Python (poetry)
-poetry install --no-update
-
-# Ruby
-bundle install --frozen
-```
-
 **Never:**
 
 - Use `npm install` in CI (use `npm ci` instead)
