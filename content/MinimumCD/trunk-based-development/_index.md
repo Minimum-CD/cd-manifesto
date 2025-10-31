@@ -11,7 +11,7 @@ type: docs
 
 {{% /alert %}}
 
-Excerpt from *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim
+Excerpt from _Accelerate_ by Nicole Forsgren Ph.D., Jez Humble & Gene Kim
 
 ## Definition
 

@@ -1,121 +1,101 @@
 baseURL = 'https://minimumcd.org/'
 
 featured_image = '/images/minimumCD-Tagline.png'
-title          = 'Minimum Viable Continuous Delivery'
+title = 'Minimum Viable Continuous Delivery'
 
-enableGitInfo   = false
+enableGitInfo = false
 enableRobotsTXT = true
 
-disableKinds = [
-  "taxonomy",
-  "term"
-]
+disableKinds = ["taxonomy", "term"]
 
 # You can add your own taxonomies
 [taxonomies]
-  category = "categories"
-  tag      = "tags"
+category = "categories"
+tag = "tags"
 
 # Configure how URLs look like per section.
 [permalinks]
-  blog = "/:section/:year/:month/:day/:slug/"
+blog = "/:section/:year/:month/:day/:slug/"
 
 # Image processing configuration.
 [imaging]
-  anchor         = "Smart"
-  quality        = 75
-  resampleFilter = "CatmullRom"
+anchor = "Smart"
+quality = 75
+resampleFilter = "CatmullRom"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.parser.attribute]
-      block = true
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    style = "tango"
+[markup.goldmark]
+[markup.goldmark.parser.attribute]
+block = true
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+style = "tango"
 [outputs]
-  section = [
-    "HTML",
-    "RSS",
-    "print"
-  ]
+section = ["HTML", "RSS", "print"]
 
 [params]
-  description = 'MinimumCD.org outlines key practices to help teams achieve continuous delivery benefits. By adopting these essentials, organizations can improve software quality, enhance team environments, and boost development outcomes.'
-  images = [
-    '/images/minimumCD-Tagline.png'
-  ]
-  # gcs_engine_id = "c68e6136e96d14a0f"
-  github_branch       = "master"
-  github_project_repo = "https://github.com/Minimum-CD/cd-manifesto"
-  github_repo         = "https://github.com/Minimum-CD/cd-manifesto"
+description = 'MinimumCD.org outlines key practices to help teams achieve continuous delivery benefits. By adopting these essentials, organizations can improve software quality, enhance team environments, and boost development outcomes.'
+images = ['/images/minimumCD-Tagline.png']
+# gcs_engine_id = "c68e6136e96d14a0f"
+github_branch = "master"
+github_project_repo = "https://github.com/Minimum-CD/cd-manifesto"
+github_repo = "https://github.com/Minimum-CD/cd-manifesto"
 
-  offlineSearch = true
+offlineSearch = true
 
-  prism_syntax_highlighting = true
-  pygmentsCodeFences        = true
-  pygmentsStyle             = "tango"
-  pygmentsUseClasses        = false
-  pygmentsUseClassic        = false
+prism_syntax_highlighting = true
+pygmentsCodeFences = true
+pygmentsStyle = "tango"
+pygmentsUseClasses = false
+pygmentsUseClassic = false
 
-  custom_js = [
-    "https://buttons.github.io/buttons.js"
-  ]
+custom_js = ["https://buttons.github.io/buttons.js"]
 
-  [params.taxonomy]
-    taxonomyCloud = [
-      "categories",
-      "tags"
-    ]
+[params.taxonomy]
+taxonomyCloud = ["categories", "tags"]
 
-    taxonomyCloudTitle = [
-      "Categories",
-      "Tag Cloud"
-    ]
+taxonomyCloudTitle = ["Categories", "Tag Cloud"]
 
-    taxonomyPageHeader = [
-      "categories",
-      "tags"
-    ]
+taxonomyPageHeader = ["categories", "tags"]
 
-  [params.copyright]
-    authors   = "MinimumCD Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | "
-    from_year = 2020
+[params.copyright]
+authors = "MinimumCD Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | "
+from_year = 2020
 
-  [params.ui]
-    breadcrumb_disable                    = false
-    navbar_logo                           = '/icons/logo.svg'
-    navbar_translucent_over_cover_disable = false
-    show_nav_title                        = true
-    sidebar_cache_limit                   = 10
-    sidebar_menu_compact                  = false
-    sidebar_menu_foldable                 = false
-    sidebar_search_disable                = true
+[params.ui]
+breadcrumb_disable = false
+navbar_logo = '/icons/logo.svg'
+navbar_translucent_over_cover_disable = false
+show_nav_title = true
+sidebar_cache_limit = 10
+sidebar_menu_compact = false
+sidebar_menu_foldable = false
+sidebar_search_disable = true
 
-  [params.links]
-    [[params.links.developer]]
-      desc = "Contribute!"
-      icon = "fab fa-github"
-      name = "GitHub"
-      url  = "https://github.com/Minimum-CD/cd-manifesto"
+[params.links]
+[[params.links.developer]]
+desc = "Contribute!"
+icon = "fab fa-github"
+name = "GitHub"
+url = "https://github.com/Minimum-CD/cd-manifesto"
 
-    [params.ui.feedback]
-      enable = false
+[params.ui.feedback]
+enable = false
 
-    [params.ui.readingtime]
-      enable = false
+[params.ui.readingtime]
+enable = false
 
 [services]
-  [services.googleAnalytics]
-    id = "G-KVLFMQXEF1"
+[services.googleAnalytics]
+id = "G-KVLFMQXEF1"
 
 [[menu.main]]
-  name   = "Practices"
-  url    = "https://practices.minimumcd.org"
-  weight = 20
+name = "Practices"
+url = "https://practices.minimumcd.org"
+weight = 20
 
 [module]
-  proxy = "direct"
-  [[module.imports]]
-    path = "github.com/google/docsy"
+proxy = "direct"
+[[module.imports]]
+path = "github.com/google/docsy"

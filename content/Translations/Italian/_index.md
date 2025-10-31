@@ -1,6 +1,6 @@
 ---
 title: Italiano
-description: "Implementazione minima della Continuous Delivery"
+description: 'Implementazione minima della Continuous Delivery'
 weight: 3
 type: docs
 ---
@@ -38,7 +38,7 @@ Il set minimo di attività richieste per la CD sono:
 - [Utilizzare ambienti di test il più possibile simili all'ambiente di produzione](/minimumcd/production-like-test-environment/)
 - [Rollback su richiesta](/minimumcd/rollback/)
 - La [configurazione dell'applicazione](/minimumcd/application-configuration/) viene distribuita assieme agli artefatti
-  
+
 ## Continuous Integration (Integrazione continua)
 
 La CI è l'attività che ci consente di integrare continuamente il lavoro di ciascun membro del team nel trunk del repository e verificare che questo sia sempre, al meglio delle nostre conoscenze, funzionante e rilasciabile.

@@ -148,7 +148,7 @@ function newCheckoutFlow() {
 }
 
 // Final commit: wire it up
-<button onClick={newCheckoutFlow}>Checkout</button>
+;<button onClick={newCheckoutFlow}>Checkout</button>
 ```
 
 ##### Option 4: Dark Launch
@@ -205,7 +205,7 @@ name: Deployment Pipeline
 on:
   push:
     branches: [main]
-  workflow_dispatch:  # Manual trigger for rollbacks
+  workflow_dispatch: # Manual trigger for rollbacks
 
 jobs:
   validate:
@@ -274,7 +274,7 @@ Keep the same path, but optimize for speed when needed:
 deploy-hotfix:
   if: github.event.inputs.hotfix == 'true'
   steps:
-    - run: npm test -- --fast  # Run critical tests only
+    - run: npm test -- --fast # Run critical tests only
     - run: npm run build
     - run: deploy --target=production --skip-staging
     - run: smoke-test --production

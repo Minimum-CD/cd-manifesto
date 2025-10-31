@@ -1,10 +1,9 @@
 ---
-title: "Português"
-description: "Mínimo viável para a Entrega Contínua"
+title: 'Português'
+description: 'Mínimo viável para a Entrega Contínua'
 weight: 3
 type: docs
 ---
-
 
 ## Mínimo viável para a Entrega Contínua
 

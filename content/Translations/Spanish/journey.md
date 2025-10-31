@@ -1,6 +1,6 @@
 ---
 title: Comenzando el Viaje
-linkTitle: "Comenzando"
+linkTitle: 'Comenzando'
 description: Caminos de mejora sugeridos
 weight: 1
 draft: false
@@ -41,7 +41,7 @@ Los resultados fueron sorprendentes. Descubrimos que la aprobación solo para ca
 en la entrega de software. Los equipos que informaron no tener proceso de aprobación o que utilizaban revisión por pares lograron un mayor rendimiento en la entrega de software.
 Finalmente, los equipos que requerían la aprobación por un organismo externo lograron menor rendimiento.
 
-__-- *Accelerate* por Nicole Forsgren Ph.D., Jez Humble y Gene Kim__
+**-- _Accelerate_ por Nicole Forsgren Ph.D., Jez Humble y Gene Kim**
 {{% /alert %}}
 
 ## Resolviendo el Desafío de la CI
@@ -66,7 +66,7 @@ Debemos tratar las pruebas como ciudadanos de primera clase. Son más importante
 
 Profundiza en las pruebas. [Aprende patrones efectivos de prueba](https://bdfinst.medium.com/5-minute-devops-testing-101-4698b6464172). Muchas personas comienzan probando la implementación y luego luchan por mantener las pruebas actualizadas a medida que cambia la implementación. Evita las pruebas de implementación. Prueba comportamientos. Si no podemos refactorizar el código sin cambiar la prueba, entonces estamos probando incorrectamente. Concéntrate en BDD para definir pruebas y TDD para implementar pruebas. Las personas a menudo rechazan TDD, pero eso es más comúnmente porque nunca aprendieron a hacerlo correctamente. BDD fue creado para ayudar. Apóyate en ello.
 
-Hay capas de pruebas en un conjunto de pruebas CI correctamente arquitecturado. El libro [*xUnit Test Patterns*](http://xunitpatterns.com/) es un gran lugar para comenzar.
+Hay capas de pruebas en un conjunto de pruebas CI correctamente arquitecturado. El libro [_xUnit Test Patterns_](http://xunitpatterns.com/) es un gran lugar para comenzar.
 
 Los equipos inicialmente no son buenos en pruebas por la misma razón que no lo son buenos en cualquier otra habilidad el primer día. Lleva tiempo. Comienza ahora.
 
@@ -95,6 +95,7 @@ Mejora y sustituye procesos de forma implacable mediante la automatización. Sig
 Un muy buen estudio de caso para esto es [El trabajo de Gary Gruver en HP Laserjet](https://itrevolution.com/the-amazing-devops-transformation-of-the-hp-laserjet-firmware-team-gary-gruver/)
 
 <!-- markdownlint-disable-next-line no-trailing-punctuation -->
+
 ## ¡PRUEBA!
 
 Esto no se puede recalcar lo suficiente. El propósito del pipeline es validar completamente que un artefacto es digno de producción o rechazarlo. No corras hacia la entrega diaria sin primero construir confianza en tu capacidad para detectar fallos. Mueve la validación rápida al escritorio y ejecútala nuevamente cuando intentes fusionar código al trunk y nuevamente cuando se realicen cambios en el trunk.

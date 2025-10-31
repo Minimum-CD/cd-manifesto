@@ -1,26 +1,26 @@
 {
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"autoApprove": true,
-	"automerge": true,
-	"dependencyDashboard": true,
-	"dependencyDashboardAutoclose": true,
-	"extends": ["config:recommended"],
-	"packageRules": [
-		{
-			"matchUpdateTypes": ["minor", "patch"],
-			"description": "NPM Dependencies.",
-			"matchFileNames": ["**/package.json"],
-			"groupName": "NPM",
-			"matchPackageNames": ["*"]
-		},
-		{
-			"matchUpdateTypes": ["minor", "patch"],
-			"description": "Github Actions Dependencies.",
-			"matchFileNames": [".github/**"],
-			"groupName": "NPM-Github",
-			"matchPackageNames": ["*"]
-		}
-	],
-	"schedule": ["on Thursday after 12pm and before 11pm"],
-	"timezone": "America/Denver"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "autoApprove": true,
+  "automerge": true,
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": true,
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "description": "NPM Dependencies.",
+      "matchFileNames": ["**/package.json"],
+      "groupName": "NPM",
+      "matchPackageNames": ["*"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "description": "Github Actions Dependencies.",
+      "matchFileNames": [".github/**"],
+      "groupName": "NPM-Github",
+      "matchPackageNames": ["*"]
+    }
+  ],
+  "schedule": ["on Thursday after 12pm and before 11pm"],
+  "timezone": "America/Denver"
 }

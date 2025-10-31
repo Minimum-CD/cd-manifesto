@@ -1,6 +1,6 @@
 ---
 title: Español
-description: "Entrega Continua Mínima Viable"
+description: 'Entrega Continua Mínima Viable'
 weight: 3
 type: docs
 ---

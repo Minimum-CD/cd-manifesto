@@ -151,9 +151,7 @@ class StripePaymentProcessor {
 }
 
 // Step 3: Switch implementations (integrate to trunk)
-const processor = useNewStripe
-  ? new StripePaymentProcessor()
-  : new LegacyProcessor()
+const processor = useNewStripe ? new StripePaymentProcessor() : new LegacyProcessor()
 
 // Step 4: Remove old implementation (integrate to trunk)
 ```
@@ -163,6 +161,7 @@ const processor = useNewStripe
 Feature flags control feature visibility without blocking integration. However, they're often overused—many scenarios have better alternatives.
 
 **When to use feature flags:**
+
 - Large or high-risk changes needing gradual rollout
 - Testing in production before full release (dark launch, beta testing)
 - A/B testing and experimentation
@@ -170,6 +169,7 @@ Feature flags control feature visibility without blocking integration. However, 
 - Cross-team coordination requiring independent deployment
 
 **When NOT to use feature flags:**
+
 - New features that can connect to tests only, integrate in final commit
 - Behavior changes (use branch by abstraction instead)
 - New API routes (build route, expose as last change)
@@ -181,9 +181,9 @@ Feature flags control feature visibility without blocking integration. However, 
 ```javascript
 // Incomplete feature integrated to trunk, hidden behind flag
 if (featureFlags.newCheckout) {
-  return renderNewCheckout()  // Work in progress
+  return renderNewCheckout() // Work in progress
 }
-return renderOldCheckout()  // Stable existing feature
+return renderOldCheckout() // Stable existing feature
 
 // Team can continue integrating newCheckout code daily
 // Feature revealed when complete by toggling flag
@@ -197,12 +197,18 @@ Build complete features, connect them in final commit:
 
 ```javascript
 // Commits 1-10: Build new checkout components (all tested, all integrated)
-function CheckoutStep1() { /* tested, working */ }
-function CheckoutStep2() { /* tested, working */ }
-function CheckoutStep3() { /* tested, working */ }
+function CheckoutStep1() {
+  /* tested, working */
+}
+function CheckoutStep2() {
+  /* tested, working */
+}
+function CheckoutStep3() {
+  /* tested, working */
+}
 
 // Commit 11: Wire up to UI (final integration)
-<Route path="/checkout" component={CheckoutStep1} />
+;<Route path="/checkout" component={CheckoutStep1} />
 ```
 
 For detailed guidance on when to use each pattern, see [Feature Flags](/recommendations/feature-flags/).

@@ -1,6 +1,6 @@
 ---
 title: Starting the Journey
-linkTitle: "Getting Started"
+linkTitle: 'Getting Started'
 description: Suggested improvement paths
 weight: 1
 type: docs
@@ -43,14 +43,14 @@ The results were surprising. We found that approval only for high-risk changes w
 performance. Teams that reported no approval process or used peer review achieved higher software delivery performance.
 Finally, teams that required approval by an external body achieved lower performance.
 
-__-- *Accelerate* by Nicole Forsgren Ph.D., Jez Humble & Gene Kim__
+**-- _Accelerate_ by Nicole Forsgren Ph.D., Jez Humble & Gene Kim**
 {{% /alert %}}
 
 ## Solving the Challenge of CI
 
 The first challenge for the team is [continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html). CD requires CI and CI is very effective at uncovering most of the problems many teams have that impact quality. Martin Fowler has an [excellent blog post on introducing CI](https://www.martinfowler.com/articles/continuousIntegration.html#IntroducingContinuousIntegration) into the workflow. Over the years, we've seen many common problems that teams have.
 
-You may find more. Notice that tooling is rarely the problem. Always, "Why can't we deliver working changes to the trunk today?", is the roadmap of problems to solve.  
+You may find more. Notice that tooling is rarely the problem. Always, "Why can't we deliver working changes to the trunk today?", is the roadmap of problems to solve.
 
 ### Code review takes too long / has too many approvers
 
@@ -68,7 +68,7 @@ We must treat tests as first-class citizens. They are more important than the co
 
 Dig into testing. [Learn effective test patterns](https://bdfinst.medium.com/5-minute-devops-testing-101-4698b6464172). Many people start testing implementation and then struggle to keep tests current as implementation changes. Avoid implementation testing. Test behaviors. If we cannot refactor code without changing the test then we are testing incorrectly. Focus on BDD to define tests and TDD to implement tests. People often push back on TDD, but that is most commonly because they never learned how to do it correctly. BDD was created to help. Lean in.
 
-There are layers of tests in a properly architected suite of CI tests. The [*xUnit Test Patterns*](http://xunitpatterns.com/) book is a great place to start.
+There are layers of tests in a properly architected suite of CI tests. The [_xUnit Test Patterns_](http://xunitpatterns.com/) book is a great place to start.
 
 Teams are not good at testing initially for the same reason they aren't good at any other skill on day 1. It takes time. Start now.
 
@@ -97,7 +97,8 @@ Relentlessly improve and replace processes with automation. Keep pushing down th
 A very good case study for this is [Gary Gruver's work at HP Laserjet](https://itrevolution.com/the-amazing-devops-transformation-of-the-hp-laserjet-firmware-team-gary-gruver/)
 
 <!-- markdownlint-disable-next-line no-trailing-punctuation -->
-## TEST!
+
+## CD is About Quality, Not Speed
 
 This cannot be stressed enough. The purpose of the pipeline is to fully validate that an artifact is production worthy or to reject it. Do not run towards daily delivery without first building confidence in your ability to detect failure. Move fast validation to the desktop and execute it again when trying to merge code to the trunk and again whenever changes are made to the trunk.
 
