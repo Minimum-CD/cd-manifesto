@@ -129,89 +129,9 @@ jobs:
 
 ## Evolutionary Coding Practices
 
-To integrate code daily while building large features, use these patterns:
+To integrate code daily while building large features, use patterns like branch by abstraction, feature flags, and connect-last. These techniques allow you to break down large changes into small, safe commits that integrate to trunk daily without breaking existing functionality.
 
-### Branch by Abstraction
-
-Gradually replace existing behavior while continuously integrating:
-
-```javascript
-// Step 1: Create abstraction (integrate to trunk)
-class PaymentProcessor {
-  process(payment) {
-    return this.implementation.process(payment)
-  }
-}
-
-// Step 2: Add new implementation alongside old (integrate to trunk)
-class StripePaymentProcessor {
-  process(payment) {
-    // New Stripe implementation
-  }
-}
-
-// Step 3: Switch implementations (integrate to trunk)
-const processor = useNewStripe ? new StripePaymentProcessor() : new LegacyProcessor()
-
-// Step 4: Remove old implementation (integrate to trunk)
-```
-
-### Feature Flags
-
-Feature flags control feature visibility without blocking integration. However, they're often overused—many scenarios have better alternatives.
-
-**When to use feature flags:**
-
-- Large or high-risk changes needing gradual rollout
-- Testing in production before full release (dark launch, beta testing)
-- A/B testing and experimentation
-- Customer-specific behavior or toggles
-- Cross-team coordination requiring independent deployment
-
-**When NOT to use feature flags:**
-
-- New features that can connect to tests only, integrate in final commit
-- Behavior changes (use branch by abstraction instead)
-- New API routes (build route, expose as last change)
-- Bug fixes or hotfixes (deploy immediately)
-- Simple changes (standard deployment sufficient)
-
-**Example usage:**
-
-```javascript
-// Incomplete feature integrated to trunk, hidden behind flag
-if (featureFlags.newCheckout) {
-  return renderNewCheckout() // Work in progress
-}
-return renderOldCheckout() // Stable existing feature
-
-// Team can continue integrating newCheckout code daily
-// Feature revealed when complete by toggling flag
-```
-
-For detailed decision guidance and implementation approaches, see [Feature Flags](/recommendations/feature-flags/).
-
-### Connect Last
-
-Build complete features, connect them in final commit:
-
-```javascript
-// Commits 1-10: Build new checkout components (all tested, all integrated)
-function CheckoutStep1() {
-  /* tested, working */
-}
-function CheckoutStep2() {
-  /* tested, working */
-}
-function CheckoutStep3() {
-  /* tested, working */
-}
-
-// Commit 11: Wire up to UI (final integration)
-;<Route path="/checkout" component={CheckoutStep1} />
-```
-
-For detailed guidance on when to use each pattern, see [Feature Flags](/recommendations/feature-flags/).
+For detailed guidance and code examples, see [Evolutionary Coding Practices](./evolutionary-coding-practices/).
 
 ## What Tests Should Run
 

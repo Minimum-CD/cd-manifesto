@@ -2,5 +2,11 @@
     "cSpell.words": [
         "isset",
         "pygments"
+    ],
+    "stylelint.validate": [
+        "css",
+        "scss",
+        "sass",
+        "less"
     ]
 }
