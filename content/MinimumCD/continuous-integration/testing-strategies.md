@@ -14,7 +14,7 @@ Tests that run before code merges to trunk should provide rapid feedback to deve
 ### What to Run
 
 - **Static analysis**: Type checkers, linters, security scans
-- **Unit tests**: Fast tests of isolated logic
+- **Unit tests**: Fast tests (preferably [sociable unit tests](#sociable-vs-solitary-unit-tests) with real in-process dependencies)
 - **Dependency audits**: Known vulnerabilities in dependencies
 
 ### Performance Goal

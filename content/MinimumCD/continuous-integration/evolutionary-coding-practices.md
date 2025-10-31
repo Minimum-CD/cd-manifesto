@@ -6,7 +6,7 @@ type: docs
 ---
 
 A core skill needed for CI is the ability to make code changes that are not complete features and integrate them to the
-trunk without breaking existing behaviors. We never make big-bang changes. We make small changes that limit pour risk.
+trunk without breaking existing behaviors. We never make big-bang changes. We make small changes that limit our risk.
 These are some of the most common methods.
 
 ## Branch by Abstraction

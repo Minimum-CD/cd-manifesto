@@ -116,6 +116,8 @@ jobs:
 
       - name: Check code coverage
         run: npm run test:coverage -- --threshold=80
+        # Note: This is a team-defined quality gate, not an org-wide mandate.
+        # See https://dojoconsortium.org/docs/metrics/code-coverage/
 
       - name: Run E2E tests
         run: npm run test:e2e
