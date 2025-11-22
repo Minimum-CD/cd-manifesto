@@ -228,7 +228,9 @@ It requires discipline, but it produces the most stable delivery pipeline and th
 
 If the idea of committing straight to `main` makes people panic, that's a signal about your current testing process — not a problem with TBD.
 
-**Note on regulated environments:** If you work in a regulated industry with compliance requirements (SOX, HIPAA, FedRAMP, etc.), **Path #1 with short-lived branches** is usually the better choice. Short-lived branches provide the audit trails, separation of duties, and documented approval workflows that regulators expect—while still enabling daily integration. See [TBD in Regulated Environments](#tbd-in-regulated-environments) for detailed guidance on meeting compliance requirements, and [Address Code Review Concerns](#address-code-review-concerns) for how to maintain fast review cycles with short-lived branches.
+{{< alert title="Note on regulated environments" >}}
+If you work in a regulated industry with compliance requirements (SOX, HIPAA, FedRAMP, etc.), **Path #1 with short-lived branches** is usually the better choice. Short-lived branches provide the audit trails, separation of duties, and documented approval workflows that regulators expect—while still enabling daily integration. See [TBD in Regulated Environments](#tbd-in-regulated-environments) for detailed guidance on meeting compliance requirements, and [Address Code Review Concerns](#address-code-review-concerns) for how to maintain fast review cycles with short-lived branches.
+{{< /alert >}}
 
 ---
 
@@ -568,11 +570,13 @@ Knowledge transfer through pairing works better than documentation.
 
 The goal is **fast feedback**, not zero review.
 
-**Important:** If you're using short-lived branches that must merge within a day or two, asynchronous code review becomes a bottleneck. Even "fast" async reviews with 2-4 hour turnaround create delays: the reviewer reads code, leaves comments, the author reads comments later, makes changes, and the cycle repeats. Each round trip adds hours or days.
+{{< alert title="Important" color="warning" >}}
+If you're using short-lived branches that must merge within a day or two, asynchronous code review becomes a bottleneck. Even "fast" async reviews with 2-4 hour turnaround create delays: the reviewer reads code, leaves comments, the author reads comments later, makes changes, and the cycle repeats. Each round trip adds hours or days.
 
 Instead, use **synchronous code reviews** where the reviewer and author work together in real-time (screen share, pair at a workstation, or mob). This eliminates communication delays through review comments. Questions get answered immediately, changes happen on the spot, and the code merges the same day.
 
 If your team can't commit to synchronous reviews or pair/mob programming, you'll struggle to maintain short branch lifetimes.
+{{< /alert >}}
 
 ### Handle Skeptics and Blockers
 
