@@ -38,11 +38,11 @@
     "update": "npx npm-check-updates -u && npm install && hugo mod get -u ./... && hugo mod tidy "
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.4.22",
     "hugo-extended": "0.152.2",
     "husky": "^9.1.7",
-    "linkinator": "^7.4.1",
-    "markdownlint-cli": "^0.45.0",
+    "linkinator": "^7.5.0",
+    "markdownlint-cli": "^0.46.0",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "prettier": "^3.6.2",
