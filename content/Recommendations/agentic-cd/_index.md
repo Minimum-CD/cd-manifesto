@@ -45,153 +45,19 @@ It is part of the delivery contract, not a convenience.
 - Humans own the accountability for the artifacts.
 
 
-### 1. Intent Artifact (Feature Description)
-
-**Role**
-
-Defines *why* a change exists.
-
-**Authority**
-
-Human-owned intent.
-
-**What it constrains**
-
-* Scope
-* Direction
-* Acceptability of outcomes
-
-**Purpose in ACD**
-
-Intent is the trust anchor for all other first-class artifacts.
-
-
-**Use Case example**
-
-> User activity data export required for compliance.
-
-
-### 2. User-Facing Behavior Artifact (Feature User Guide)
-
-**Role**
-
-Defines *what* the system does from the outside.
-
-**Authority**
-
-Externally observable semantics.
-
-**What it constrains**
-
-* Tests
-* Implementation behavior
-* Backwards compatibility expectations
-
-**Purpose in ACD**
-
-Prevent unexplained behavioral drift from implementation side effects.
-
-**Use Case example**
-
-> You can find the Activity Report under 'Profile' and can press 'Activity Export' to download your data.
-
-
-### 3. Feature Implementation Description Artifact (Implementation Manual)
-
-**Role**
-
-Preserves *implementation trade-offs and constraints under which the solution is approached*
-
-**Authority**
-
-Engineering trade-offs and technical implementation guardrails.
-
-**What it constrains**
-
-* Technical decision boundaries
-* Agentic degrees of freedom
-* Inconsistency and drift
-
-**Purpose in ACD**
-
-Keep implementation consistent over time and avoid agentic tradeoff drift.
-
-**Use Case example**
-
-> The activity export is generated as a timestamped PDF to ensure immutability and regulatory compatibility. Each generated report is retained for non-repudiability.
-
-
-### 4. Executable Truth Artifact (Test Scenarios)
-
-**Role**
-
-Makes intent falsifiable.
-
-**Authority**
-
-Pipeline-enforced correctness.
-
-**What it constrains**
-
-* Code
-* Refactoring
-* Optimization
-
-**Purpose in ACD**
-
-Ensure consistency of intent and implementation.
-
-**Use Case example**
-
-> Tests that ensure activity reports are correct and complete.
-
-
-### 5. Implementation Artifact (Code)
-
-**Role**
-
-Implements behavior under constraint.
-
-**Authority**
-
-Runtime mechanism only.
-
-**Purpose in ACD**
-
-Deliver a solution for the intent that is consistent with required user-facing behaviour.
-
-**Use Case example**
-
-> Backend and frontend code to extract data, generate the report and transmit it to the user.
-
-
-
-### 6. System Constraint Artifact (Architecture Overview)
-
-**Role**
-
-Defines *what must remain true globally*.
-
-**Authority**
-
-System-level invariants.
-
-**What it constrains**
-
-* All features
-* All implementations
-* All agent proposals
-
-**Purpose in ACD**
-
-Maintain global integrity.
-
-**Use Case example**
-
-> Use MVC architecture. There must be no business logic in APIs.
-
-
-## Why These Artifacts Must Be Separate
+### Artifact Overview
+
+| Artifact | Role (Why it exists) | Authority | What it Constrains | Purpose in ACD | Example |
+|--------|----------------------|-----------|--------------------|---------------|---------|
+| **Intent Description** (Demand / Requirement) | Defines *why* the change exists | Human-owned intent | Scope, direction, outcome acceptability | Trust anchor for all other artifacts | "User activity data export required for compliance." |
+| **User-Facing Behavior** (Feature User Guide) | Defines *what* users experience | Externally observable semantics | Tests, behavior, backward compatibility | Prevent unexplained behavioral drift | "Export available under Profile: Activity Export." |
+| **Feature Description** (Implementation Manual) | Preserves implementation *trade-offs* | Engineering constraints | Technical decision boundaries, agent freedom | Prevent agentic trade-off drift | "Timestamped PDF retained for non-repudiability." |
+| **Executable Truth** (Test Scenarios) | Makes intent *falsifiable* | Pipeline-enforced correctness | Code, refactoring, optimization | Enforce consistency | "Tests validating report completeness." |
+| **Implementation** (Code) | Implements behavior | Runtime mechanics only | Fully constrained by other artifacts | Deliver the solution | Backend + frontend export logic |
+| **System Constraints** (Architecture Overview) | Defines *global invariants* | System-level rules | All features, implementations, agent proposals | Maintain global integrity | "Always use MVC. No business logic in APIs." |
+
+
+### Why These Artifacts Must Be Separate
 
 They are intentionally **overlapping in content** but **non-overlapping in authority**.
 
