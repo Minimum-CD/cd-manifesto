@@ -17,7 +17,7 @@ CI is not just about tooling—it's fundamentally about team workflow and workin
 2. Work integrates to trunk at a minimum daily (each developer, every day)
 3. Work has automated testing before merge to trunk
 4. Work is tested with other work automatically on merge
-5. All feature work stops when the build is red
+5. [All feature work stops when the build is red](./all-feature-work-stops-when-the-build-is-red/)
 6. New work does not break delivered work
 
 ## Why This Matters
@@ -50,7 +50,7 @@ While CI depends on tooling, the team workflow and working agreement are more im
 4. **Trunk-based workflow**: All work begins from trunk and integrates to trunk at least daily
 5. **Stop-the-line**: If CI detects an error, the team stops feature work and collaborates to fix the build immediately
 
-The stop-the-line practice is critical for maintaining an always-releasable trunk. For detailed guidance on implementing this discipline, see [Stop-the-Line Culture](./stop-the-line/).
+The stop-the-line practice is critical for maintaining an always-releasable trunk. For detailed guidance on implementing this discipline, see [All Feature Work Stops When the Build Is Red](./all-feature-work-stops-when-the-build-is-red/).
 
 ## Example Implementations
 

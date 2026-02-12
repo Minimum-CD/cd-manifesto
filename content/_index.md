@@ -39,7 +39,7 @@ The minimum activities required for CD are:
 - The [pipeline decides the releasability of changes](/minimumcd/deterministic/), its verdict is **definitive**
 - Artifacts created by the pipeline always meet the organization's [definition of deployable](/minimumcd/deployable/)
 - [Immutable artifact](/minimumcd/immutable/) (no human changes after commit)
-- All feature work stops when the pipeline is red
+- [All feature work stops when the pipeline is red](/minimumcd/continuous-integration/all-feature-work-stops-when-the-build-is-red/)
 - [Production-like test environment](/minimumcd/production-like-test-environment/)
 - [Rollback on-demand](/minimumcd/rollback/)
 - [Application configuration](/minimumcd/application-configuration/) deploys with artifact
@@ -54,7 +54,7 @@ The minimum activities required for CI are:
 - Work integrates to the trunk at a minimum daily
 - Work has automated testing before merge to trunk
 - Work is tested with other work automatically on merge
-- All feature work stops when the build is red
+- [All feature work stops when the build is red](/minimumcd/continuous-integration/all-feature-work-stops-when-the-build-is-red/)
 - New work does not break delivered work
 
 ## Trunk-based Development
