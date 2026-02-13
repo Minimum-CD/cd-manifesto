@@ -2,11 +2,8 @@
 title: Frequent Questions
 linkTitle: 'FAQ'
 description:
-weight: 5
+weight: 130
 type: docs
-menu:
-  main:
-    weight: 99
 ---
 
 ## Why does this exist?

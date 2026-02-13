@@ -95,6 +95,11 @@ name = "Practices"
 url = "https://practices.minimumcd.org"
 weight = 20
 
+[[menu.main]]
+name = "Migration"
+url = "https://migration.minimumcd.org"
+weight = 30
+
 [module]
 proxy = "direct"
 [[module.imports]]

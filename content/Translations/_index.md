@@ -1,8 +1,6 @@
 ---
 title: Translations
 linkTitle: 'Translations'
+weight: 140
 type: docs
-menu:
-  main:
-    weight: 60
 ---
