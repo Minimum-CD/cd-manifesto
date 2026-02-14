@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+# LLM discovery file
+# See https://llmstxt.org/
+Llms-txt: {{ .Site.BaseURL }}llms.txt

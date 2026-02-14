@@ -1,0 +1,26 @@
+# Minimum Viable Continuous Delivery
+
+> MinimumCD.org defines the minimum practices required to achieve continuous delivery. By adopting these essentials, organizations can improve software quality, enhance team environments, and boost development outcomes.
+
+MinimumCD is a community-driven initiative establishing a baseline definition of continuous delivery (CD). It was created because consistent misunderstanding of CD practices prevents organizations from realizing the benefits described in research like "Accelerate" by Nicole Forsgren, Jez Humble, and Gene Kim.
+
+## Core Practices
+
+- [Continuous Integration](https://minimumcd.org/minimumcd/continuous-integration/): The activity of very frequently integrating work to the trunk of version control and verifying that it is releasable
+- [Trunk-based Development](https://minimumcd.org/minimumcd/trunk-based-development/): The branching pattern required to meet the definition of CI, preventing lost work and reducing merge conflicts
+- [Single Path to Production](https://minimumcd.org/minimumcd/single-path-to-production/): The application pipeline is the only way to deploy to any environment
+- [Deterministic Pipeline](https://minimumcd.org/minimumcd/deterministic/): The pipeline decides the releasability of changes and its verdict is definitive
+- [Definition of Deployable](https://minimumcd.org/minimumcd/deployable/): Artifacts created by the pipeline always meet the organization's definition of deployable
+- [Immutable Artifact](https://minimumcd.org/minimumcd/immutable/): No human changes after commit; the artifact is built once and deployed to all environments
+- [All Feature Work Stops When the Build Is Red](https://minimumcd.org/minimumcd/continuous-integration/all-feature-work-stops-when-the-build-is-red/): The team prioritizes fixing the build over new feature work
+- [Production-like Test Environment](https://minimumcd.org/minimumcd/production-like-test-environment/): Test environments must be representative of production
+- [Rollback on Demand](https://minimumcd.org/minimumcd/rollback/): The ability to restore a previous version of the application at any time
+- [Application Configuration](https://minimumcd.org/minimumcd/application-configuration/): Application configuration deploys with the artifact
+
+## Supplementary Sections
+
+- [Getting Started](https://minimumcd.org/journey/): Suggested improvement paths for teams beginning the CD journey
+- [FAQ](https://minimumcd.org/faq/): Frequently asked questions about MinimumCD, its purpose, and how to use it
+- [Recommendations](https://minimumcd.org/recommendations/): Recommended practices including small batch development and feature flags
+- [Resources and References](https://minimumcd.org/references/): Books, videos, and websites for going beyond the minimums
+- [Translations](https://minimumcd.org/translations/): Community translations in multiple languages
