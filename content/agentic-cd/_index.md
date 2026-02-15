@@ -1,7 +1,7 @@
 ---
 title: Agentic Continuous Delivery
 description: 'Guidance for minimizing risk of agentic drift or code quality issues when utilizing Agentic Assisted Coding combined with Continuous Delivery Practice.'
-weight: 1
+weight: 30
 type: docs
 ---
 
@@ -30,10 +30,10 @@ It *extends* MinimumCD by the following constraints:
 
 These constraints are **not mandatory practices.** They describe the *minimum conditions required to sustain delivery pace once agents are making changes* to the system.
 
-
 ## First-Class Artifacts
 
 In ACD, every first-class artifact:
+
 - Is required to exist
 - Has a clearly defined authority
 - Must always be consistent with other first-class artifacts
@@ -46,7 +46,6 @@ It is part of the delivery contract, not a convenience.
 - Agents may **not** redefine the authority of any artifact.
 - Humans own the accountability for the artifacts.
 
-
 ### Artifact Overview
 
 | Artifact | Role (Why it exists) | Authority | What it Constrains | Purpose in ACD | Example |
@@ -58,7 +57,6 @@ It is part of the delivery contract, not a convenience.
 | **Implementation** (Code) | Implements behavior | Runtime mechanics only | Fully constrained by other artifacts | Deliver the solution | Backend + frontend export logic |
 | **System Constraints** (Architecture Overview) | Defines *global invariants* | System-level rules | All features, implementations, agent proposals | Maintain global integrity | "Always use MVC. No business logic in APIs." |
 
-
 ### Why These Artifacts Must Be Separate
 
 They are intentionally **overlapping in content** but **non-overlapping in authority**.
@@ -67,21 +65,20 @@ The content overlap is necessary to control drift.
 This prevents a critical agentic failure mode:
 > Resolving inconsistency by rewriting the wrong thing.
 
-
 ## Why This Is Not Documentation Overhead
 
 ACD treats **semantic artifacts** as first-class to **preserve consistent meaning** over time.
 
 In ACD:
 
-* Artifacts are **inputs to enforcement**
-* Not outputs for humans to read
+- Artifacts are **inputs to enforcement**
+- Not outputs for humans to read
 
 They exist so that:
 
-* tools can reference them
-* agents can be constrained by them
-* humans can steer **exceptions and conflicts**
+- tools can reference them
+- agents can be constrained by them
+- humans can steer **exceptions and conflicts**
 
 Removing even a single first-class artifact reduces the reliability of ACD reference frame.
 
@@ -89,3 +86,10 @@ Removing even a single first-class artifact reduces the reliability of ACD refer
 
 None of these artifacts are required exclusively when working with coding agents: They should exist for any long-term development project.
 However, creating and maintaining them as part of the delivery process becomes crucial to minimize the risk of agent-induced failure.
+
+## Further Reading
+
+For detailed guidance on implementing these concepts, see:
+
+- [Agentic CD](https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/continuous-deployment/agentic-cd/) - Implementation guide covering the six first-class artifacts, pipeline constraints, and getting started steps
+- [AI Adoption Roadmap](https://migration.minimumcd.org/docs/ai-adoption-roadmap/) - Prescriptive sequence for incorporating AI into your delivery process safely

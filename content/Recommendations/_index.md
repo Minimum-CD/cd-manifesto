@@ -1,7 +1,7 @@
 ---
-title: Recommended Practices for Continuous Delivery
-linkTitle: 'Recommendations'
-description: 'Expert recommendations and best practices for implementing continuous delivery. Learn about small batch development, feature flags, and proven techniques to improve software delivery performance.'
+title: "Recommendations"
+linkTitle: "Recommendations"
 weight: 100
+manualLink: "https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/"
 type: docs
 ---
