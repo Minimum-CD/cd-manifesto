@@ -49,7 +49,7 @@ It is part of the delivery contract, not a convenience.
 ### Artifact Overview
 
 | Artifact | Role (Why it exists) | Authority | What it Constrains | Purpose in ACD | Example |
-|--------|----------------------|-----------|--------------------|---------------|---------|
+| -------- | ---------------------- | ----------- | -------------------- | --------------- | --------- |
 | **Intent Description** (Demand / Requirement) | Defines *why* the change exists | Human-owned intent | Scope, direction, outcome acceptability | Trust anchor for all other artifacts | "User activity data export required for compliance." |
 | **User-Facing Behavior** (Feature User Guide) | Defines *what* users experience | Externally observable semantics | Tests, behavior, backward compatibility | Prevent unexplained behavioral drift | "Export available under Profile: Activity Export." |
 | **Feature Description** (Implementation Manual) | Preserves implementation *trade-offs* | Engineering constraints | Technical decision boundaries, agent freedom | Prevent agentic trade-off drift | "Timestamped PDF retained for non-repudiability." |
