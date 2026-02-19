@@ -1,3 +1,25 @@
+// CTA button for "Find Your Roadblocks" nav item
+.td-navbar a.nav-link[href="https://migration.minimumcd.org"] {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.85rem;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  border-radius: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: #fff;
+    color: #fff;
+  }
+
+  &::after {
+    content: " \2192";
+    font-weight: 400;
+  }
+}
+
 // Section separator between core navigation and supplementary items
 #m-recommendations-li {
   margin-top: 0.5rem;

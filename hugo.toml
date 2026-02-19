@@ -116,9 +116,10 @@ disableKinds = [
   weight = 20
 
 [[menu.main]]
-  name   = "Migration to CD"
-  url    = "https://migration.minimumcd.org"
-  weight = 30
+  name       = "Find Your Roadblocks"
+  url        = "https://migration.minimumcd.org"
+  weight     = 30
+  identifier = "find-roadblocks"
 
 [module]
   proxy = "direct"
