@@ -39,7 +39,8 @@
 /recommendations/smallbatches/*                      https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/small-batches/  301
 
 # Agentic CD
-/agentic-cd/                                         https://migration.minimumcd.org/docs/ai-adoption-roadmap/  301
+/agentic-cd/                                         https://migration.minimumcd.org/docs/agentic-cd/  301
+/ai-adoption-roadmap/                                https://migration.minimumcd.org/docs/agentic-cd/adoption-roadmap/  301
 
 # Standalone sections
 /journey/                                            https://migration.minimumcd.org/docs/faq/  301
