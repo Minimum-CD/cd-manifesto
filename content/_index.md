@@ -35,14 +35,14 @@ CD is the engineering discipline of delivering all changes in a standard way saf
 The minimum activities required for CD are:
 
 - Use [Continuous integration](#continuous-integration)
-- The [application pipeline](https://migration.minimumcd.org/docs/reference/practices/single-path-to-production/) is the only way to deploy to any environment
-- The [pipeline decides the releasability of changes](https://migration.minimumcd.org/docs/reference/practices/deterministic-pipeline/), its verdict is **definitive**
-- Artifacts created by the pipeline always meet the organization's [definition of deployable](https://migration.minimumcd.org/docs/reference/practices/definition-of-deployable/)
-- [Immutable artifact](https://migration.minimumcd.org/docs/reference/practices/immutable-artifacts/) (no human changes after commit)
-- [All feature work stops when the main pipeline is red](https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/working-agreements/)
-- [Production-like test environment](https://migration.minimumcd.org/docs/reference/practices/production-like-environments/)
-- [Rollback on-demand](https://migration.minimumcd.org/docs/reference/practices/rollback/)
-- [Application configuration](https://migration.minimumcd.org/docs/reference/practices/application-configuration/) deploys with artifact
+- The [application pipeline](https://beyond.minimumcd.org/docs/reference/practices/single-path-to-production/) is the only way to deploy to any environment
+- The [pipeline decides the releasability of changes](https://beyond.minimumcd.org/docs/reference/practices/deterministic-pipeline/), its verdict is **definitive**
+- Artifacts created by the pipeline always meet the organization's [definition of deployable](https://beyond.minimumcd.org/docs/reference/practices/definition-of-deployable/)
+- [Immutable artifact](https://beyond.minimumcd.org/docs/reference/practices/immutable-artifacts/) (no human changes after commit)
+- [All feature work stops when the main pipeline is red](https://beyond.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/working-agreements/)
+- [Production-like test environment](https://beyond.minimumcd.org/docs/reference/practices/production-like-environments/)
+- [Rollback on-demand](https://beyond.minimumcd.org/docs/reference/practices/rollback/)
+- [Application configuration](https://beyond.minimumcd.org/docs/reference/practices/application-configuration/) deploys with artifact
 
 ## Continuous Integration
 
@@ -54,12 +54,12 @@ The minimum activities required for CI are:
 - Work integrates to the trunk at a minimum daily
 - Work has automated testing before merge to trunk
 - Work is tested with other work automatically on merge
-- [All feature work stops when the main build is red](https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/working-agreements/)
+- [All feature work stops when the main build is red](https://beyond.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/working-agreements/)
 - New work does not break delivered work
 
 ## Trunk-based Development
 
-[Trunk-based development](https://migration.minimumcd.org/docs/reference/practices/trunk-based-development/) is the branching pattern required to meet the definition
+[Trunk-based development](https://beyond.minimumcd.org/docs/reference/practices/trunk-based-development/) is the branching pattern required to meet the definition
 of CI. It prevents lost work, the risk of corruption that comes from merge conflict resolution, and also reduces movement
 waste that increases batch size.
 
@@ -73,11 +73,11 @@ The minimum activities required for TBD are:
 
 ## Why did we build this?
 
-For background on Minimum CD and answers to other common questions, please [read the FAQs](https://migration.minimumcd.org/docs/faq/).
+For background on Minimum CD and answers to other common questions, please [read the FAQs](https://beyond.minimumcd.org/docs/faq/).
 
 ## Starting the Journey
 
-Questions on where to start? Check out the [migration guide](https://migration.minimumcd.org/).
+Questions on where to start? Check out the [migration guide](https://beyond.minimumcd.org/).
 
 ## Contributing
 

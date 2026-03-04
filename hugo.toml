@@ -117,7 +117,7 @@ disableKinds = [
 
 [[menu.main]]
   name       = "Find Your Roadblocks"
-  url        = "https://migration.minimumcd.org"
+  url        = "https://beyond.minimumcd.org"
   weight     = 30
   identifier = "find-roadblocks"
 

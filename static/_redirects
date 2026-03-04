@@ -1,49 +1,49 @@
-# Cross-domain redirects to migration.minimumcd.org
+# Cross-domain redirects to beyond.minimumcd.org
 # Content migrated from minimumcd.org to the migration guide
 
 # Practice definitions
-/minimumcd/                                          https://migration.minimumcd.org/docs/reference/practices/  301
-/minimumcd/continuous-integration/                    https://migration.minimumcd.org/docs/reference/practices/continuous-integration/  301
-/minimumcd/trunk-based-development/                  https://migration.minimumcd.org/docs/reference/practices/trunk-based-development/  301
-/minimumcd/single-path-to-production/                https://migration.minimumcd.org/docs/reference/practices/single-path-to-production/  301
-/minimumcd/deterministic/                            https://migration.minimumcd.org/docs/reference/practices/deterministic-pipeline/  301
-/minimumcd/deployable/                               https://migration.minimumcd.org/docs/reference/practices/definition-of-deployable/  301
-/minimumcd/immutable/                                https://migration.minimumcd.org/docs/reference/practices/immutable-artifacts/  301
-/minimumcd/production-like-test-environment/          https://migration.minimumcd.org/docs/reference/practices/production-like-environments/  301
-/minimumcd/rollback/                                 https://migration.minimumcd.org/docs/reference/practices/rollback/  301
-/minimumcd/application-configuration/                https://migration.minimumcd.org/docs/reference/practices/application-configuration/  301
+/minimumcd/                                          https://beyond.minimumcd.org/docs/reference/practices/  301
+/minimumcd/continuous-integration/                    https://beyond.minimumcd.org/docs/reference/practices/continuous-integration/  301
+/minimumcd/trunk-based-development/                  https://beyond.minimumcd.org/docs/reference/practices/trunk-based-development/  301
+/minimumcd/single-path-to-production/                https://beyond.minimumcd.org/docs/reference/practices/single-path-to-production/  301
+/minimumcd/deterministic/                            https://beyond.minimumcd.org/docs/reference/practices/deterministic-pipeline/  301
+/minimumcd/deployable/                               https://beyond.minimumcd.org/docs/reference/practices/definition-of-deployable/  301
+/minimumcd/immutable/                                https://beyond.minimumcd.org/docs/reference/practices/immutable-artifacts/  301
+/minimumcd/production-like-test-environment/          https://beyond.minimumcd.org/docs/reference/practices/production-like-environments/  301
+/minimumcd/rollback/                                 https://beyond.minimumcd.org/docs/reference/practices/rollback/  301
+/minimumcd/application-configuration/                https://beyond.minimumcd.org/docs/reference/practices/application-configuration/  301
 
 # CI sub-pages
-/minimumcd/continuous-integration/all-feature-work-stops-when-the-build-is-red/  https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/working-agreements/  301
-/minimumcd/continuous-integration/evolutionary-coding-practices/  https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/trunk-based-development/  301
-/minimumcd/continuous-integration/testing-strategies/  https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/testing-fundamentals/  301
-/minimumcd/continuous-integration/pipeline-visibility/  https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/metrics-driven-improvement/  301
+/minimumcd/continuous-integration/all-feature-work-stops-when-the-build-is-red/  https://beyond.minimumcd.org/docs/migrate-to-cd/foundations/working-agreements/  301
+/minimumcd/continuous-integration/evolutionary-coding-practices/  https://beyond.minimumcd.org/docs/migrate-to-cd/foundations/trunk-based-development/  301
+/minimumcd/continuous-integration/testing-strategies/  https://beyond.minimumcd.org/docs/migrate-to-cd/foundations/testing-fundamentals/  301
+/minimumcd/continuous-integration/pipeline-visibility/  https://beyond.minimumcd.org/docs/migrate-to-cd/optimize/metrics-driven-improvement/  301
 
 # TBD migration guide
-/minimumcd/trunk-based-development/tbd-migration/    https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/trunk-based-development/tbd-migration/  301
+/minimumcd/trunk-based-development/tbd-migration/    https://beyond.minimumcd.org/docs/migrate-to-cd/foundations/trunk-based-development/tbd-migration/  301
 
 # Short-URL aliases
-/minimumcd/tbd/*                                     https://migration.minimumcd.org/docs/reference/practices/trunk-based-development/  301
-/minimumcd/ci/*                                      https://migration.minimumcd.org/docs/reference/practices/continuous-integration/  301
-/minimumcd/appconfig/*                               https://migration.minimumcd.org/docs/reference/practices/application-configuration/  301
-/minimumcd/prodlike/*                                https://migration.minimumcd.org/docs/reference/practices/production-like-environments/  301
-/minimumcd/singlepath/*                              https://migration.minimumcd.org/docs/reference/practices/single-path-to-production/  301
+/minimumcd/tbd/*                                     https://beyond.minimumcd.org/docs/reference/practices/trunk-based-development/  301
+/minimumcd/ci/*                                      https://beyond.minimumcd.org/docs/reference/practices/continuous-integration/  301
+/minimumcd/appconfig/*                               https://beyond.minimumcd.org/docs/reference/practices/application-configuration/  301
+/minimumcd/prodlike/*                                https://beyond.minimumcd.org/docs/reference/practices/production-like-environments/  301
+/minimumcd/singlepath/*                              https://beyond.minimumcd.org/docs/reference/practices/single-path-to-production/  301
 
 # Recommendations
-/recommendations/                                    https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/  301
-/recommendations/feature-flags/*                     https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/feature-flags/  301
-/recommendations/small-batches/*                     https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/small-batches/  301
-/recommendations/FeatureFlags/*                      https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/feature-flags/  301
-/recommendations/featureflags/*                      https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/feature-flags/  301
-/recommendations/SmallBatches/*                      https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/small-batches/  301
-/recommendations/smallbatches/*                      https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/optimize/small-batches/  301
+/recommendations/                                    https://beyond.minimumcd.org/docs/migrate-to-cd/optimize/  301
+/recommendations/feature-flags/*                     https://beyond.minimumcd.org/docs/migrate-to-cd/optimize/feature-flags/  301
+/recommendations/small-batches/*                     https://beyond.minimumcd.org/docs/migrate-to-cd/optimize/small-batches/  301
+/recommendations/FeatureFlags/*                      https://beyond.minimumcd.org/docs/migrate-to-cd/optimize/feature-flags/  301
+/recommendations/featureflags/*                      https://beyond.minimumcd.org/docs/migrate-to-cd/optimize/feature-flags/  301
+/recommendations/SmallBatches/*                      https://beyond.minimumcd.org/docs/migrate-to-cd/optimize/small-batches/  301
+/recommendations/smallbatches/*                      https://beyond.minimumcd.org/docs/migrate-to-cd/optimize/small-batches/  301
 
 # Agentic CD
-/agentic-cd/                                         https://migration.minimumcd.org/docs/agentic-cd/  301
-/ai-adoption-roadmap/                                https://migration.minimumcd.org/docs/agentic-cd/adoption-roadmap/  301
+/agentic-cd/                                         https://beyond.minimumcd.org/docs/agentic-cd/  301
+/ai-adoption-roadmap/                                https://beyond.minimumcd.org/docs/agentic-cd/getting-started/adoption-roadmap/  301
 
 # Standalone sections
-/journey/                                            https://migration.minimumcd.org/docs/faq/  301
-/faq/                                                https://migration.minimumcd.org/docs/faq/  301
-/references/                                         https://migration.minimumcd.org/docs/reference/resources/  301
-/experiencereports/                                  https://migration.minimumcd.org/docs/migrate-to-cd/migration-path/continuous-deployment/experience-reports/  301
+/journey/                                            https://beyond.minimumcd.org/docs/reference/faq/  301
+/faq/                                                https://beyond.minimumcd.org/docs/reference/faq/  301
+/references/                                         https://beyond.minimumcd.org/docs/reference/resources/  301
+/experiencereports/                                  https://beyond.minimumcd.org/docs/migrate-to-cd/continuous-deployment/experience-reports/  301
