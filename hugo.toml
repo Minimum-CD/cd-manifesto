@@ -116,7 +116,7 @@ disableKinds = [
   weight = 20
 
 [[menu.main]]
-  name       = "Find Your Roadblocks"
+  name       = "Beyond the Minimums"
   url        = "https://beyond.minimumcd.org"
   weight     = 30
   identifier = "find-roadblocks"
