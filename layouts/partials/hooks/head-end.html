@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}",
+      "description": "{{ .Site.Params.description }}"
+    },
+    {
+      "@type": "Organization",
+      "name": "MinimumCD",
+      "url": "{{ .Site.BaseURL }}",
+      "logo": "{{ .Site.BaseURL }}icons/logo.svg",
+      "sameAs": [
+        "https://github.com/Minimum-CD/cd-manifesto"
+      ]
+    }
+  ]
+}
+</script>

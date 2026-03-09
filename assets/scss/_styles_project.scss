@@ -1,0 +1,84 @@
+// Nav link text: fully white, matching navbar brand/title color
+[data-bs-theme="dark"].td-navbar {
+  --bs-navbar-color: rgba(255, 255, 255, 1);
+}
+
+// Navbar base: height, bottom boundary
+.td-navbar {
+  min-height: 5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+// Scroll state: depth cue via blur + shadow
+.td-navbar.navbar-bg-onscroll {
+  background: rgba(20, 42, 61, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08), 0 4px 24px rgba(0, 0, 0, 0.35);
+}
+
+// Brand name: tighter tracking, refined weight
+.td-navbar .navbar-brand__name {
+  letter-spacing: -0.02em;
+  font-size: 1.25rem;
+  opacity: 0.92;
+}
+
+// Move menu left and add space before search
+@media (min-width: 768px) {
+  .td-navbar #main_navbar {
+    margin-left: 0 !important;
+    margin-right: 3rem;
+  }
+}
+
+// Nav link hover: sliding underline
+.td-navbar .navbar-nav .nav-link:not([href="https://beyond.minimumcd.org"]) {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.6);
+    transition: width 0.2s ease, left 0.2s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
+// CTA button for "Beyond the Minimums" nav item
+.td-navbar a.nav-link[href="https://beyond.minimumcd.org"] {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.85rem;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  border-radius: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: #fff;
+    color: #fff;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.15);
+  }
+
+  &::after {
+    content: " \2192";
+    font-weight: 400;
+  }
+}
+
+// Section separator between core navigation and supplementary items
+#m-recommendations-li {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
