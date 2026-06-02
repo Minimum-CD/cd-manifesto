@@ -1,0 +1,11 @@
+# pnpm settings. Moved here from package.json's "pnpm" field, which pnpm >= 10.16
+# no longer reads (it warns and ignores them). This is a single-package repo, so
+# there is no `packages:` list — the file exists only to hold these settings.
+
+# Supply-chain hardening: block ALL dependency lifecycle (build) scripts by
+# default. Add a package name here only if it genuinely must compile on install.
+onlyBuiltDependencies: []
+
+# Advisories to suppress in `pnpm audit` (none).
+auditConfig:
+  ignoreGhsas: []

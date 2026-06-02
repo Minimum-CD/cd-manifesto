@@ -34,6 +34,7 @@
     "test:links": "linkinator ./public --config ./linkinator.config.json",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
+    "postinstall": "node scripts/link-postcss-bin.mjs",
     "prepare": "husky",
     "start": "rm -rf public && hugo serve",
     "test": "pnpm run lint",
@@ -50,11 +51,5 @@
     "prettier-plugin-go-template": "^0.0.15",
     "prettier-plugin-toml": "^2.0.6"
   },
-  "packageManager": "pnpm@11.5.1",
-  "pnpm": {
-    "onlyBuiltDependencies": [],
-    "auditConfig": {
-      "ignoreGhsas": []
-    }
-  }
+  "packageManager": "pnpm@11.5.1"
 }

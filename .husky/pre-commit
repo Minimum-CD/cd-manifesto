@@ -1,1 +1,2 @@
 pnpm run test
+pnpm run build
