@@ -1,26 +1,65 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "autoApprove": true,
-  "automerge": true,
-  "dependencyDashboard": true,
-  "dependencyDashboardAutoclose": true,
-  "extends": ["config:recommended"],
+  "extends": ["config:recommended", ":dependencyDashboard"],
+  "timezone": "America/Chicago",
+  "schedule": ["after 9pm on sunday"],
+  "minimumReleaseAge": "7 days",
+  "prConcurrentLimit": 5,
+  "prHourlyLimit": 2,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 4am on monday"]
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["security"]
+  },
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch"],
-      "description": "NPM Dependencies.",
-      "matchFileNames": ["**/package.json"],
-      "groupName": "NPM",
-      "matchPackageNames": ["*"]
+      "description": "Dev dependency patch + minor: automerge after the cooldown",
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "dev dependencies (non-breaking)",
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash",
+      "labels": ["dependencies", "automerge"]
     },
     {
-      "matchUpdateTypes": ["minor", "patch"],
-      "description": "Github Actions Dependencies.",
-      "matchFileNames": [".github/**"],
-      "groupName": "NPM-Github",
-      "matchPackageNames": ["*"]
+      "description": "Runtime dependency patch: lower risk, automerge after the cooldown",
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "runtime patches",
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash",
+      "labels": ["dependencies", "automerge"]
+    },
+    {
+      "description": "Runtime minor updates: grouped for human review",
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": "runtime minor updates",
+      "automerge": false,
+      "labels": ["dependencies", "review-required"]
+    },
+    {
+      "description": "Major updates always get their own PR and must be reviewed",
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "labels": ["dependencies", "breaking-change"]
+    },
+    {
+      "description": "Security updates are surfaced and reviewed; cooldown retained (no bypass)",
+      "matchCategories": ["security"],
+      "automerge": false,
+      "labels": ["security"]
+    },
+    {
+      "description": "Renovate itself: review, never automerge",
+      "matchPackageNames": ["renovate"],
+      "automerge": false,
+      "labels": ["dependencies", "review-required"]
     }
-  ],
-  "schedule": ["on Thursday after 12pm and before 11pm"],
-  "timezone": "America/Denver"
+  ]
 }
