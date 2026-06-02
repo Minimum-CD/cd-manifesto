@@ -1,6 +1,6 @@
 {
   "recurse": true,
-  "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com), ^(https://.*github.com)",
+  "skip": "^(https://.*linkedin.com),^(https://.*youtube.com),^(https://.*twitter.com),^(https://.*github.com),^(https?://(www\\.)?dkb\\.nz)",
   "verbosity": "error",
   "retry": true,
   "retryErrors": true,

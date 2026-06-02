@@ -12,7 +12,9 @@
       "@type": "Organization",
       "name": "MinimumCD",
       "url": "{{ .Site.BaseURL }}",
-      "logo": "{{ .Site.BaseURL }}icons/logo.svg",
+      {{- with resources.Get "icons/logo.svg" }}
+      "logo": "{{ .RelPermalink }}",
+      {{- end }}
       "sameAs": [
         "https://github.com/Minimum-CD/cd-manifesto"
       ]

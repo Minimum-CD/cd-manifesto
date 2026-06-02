@@ -36,15 +36,15 @@ The minimum activities required for CD are:
 
 - Use [Continuous Integration](#continuous-integration)
 - The [application
-  pipeline](/minimumcd/single-path-to-production/)
+  pipeline](https://beyond.minimumcd.org/docs/reference/practices/single-path-to-production/)
   is the only way to deploy to any environment
-- The pipeline decides the releasability of changes. [Whatever it says, goes](/minimumcd/deterministic/)
-- Artifacts created by the pipeline always meet the organization's [definition of deployable](/minimumcd/deployable/)
-- [Immutable artifact](/minimumcd/immutable/) (no human changes after commit)
+- The pipeline decides the releasability of changes. [Whatever it says, goes](https://beyond.minimumcd.org/docs/reference/practices/deterministic-pipeline/)
+- Artifacts created by the pipeline always meet the organization's [definition of deployable](https://beyond.minimumcd.org/docs/reference/practices/definition-of-deployable/)
+- [Immutable artifact](https://beyond.minimumcd.org/docs/reference/practices/immutable-artifacts/) (no human changes after commit)
 - All feature work stops when the pipeline is red
 - Production-like test environment
 - Rollback on-demand
-- [Application configuration](/minimumcd/application-configuration/) deploys with artifact
+- [Application configuration](https://beyond.minimumcd.org/docs/reference/practices/application-configuration/) deploys with artifact
 
 ## Continuous Integration
 
@@ -62,7 +62,7 @@ The bare minimums for CI are:
 
 ## Trunk-based Development
 
-[Trunk-based development](/minimumcd/trunk-based-development/) is the branchin' pattern we need to meet the definition
+[Trunk-based development](https://beyond.minimumcd.org/docs/reference/practices/trunk-based-development/) is the branchin' pattern we need to meet the definition
 of CI. It prevents lost work, the risk of corruption that comes from conflictin' changes, and reduces back-and-forth
 commiseratin' that makes changes bigger.
 
