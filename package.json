@@ -26,26 +26,35 @@
   "author": "MinimumCD.org",
   "main": "hugo serve",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "build": "hugo --minify",
-    "build:clean": "rm -rf public && npm run build",
+    "build:clean": "rm -rf public && pnpm run build",
     "format:fix": "prettier --write '**/*.{js,yml,yaml,json,toml,md}'",
-    "link-check": "npm run build:clean && linkinator --recurse public/ --config ./linkinator.config.json",
+    "link-check": "pnpm run build:clean && linkinator --recurse public/ --config ./linkinator.config.json",
+    "test:links": "linkinator ./public --config ./linkinator.config.json",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky",
     "start": "rm -rf public && hugo serve",
-    "test": "npm run lint",
-    "update": "npx npm-check-updates -u && npm install && hugo mod get -u ./... && hugo mod tidy "
+    "test": "pnpm run lint",
+    "update": "pnpm dlx npm-check-updates -u && pnpm install && hugo mod get -u ./... && hugo mod tidy "
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.22",
+    "autoprefixer": "^10.5.0",
     "husky": "^9.1.7",
-    "linkinator": "^7.5.0",
-    "markdownlint-cli": "^0.47.0",
-    "postcss": "^8.5.6",
+    "linkinator": "^7.6.1",
+    "markdownlint-cli": "^0.48.0",
+    "postcss": "^8.5.15",
     "postcss-cli": "^11.0.1",
-    "prettier": "^3.6.2",
+    "prettier": "^3.8.3",
     "prettier-plugin-go-template": "^0.0.15",
     "prettier-plugin-toml": "^2.0.6"
+  },
+  "packageManager": "pnpm@11.5.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [],
+    "auditConfig": {
+      "ignoreGhsas": []
+    }
   }
 }
