@@ -2,13 +2,18 @@ name: Node.js CI
 
 on:
   push:
+    branches: [master]
   pull_request:
   schedule:
     - cron: '0 0 * * 1'
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v6
@@ -30,7 +35,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.162.1'
           extended: true
 
       - name: Run linting tests
@@ -40,7 +45,6 @@ jobs:
         run: hugo -d $GITHUB_WORKSPACE/public
 
       - name: Run broken links test
-        if: success()
         run: pnpm run test:links
         env:
           CI: true

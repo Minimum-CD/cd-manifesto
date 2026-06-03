@@ -61,6 +61,24 @@
       "labels": ["dependencies", "github-actions", "automerge"]
     },
     {
+      "description": "Hugo binary (CI pin via customManagers): automerge patch after the cooldown",
+      "matchDepNames": ["gohugoio/hugo"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "hugo",
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash",
+      "labels": ["dependencies", "github-actions", "automerge"]
+    },
+    {
+      "description": "Hugo binary: minor releases can carry breaking changes — review, never automerge",
+      "matchDepNames": ["gohugoio/hugo"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": "hugo",
+      "automerge": false,
+      "labels": ["dependencies", "review-required"]
+    },
+    {
       "description": "Go modules: enable indirect (Hugo module) deps so everything in go.mod is tracked",
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
@@ -85,6 +103,17 @@
       "matchPackageNames": ["renovate"],
       "automerge": false,
       "labels": ["dependencies", "review-required"]
+    }
+  ],
+  "customManagers": [
+    {
+      "description": "Track the pinned Hugo version in GitHub Actions workflows against Hugo releases",
+      "customType": "regex",
+      "managerFilePatterns": ["/^\\.github/workflows/.+\\.ya?ml$/"],
+      "matchStrings": ["hugo-version:\\s*['\"]?(?<currentValue>\\d+\\.\\d+\\.\\d+)['\"]?"],
+      "depNameTemplate": "gohugoio/hugo",
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^v(?<version>.+)$"
     }
   ]
 }
