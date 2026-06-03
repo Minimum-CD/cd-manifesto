@@ -1,2 +1,44 @@
+# Ensure the tools this hook needs are reachable before running them.
+#
+# GUI/IDE git invocations start with a stripped PATH, so tools installed via a
+# version manager or Homebrew (pnpm under nvm, hugo under Homebrew, etc.) aren't
+# found and the hook dies with a cryptic "command not found". Rather than guess
+# install locations, we ask the authority that already knows where everything
+# is: your login shell. It sources your profile (nvm init, `brew shellenv`,
+# asdf, …), so importing its PATH finds whatever you've actually configured.
+# (Committing from a terminal already has this PATH and skips the recovery.)
+
+_needs_recovery=
+for _tool in pnpm hugo; do
+  command -v "$_tool" >/dev/null 2>&1 || _needs_recovery=1
+done
+
+if [ -n "$_needs_recovery" ]; then
+  # Run the login shell as login + interactive (-lic) so it sources both profile
+  # and rc files. Sentinels fence off our PATH from any banner output the rc may
+  # print to stdout. Failure is non-fatal — the verify step below reports it.
+  _out="$("${SHELL:-/bin/sh}" -lic 'printf "<<P>>%s<</P>>" "$PATH"' 2>/dev/null || true)"
+  case "$_out" in
+    *"<<P>>"*"<</P>>"*)
+      _login_path="${_out#*<<P>>}"
+      _login_path="${_login_path%%<</P>>*}"
+      [ -n "$_login_path" ] && PATH="$_login_path${PATH:+:$PATH}" && export PATH
+      ;;
+  esac
+fi
+
+# Verify everything the hook tasks need; report any still missing.
+_missing=
+for _tool in pnpm hugo; do
+  command -v "$_tool" >/dev/null 2>&1 || _missing="$_missing $_tool"
+done
+if [ -n "$_missing" ]; then
+  echo "husky/pre-commit: missing required tool(s):$_missing" >&2
+  echo "  Could not find them even after importing your login shell's PATH." >&2
+  echo "  Install them, or ensure your shell profile puts them on PATH, then" >&2
+  echo "  commit again (or commit from a terminal where '$_missing' resolve)." >&2
+  exit 1
+fi
+
 pnpm run test
 pnpm run build

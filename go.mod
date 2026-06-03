@@ -1,6 +1,6 @@
 module cd-manifesto
 
-go 1.25.3
+go 1.26.4
 
 require (
 	github.com/FortAwesome/Font-Awesome v0.0.0-20241216213156-af620534bfc3 // indirect

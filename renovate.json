@@ -6,6 +6,7 @@
   "minimumReleaseAge": "7 days",
   "prConcurrentLimit": 5,
   "prHourlyLimit": 2,
+  "postUpdateOptions": ["gomodTidy"],
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": ["before 4am on monday"]
@@ -48,6 +49,30 @@
       "matchUpdateTypes": ["major"],
       "automerge": false,
       "labels": ["dependencies", "breaking-change"]
+    },
+    {
+      "description": "GitHub Actions: keep updated; group non-major and automerge after the cooldown",
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "groupName": "github actions",
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash",
+      "labels": ["dependencies", "github-actions", "automerge"]
+    },
+    {
+      "description": "Go modules: enable indirect (Hugo module) deps so everything in go.mod is tracked",
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["indirect"],
+      "enabled": true
+    },
+    {
+      "description": "Go modules: group minor + patch updates for human review",
+      "matchManagers": ["gomod"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "groupName": "go modules",
+      "automerge": false,
+      "labels": ["dependencies", "go"]
     },
     {
       "description": "Security updates are surfaced and reviewed; cooldown retained (no bypass)",
