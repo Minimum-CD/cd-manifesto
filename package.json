@@ -51,5 +51,5 @@
     "prettier-plugin-go-template": "^0.0.15",
     "prettier-plugin-toml": "^2.0.6"
   },
-  "packageManager": "pnpm@11.5.1"
+  "packageManager": "pnpm@11.5.2"
 }
