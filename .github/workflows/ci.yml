@@ -35,7 +35,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.162.1'
+          hugo-version: '0.163.0'
           extended: true
 
       - name: Run linting tests
