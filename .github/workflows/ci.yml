@@ -20,17 +20,14 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v6
-
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: 24
-          cache: 'pnpm'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm ci
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -39,12 +36,12 @@ jobs:
           extended: true
 
       - name: Run linting tests
-        run: pnpm test
+        run: npm test
 
       - name: Build site with Hugo
         run: hugo -d $GITHUB_WORKSPACE/public
 
       - name: Run broken links test
-        run: pnpm run test:links
+        run: npm run test:links
         env:
           CI: true
