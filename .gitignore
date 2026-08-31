@@ -8,3 +8,4 @@ tmp/
 bin/
 .hive-mind/
 .claude-flow/
+.claude/
