@@ -37,17 +37,21 @@
     "prepare": "husky",
     "start": "rm -rf public && hugo serve",
     "test": "npm run lint",
-    "update": "npx npm-check-updates -u && npm install && hugo mod get -u ./... && hugo mod tidy"
+    "update": "npx npm-check-updates -u && npm install && hugo mod get -u ./... && hugo mod tidy && hugo mod npm pack && npm install"
   },
   "devDependencies": {
     "autoprefixer": "^10.5.4",
     "husky": "^9.1.7",
-    "linkinator": "^7.6.1",
+    "linkinator": "^8.1.0",
     "markdownlint-cli": "^0.49.1",
-    "postcss": "^8.5.20",
+    "postcss": "^8.5.26",
     "postcss-cli": "^11.0.1",
-    "prettier": "^3.9.5",
+    "prettier": "^3.9.6",
     "prettier-plugin-go-template": "^0.0.15",
-    "prettier-plugin-toml": "^2.0.6"
-  }
+    "prettier-plugin-toml": "^2.0.6",
+    "sass-embedded": "1.103.1"
+  },
+  "workspaces": [
+    "packages/hugoautogen"
+  ]
 }
