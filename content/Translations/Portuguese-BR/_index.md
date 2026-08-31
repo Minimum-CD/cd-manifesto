@@ -7,15 +7,15 @@ type: docs
 
 ## Mínimo viável para a Entrega Contínua
 
+{{< figure src="/images/minimumCD-Tagline.png" alt="MinimumCD" width="40%">}}
+
 {{% alert %}}
 
 "A entrega contínua não só melhora a qualidade e capacidade de entrega, bem como ajuda na evolução da cultura, reduz a estafa e as dificuldades na implantação."
 
--- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations (Tradução não oficial)
+**-- _Accelerate_ by Nicole Forsgren Ph.D., Jez Humble & Gene Kim** (Tradução não oficial)
 
 {{% /alert %}}
-
-{{< figure src="/images/minimumCD-logo-hex.png" alt="MinimumCD" width="20%" >}}
 
 Nós, [os abaixo-assinados](/#signatories), acreditamos que é necessária uma definição mínima de entrega contínua (_Continuous Delivery_, CD) para a melhoria do fluxo de entrega e cumprimento dos resultados supracitados. Embora os nossos contextos possam ser diferentes, existem práticas universais consideradas comuns. Ao defini-las, é possível:
 
@@ -35,19 +35,19 @@ A entrega contínua (CD) é a disciplina de engenharia que consiste na entrega d
 
 As atividades mínimas exigidas para o CD são:
 
-- Uso de [Integração contínua](#integração-contínua)
+- Usar [Integração contínua](#integração-contínua)
 - O [_delivery pipeline_](https://beyond.minimumcd.org/docs/reference/practices/single-path-to-production/) é a única forma possível de fazer _deploy_ para qualquer ambiente
-- O _pipeline_ decide se as mudanças atendem ou não os requisitos para entrada em produção. Esse veredicto é [definitivo](https://beyond.minimumcd.org/docs/reference/practices/deterministic-pipeline/)
+- O _pipeline_ [decide se as mudanças podem ou não ser entregues em produção]](https://beyond.minimumcd.org/docs/reference/practices/deterministic-pipeline/), seu veredicto é **definitivo**.
 - Os artefatos criados pelo _pipeline_ respeitam sempre a [definição de _deployable_](https://beyond.minimumcd.org/docs/reference/practices/definition-of-deployable/) da organização
 - [Artefato imutável](https://beyond.minimumcd.org/docs/reference/practices/immutable-artifacts/) (não existem mudanças manuais após o _commit_)
-- Todo o desenvolvimento de funcionalidades é suspenso quando o _pipeline_ falha
-- Ambiente de testes semelhante ao ambiente produtivo
+- [Todo o desenvolvimento de funcionalidades é suspenso quando o _pipeline_ falha](https://beyond.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/working-agreements/)
+- [Ambiente de testes semelhante ao ambiente produtivo](https://beyond.minimumcd.org/docs/reference/practices/production-like-environments/)
 - [_Rollback_ sob demanda](https://beyond.minimumcd.org/docs/reference/practices/rollback/)
 - A [configuração da aplicação](https://beyond.minimumcd.org/docs/reference/practices/application-configuration/) é implantada junto com o artefato
 
 ## Integração Contínua
 
-A integração contínua (Continuous Integration, CI) é a atividade que consiste em frequentemente integrar o trabalho desenvolvido no _trunk_ do sistema de controle de versões e verificar que esse trabalho, tanto quanto podemos afirmar, é passível de ser _released_.
+A integração contínua (Continuous Integration, CI) é a disciplina de engenharia que consiste em frequentemente integrar o trabalho desenvolvido no _trunk_ do sistema de controle de versões e verificar que esse trabalho, tanto quanto podemos afirmar, pode ser entregue.
 
 As atividades mínimas necessárias ao CI são:
 
@@ -55,18 +55,18 @@ As atividades mínimas necessárias ao CI são:
 - O trabalho integra em _trunk_, no mínimo, diariamente
 - O trabalho tem testes automatizados antes do _merge_ em _trunk_
 - O trabalho é testado automaticamente com outras mudanças no _merge_
-- Todo o trabalho em funcionalidades é suspenso quando a _build_ falha
-- Trabalho novo não quebra trabalho entregue
+- [Todo o trabalho em funcionalidades é suspenso quando a _build_ falha](https://beyond.minimumcd.org/docs/migrate-to-cd/migration-path/foundations/working-agreements/)
+- Trabalho novo não quebra o que já foi entregue
 
 ## Trunk-Based Development
 
-O [_Trunk-based development_](https://beyond.minimumcd.org/docs/reference/practices/trunk-based-development/) (versão inglesa) (TBD) é um padrão de _branching_ mandatório para cumprimento dos requisitos de CI. Evita a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício de movimento que aumenta o tamanho do _batch_ de mudanças.
+O [_Trunk-based development_](https://beyond.minimumcd.org/docs/reference/practices/trunk-based-development/) (TBD) é um padrão de _branching_ mandatório para cumprimento dos requisitos de CI. Evita a perda de trabalho, o risco de mudanças corrompidas devido à resolução de conflitos do _merge_ e também reduz o desperdício por movimento que aumenta o tamanho do _batch_ de mudanças.
 
 As atividades mínimas necessárias para o TBD são:
 
 - Todas as mudanças integram em _trunk_
 - No caso de serem usados _branches_:
-  - Eles têm sempre origem em _trunk_
+  - Eles originam do _trunk_
   - Eles re-integram sempre em _trunk_
   - Eles são de curta-duração e são removidos depois do _merge_
 
