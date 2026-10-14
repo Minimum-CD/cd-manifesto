@@ -86,6 +86,7 @@ disableKinds = [
   [params.ui]
     breadcrumb_disable                    = false
     navbar_logo                           = '/icons/logo.svg'
+    navbar_theme                          = "dark"
     navbar_translucent_over_cover_disable = false
     show_nav_title                        = true
     sidebar_cache_limit                   = 10
