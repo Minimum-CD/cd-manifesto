@@ -9,3 +9,4 @@ bin/
 .hive-mind/
 .claude-flow/
 .claude/
+metrics/
