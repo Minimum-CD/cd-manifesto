@@ -1,7 +1,7 @@
 # Ensure the tools this hook needs are reachable before running them.
 #
 # GUI/IDE git invocations start with a stripped PATH, so tools installed via a
-# version manager or Homebrew (pnpm under nvm, hugo under Homebrew, etc.) aren't
+# version manager or Homebrew (npm under nvm, hugo under Homebrew, etc.) aren't
 # found and the hook dies with a cryptic "command not found". Rather than guess
 # install locations, we ask the authority that already knows where everything
 # is: your login shell. It sources your profile (nvm init, `brew shellenv`,
@@ -9,7 +9,7 @@
 # (Committing from a terminal already has this PATH and skips the recovery.)
 
 _needs_recovery=
-for _tool in pnpm hugo; do
+for _tool in npm hugo; do
   command -v "$_tool" >/dev/null 2>&1 || _needs_recovery=1
 done
 
@@ -29,7 +29,7 @@ fi
 
 # Verify everything the hook tasks need; report any still missing.
 _missing=
-for _tool in pnpm hugo; do
+for _tool in npm hugo; do
   command -v "$_tool" >/dev/null 2>&1 || _missing="$_missing $_tool"
 done
 if [ -n "$_missing" ]; then
@@ -40,5 +40,5 @@ if [ -n "$_missing" ]; then
   exit 1
 fi
 
-pnpm run test
-pnpm run build
+npm run test
+npm run build
